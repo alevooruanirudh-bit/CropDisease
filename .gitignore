@@ -1,9 +1,9 @@
 .venv/
-data/
-cache/
-cache_smoke/
-results_smoke/
-splits_smoke/
+/data/
+/cache/
+/cache_smoke/
+/results_smoke/
+/splits_smoke/
 __pycache__/
 *.pt
 *.npy
@@ -11,3 +11,4 @@ __pycache__/
 .DS_Store
 *.log
 splits/web_v2_stale/
+!results/web_model_v3b/efficientnet_b0/seed0/best.pt

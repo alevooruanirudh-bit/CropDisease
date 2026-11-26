@@ -261,12 +261,12 @@ A web app where anyone can photograph or upload a leaf, fruit, stem, tuber or rh
 
 ## Just run the website (no training)
 
-You need the trained model folder, e.g. `results/web_model_v2/efficientnet_b0/seed0/`, which holds
-`best.pt`, `config.yaml` and `metrics.json`. If you received it separately, copy it to that path.
+The trained model is included in the repo at `results/web_model_v3b/efficientnet_b0/seed0/` (`best.pt`, `config.yaml`,
+`metrics.json`; 658 classes, 89.5% test accuracy).
 The datasets are not needed for this.
 
 ```bash
-python webapp/server.py --run results/web_model_v2/efficientnet_b0/seed0
+python webapp/server.py --run results/web_model_v3b/efficientnet_b0/seed0
 ```
 
 Open http://localhost:8000. To use it from a phone on the same Wi-Fi, add `--host 0.0.0.0` and open
