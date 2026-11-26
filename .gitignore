@@ -9,3 +9,5 @@ __pycache__/
 *.npy
 .pytest_cache/
 .DS_Store
+*.log
+splits/web_v2_stale/

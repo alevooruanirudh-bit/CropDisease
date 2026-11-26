@@ -1,285 +1,0 @@
-01:04:22 | INFO    | plant-borb | === exp1_borb (train) ===
-01:04:22 | INFO    | plant-borb | Splits splits/plantvillage15: {'train': 12373, 'val': 4125, 'test': 4127} (no overlap in path/md5/group)
-01:04:24 | INFO    | plant-borb.src.models.factory | Built efficientnet_b3 (efficientnet_b3.ra2_in1k), 10.72M params, pretrained=True
-01:04:24 | INFO    | plant-borb.src.training.trainer | Phase frozen: 3 epochs, lr=1.00e-03, trainable=0.02M
-01:07:43 | INFO    | plant-borb.src.training.trainer | ep   1 [frozen] train 2.0189/0.4753  val 44.1944/0.5855  *(200s)
-01:11:19 | INFO    | plant-borb.src.training.trainer | ep   2 [frozen] train 1.4542/0.6704  val 50.7656/0.6240  *(215s)
-01:14:54 | INFO    | plant-borb.src.training.trainer | ep   3 [frozen] train 1.3622/0.7029  val 24.2113/0.6553  *(216s)
-01:14:54 | INFO    | plant-borb.src.training.trainer | Phase finetune: 27 epochs, lr=1.00e-04, trainable=10.72M
-01:25:12 | INFO    | plant-borb.src.training.trainer | ep   4 [finetune] train 1.1505/0.7920  val 17.8538/0.8647  *(617s)
-01:35:40 | INFO    | plant-borb.src.training.trainer | ep   5 [finetune] train 0.7854/0.9356  val 0.2795/0.9472  *(629s)
-01:46:38 | INFO    | plant-borb.src.training.trainer | ep   6 [finetune] train 0.6935/0.9659  val 0.2541/0.9561  *(657s)
-01:57:46 | INFO    | plant-borb.src.training.trainer | ep   7 [finetune] train 0.6539/0.9789  val 0.1666/0.9823  *(669s)
-02:10:56 | INFO    | plant-borb.src.training.trainer | ep   8 [finetune] train 0.6304/0.9831  val 0.1539/0.9833  *(790s)
-02:23:23 | INFO    | plant-borb.src.training.trainer | ep   9 [finetune] train 0.6132/0.9872  val 0.1423/0.9910  *(746s)
-02:34:13 | INFO    | plant-borb.src.training.trainer | ep  10 [finetune] train 0.6032/0.9891  val 0.1384/0.9884   (650s)
-02:45:04 | INFO    | plant-borb.src.training.trainer | ep  11 [finetune] train 0.5938/0.9913  val 0.1374/0.9935  *(651s)
-02:55:53 | INFO    | plant-borb.src.training.trainer | ep  12 [finetune] train 0.5870/0.9918  val 0.1299/0.9954  *(648s)
-03:06:38 | INFO    | plant-borb.src.training.trainer | ep  13 [finetune] train 0.5822/0.9935  val 0.1334/0.9898   (645s)
-03:17:28 | INFO    | plant-borb.src.training.trainer | ep  14 [finetune] train 0.5806/0.9932  val 0.1271/0.9937   (650s)
-03:28:11 | INFO    | plant-borb.src.training.trainer | ep  15 [finetune] train 0.5764/0.9952  val 0.1262/0.9944   (643s)
-03:38:58 | INFO    | plant-borb.src.training.trainer | ep  16 [finetune] train 0.5726/0.9964  val 0.1243/0.9939   (647s)
-03:49:44 | INFO    | plant-borb.src.training.trainer | ep  17 [finetune] train 0.5723/0.9960  val 0.1232/0.9954  *(646s)
-04:00:32 | INFO    | plant-borb.src.training.trainer | ep  18 [finetune] train 0.5698/0.9965  val 0.1252/0.9944   (648s)
-04:11:10 | INFO    | plant-borb.src.training.trainer | ep  19 [finetune] train 0.5666/0.9977  val 0.1208/0.9959  *(638s)
-04:22:35 | INFO    | plant-borb.src.training.trainer | ep  20 [finetune] train 0.5678/0.9972  val 0.1174/0.9959  *(685s)
-09:26:44 | INFO    | plant-borb.src.training.trainer | ep  21 [finetune] train 0.5662/0.9979  val 0.1136/0.9966  *(18249s)
-09:37:50 | INFO    | plant-borb.src.training.trainer | ep  22 [finetune] train 0.5630/0.9989  val 0.1120/0.9981  *(667s)
-09:51:41 | INFO    | plant-borb.src.training.trainer | ep  23 [finetune] train 0.5630/0.9986  val 0.1133/0.9988  *(831s)
-10:14:58 | INFO    | plant-borb.src.training.trainer | ep  24 [finetune] train 0.5628/0.9988  val 0.1125/0.9968   (1397s)
-10:36:15 | INFO    | plant-borb.src.training.trainer | ep  25 [finetune] train 0.5615/0.9993  val 0.1094/0.9976   (1278s)
-10:58:23 | INFO    | plant-borb.src.training.trainer | ep  26 [finetune] train 0.5614/0.9994  val 0.1143/0.9985   (1327s)
-11:20:38 | INFO    | plant-borb.src.training.trainer | ep  27 [finetune] train 0.5624/0.9990  val 0.1114/0.9985   (1335s)
-11:43:41 | INFO    | plant-borb.src.training.trainer | ep  28 [finetune] train 0.5623/0.9989  val 0.1122/0.9985   (1383s)
-12:08:39 | INFO    | plant-borb.src.training.trainer | ep  29 [finetune] train 0.5607/0.9994  val 0.1099/0.9983   (1498s)
-12:38:42 | INFO    | plant-borb.src.training.trainer | ep  30 [finetune] train 0.5612/0.9992  val 0.1133/0.9981   (1803s)
-12:54:26 | INFO    | plant-borb.src.training.pipeline | [exp1_borb/efficientnet_b3/seed0] val acc 0.9988 | test acc 0.9976 CI95 [0.9961230918342622, 0.9990307729585656]
-12:55:57 | INFO    | plant-borb.src.eval.summary | Wrote results/summary.csv, summary.md, ablation.md
-12:55:57 | INFO    | plant-borb | === exp1_borb done in 711.6 min ===
-12:55:57 | INFO    | plant-borb | === exp2_noborb (train) ===
-12:55:57 | INFO    | plant-borb | Splits splits/plantvillage15: {'train': 12373, 'val': 4125, 'test': 4127} (no overlap in path/md5/group)
-12:56:00 | INFO    | plant-borb.src.models.factory | Built efficientnet_b3 (efficientnet_b3.ra2_in1k), 10.72M params, pretrained=True
-12:56:04 | INFO    | plant-borb.src.training.trainer | Phase frozen: 3 epochs, lr=1.00e-03, trainable=0.02M
-13:14:24 | INFO    | plant-borb.src.training.trainer | ep   1 [frozen] train 2.0553/0.4621  val 22.2544/0.5474  *(1100s)
-13:25:09 | INFO    | plant-borb.src.training.trainer | ep   2 [frozen] train 1.4584/0.6652  val 29.2478/0.5971  *(644s)
-13:36:07 | INFO    | plant-borb.src.training.trainer | ep   3 [frozen] train 1.3846/0.6896  val 21.4798/0.6153  *(658s)
-13:36:07 | INFO    | plant-borb.src.training.trainer | Phase finetune: 27 epochs, lr=1.00e-04, trainable=10.72M
-14:02:27 | INFO    | plant-borb.src.training.trainer | ep   4 [finetune] train 1.1518/0.7933  val 9.7093/0.8000  *(1581s)
-14:26:47 | INFO    | plant-borb.src.training.trainer | ep   5 [finetune] train 0.7855/0.9372  val 0.4649/0.9006  *(1460s)
-14:50:35 | INFO    | plant-borb.src.training.trainer | ep   6 [finetune] train 0.6800/0.9721  val 0.2375/0.9610  *(1428s)
-15:13:40 | INFO    | plant-borb.src.training.trainer | ep   7 [finetune] train 0.6446/0.9812  val 0.1982/0.9704  *(1385s)
-15:38:57 | INFO    | plant-borb.src.training.trainer | ep   8 [finetune] train 0.6258/0.9844  val 0.1502/0.9896  *(1516s)
-15:55:50 | INFO    | plant-borb.src.training.trainer | ep   9 [finetune] train 0.6091/0.9885  val 0.1423/0.9905  *(1013s)
-16:07:15 | INFO    | plant-borb.src.training.trainer | ep  10 [finetune] train 0.6002/0.9908  val 0.1451/0.9879   (685s)
-16:19:10 | INFO    | plant-borb.src.training.trainer | ep  11 [finetune] train 0.5937/0.9915  val 0.1665/0.9828   (715s)
-16:31:31 | INFO    | plant-borb.src.training.trainer | ep  12 [finetune] train 0.5874/0.9924  val 0.1452/0.9903   (740s)
-18:32:51 | INFO    | plant-borb.src.training.trainer | ep  13 [finetune] train 0.5820/0.9937  val 0.1186/0.9956  *(7280s)
-18:44:29 | INFO    | plant-borb.src.training.trainer | ep  14 [finetune] train 0.5778/0.9949  val 0.1259/0.9949   (698s)
-18:56:26 | INFO    | plant-borb.src.training.trainer | ep  15 [finetune] train 0.5732/0.9959  val 0.1183/0.9966  *(717s)
-19:07:26 | INFO    | plant-borb.src.training.trainer | ep  16 [finetune] train 0.5730/0.9956  val 0.1241/0.9944   (660s)
-19:18:32 | INFO    | plant-borb.src.training.trainer | ep  17 [finetune] train 0.5694/0.9973  val 0.1185/0.9954   (666s)
-19:29:45 | INFO    | plant-borb.src.training.trainer | ep  18 [finetune] train 0.5680/0.9970  val 0.1237/0.9937   (673s)
-19:41:54 | INFO    | plant-borb.src.training.trainer | ep  19 [finetune] train 0.5657/0.9979  val 0.1168/0.9959   (729s)
-19:53:15 | INFO    | plant-borb.src.training.trainer | ep  20 [finetune] train 0.5666/0.9977  val 0.1166/0.9956   (681s)
-20:06:36 | INFO    | plant-borb.src.training.trainer | ep  21 [finetune] train 0.5649/0.9981  val 0.1118/0.9971  *(801s)
-20:29:17 | INFO    | plant-borb.src.training.trainer | ep  22 [finetune] train 0.5637/0.9981  val 0.1113/0.9973  *(1361s)
-20:50:19 | INFO    | plant-borb.src.training.trainer | ep  23 [finetune] train 0.5634/0.9983  val 0.1088/0.9981  *(1262s)
-21:11:55 | INFO    | plant-borb.src.training.trainer | ep  24 [finetune] train 0.5621/0.9989  val 0.1118/0.9981   (1296s)
-21:35:45 | INFO    | plant-borb.src.training.trainer | ep  25 [finetune] train 0.5612/0.9992  val 0.1109/0.9985  *(1429s)
-22:00:15 | INFO    | plant-borb.src.training.trainer | ep  26 [finetune] train 0.5626/0.9986  val 0.1125/0.9981   (1471s)
-22:29:09 | INFO    | plant-borb.src.training.trainer | ep  27 [finetune] train 0.5614/0.9989  val 0.1133/0.9976   (1733s)
-22:58:06 | INFO    | plant-borb.src.training.trainer | ep  28 [finetune] train 0.5617/0.9990  val 0.1113/0.9976   (1738s)
-23:19:03 | INFO    | plant-borb.src.training.trainer | ep  29 [finetune] train 0.5617/0.9989  val 0.1107/0.9978   (1257s)
-23:41:19 | INFO    | plant-borb.src.training.trainer | ep  30 [finetune] train 0.5616/0.9989  val 0.1114/0.9981   (1336s)
-python(73880) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(73881) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(73882) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(73883) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(73884) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(73888) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-23:50:29 | INFO    | plant-borb.src.training.pipeline | [exp2_noborb/efficientnet_b3/seed0] val acc 0.9985 | test acc 0.9976 CI95 [0.9958807850739035, 0.9990307729585656]
-23:52:00 | INFO    | plant-borb.src.eval.summary | Wrote results/summary.csv, summary.md, ablation.md
-23:52:00 | INFO    | plant-borb | === exp2_noborb done in 656.0 min ===
-23:52:00 | INFO    | plant-borb | === exp3_robustness (robustness) ===
-23:52:00 | INFO    | plant-borb.src.robustness.runner | Background textures 'soil': procedural
-23:52:00 | INFO    | plant-borb.src.robustness.runner | Background textures 'grass': procedural
-23:52:00 | INFO    | plant-borb.src.robustness.runner | Background textures 'clutter': procedural
-23:52:00 | INFO    | plant-borb.src.models.factory | Built efficientnet_b3 (efficientnet_b3.ra2_in1k), 10.72M params, pretrained=False
-23:52:04 | INFO    | plant-borb.src.models.factory | Built efficientnet_b3 (efficientnet_b3.ra2_in1k), 10.72M params, pretrained=False
-robustness[efficientnet_b3]:   0%|          | 0/30 [00:00<?, ?it/s]python(74192) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74194) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74205) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74212) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74218) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74249) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:   3%|▎         | 1/30 [05:00<2:25:21, 300.75s/it]python(74338) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74339) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74346) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74349) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74357) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74379) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:   7%|▋         | 2/30 [09:54<2:18:23, 296.54s/it]python(74496) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74519) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74533) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74537) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74543) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74550) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  10%|█         | 3/30 [14:53<2:13:58, 297.73s/it]python(74675) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74678) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74683) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74700) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74709) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74716) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  13%|█▎        | 4/30 [19:53<2:09:25, 298.68s/it]python(74965) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74966) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74967) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74984) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(74990) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75000) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  17%|█▋        | 5/30 [24:49<2:04:02, 297.70s/it]python(75108) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75113) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75127) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75144) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75150) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75169) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  20%|██        | 6/30 [29:47<1:59:03, 297.63s/it]python(75244) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75260) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75273) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75278) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75282) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75299) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  23%|██▎       | 7/30 [34:43<1:53:53, 297.13s/it]python(75371) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75392) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75393) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75394) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75409) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75413) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  27%|██▋       | 8/30 [39:48<1:49:52, 299.67s/it]python(75479) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75486) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75487) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75488) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75490) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75539) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  30%|███       | 9/30 [45:03<1:46:33, 304.43s/it]python(75603) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75606) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75611) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75620) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75626) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75635) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  33%|███▎      | 10/30 [49:51<1:39:50, 299.54s/it]python(75693) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75694) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75695) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75709) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75722) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75741) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  37%|███▋      | 11/30 [55:03<1:36:02, 303.27s/it]python(75865) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75866) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75873) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75874) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75888) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(75894) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  40%|████      | 12/30 [1:00:51<1:35:05, 317.00s/it]python(76114) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76115) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76120) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76142) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76151) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76158) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  43%|████▎     | 13/30 [1:06:43<1:32:48, 327.56s/it]python(76374) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76382) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76390) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76394) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76395) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76402) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  47%|████▋     | 14/30 [1:12:19<1:27:59, 329.98s/it]python(76458) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76464) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76474) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76479) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76485) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76487) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  50%|█████     | 15/30 [1:17:59<1:23:14, 332.95s/it]python(76638) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76667) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76720) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76725) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76746) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76755) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  53%|█████▎    | 16/30 [1:23:25<1:17:14, 331.04s/it]python(76831) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76853) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76876) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76912) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76969) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(76975) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  57%|█████▋    | 17/30 [9:29:00<32:28:20, 8992.33s/it]python(77790) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(77791) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(77793) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(77794) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(77811) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(77820) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  60%|██████    | 18/30 [9:33:14<21:13:16, 6366.40s/it]python(77887) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(77892) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(77893) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(77899) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(77900) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(77905) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  63%|██████▎   | 19/30 [9:39:01<13:55:44, 4558.64s/it]python(78028) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78029) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78039) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78040) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78042) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78043) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  67%|██████▋   | 20/30 [9:45:32<9:11:12, 3307.27s/it] python(78258) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78265) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78284) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78285) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-/Users/vap-purnvasu/Desktop/crop disease/plant-borb/.venv/lib/python3.10/site-packages/albumentations/check_version.py:147: UserWarning: Error fetching version info <urlopen error _ssl.c:1000: The handshake operation timed out>
-  data = fetch_version_info()
-python(78300) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78320) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  70%|███████   | 21/30 [9:52:31<6:06:02, 2440.33s/it]python(78430) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78437) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78442) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78452) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78453) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78460) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  73%|███████▎  | 22/30 [9:59:31<4:04:32, 1834.03s/it]python(78885) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78905) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(78992) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79019) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79028) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79050) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  77%|███████▋  | 23/30 [10:06:12<2:43:47, 1403.92s/it]python(79134) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79142) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79143) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79144) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79153) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79154) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  80%|████████  | 24/30 [10:12:09<1:48:59, 1089.96s/it]python(79284) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79291) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79294) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79306) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79409) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79433) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  83%|████████▎ | 25/30 [10:18:47<1:13:31, 882.35s/it] python(79544) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79555) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79557) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79567) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79593) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79660) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  87%|████████▋ | 26/30 [10:25:17<48:57, 734.40s/it]  python(79866) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79868) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79869) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79879) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79891) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79899) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  90%|█████████ | 27/30 [10:30:58<30:49, 616.54s/it]python(79978) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79979) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79981) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79985) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79987) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(79991) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  93%|█████████▎| 28/30 [10:36:38<17:47, 533.52s/it]python(80080) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80081) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80086) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80087) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80088) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80095) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]:  97%|█████████▋| 29/30 [10:42:34<08:00, 480.15s/it]python(80309) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80316) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80345) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80349) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80362) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80366) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-robustness[efficientnet_b3]: 100%|██████████| 30/30 [10:48:46<00:00, 447.95s/it]robustness[efficientnet_b3]: 100%|██████████| 30/30 [10:48:46<00:00, 1297.56s/it]
-python(80499) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80500) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80501) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80502) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80503) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80504) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80727) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80728) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80729) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80730) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80731) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-python(80732) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
-10:56:11 | INFO    | plant-borb.src.eval.summary | Wrote results/summary.csv, summary.md, ablation.md
-10:56:11 | INFO    | plant-borb | === exp3_robustness done in 664.2 min ===
