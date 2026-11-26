@@ -1,0 +1,6 @@
+# Exp 2 - same everything as Exp 1, but on raw images.
+_base_: base.yaml
+experiment:
+  name: exp2_noborb
+segmentation:
+  method: none

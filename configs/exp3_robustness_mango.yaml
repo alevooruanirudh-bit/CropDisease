@@ -1,0 +1,14 @@
+_base_: exp3_robustness.yaml
+experiment:
+  name: exp3_robustness_mango
+data:
+  dataset: mangoleafbd
+  name: mangoleafbd
+  root: data/mangoleafbd
+  num_classes: 8
+  split_dir: splits/mangoleafbd
+  class_caps: {}
+robustness:
+  exp_borb: exp1_borb_mango
+  exp_noborb: exp2_noborb_mango
+  plantdoc_root: null

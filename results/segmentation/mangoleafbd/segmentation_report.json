@@ -1,0 +1,73 @@
+{
+  "thresholds": {
+    "t_B": 122,
+    "t_b": 137,
+    "method_B": "valley",
+    "method_b": "otsu",
+    "pol_B": "low",
+    "pol_b": "high"
+  },
+  "polarity_votes": {
+    "pol_B": "low",
+    "pol_b": "high",
+    "vote_B_low": 0.962,
+    "vote_b_high": 0.9675,
+    "n": 2000
+  },
+  "summary": [
+    {
+      "method": "borb_original",
+      "n": 3979,
+      "fail_<5%": 121,
+      "fail_>95%": 0,
+      "failure_rate_%": 3.041,
+      "coverage_mean_%": 23.71,
+      "coverage_median_%": 20.63
+    },
+    {
+      "method": "borb_plus",
+      "n": 3979,
+      "fail_<5%": 91,
+      "fail_>95%": 0,
+      "failure_rate_%": 2.287,
+      "coverage_mean_%": 23.37,
+      "coverage_median_%": 20.2
+    },
+    {
+      "method": "borb_plus_no_chroma",
+      "n": 3979,
+      "fail_<5%": 121,
+      "fail_>95%": 0,
+      "failure_rate_%": 3.041,
+      "coverage_mean_%": 23.03,
+      "coverage_median_%": 20.0
+    },
+    {
+      "method": "borb_plus_nomorph",
+      "n": 3979,
+      "fail_<5%": 142,
+      "fail_>95%": 0,
+      "failure_rate_%": 3.569,
+      "coverage_mean_%": 22.74,
+      "coverage_median_%": 19.95
+    },
+    {
+      "method": "otsu",
+      "n": 3979,
+      "fail_<5%": 59,
+      "fail_>95%": 0,
+      "failure_rate_%": 1.483,
+      "coverage_mean_%": 24.6,
+      "coverage_median_%": 21.94
+    },
+    {
+      "method": "kmeans",
+      "n": 3979,
+      "fail_<5%": 63,
+      "fail_>95%": 0,
+      "failure_rate_%": 1.583,
+      "coverage_mean_%": 23.78,
+      "coverage_median_%": 20.88
+    }
+  ]
+}

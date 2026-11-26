@@ -1,0 +1,33 @@
+{
+ "v1": {
+  "n": 17328,
+  "plant_problem": 0.9048938134810711,
+  "plant": 0.9890350877192983,
+  "field_n": 924,
+  "field_plant_problem": 0.6915584415584416,
+  "samples_91": "83/91",
+  "user_photos": {
+   "apple_frogeye_leaf_spot_web1.jpg": {
+    "truth": "Apple | Frogeye leaf spot",
+    "said": "Grape | Black rot",
+    "prob": 0.771
+   }
+  }
+ },
+ "new": {
+  "n": 17328,
+  "plant_problem": 0.9313827331486612,
+  "plant": 0.9903624192059095,
+  "field_n": 924,
+  "field_plant_problem": 0.7867965367965368,
+  "samples_91": "83/91",
+  "user_photos": {
+   "apple_frogeye_leaf_spot_web1.jpg": {
+    "truth": "Apple | Frogeye leaf spot",
+    "said": "Cherry | Leaf spot",
+    "prob": 0.672
+   }
+  }
+ },
+ "switch": true
+}

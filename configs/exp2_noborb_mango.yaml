@@ -1,0 +1,10 @@
+_base_: exp2_noborb.yaml
+experiment:
+  name: exp2_noborb_mango
+data:
+  dataset: mangoleafbd
+  name: mangoleafbd
+  root: data/mangoleafbd
+  num_classes: 8
+  split_dir: splits/mangoleafbd
+  class_caps: {}

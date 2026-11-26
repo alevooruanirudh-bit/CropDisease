@@ -1,0 +1,8 @@
+{
+  "n_conditions": 30,
+  "textures": {
+    "soil": "procedural",
+    "grass": "procedural",
+    "clutter": "procedural"
+  }
+}

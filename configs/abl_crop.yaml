@@ -1,0 +1,7 @@
+# Ablation: crop to the leaf bounding box instead of a black full-frame background.
+_base_: exp1_borb.yaml
+experiment:
+  name: abl_crop
+  ablation: {axis: output, value: crop}
+segmentation:
+  output: crop

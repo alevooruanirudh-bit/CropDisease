@@ -1,0 +1,137 @@
+# Conditions added with the round-4 (Kaggle, local copies) datasets.
+# Nutrient advice is general; confirm with a soil or leaf test before applying fertiliser.
+
+Nitrogen deficiency:
+  type: Nutrient problem
+  pathogen: Not an infection — too little nitrogen available to the plant
+  symptoms: Older (lower) leaves turn pale green to yellow first, starting at the tip; growth is slow and plants look thin and pale.
+  spread: Does not spread between plants. Common in sandy or waterlogged soils, after heavy rain, or with high-carbon mulch.
+  cultural:
+    - Apply nitrogen in split doses matched to crop stage; avoid waterlogging.
+  organic:
+    - Compost, well-rotted manure, legume green manures or crop rotation with legumes.
+  chemical:
+    - Urea, ammonium sulphate or calcium ammonium nitrate at rates from a soil test or local recommendation.
+  prevention:
+    - Soil testing; balanced fertiliser plan; leaf-colour chart for rice where available.
+
+Calcium deficiency:
+  type: Nutrient problem
+  pathogen: Not an infection — too little calcium reaching growing tissue, often from uneven watering
+  symptoms: Youngest leaves are small, curled, with brown or dead edges and tips; growing points may die. Fruit may show blossom-end rot.
+  spread: Does not spread between plants. Worse in acidic soils and with irregular watering.
+  cultural:
+    - Water evenly; mulch to keep soil moisture steady.
+  organic:
+    - Lime (acidic soils) or gypsum (neutral soils) based on a soil test.
+  chemical:
+    - Foliar calcium nitrate or calcium chloride sprays on young growth.
+  prevention:
+    - Correct soil pH before planting; steady irrigation.
+
+Iron deficiency:
+  type: Nutrient problem
+  pathogen: Not an infection — iron unavailable to the plant, usually because soil is alkaline or waterlogged
+  symptoms: Youngest leaves turn yellow between the veins while the veins stay green (interveinal chlorosis); severe cases turn almost white.
+  spread: Does not spread between plants.
+  cultural:
+    - Improve drainage; avoid over-liming.
+  organic:
+    - Acidifying organic matter (compost, sulphur) in alkaline soils.
+  chemical:
+    - Chelated iron (Fe-EDDHA in alkaline soils) to soil, or foliar iron sulphate / Fe-EDTA sprays.
+  prevention:
+    - Choose tolerant varieties for alkaline soils; manage soil pH.
+
+Boron deficiency:
+  type: Nutrient problem
+  pathogen: Not an infection — too little boron in the soil or poor uptake in dry conditions
+  symptoms: Young leaves thick, brittle, distorted or with white streaks; growing tips die; poor fruit set and cracked or hollow fruit.
+  spread: Does not spread between plants. Common in sandy, leached or high-pH soils and in drought.
+  cultural:
+    - Keep soil moisture even; boron is taken up with water.
+  organic:
+    - Compost and manure supply small amounts of boron.
+  chemical:
+    - Borax or solubor to soil or as a dilute foliar spray — the safe range is narrow, so follow local rates exactly.
+  prevention:
+    - Soil test before applying; avoid over-application, which is toxic.
+
+Sulphur deficiency:
+  type: Nutrient problem
+  pathogen: Not an infection — too little sulphur available
+  symptoms: Young leaves turn uniformly pale yellow-green (unlike nitrogen deficiency, which starts on old leaves); plants are small and thin.
+  spread: Does not spread between plants. Common in low-organic, sandy soils and where only high-analysis fertilisers are used.
+  cultural:
+    - Increase soil organic matter.
+  organic:
+    - Gypsum, compost or manure.
+  chemical:
+    - Sulphate-containing fertilisers (ammonium sulphate, potassium sulphate, single superphosphate).
+  prevention:
+    - Include a sulphur source in the fertiliser plan.
+
+Zinc deficiency:
+  type: Nutrient problem
+  pathogen: Not an infection — too little available zinc, common in alkaline, sandy or heavily phosphate-fertilised soils
+  symptoms: Young leaves small and narrow with yellow between the veins; short internodes give a "rosette" look; in rice, brown blotches on older leaves (khaira).
+  spread: Does not spread between plants.
+  cultural:
+    - Avoid excess phosphate fertiliser.
+  organic:
+    - Compost and manure improve zinc availability.
+  chemical:
+    - Zinc sulphate to soil before planting, or foliar zinc sulphate (with lime if recommended) on young crops.
+  prevention:
+    - Soil test; routine zinc in deficient regions.
+
+Black mould rot:
+  type: Fungal disease (fruit)
+  pathogen: Aspergillus niger and related moulds
+  symptoms: Dark, spreading patches on ripening or stored mango fruit, soon covered with black powdery spores.
+  spread: Spores in the air and on packing surfaces; enter through wounds, sap burn and the stem end; worse in warm, humid storage.
+  cultural:
+    - Harvest with a short stalk, avoid sap burn and bruising; remove rotting fruit.
+  organic:
+    - Hot-water treatment (about 52 °C for 5 min, follow local protocol) and clean, cool storage.
+  chemical:
+    - Post-harvest fungicide dips only as registered for mango and the destination market.
+  prevention:
+    - Orchard and pack-house hygiene; rapid cooling after harvest.
+
+Stem-end rot:
+  type: Fungal disease (fruit)
+  pathogen: Lasiodiplodia theobromae, Neofusicoccum and Phomopsis spp.
+  symptoms: Brown to black rot that starts at the stalk end of ripening fruit and spreads down; flesh turns soft and watery.
+  spread: The fungus lives in the tree and enters fruit through the stalk; shows up after harvest as fruit ripen.
+  cultural:
+    - Prune dead wood in the orchard; harvest with a stalk and cut it cleanly later.
+  organic:
+    - Hot-water treatment and cool storage.
+  chemical:
+    - Pre-harvest copper or registered fungicides; registered post-harvest dips.
+  prevention:
+    - Orchard sanitation and careful post-harvest handling.
+
+Alternaria black spot:
+  type: Fungal disease (fruit)
+  pathogen: Alternaria alternata
+  symptoms: Small black spots on ripening mango fruit that enlarge and join into dark sunken patches, often around the stalk end, during storage.
+  spread: Latent infections from the orchard develop as fruit ripen; worse with long cold storage and wet weather before harvest.
+  cultural:
+    - Remove old leaves and dead twigs from trees; harvest carefully at proper maturity.
+  organic:
+    - Hot-water treatment and good pack-house hygiene.
+  chemical:
+    - Pre-harvest fungicides or registered post-harvest dips for mango.
+  prevention:
+    - Orchard sanitation; avoid long storage of fruit from wet seasons.
+
+_pathogen_by_crop:
+  Black spot: {Jackfruit: Leaf-spotting fungi (e.g. Phomopsis / Colletotrichum spp.)}
+  Bacterial spot: {Pumpkin: Xanthomonas cucurbitae}
+  Blast: {Millet: Pyricularia (Magnaporthe) grisea}
+  Rust: {Millet: Puccinia substriata var. indica (pearl millet rust), Night jasmine: Rust fungi (Puccinia spp.)}
+  Anthracnose: {Chili pepper: Colletotrichum capsici / C. truncatum (fruit rot and die-back)}
+  Fruit rot (post-harvest): {Papaya: Colletotrichum gloeosporioides and other fungi (anthracnose / fruit rot)}
+  Marssonina blotch (brown spot): {Apple: Diplocarpon mali (Marssonina coronaria)}

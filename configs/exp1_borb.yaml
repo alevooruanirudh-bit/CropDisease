@@ -1,0 +1,7 @@
+# Exp 1 - CNN WITH BorB segmentation (BorB+ variant: auto thresholds + cleanup + lesion protection).
+_base_: base.yaml
+experiment:
+  name: exp1_borb
+segmentation:
+  method: borb_plus
+  output: black

@@ -1,0 +1,9 @@
+# Ablation: BorB+ auto thresholds but no morphology / hole filling / lesion protection.
+_base_: exp1_borb.yaml
+experiment:
+  name: abl_nomorph
+  ablation: {axis: morphology, value: "off"}
+segmentation:
+  morphology: false
+  fill_holes: false
+  lesion_protect: false

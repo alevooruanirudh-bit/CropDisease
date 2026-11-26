@@ -1,0 +1,101 @@
+# Conditions added with the round-6 gap-filling datasets (PlantCity, taro, maize, groundnut, date palm, guava leaves).
+
+Southern rust:
+  type: Fungal disease
+  pathogen: Puccinia polysora
+  symptoms: Many small, round, orange to tan pustules densely scattered mostly on the upper leaf surface (common rust pustules are darker, elongated and on both sides); leaves dry early in severe cases.
+  spread: Wind-blown spores from warmer regions; favoured by hot (25–30 °C), humid weather. Does not survive on crop residue in cold areas.
+  cultural:
+    - Plant early so the crop is older when spores arrive; avoid very late planting.
+  organic:
+    - No strong organic option; balanced nutrition helps plants tolerate infection.
+  chemical:
+    - Registered triazole / strobilurin fungicides when pustules appear before tasselling and weather favours spread.
+  prevention:
+    - Resistant hybrids (Rpp9 and others) in warm, humid regions; scout from mid-season.
+
+Holcus leaf spot:
+  type: Bacterial disease
+  pathogen: Pseudomonas syringae pv. syringae
+  symptoms: Small round to oval water-soaked spots on lower leaves that turn tan to white with a reddish-brown or yellow edge; usually early in the season after storms.
+  spread: Rain splash and wind-driven rain from infected residue; usually minor and stops when weather turns dry and warm.
+  cultural:
+    - Rotate crops and bury residue where the disease is frequent.
+  organic:
+    - Usually no treatment needed; symptoms rarely reduce yield.
+  chemical:
+    - Fungicides do not control bacteria; not normally needed.
+  prevention:
+    - Tolerant hybrids; crop rotation.
+
+Leaf gall mite:
+  type: Pest (mite)
+  pathogen: Eriophyid gall mites (e.g. Aceria erinea on walnut)
+  symptoms: Raised blisters or galls on the upper leaf surface with felt-like hairy patches (erineum) underneath; leaves may curl.
+  spread: Microscopic mites overwinter in buds and move to new leaves in spring; spread by wind and on planting material.
+  cultural:
+    - Usually cosmetic on mature trees; remove heavily galled shoots on young trees.
+  organic:
+    - Horticultural oil or wettable sulphur at bud break where damage is serious.
+  chemical:
+    - Registered miticides at bud break only if damage affects young trees.
+  prevention:
+    - Clean nursery stock; encourage predatory mites by avoiding broad-spectrum sprays.
+
+Root rot:
+  type: Fungal-like / fungal disease (root, corm)
+  pathogen: Pythium and Phytophthora spp. (on taro, Pythium myriotylum and others)
+  symptoms: Roots and corm turn soft, brown and rotten with a bad smell; leaves yellow, wilt and the plant may collapse; plants pull up easily.
+  spread: Waterborne spores in soil and irrigation water; worse in waterlogged, warm soils and with infected planting material.
+  cultural:
+    - Improve drainage; avoid waterlogging; remove and destroy rotting plants.
+    - Use healthy planting material and rotate away from the crop for 2–3 years.
+  organic:
+    - Trichoderma-based biological products on planting material and soil; plenty of compost.
+  chemical:
+    - Registered metalaxyl / phosphonate products as soil drench or on planting material where permitted.
+  prevention:
+    - Clean planting material, raised beds, and rotation.
+
+Rosette virus:
+  type: Viral disease
+  pathogen: Groundnut rosette disease (groundnut rosette virus + satellite RNA + helper virus), spread by aphids
+  symptoms: Plants are severely stunted and bushy (short internodes); leaves small, curled, with chlorotic (yellow) mottle or dark green mosaic; few or no pods.
+  spread: Aphid Aphis craccivora carries the virus between plants; outbreaks with late planting and low plant density.
+  cultural:
+    - Plant early and at recommended (close) spacing; pull out and destroy infected plants early.
+  organic:
+    - Encourage natural enemies of aphids; neem sprays on aphid colonies.
+  chemical:
+    - No cure for the virus; aphid control with registered insecticides where outbreaks are expected.
+  prevention:
+    - Resistant varieties; timely planting; dense, uniform stands.
+
+Dubas bug:
+  type: Insect pest
+  pathogen: Ommatissus lybicus (Dubas bug)
+  symptoms: Sticky honeydew covers fronds and fruit, which then turn black with sooty mould; yellow spots where nymphs feed; weak palms and poor fruit.
+  spread: Two generations a year (spring and autumn); nymphs and adults suck sap on frond undersides; spreads between neighbouring palms.
+  cultural:
+    - Keep palms well spaced and pruned so air moves through the crown.
+  organic:
+    - Neem-based sprays and natural enemies where available.
+  chemical:
+    - Registered systemic insecticides through national date-palm programmes, timed to nymph emergence.
+  prevention:
+    - Regular monitoring of honeydew in spring and autumn; area-wide control.
+
+_pathogen_by_crop:
+  Leaf spot: {Cherry: Blumeriella jaapii (cherry leaf spot), Loquat: Entomosporium mespili}
+  Shot hole: {Cherry: Wilsonomyces carpophilus / Xanthomonas arboricola pv. pruni, Walnut: Shot-hole fungi / bacteria}
+  Leaf scorch: {Cherry: Apiognomonia erythrostoma (or drought / leaf scorch)}
+  Rust: {Fig: Cerotelium fici (fig rust)}
+  Leaf blight: {Fig: Leaf-blighting fungi (e.g. Pellicularia kolerga thread blight)}
+  Brown spot: {Fig: Leaf-spotting fungi (e.g. Cercospora / Alternaria spp.), Persimmon: Cercospora kaki / Pseudocercospora}
+  Black spot: {Pear: Alternaria alternata (A. gaisen) — pear black spot}
+  Anthracnose: {Walnut: Ophiognomonia leptostyla (walnut anthracnose), Guava: Colletotrichum gloeosporioides}
+  Leaf blotch: {Walnut: Ophiognomonia leptostyla / Marssonina juglandis}
+  Mosaic virus: {Taro: Dasheen mosaic virus}
+  Whiteflies: {Guava: Aleurodicus dispersus (spiralling whitefly)}
+  Algal leaf spot: {Guava: Cephaleuros virescens (red rust)}
+  Gray leaf spot: {Maize: Cercospora zeae-maydis}

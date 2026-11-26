@@ -1,0 +1,2193 @@
+{
+  "Apple | leaf | Alternaria leaf spot": {
+    "id": 0,
+    "crop": "Apple",
+    "part": "leaf",
+    "condition": "Alternaria leaf spot",
+    "kind": "disease"
+  },
+  "Apple | leaf | Apple scab": {
+    "id": 1,
+    "crop": "Apple",
+    "part": "leaf",
+    "condition": "Apple scab",
+    "kind": "disease"
+  },
+  "Apple | leaf | Black rot": {
+    "id": 2,
+    "crop": "Apple",
+    "part": "leaf",
+    "condition": "Black rot",
+    "kind": "disease"
+  },
+  "Apple | leaf | Cedar apple rust": {
+    "id": 3,
+    "crop": "Apple",
+    "part": "leaf",
+    "condition": "Cedar apple rust",
+    "kind": "disease"
+  },
+  "Apple | leaf | Frogeye leaf spot": {
+    "id": 4,
+    "crop": "Apple",
+    "part": "leaf",
+    "condition": "Frogeye leaf spot",
+    "kind": "disease"
+  },
+  "Apple | leaf | Grey spot": {
+    "id": 5,
+    "crop": "Apple",
+    "part": "leaf",
+    "condition": "Grey spot",
+    "kind": "disease"
+  },
+  "Apple | leaf | Healthy": {
+    "id": 6,
+    "crop": "Apple",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Apple | leaf | Marssonina blotch (brown spot)": {
+    "id": 7,
+    "crop": "Apple",
+    "part": "leaf",
+    "condition": "Marssonina blotch (brown spot)",
+    "kind": "disease"
+  },
+  "Apple | leaf | Mosaic virus": {
+    "id": 8,
+    "crop": "Apple",
+    "part": "leaf",
+    "condition": "Mosaic virus",
+    "kind": "disease"
+  },
+  "Apple | leaf | Powdery mildew": {
+    "id": 9,
+    "crop": "Apple",
+    "part": "leaf",
+    "condition": "Powdery mildew",
+    "kind": "disease"
+  },
+  "Ash gourd | leaf | Aphids": {
+    "id": 10,
+    "crop": "Ash gourd",
+    "part": "leaf",
+    "condition": "Aphids",
+    "kind": "pest"
+  },
+  "Ash gourd | leaf | Downy mildew": {
+    "id": 11,
+    "crop": "Ash gourd",
+    "part": "leaf",
+    "condition": "Downy mildew",
+    "kind": "disease"
+  },
+  "Ash gourd | leaf | Healthy": {
+    "id": 12,
+    "crop": "Ash gourd",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Ash gourd | leaf | Leaf curl virus": {
+    "id": 13,
+    "crop": "Ash gourd",
+    "part": "leaf",
+    "condition": "Leaf curl virus",
+    "kind": "disease"
+  },
+  "Ash gourd | leaf | Leaf miner": {
+    "id": 14,
+    "crop": "Ash gourd",
+    "part": "leaf",
+    "condition": "Leaf miner",
+    "kind": "pest"
+  },
+  "Banana | fruit | Fruit-scarring beetle": {
+    "id": 15,
+    "crop": "Banana",
+    "part": "fruit",
+    "condition": "Fruit-scarring beetle",
+    "kind": "pest"
+  },
+  "Banana | leaf | Cordana leaf spot": {
+    "id": 16,
+    "crop": "Banana",
+    "part": "leaf",
+    "condition": "Cordana leaf spot",
+    "kind": "disease"
+  },
+  "Banana | leaf | Healthy": {
+    "id": 17,
+    "crop": "Banana",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Banana | leaf | Pestalotiopsis leaf spot": {
+    "id": 18,
+    "crop": "Banana",
+    "part": "leaf",
+    "condition": "Pestalotiopsis leaf spot",
+    "kind": "disease"
+  },
+  "Banana | leaf | Potassium deficiency": {
+    "id": 19,
+    "crop": "Banana",
+    "part": "leaf",
+    "condition": "Potassium deficiency",
+    "kind": "nutrient"
+  },
+  "Banana | leaf | Sigatoka leaf spot": {
+    "id": 20,
+    "crop": "Banana",
+    "part": "leaf",
+    "condition": "Sigatoka leaf spot",
+    "kind": "disease"
+  },
+  "Banana | stem | Bacterial soft rot": {
+    "id": 21,
+    "crop": "Banana",
+    "part": "stem",
+    "condition": "Bacterial soft rot",
+    "kind": "disease"
+  },
+  "Banana | stem | Banana aphid": {
+    "id": 22,
+    "crop": "Banana",
+    "part": "stem",
+    "condition": "Banana aphid",
+    "kind": "pest"
+  },
+  "Banana | stem | Pseudostem weevil": {
+    "id": 23,
+    "crop": "Banana",
+    "part": "stem",
+    "condition": "Pseudostem weevil",
+    "kind": "pest"
+  },
+  "Banana | whole plant | Fusarium wilt (Panama disease)": {
+    "id": 24,
+    "crop": "Banana",
+    "part": "whole plant",
+    "condition": "Fusarium wilt (Panama disease)",
+    "kind": "disease"
+  },
+  "Banana | whole plant | Xanthomonas wilt": {
+    "id": 25,
+    "crop": "Banana",
+    "part": "whole plant",
+    "condition": "Xanthomonas wilt",
+    "kind": "disease"
+  },
+  "Bean | leaf | Angular leaf spot": {
+    "id": 26,
+    "crop": "Bean",
+    "part": "leaf",
+    "condition": "Angular leaf spot",
+    "kind": "disease"
+  },
+  "Bean | leaf | Bacterial blight": {
+    "id": 27,
+    "crop": "Bean",
+    "part": "leaf",
+    "condition": "Bacterial blight",
+    "kind": "disease"
+  },
+  "Bean | leaf | Bacterial wilt": {
+    "id": 28,
+    "crop": "Bean",
+    "part": "leaf",
+    "condition": "Bacterial wilt",
+    "kind": "disease"
+  },
+  "Bean | leaf | Healthy": {
+    "id": 29,
+    "crop": "Bean",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Bean | leaf | Mosaic virus": {
+    "id": 30,
+    "crop": "Bean",
+    "part": "leaf",
+    "condition": "Mosaic virus",
+    "kind": "disease"
+  },
+  "Bean | leaf | Rust": {
+    "id": 31,
+    "crop": "Bean",
+    "part": "leaf",
+    "condition": "Rust",
+    "kind": "disease"
+  },
+  "Bean | leaf | Septoria leaf spot": {
+    "id": 32,
+    "crop": "Bean",
+    "part": "leaf",
+    "condition": "Septoria leaf spot",
+    "kind": "disease"
+  },
+  "Bell pepper | leaf | Bacterial spot": {
+    "id": 33,
+    "crop": "Bell pepper",
+    "part": "leaf",
+    "condition": "Bacterial spot",
+    "kind": "disease"
+  },
+  "Bell pepper | leaf | Healthy": {
+    "id": 34,
+    "crop": "Bell pepper",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Betel | leaf | Healthy": {
+    "id": 35,
+    "crop": "Betel",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Betel | leaf | Leaf rot": {
+    "id": 36,
+    "crop": "Betel",
+    "part": "leaf",
+    "condition": "Leaf rot",
+    "kind": "disease"
+  },
+  "Betel | leaf | Leaf spot": {
+    "id": 37,
+    "crop": "Betel",
+    "part": "leaf",
+    "condition": "Leaf spot",
+    "kind": "disease"
+  },
+  "Black gram | leaf | Anthracnose": {
+    "id": 38,
+    "crop": "Black gram",
+    "part": "leaf",
+    "condition": "Anthracnose",
+    "kind": "disease"
+  },
+  "Black gram | leaf | Healthy": {
+    "id": 39,
+    "crop": "Black gram",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Black gram | leaf | Leaf crinkle virus": {
+    "id": 40,
+    "crop": "Black gram",
+    "part": "leaf",
+    "condition": "Leaf crinkle virus",
+    "kind": "disease"
+  },
+  "Black gram | leaf | Powdery mildew": {
+    "id": 41,
+    "crop": "Black gram",
+    "part": "leaf",
+    "condition": "Powdery mildew",
+    "kind": "disease"
+  },
+  "Black gram | leaf | Yellow mosaic virus": {
+    "id": 42,
+    "crop": "Black gram",
+    "part": "leaf",
+    "condition": "Yellow mosaic virus",
+    "kind": "disease"
+  },
+  "Blueberry | leaf | Healthy": {
+    "id": 43,
+    "crop": "Blueberry",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Carambola | fruit | Healthy": {
+    "id": 44,
+    "crop": "Carambola",
+    "part": "fruit",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Carambola | leaf | Healthy": {
+    "id": 45,
+    "crop": "Carambola",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Carambola | leaf | Insect holes": {
+    "id": 46,
+    "crop": "Carambola",
+    "part": "leaf",
+    "condition": "Insect holes",
+    "kind": "pest"
+  },
+  "Cassava | leaf | Bacterial blight": {
+    "id": 47,
+    "crop": "Cassava",
+    "part": "leaf",
+    "condition": "Bacterial blight",
+    "kind": "disease"
+  },
+  "Cassava | leaf | Brown streak disease": {
+    "id": 48,
+    "crop": "Cassava",
+    "part": "leaf",
+    "condition": "Brown streak disease",
+    "kind": "disease"
+  },
+  "Cassava | leaf | Green mottle": {
+    "id": 49,
+    "crop": "Cassava",
+    "part": "leaf",
+    "condition": "Green mottle",
+    "kind": "disease"
+  },
+  "Cassava | leaf | Healthy": {
+    "id": 50,
+    "crop": "Cassava",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Cassava | leaf | Mosaic disease": {
+    "id": 51,
+    "crop": "Cassava",
+    "part": "leaf",
+    "condition": "Mosaic disease",
+    "kind": "disease"
+  },
+  "Cauliflower | head | Bacterial soft rot": {
+    "id": 52,
+    "crop": "Cauliflower",
+    "part": "head",
+    "condition": "Bacterial soft rot",
+    "kind": "disease"
+  },
+  "Cauliflower | leaf | Black rot": {
+    "id": 53,
+    "crop": "Cauliflower",
+    "part": "leaf",
+    "condition": "Black rot",
+    "kind": "disease"
+  },
+  "Cauliflower | leaf | Downy mildew": {
+    "id": 54,
+    "crop": "Cauliflower",
+    "part": "leaf",
+    "condition": "Downy mildew",
+    "kind": "disease"
+  },
+  "Cherry | leaf | Healthy": {
+    "id": 55,
+    "crop": "Cherry",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Cherry | leaf | Powdery mildew": {
+    "id": 56,
+    "crop": "Cherry",
+    "part": "leaf",
+    "condition": "Powdery mildew",
+    "kind": "disease"
+  },
+  "Chili pepper | leaf | Cercospora leaf spot": {
+    "id": 57,
+    "crop": "Chili pepper",
+    "part": "leaf",
+    "condition": "Cercospora leaf spot",
+    "kind": "disease"
+  },
+  "Chili pepper | leaf | Healthy": {
+    "id": 58,
+    "crop": "Chili pepper",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Chili pepper | leaf | Mites and thrips": {
+    "id": 59,
+    "crop": "Chili pepper",
+    "part": "leaf",
+    "condition": "Mites and thrips",
+    "kind": "pest"
+  },
+  "Chili pepper | leaf | Nutrient deficiency": {
+    "id": 60,
+    "crop": "Chili pepper",
+    "part": "leaf",
+    "condition": "Nutrient deficiency",
+    "kind": "nutrient"
+  },
+  "Chili pepper | leaf | Powdery mildew": {
+    "id": 61,
+    "crop": "Chili pepper",
+    "part": "leaf",
+    "condition": "Powdery mildew",
+    "kind": "disease"
+  },
+  "Coconut | leaf | Grey leaf spot": {
+    "id": 62,
+    "crop": "Coconut",
+    "part": "leaf",
+    "condition": "Grey leaf spot",
+    "kind": "disease"
+  },
+  "Coconut | leaf | Leaf rot": {
+    "id": 63,
+    "crop": "Coconut",
+    "part": "leaf",
+    "condition": "Leaf rot",
+    "kind": "disease"
+  },
+  "Coconut | stem | Stem bleeding": {
+    "id": 64,
+    "crop": "Coconut",
+    "part": "stem",
+    "condition": "Stem bleeding",
+    "kind": "disease"
+  },
+  "Coconut | whole plant | Bud rot": {
+    "id": 65,
+    "crop": "Coconut",
+    "part": "whole plant",
+    "condition": "Bud rot",
+    "kind": "disease"
+  },
+  "Coffee | leaf | Cercospora leaf spot": {
+    "id": 66,
+    "crop": "Coffee",
+    "part": "leaf",
+    "condition": "Cercospora leaf spot",
+    "kind": "disease"
+  },
+  "Coffee | leaf | Coffee leaf miner": {
+    "id": 67,
+    "crop": "Coffee",
+    "part": "leaf",
+    "condition": "Coffee leaf miner",
+    "kind": "pest"
+  },
+  "Coffee | leaf | Coffee leaf rust": {
+    "id": 68,
+    "crop": "Coffee",
+    "part": "leaf",
+    "condition": "Coffee leaf rust",
+    "kind": "disease"
+  },
+  "Coffee | leaf | Healthy": {
+    "id": 69,
+    "crop": "Coffee",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Coffee | leaf | Phoma leaf spot": {
+    "id": 70,
+    "crop": "Coffee",
+    "part": "leaf",
+    "condition": "Phoma leaf spot",
+    "kind": "disease"
+  },
+  "Cotton | leaf | Alternaria leaf spot": {
+    "id": 71,
+    "crop": "Cotton",
+    "part": "leaf",
+    "condition": "Alternaria leaf spot",
+    "kind": "disease"
+  },
+  "Cotton | leaf | Bacterial blight": {
+    "id": 72,
+    "crop": "Cotton",
+    "part": "leaf",
+    "condition": "Bacterial blight",
+    "kind": "disease"
+  },
+  "Cotton | leaf | Fusarium wilt": {
+    "id": 73,
+    "crop": "Cotton",
+    "part": "leaf",
+    "condition": "Fusarium wilt",
+    "kind": "disease"
+  },
+  "Cotton | leaf | Healthy": {
+    "id": 74,
+    "crop": "Cotton",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Cotton | leaf | Herbicide damage": {
+    "id": 75,
+    "crop": "Cotton",
+    "part": "leaf",
+    "condition": "Herbicide damage",
+    "kind": "abiotic"
+  },
+  "Cotton | leaf | Leaf curl virus": {
+    "id": 76,
+    "crop": "Cotton",
+    "part": "leaf",
+    "condition": "Leaf curl virus",
+    "kind": "disease"
+  },
+  "Cotton | leaf | Leaf reddening": {
+    "id": 77,
+    "crop": "Cotton",
+    "part": "leaf",
+    "condition": "Leaf reddening",
+    "kind": "nutrient"
+  },
+  "Cotton | leaf | Leafhopper (jassids)": {
+    "id": 78,
+    "crop": "Cotton",
+    "part": "leaf",
+    "condition": "Leafhopper (jassids)",
+    "kind": "pest"
+  },
+  "Cotton | leaf | Verticillium wilt": {
+    "id": 79,
+    "crop": "Cotton",
+    "part": "leaf",
+    "condition": "Verticillium wilt",
+    "kind": "disease"
+  },
+  "Cucumber | fruit | Belly rot": {
+    "id": 80,
+    "crop": "Cucumber",
+    "part": "fruit",
+    "condition": "Belly rot",
+    "kind": "disease"
+  },
+  "Cucumber | fruit | Healthy": {
+    "id": 81,
+    "crop": "Cucumber",
+    "part": "fruit",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Cucumber | fruit | Pythium fruit rot": {
+    "id": 82,
+    "crop": "Cucumber",
+    "part": "fruit",
+    "condition": "Pythium fruit rot",
+    "kind": "disease"
+  },
+  "Cucumber | leaf | Anthracnose": {
+    "id": 83,
+    "crop": "Cucumber",
+    "part": "leaf",
+    "condition": "Anthracnose",
+    "kind": "disease"
+  },
+  "Cucumber | leaf | Bacterial wilt": {
+    "id": 84,
+    "crop": "Cucumber",
+    "part": "leaf",
+    "condition": "Bacterial wilt",
+    "kind": "disease"
+  },
+  "Cucumber | leaf | Downy mildew": {
+    "id": 85,
+    "crop": "Cucumber",
+    "part": "leaf",
+    "condition": "Downy mildew",
+    "kind": "disease"
+  },
+  "Cucumber | leaf | Healthy": {
+    "id": 86,
+    "crop": "Cucumber",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Cucumber | stem | Gummy stem blight": {
+    "id": 87,
+    "crop": "Cucumber",
+    "part": "stem",
+    "condition": "Gummy stem blight",
+    "kind": "disease"
+  },
+  "Custard apple | fruit | Anthracnose": {
+    "id": 88,
+    "crop": "Custard apple",
+    "part": "fruit",
+    "condition": "Anthracnose",
+    "kind": "disease"
+  },
+  "Custard apple | fruit | Black canker": {
+    "id": 89,
+    "crop": "Custard apple",
+    "part": "fruit",
+    "condition": "Black canker",
+    "kind": "disease"
+  },
+  "Custard apple | fruit | Diplodia rot": {
+    "id": 90,
+    "crop": "Custard apple",
+    "part": "fruit",
+    "condition": "Diplodia rot",
+    "kind": "disease"
+  },
+  "Custard apple | fruit | Fruit spot": {
+    "id": 91,
+    "crop": "Custard apple",
+    "part": "fruit",
+    "condition": "Fruit spot",
+    "kind": "disease"
+  },
+  "Custard apple | fruit | Mealybug": {
+    "id": 92,
+    "crop": "Custard apple",
+    "part": "fruit",
+    "condition": "Mealybug",
+    "kind": "pest"
+  },
+  "Custard apple | leaf | Leaf spot": {
+    "id": 93,
+    "crop": "Custard apple",
+    "part": "leaf",
+    "condition": "Leaf spot",
+    "kind": "disease"
+  },
+  "Date palm | leaf | Black scorch": {
+    "id": 94,
+    "crop": "Date palm",
+    "part": "leaf",
+    "condition": "Black scorch",
+    "kind": "disease"
+  },
+  "Date palm | leaf | Fusarium wilt (bayoud)": {
+    "id": 95,
+    "crop": "Date palm",
+    "part": "leaf",
+    "condition": "Fusarium wilt (bayoud)",
+    "kind": "disease"
+  },
+  "Date palm | leaf | Healthy": {
+    "id": 96,
+    "crop": "Date palm",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Date palm | leaf | Leaf spot": {
+    "id": 97,
+    "crop": "Date palm",
+    "part": "leaf",
+    "condition": "Leaf spot",
+    "kind": "disease"
+  },
+  "Date palm | leaf | Magnesium deficiency": {
+    "id": 98,
+    "crop": "Date palm",
+    "part": "leaf",
+    "condition": "Magnesium deficiency",
+    "kind": "nutrient"
+  },
+  "Date palm | leaf | Manganese deficiency": {
+    "id": 99,
+    "crop": "Date palm",
+    "part": "leaf",
+    "condition": "Manganese deficiency",
+    "kind": "nutrient"
+  },
+  "Date palm | leaf | Potassium deficiency": {
+    "id": 100,
+    "crop": "Date palm",
+    "part": "leaf",
+    "condition": "Potassium deficiency",
+    "kind": "nutrient"
+  },
+  "Date palm | leaf | Rachis blight": {
+    "id": 101,
+    "crop": "Date palm",
+    "part": "leaf",
+    "condition": "Rachis blight",
+    "kind": "disease"
+  },
+  "Date palm | leaf | White scale (Parlatoria)": {
+    "id": 102,
+    "crop": "Date palm",
+    "part": "leaf",
+    "condition": "White scale (Parlatoria)",
+    "kind": "pest"
+  },
+  "Durian | fruit | Fruit rot": {
+    "id": 103,
+    "crop": "Durian",
+    "part": "fruit",
+    "condition": "Fruit rot",
+    "kind": "disease"
+  },
+  "Durian | fruit | Mealybug": {
+    "id": 104,
+    "crop": "Durian",
+    "part": "fruit",
+    "condition": "Mealybug",
+    "kind": "pest"
+  },
+  "Durian | leaf | Algal leaf spot": {
+    "id": 105,
+    "crop": "Durian",
+    "part": "leaf",
+    "condition": "Algal leaf spot",
+    "kind": "disease"
+  },
+  "Durian | leaf | Anthracnose": {
+    "id": 106,
+    "crop": "Durian",
+    "part": "leaf",
+    "condition": "Anthracnose",
+    "kind": "disease"
+  },
+  "Durian | leaf | Healthy": {
+    "id": 107,
+    "crop": "Durian",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Durian | leaf | Leaf blight": {
+    "id": 108,
+    "crop": "Durian",
+    "part": "leaf",
+    "condition": "Leaf blight",
+    "kind": "disease"
+  },
+  "Durian | leaf | Phomopsis leaf spot": {
+    "id": 109,
+    "crop": "Durian",
+    "part": "leaf",
+    "condition": "Phomopsis leaf spot",
+    "kind": "disease"
+  },
+  "Durian | leaf | Rhizoctonia leaf blight": {
+    "id": 110,
+    "crop": "Durian",
+    "part": "leaf",
+    "condition": "Rhizoctonia leaf blight",
+    "kind": "disease"
+  },
+  "Durian | leaf | Sooty mould": {
+    "id": 111,
+    "crop": "Durian",
+    "part": "leaf",
+    "condition": "Sooty mould",
+    "kind": "disease"
+  },
+  "Durian | stem | Phytophthora canker": {
+    "id": 112,
+    "crop": "Durian",
+    "part": "stem",
+    "condition": "Phytophthora canker",
+    "kind": "disease"
+  },
+  "Durian | stem | Stem blight": {
+    "id": 113,
+    "crop": "Durian",
+    "part": "stem",
+    "condition": "Stem blight",
+    "kind": "disease"
+  },
+  "Durian | stem | Stem cracking (gummosis)": {
+    "id": 114,
+    "crop": "Durian",
+    "part": "stem",
+    "condition": "Stem cracking (gummosis)",
+    "kind": "disease"
+  },
+  "Eggplant | fruit | Fruit cracking": {
+    "id": 115,
+    "crop": "Eggplant",
+    "part": "fruit",
+    "condition": "Fruit cracking",
+    "kind": "abiotic"
+  },
+  "Eggplant | fruit | Healthy": {
+    "id": 116,
+    "crop": "Eggplant",
+    "part": "fruit",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Eggplant | fruit | Phomopsis blight": {
+    "id": 117,
+    "crop": "Eggplant",
+    "part": "fruit",
+    "condition": "Phomopsis blight",
+    "kind": "disease"
+  },
+  "Eggplant | fruit | Shoot and fruit borer": {
+    "id": 118,
+    "crop": "Eggplant",
+    "part": "fruit",
+    "condition": "Shoot and fruit borer",
+    "kind": "pest"
+  },
+  "Eggplant | fruit | Wet rot": {
+    "id": 119,
+    "crop": "Eggplant",
+    "part": "fruit",
+    "condition": "Wet rot",
+    "kind": "disease"
+  },
+  "Eggplant | leaf | Aphids": {
+    "id": 120,
+    "crop": "Eggplant",
+    "part": "leaf",
+    "condition": "Aphids",
+    "kind": "pest"
+  },
+  "Eggplant | leaf | Cercospora leaf spot": {
+    "id": 121,
+    "crop": "Eggplant",
+    "part": "leaf",
+    "condition": "Cercospora leaf spot",
+    "kind": "disease"
+  },
+  "Eggplant | leaf | Flea beetles": {
+    "id": 122,
+    "crop": "Eggplant",
+    "part": "leaf",
+    "condition": "Flea beetles",
+    "kind": "pest"
+  },
+  "Eggplant | leaf | Healthy": {
+    "id": 123,
+    "crop": "Eggplant",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Eggplant | leaf | Insect damage": {
+    "id": 124,
+    "crop": "Eggplant",
+    "part": "leaf",
+    "condition": "Insect damage",
+    "kind": "pest"
+  },
+  "Eggplant | leaf | Leaf spot": {
+    "id": 125,
+    "crop": "Eggplant",
+    "part": "leaf",
+    "condition": "Leaf spot",
+    "kind": "disease"
+  },
+  "Eggplant | leaf | Mosaic virus": {
+    "id": 126,
+    "crop": "Eggplant",
+    "part": "leaf",
+    "condition": "Mosaic virus",
+    "kind": "disease"
+  },
+  "Eggplant | leaf | Phytophthora blight": {
+    "id": 127,
+    "crop": "Eggplant",
+    "part": "leaf",
+    "condition": "Phytophthora blight",
+    "kind": "disease"
+  },
+  "Eggplant | leaf | Powdery mildew": {
+    "id": 128,
+    "crop": "Eggplant",
+    "part": "leaf",
+    "condition": "Powdery mildew",
+    "kind": "disease"
+  },
+  "Eggplant | leaf | White mold": {
+    "id": 129,
+    "crop": "Eggplant",
+    "part": "leaf",
+    "condition": "White mold",
+    "kind": "disease"
+  },
+  "Eggplant | leaf | Wilt": {
+    "id": 130,
+    "crop": "Eggplant",
+    "part": "leaf",
+    "condition": "Wilt",
+    "kind": "disease"
+  },
+  "Grape | leaf | Bacterial leaf spot": {
+    "id": 131,
+    "crop": "Grape",
+    "part": "leaf",
+    "condition": "Bacterial leaf spot",
+    "kind": "disease"
+  },
+  "Grape | leaf | Black rot": {
+    "id": 132,
+    "crop": "Grape",
+    "part": "leaf",
+    "condition": "Black rot",
+    "kind": "disease"
+  },
+  "Grape | leaf | Downy mildew": {
+    "id": 133,
+    "crop": "Grape",
+    "part": "leaf",
+    "condition": "Downy mildew",
+    "kind": "disease"
+  },
+  "Grape | leaf | Esca (black measles)": {
+    "id": 134,
+    "crop": "Grape",
+    "part": "leaf",
+    "condition": "Esca (black measles)",
+    "kind": "disease"
+  },
+  "Grape | leaf | Healthy": {
+    "id": 135,
+    "crop": "Grape",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Grape | leaf | Isariopsis leaf spot": {
+    "id": 136,
+    "crop": "Grape",
+    "part": "leaf",
+    "condition": "Isariopsis leaf spot",
+    "kind": "disease"
+  },
+  "Grape | leaf | Powdery mildew": {
+    "id": 137,
+    "crop": "Grape",
+    "part": "leaf",
+    "condition": "Powdery mildew",
+    "kind": "disease"
+  },
+  "Groundnut | leaf | Early leaf spot": {
+    "id": 138,
+    "crop": "Groundnut",
+    "part": "leaf",
+    "condition": "Early leaf spot",
+    "kind": "disease"
+  },
+  "Groundnut | leaf | Healthy": {
+    "id": 139,
+    "crop": "Groundnut",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Groundnut | leaf | Late leaf spot": {
+    "id": 140,
+    "crop": "Groundnut",
+    "part": "leaf",
+    "condition": "Late leaf spot",
+    "kind": "disease"
+  },
+  "Groundnut | leaf | Nutrient deficiency": {
+    "id": 141,
+    "crop": "Groundnut",
+    "part": "leaf",
+    "condition": "Nutrient deficiency",
+    "kind": "nutrient"
+  },
+  "Groundnut | leaf | Rust": {
+    "id": 142,
+    "crop": "Groundnut",
+    "part": "leaf",
+    "condition": "Rust",
+    "kind": "disease"
+  },
+  "Guava | fruit | Anthracnose": {
+    "id": 143,
+    "crop": "Guava",
+    "part": "fruit",
+    "condition": "Anthracnose",
+    "kind": "disease"
+  },
+  "Guava | fruit | Canker": {
+    "id": 144,
+    "crop": "Guava",
+    "part": "fruit",
+    "condition": "Canker",
+    "kind": "disease"
+  },
+  "Guava | fruit | Dot disease": {
+    "id": 145,
+    "crop": "Guava",
+    "part": "fruit",
+    "condition": "Dot disease",
+    "kind": "disease"
+  },
+  "Guava | fruit | Healthy": {
+    "id": 146,
+    "crop": "Guava",
+    "part": "fruit",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Guava | fruit | Phytophthora rot": {
+    "id": 147,
+    "crop": "Guava",
+    "part": "fruit",
+    "condition": "Phytophthora rot",
+    "kind": "disease"
+  },
+  "Guava | fruit | Rust": {
+    "id": 148,
+    "crop": "Guava",
+    "part": "fruit",
+    "condition": "Rust",
+    "kind": "disease"
+  },
+  "Guava | fruit | Scab": {
+    "id": 149,
+    "crop": "Guava",
+    "part": "fruit",
+    "condition": "Scab",
+    "kind": "disease"
+  },
+  "Guava | fruit | Styler end rot": {
+    "id": 150,
+    "crop": "Guava",
+    "part": "fruit",
+    "condition": "Styler end rot",
+    "kind": "disease"
+  },
+  "Guava | leaf | Red rust (algal)": {
+    "id": 151,
+    "crop": "Guava",
+    "part": "leaf",
+    "condition": "Red rust (algal)",
+    "kind": "disease"
+  },
+  "Java plum | leaf | Bacterial spot": {
+    "id": 152,
+    "crop": "Java plum",
+    "part": "leaf",
+    "condition": "Bacterial spot",
+    "kind": "disease"
+  },
+  "Java plum | leaf | Brown blight": {
+    "id": 153,
+    "crop": "Java plum",
+    "part": "leaf",
+    "condition": "Brown blight",
+    "kind": "disease"
+  },
+  "Java plum | leaf | Healthy": {
+    "id": 154,
+    "crop": "Java plum",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Java plum | leaf | Powdery mildew": {
+    "id": 155,
+    "crop": "Java plum",
+    "part": "leaf",
+    "condition": "Powdery mildew",
+    "kind": "disease"
+  },
+  "Java plum | leaf | Sooty mould": {
+    "id": 156,
+    "crop": "Java plum",
+    "part": "leaf",
+    "condition": "Sooty mould",
+    "kind": "disease"
+  },
+  "Jute | leaf | Dieback": {
+    "id": 157,
+    "crop": "Jute",
+    "part": "leaf",
+    "condition": "Dieback",
+    "kind": "disease"
+  },
+  "Jute | leaf | Healthy": {
+    "id": 158,
+    "crop": "Jute",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Jute | leaf | Insect holes": {
+    "id": 159,
+    "crop": "Jute",
+    "part": "leaf",
+    "condition": "Insect holes",
+    "kind": "pest"
+  },
+  "Jute | leaf | Mosaic virus": {
+    "id": 160,
+    "crop": "Jute",
+    "part": "leaf",
+    "condition": "Mosaic virus",
+    "kind": "disease"
+  },
+  "Jute | stem | Stem soft rot": {
+    "id": 161,
+    "crop": "Jute",
+    "part": "stem",
+    "condition": "Stem soft rot",
+    "kind": "disease"
+  },
+  "Lemon | leaf | Anthracnose": {
+    "id": 162,
+    "crop": "Lemon",
+    "part": "leaf",
+    "condition": "Anthracnose",
+    "kind": "disease"
+  },
+  "Lemon | leaf | Bacterial blight": {
+    "id": 163,
+    "crop": "Lemon",
+    "part": "leaf",
+    "condition": "Bacterial blight",
+    "kind": "disease"
+  },
+  "Lemon | leaf | Citrus canker": {
+    "id": 164,
+    "crop": "Lemon",
+    "part": "leaf",
+    "condition": "Citrus canker",
+    "kind": "disease"
+  },
+  "Lemon | leaf | Healthy": {
+    "id": 165,
+    "crop": "Lemon",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Lemon | leaf | Leaf curl virus": {
+    "id": 166,
+    "crop": "Lemon",
+    "part": "leaf",
+    "condition": "Leaf curl virus",
+    "kind": "disease"
+  },
+  "Lemon | leaf | Nutrient deficiency": {
+    "id": 167,
+    "crop": "Lemon",
+    "part": "leaf",
+    "condition": "Nutrient deficiency",
+    "kind": "nutrient"
+  },
+  "Lemon | leaf | Sooty mould": {
+    "id": 168,
+    "crop": "Lemon",
+    "part": "leaf",
+    "condition": "Sooty mould",
+    "kind": "disease"
+  },
+  "Lemon | leaf | Spider mites": {
+    "id": 169,
+    "crop": "Lemon",
+    "part": "leaf",
+    "condition": "Spider mites",
+    "kind": "pest"
+  },
+  "Lentil | leaf | Ascochyta blight": {
+    "id": 170,
+    "crop": "Lentil",
+    "part": "leaf",
+    "condition": "Ascochyta blight",
+    "kind": "disease"
+  },
+  "Lentil | leaf | Healthy": {
+    "id": 171,
+    "crop": "Lentil",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Lentil | leaf | Powdery mildew": {
+    "id": 172,
+    "crop": "Lentil",
+    "part": "leaf",
+    "condition": "Powdery mildew",
+    "kind": "disease"
+  },
+  "Lentil | leaf | Rust": {
+    "id": 173,
+    "crop": "Lentil",
+    "part": "leaf",
+    "condition": "Rust",
+    "kind": "disease"
+  },
+  "Maize | leaf | Common rust": {
+    "id": 174,
+    "crop": "Maize",
+    "part": "leaf",
+    "condition": "Common rust",
+    "kind": "disease"
+  },
+  "Maize | leaf | Curvularia leaf spot": {
+    "id": 175,
+    "crop": "Maize",
+    "part": "leaf",
+    "condition": "Curvularia leaf spot",
+    "kind": "disease"
+  },
+  "Maize | leaf | Gray leaf spot": {
+    "id": 176,
+    "crop": "Maize",
+    "part": "leaf",
+    "condition": "Gray leaf spot",
+    "kind": "disease"
+  },
+  "Maize | leaf | Healthy": {
+    "id": 177,
+    "crop": "Maize",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Maize | leaf | Maize lethal necrosis": {
+    "id": 178,
+    "crop": "Maize",
+    "part": "leaf",
+    "condition": "Maize lethal necrosis",
+    "kind": "disease"
+  },
+  "Maize | leaf | Maize streak virus": {
+    "id": 179,
+    "crop": "Maize",
+    "part": "leaf",
+    "condition": "Maize streak virus",
+    "kind": "disease"
+  },
+  "Maize | leaf | Northern leaf blight": {
+    "id": 180,
+    "crop": "Maize",
+    "part": "leaf",
+    "condition": "Northern leaf blight",
+    "kind": "disease"
+  },
+  "Maize | leaf | Southern corn leaf blight": {
+    "id": 181,
+    "crop": "Maize",
+    "part": "leaf",
+    "condition": "Southern corn leaf blight",
+    "kind": "disease"
+  },
+  "Maize | stem | Banded leaf and sheath blight": {
+    "id": 182,
+    "crop": "Maize",
+    "part": "stem",
+    "condition": "Banded leaf and sheath blight",
+    "kind": "disease"
+  },
+  "Mango | leaf | Anthracnose": {
+    "id": 183,
+    "crop": "Mango",
+    "part": "leaf",
+    "condition": "Anthracnose",
+    "kind": "disease"
+  },
+  "Mango | leaf | Bacterial canker": {
+    "id": 184,
+    "crop": "Mango",
+    "part": "leaf",
+    "condition": "Bacterial canker",
+    "kind": "disease"
+  },
+  "Mango | leaf | Cutting weevil": {
+    "id": 185,
+    "crop": "Mango",
+    "part": "leaf",
+    "condition": "Cutting weevil",
+    "kind": "pest"
+  },
+  "Mango | leaf | Dieback": {
+    "id": 186,
+    "crop": "Mango",
+    "part": "leaf",
+    "condition": "Dieback",
+    "kind": "disease"
+  },
+  "Mango | leaf | Gall midge": {
+    "id": 187,
+    "crop": "Mango",
+    "part": "leaf",
+    "condition": "Gall midge",
+    "kind": "pest"
+  },
+  "Mango | leaf | Healthy": {
+    "id": 188,
+    "crop": "Mango",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Mango | leaf | Powdery mildew": {
+    "id": 189,
+    "crop": "Mango",
+    "part": "leaf",
+    "condition": "Powdery mildew",
+    "kind": "disease"
+  },
+  "Mango | leaf | Sooty mould": {
+    "id": 190,
+    "crop": "Mango",
+    "part": "leaf",
+    "condition": "Sooty mould",
+    "kind": "disease"
+  },
+  "Okra | leaf | Alternaria leaf spot": {
+    "id": 191,
+    "crop": "Okra",
+    "part": "leaf",
+    "condition": "Alternaria leaf spot",
+    "kind": "disease"
+  },
+  "Okra | leaf | Leaf curl virus": {
+    "id": 192,
+    "crop": "Okra",
+    "part": "leaf",
+    "condition": "Leaf curl virus",
+    "kind": "disease"
+  },
+  "Okra | leaf | Phyllosticta leaf spot": {
+    "id": 193,
+    "crop": "Okra",
+    "part": "leaf",
+    "condition": "Phyllosticta leaf spot",
+    "kind": "disease"
+  },
+  "Onion | leaf | Healthy": {
+    "id": 194,
+    "crop": "Onion",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Onion | leaf | Iris yellow spot virus": {
+    "id": 195,
+    "crop": "Onion",
+    "part": "leaf",
+    "condition": "Iris yellow spot virus",
+    "kind": "disease"
+  },
+  "Onion | leaf | Stemphylium / anthracnose leaf blight": {
+    "id": 196,
+    "crop": "Onion",
+    "part": "leaf",
+    "condition": "Stemphylium / anthracnose leaf blight",
+    "kind": "disease"
+  },
+  "Orange | leaf | Dieback": {
+    "id": 197,
+    "crop": "Orange",
+    "part": "leaf",
+    "condition": "Dieback",
+    "kind": "disease"
+  },
+  "Orange | leaf | Healthy": {
+    "id": 198,
+    "crop": "Orange",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Orange | leaf | Huanglongbing (citrus greening)": {
+    "id": 199,
+    "crop": "Orange",
+    "part": "leaf",
+    "condition": "Huanglongbing (citrus greening)",
+    "kind": "disease"
+  },
+  "Orange | leaf | Mealybug": {
+    "id": 200,
+    "crop": "Orange",
+    "part": "leaf",
+    "condition": "Mealybug",
+    "kind": "pest"
+  },
+  "Orange | leaf | Powdery mildew": {
+    "id": 201,
+    "crop": "Orange",
+    "part": "leaf",
+    "condition": "Powdery mildew",
+    "kind": "disease"
+  },
+  "Orange | leaf | Shot hole": {
+    "id": 202,
+    "crop": "Orange",
+    "part": "leaf",
+    "condition": "Shot hole",
+    "kind": "disease"
+  },
+  "Orange | leaf | Spiny whitefly": {
+    "id": 203,
+    "crop": "Orange",
+    "part": "leaf",
+    "condition": "Spiny whitefly",
+    "kind": "pest"
+  },
+  "Papaya | leaf | Healthy": {
+    "id": 204,
+    "crop": "Papaya",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Papaya | leaf | Leaf curl virus": {
+    "id": 205,
+    "crop": "Papaya",
+    "part": "leaf",
+    "condition": "Leaf curl virus",
+    "kind": "disease"
+  },
+  "Papaya | leaf | Mealybug": {
+    "id": 206,
+    "crop": "Papaya",
+    "part": "leaf",
+    "condition": "Mealybug",
+    "kind": "pest"
+  },
+  "Papaya | leaf | Mites": {
+    "id": 207,
+    "crop": "Papaya",
+    "part": "leaf",
+    "condition": "Mites",
+    "kind": "pest"
+  },
+  "Papaya | leaf | Mosaic virus": {
+    "id": 208,
+    "crop": "Papaya",
+    "part": "leaf",
+    "condition": "Mosaic virus",
+    "kind": "disease"
+  },
+  "Papaya | leaf | Ringspot virus": {
+    "id": 209,
+    "crop": "Papaya",
+    "part": "leaf",
+    "condition": "Ringspot virus",
+    "kind": "disease"
+  },
+  "Peach | leaf | Bacterial spot": {
+    "id": 210,
+    "crop": "Peach",
+    "part": "leaf",
+    "condition": "Bacterial spot",
+    "kind": "disease"
+  },
+  "Peach | leaf | Healthy": {
+    "id": 211,
+    "crop": "Peach",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Plum | leaf | Healthy": {
+    "id": 212,
+    "crop": "Plum",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Pomegranate | fruit | Anthracnose": {
+    "id": 213,
+    "crop": "Pomegranate",
+    "part": "fruit",
+    "condition": "Anthracnose",
+    "kind": "disease"
+  },
+  "Pomegranate | fruit | Bacterial blight": {
+    "id": 214,
+    "crop": "Pomegranate",
+    "part": "fruit",
+    "condition": "Bacterial blight",
+    "kind": "disease"
+  },
+  "Pomegranate | fruit | Carob moth": {
+    "id": 215,
+    "crop": "Pomegranate",
+    "part": "fruit",
+    "condition": "Carob moth",
+    "kind": "pest"
+  },
+  "Pomegranate | fruit | Healthy": {
+    "id": 216,
+    "crop": "Pomegranate",
+    "part": "fruit",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Pomegranate | fruit | Sunburn": {
+    "id": 217,
+    "crop": "Pomegranate",
+    "part": "fruit",
+    "condition": "Sunburn",
+    "kind": "abiotic"
+  },
+  "Potato | leaf | Early blight": {
+    "id": 218,
+    "crop": "Potato",
+    "part": "leaf",
+    "condition": "Early blight",
+    "kind": "disease"
+  },
+  "Potato | leaf | Healthy": {
+    "id": 219,
+    "crop": "Potato",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Potato | leaf | Late blight": {
+    "id": 220,
+    "crop": "Potato",
+    "part": "leaf",
+    "condition": "Late blight",
+    "kind": "disease"
+  },
+  "Potato | tuber | Black scurf": {
+    "id": 221,
+    "crop": "Potato",
+    "part": "tuber",
+    "condition": "Black scurf",
+    "kind": "disease"
+  },
+  "Potato | tuber | Blackleg": {
+    "id": 222,
+    "crop": "Potato",
+    "part": "tuber",
+    "condition": "Blackleg",
+    "kind": "disease"
+  },
+  "Potato | tuber | Blackspot bruising": {
+    "id": 223,
+    "crop": "Potato",
+    "part": "tuber",
+    "condition": "Blackspot bruising",
+    "kind": "abiotic"
+  },
+  "Potato | tuber | Brown rot": {
+    "id": 224,
+    "crop": "Potato",
+    "part": "tuber",
+    "condition": "Brown rot",
+    "kind": "disease"
+  },
+  "Potato | tuber | Common scab": {
+    "id": 225,
+    "crop": "Potato",
+    "part": "tuber",
+    "condition": "Common scab",
+    "kind": "disease"
+  },
+  "Potato | tuber | Dry rot": {
+    "id": 226,
+    "crop": "Potato",
+    "part": "tuber",
+    "condition": "Dry rot",
+    "kind": "disease"
+  },
+  "Potato | tuber | Healthy": {
+    "id": 227,
+    "crop": "Potato",
+    "part": "tuber",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Potato | tuber | Pink rot": {
+    "id": 228,
+    "crop": "Potato",
+    "part": "tuber",
+    "condition": "Pink rot",
+    "kind": "disease"
+  },
+  "Potato | tuber | Soft rot": {
+    "id": 229,
+    "crop": "Potato",
+    "part": "tuber",
+    "condition": "Soft rot",
+    "kind": "disease"
+  },
+  "Radish | leaf | Black leaf spot": {
+    "id": 230,
+    "crop": "Radish",
+    "part": "leaf",
+    "condition": "Black leaf spot",
+    "kind": "disease"
+  },
+  "Radish | leaf | Downy mildew": {
+    "id": 231,
+    "crop": "Radish",
+    "part": "leaf",
+    "condition": "Downy mildew",
+    "kind": "disease"
+  },
+  "Radish | leaf | Flea beetles": {
+    "id": 232,
+    "crop": "Radish",
+    "part": "leaf",
+    "condition": "Flea beetles",
+    "kind": "pest"
+  },
+  "Radish | leaf | Healthy": {
+    "id": 233,
+    "crop": "Radish",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Radish | leaf | Mosaic virus": {
+    "id": 234,
+    "crop": "Radish",
+    "part": "leaf",
+    "condition": "Mosaic virus",
+    "kind": "disease"
+  },
+  "Raspberry | leaf | Healthy": {
+    "id": 235,
+    "crop": "Raspberry",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Rice | leaf | Bacterial leaf blight": {
+    "id": 236,
+    "crop": "Rice",
+    "part": "leaf",
+    "condition": "Bacterial leaf blight",
+    "kind": "disease"
+  },
+  "Rice | leaf | Bacterial leaf streak": {
+    "id": 237,
+    "crop": "Rice",
+    "part": "leaf",
+    "condition": "Bacterial leaf streak",
+    "kind": "disease"
+  },
+  "Rice | leaf | Brown spot": {
+    "id": 238,
+    "crop": "Rice",
+    "part": "leaf",
+    "condition": "Brown spot",
+    "kind": "disease"
+  },
+  "Rice | leaf | Downy mildew": {
+    "id": 239,
+    "crop": "Rice",
+    "part": "leaf",
+    "condition": "Downy mildew",
+    "kind": "disease"
+  },
+  "Rice | leaf | Healthy": {
+    "id": 240,
+    "crop": "Rice",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Rice | leaf | Leaf scald": {
+    "id": 241,
+    "crop": "Rice",
+    "part": "leaf",
+    "condition": "Leaf scald",
+    "kind": "disease"
+  },
+  "Rice | leaf | Narrow brown spot": {
+    "id": 242,
+    "crop": "Rice",
+    "part": "leaf",
+    "condition": "Narrow brown spot",
+    "kind": "disease"
+  },
+  "Rice | leaf | Rice blast": {
+    "id": 243,
+    "crop": "Rice",
+    "part": "leaf",
+    "condition": "Rice blast",
+    "kind": "disease"
+  },
+  "Rice | leaf | Rice hispa": {
+    "id": 244,
+    "crop": "Rice",
+    "part": "leaf",
+    "condition": "Rice hispa",
+    "kind": "pest"
+  },
+  "Rice | leaf | Rice leaffolder": {
+    "id": 245,
+    "crop": "Rice",
+    "part": "leaf",
+    "condition": "Rice leaffolder",
+    "kind": "pest"
+  },
+  "Rice | leaf | Stripe virus": {
+    "id": 246,
+    "crop": "Rice",
+    "part": "leaf",
+    "condition": "Stripe virus",
+    "kind": "disease"
+  },
+  "Rice | leaf | Tungro": {
+    "id": 247,
+    "crop": "Rice",
+    "part": "leaf",
+    "condition": "Tungro",
+    "kind": "disease"
+  },
+  "Rice | panicle | Bacterial panicle blight": {
+    "id": 248,
+    "crop": "Rice",
+    "part": "panicle",
+    "condition": "Bacterial panicle blight",
+    "kind": "disease"
+  },
+  "Rice | stem | Sheath blight": {
+    "id": 249,
+    "crop": "Rice",
+    "part": "stem",
+    "condition": "Sheath blight",
+    "kind": "disease"
+  },
+  "Rice | stem | Stem borer (dead heart)": {
+    "id": 250,
+    "crop": "Rice",
+    "part": "stem",
+    "condition": "Stem borer (dead heart)",
+    "kind": "pest"
+  },
+  "Rose | leaf | Black spot": {
+    "id": 251,
+    "crop": "Rose",
+    "part": "leaf",
+    "condition": "Black spot",
+    "kind": "disease"
+  },
+  "Rose | leaf | Healthy": {
+    "id": 252,
+    "crop": "Rose",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Rose | leaf | Insect holes": {
+    "id": 253,
+    "crop": "Rose",
+    "part": "leaf",
+    "condition": "Insect holes",
+    "kind": "pest"
+  },
+  "Soybean | leaf | Healthy": {
+    "id": 254,
+    "crop": "Soybean",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Soybean | leaf | Mosaic virus": {
+    "id": 255,
+    "crop": "Soybean",
+    "part": "leaf",
+    "condition": "Mosaic virus",
+    "kind": "disease"
+  },
+  "Soybean | leaf | Semilooper caterpillar": {
+    "id": 256,
+    "crop": "Soybean",
+    "part": "leaf",
+    "condition": "Semilooper caterpillar",
+    "kind": "pest"
+  },
+  "Spinach | leaf | Anthracnose": {
+    "id": 257,
+    "crop": "Spinach",
+    "part": "leaf",
+    "condition": "Anthracnose",
+    "kind": "disease"
+  },
+  "Spinach | leaf | Bacterial spot": {
+    "id": 258,
+    "crop": "Spinach",
+    "part": "leaf",
+    "condition": "Bacterial spot",
+    "kind": "disease"
+  },
+  "Spinach | leaf | Downy mildew": {
+    "id": 259,
+    "crop": "Spinach",
+    "part": "leaf",
+    "condition": "Downy mildew",
+    "kind": "disease"
+  },
+  "Spinach | leaf | Healthy": {
+    "id": 260,
+    "crop": "Spinach",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Spinach | leaf | Insect damage": {
+    "id": 261,
+    "crop": "Spinach",
+    "part": "leaf",
+    "condition": "Insect damage",
+    "kind": "pest"
+  },
+  "Sponge gourd | leaf | Alternaria leaf spot": {
+    "id": 262,
+    "crop": "Sponge gourd",
+    "part": "leaf",
+    "condition": "Alternaria leaf spot",
+    "kind": "disease"
+  },
+  "Sponge gourd | leaf | Angular leaf spot": {
+    "id": 263,
+    "crop": "Sponge gourd",
+    "part": "leaf",
+    "condition": "Angular leaf spot",
+    "kind": "disease"
+  },
+  "Sponge gourd | leaf | Healthy": {
+    "id": 264,
+    "crop": "Sponge gourd",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Sponge gourd | leaf | Insect holes": {
+    "id": 265,
+    "crop": "Sponge gourd",
+    "part": "leaf",
+    "condition": "Insect holes",
+    "kind": "pest"
+  },
+  "Sponge gourd | leaf | Mosaic virus": {
+    "id": 266,
+    "crop": "Sponge gourd",
+    "part": "leaf",
+    "condition": "Mosaic virus",
+    "kind": "disease"
+  },
+  "Squash | leaf | Powdery mildew": {
+    "id": 267,
+    "crop": "Squash",
+    "part": "leaf",
+    "condition": "Powdery mildew",
+    "kind": "disease"
+  },
+  "Strawberry | leaf | Healthy": {
+    "id": 268,
+    "crop": "Strawberry",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Strawberry | leaf | Leaf scorch": {
+    "id": 269,
+    "crop": "Strawberry",
+    "part": "leaf",
+    "condition": "Leaf scorch",
+    "kind": "disease"
+  },
+  "Sugarcane | leaf | Banded chlorosis": {
+    "id": 270,
+    "crop": "Sugarcane",
+    "part": "leaf",
+    "condition": "Banded chlorosis",
+    "kind": "abiotic"
+  },
+  "Sugarcane | leaf | Brown rust": {
+    "id": 271,
+    "crop": "Sugarcane",
+    "part": "leaf",
+    "condition": "Brown rust",
+    "kind": "disease"
+  },
+  "Sugarcane | leaf | Brown spot": {
+    "id": 272,
+    "crop": "Sugarcane",
+    "part": "leaf",
+    "condition": "Brown spot",
+    "kind": "disease"
+  },
+  "Sugarcane | leaf | Healthy": {
+    "id": 273,
+    "crop": "Sugarcane",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Sugarcane | leaf | Pokkah boeng": {
+    "id": 274,
+    "crop": "Sugarcane",
+    "part": "leaf",
+    "condition": "Pokkah boeng",
+    "kind": "disease"
+  },
+  "Sugarcane | leaf | Viral disease (mosaic)": {
+    "id": 275,
+    "crop": "Sugarcane",
+    "part": "leaf",
+    "condition": "Viral disease (mosaic)",
+    "kind": "disease"
+  },
+  "Sugarcane | leaf | Yellow leaf disease": {
+    "id": 276,
+    "crop": "Sugarcane",
+    "part": "leaf",
+    "condition": "Yellow leaf disease",
+    "kind": "disease"
+  },
+  "Sugarcane | stem | Sett rot": {
+    "id": 277,
+    "crop": "Sugarcane",
+    "part": "stem",
+    "condition": "Sett rot",
+    "kind": "disease"
+  },
+  "Sugarcane | stem | Smut": {
+    "id": 278,
+    "crop": "Sugarcane",
+    "part": "stem",
+    "condition": "Smut",
+    "kind": "disease"
+  },
+  "Sugarcane | whole plant | Grassy shoot": {
+    "id": 279,
+    "crop": "Sugarcane",
+    "part": "whole plant",
+    "condition": "Grassy shoot",
+    "kind": "disease"
+  },
+  "Sunflower | leaf | Downy mildew": {
+    "id": 280,
+    "crop": "Sunflower",
+    "part": "leaf",
+    "condition": "Downy mildew",
+    "kind": "disease"
+  },
+  "Sunflower | leaf | Gray mold": {
+    "id": 281,
+    "crop": "Sunflower",
+    "part": "leaf",
+    "condition": "Gray mold",
+    "kind": "disease"
+  },
+  "Sunflower | leaf | Healthy": {
+    "id": 282,
+    "crop": "Sunflower",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Taro | leaf | Healthy": {
+    "id": 283,
+    "crop": "Taro",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Taro | leaf | Taro leaf blight": {
+    "id": 284,
+    "crop": "Taro",
+    "part": "leaf",
+    "condition": "Taro leaf blight",
+    "kind": "disease"
+  },
+  "Tea | leaf | Algal leaf spot": {
+    "id": 285,
+    "crop": "Tea",
+    "part": "leaf",
+    "condition": "Algal leaf spot",
+    "kind": "disease"
+  },
+  "Tea | leaf | Brown blight": {
+    "id": 286,
+    "crop": "Tea",
+    "part": "leaf",
+    "condition": "Brown blight",
+    "kind": "disease"
+  },
+  "Tea | leaf | Green mirid bug": {
+    "id": 287,
+    "crop": "Tea",
+    "part": "leaf",
+    "condition": "Green mirid bug",
+    "kind": "pest"
+  },
+  "Tea | leaf | Grey blight": {
+    "id": 288,
+    "crop": "Tea",
+    "part": "leaf",
+    "condition": "Grey blight",
+    "kind": "disease"
+  },
+  "Tea | leaf | Healthy": {
+    "id": 289,
+    "crop": "Tea",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Tea | leaf | Red leaf spot": {
+    "id": 290,
+    "crop": "Tea",
+    "part": "leaf",
+    "condition": "Red leaf spot",
+    "kind": "disease"
+  },
+  "Tea | leaf | Red spider mite": {
+    "id": 291,
+    "crop": "Tea",
+    "part": "leaf",
+    "condition": "Red spider mite",
+    "kind": "pest"
+  },
+  "Tea | leaf | Tea mosquito bug (Helopeltis)": {
+    "id": 292,
+    "crop": "Tea",
+    "part": "leaf",
+    "condition": "Tea mosquito bug (Helopeltis)",
+    "kind": "pest"
+  },
+  "Tomato | leaf | Bacterial spot": {
+    "id": 293,
+    "crop": "Tomato",
+    "part": "leaf",
+    "condition": "Bacterial spot",
+    "kind": "disease"
+  },
+  "Tomato | leaf | Early blight": {
+    "id": 294,
+    "crop": "Tomato",
+    "part": "leaf",
+    "condition": "Early blight",
+    "kind": "disease"
+  },
+  "Tomato | leaf | Healthy": {
+    "id": 295,
+    "crop": "Tomato",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Tomato | leaf | Late blight": {
+    "id": 296,
+    "crop": "Tomato",
+    "part": "leaf",
+    "condition": "Late blight",
+    "kind": "disease"
+  },
+  "Tomato | leaf | Leaf mold": {
+    "id": 297,
+    "crop": "Tomato",
+    "part": "leaf",
+    "condition": "Leaf mold",
+    "kind": "disease"
+  },
+  "Tomato | leaf | Mosaic virus": {
+    "id": 298,
+    "crop": "Tomato",
+    "part": "leaf",
+    "condition": "Mosaic virus",
+    "kind": "disease"
+  },
+  "Tomato | leaf | Septoria leaf spot": {
+    "id": 299,
+    "crop": "Tomato",
+    "part": "leaf",
+    "condition": "Septoria leaf spot",
+    "kind": "disease"
+  },
+  "Tomato | leaf | Target spot": {
+    "id": 300,
+    "crop": "Tomato",
+    "part": "leaf",
+    "condition": "Target spot",
+    "kind": "disease"
+  },
+  "Tomato | leaf | Two-spotted spider mite": {
+    "id": 301,
+    "crop": "Tomato",
+    "part": "leaf",
+    "condition": "Two-spotted spider mite",
+    "kind": "pest"
+  },
+  "Tomato | leaf | Yellow leaf curl virus": {
+    "id": 302,
+    "crop": "Tomato",
+    "part": "leaf",
+    "condition": "Yellow leaf curl virus",
+    "kind": "disease"
+  },
+  "Turmeric | leaf | Aphids": {
+    "id": 303,
+    "crop": "Turmeric",
+    "part": "leaf",
+    "condition": "Aphids",
+    "kind": "pest"
+  },
+  "Turmeric | leaf | Healthy": {
+    "id": 304,
+    "crop": "Turmeric",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Turmeric | leaf | Leaf blotch": {
+    "id": 305,
+    "crop": "Turmeric",
+    "part": "leaf",
+    "condition": "Leaf blotch",
+    "kind": "disease"
+  },
+  "Turmeric | rhizome | Healthy": {
+    "id": 306,
+    "crop": "Turmeric",
+    "part": "rhizome",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Turmeric | rhizome | Rhizome rot": {
+    "id": 307,
+    "crop": "Turmeric",
+    "part": "rhizome",
+    "condition": "Rhizome rot",
+    "kind": "disease"
+  },
+  "Watermelon | leaf | Anthracnose": {
+    "id": 308,
+    "crop": "Watermelon",
+    "part": "leaf",
+    "condition": "Anthracnose",
+    "kind": "disease"
+  },
+  "Watermelon | leaf | Downy mildew": {
+    "id": 309,
+    "crop": "Watermelon",
+    "part": "leaf",
+    "condition": "Downy mildew",
+    "kind": "disease"
+  },
+  "Watermelon | leaf | Healthy": {
+    "id": 310,
+    "crop": "Watermelon",
+    "part": "leaf",
+    "condition": "Healthy",
+    "kind": "healthy"
+  },
+  "Watermelon | leaf | Mosaic virus": {
+    "id": 311,
+    "crop": "Watermelon",
+    "part": "leaf",
+    "condition": "Mosaic virus",
+    "kind": "disease"
+  },
+  "Not a plant": {
+    "id": 312,
+    "crop": "Not a plant",
+    "part": "none",
+    "condition": "Not a plant",
+    "kind": "nonplant"
+  }
+}

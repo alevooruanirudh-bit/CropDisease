@@ -1,0 +1,598 @@
+path,split,class_name,coverage,method
+Anthracnose/IMG_20211008_113726 (Custom).jpg,train,Anthracnose,0.04639322916666667,borb_original
+Anthracnose/IMG_20211011_140606 (Custom).jpg,train,Anthracnose,0.04251302083333333,borb_original
+Anthracnose/IMG_20211011_140610 (Custom).jpg,train,Anthracnose,0.03723958333333333,borb_original
+Anthracnose/IMG_20211011_140614 (Custom).jpg,train,Anthracnose,0.04743489583333333,borb_original
+Anthracnose/IMG_20211011_140621 (Custom).jpg,train,Anthracnose,0.0437890625,borb_original
+Bacterial Canker/IMG_20211106_142714 (Custom).jpg,train,Bacterial Canker,0.038776041666666664,borb_original
+Bacterial Canker/IMG_20211106_142924 (Custom).jpg,train,Bacterial Canker,0.0496875,borb_original
+Bacterial Canker/IMG_20211106_142956 (Custom).jpg,train,Bacterial Canker,0.049440104166666665,borb_original
+Bacterial Canker/IMG_20211106_142959 (Custom).jpg,train,Bacterial Canker,0.043203125,borb_original
+Cutting Weevil/20211011_160614 (Custom) (Custom).jpg,train,Cutting Weevil,0.04439236111111111,borb_original
+Cutting Weevil/20211011_160614 (Custom).jpg,train,Cutting Weevil,0.04453125,borb_original
+Cutting Weevil/20211011_160625 (Custom) (Custom).jpg,train,Cutting Weevil,0.03953125,borb_original
+Cutting Weevil/20211011_160625 (Custom).jpg,train,Cutting Weevil,0.03979166666666667,borb_original
+Cutting Weevil/20211011_160852 (Custom) (Custom).jpg,train,Cutting Weevil,0.025190972222222222,borb_original
+Cutting Weevil/20211011_160852 (Custom).jpg,train,Cutting Weevil,0.025121527777777777,borb_original
+Cutting Weevil/20211011_160903(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.02171875,borb_original
+Cutting Weevil/20211011_160903(0) (Custom).jpg,train,Cutting Weevil,0.021614583333333333,borb_original
+Cutting Weevil/20211011_160904(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.020711805555555556,borb_original
+Cutting Weevil/20211011_160904(0) (Custom).jpg,train,Cutting Weevil,0.020694444444444446,borb_original
+Cutting Weevil/20211011_160914 (Custom) (Custom).jpg,train,Cutting Weevil,0.023125,borb_original
+Cutting Weevil/20211011_160914 (Custom).jpg,train,Cutting Weevil,0.023177083333333334,borb_original
+Cutting Weevil/20211011_160933 (Custom) (Custom).jpg,train,Cutting Weevil,0.020104166666666666,borb_original
+Cutting Weevil/20211011_160933 (Custom).jpg,train,Cutting Weevil,0.020243055555555556,borb_original
+Cutting Weevil/20211011_160942 (Custom) (Custom).jpg,train,Cutting Weevil,0.039184027777777776,borb_original
+Cutting Weevil/20211011_160942 (Custom).jpg,train,Cutting Weevil,0.039288194444444445,borb_original
+Cutting Weevil/20211011_161128 (Custom) (Custom).jpg,train,Cutting Weevil,0.028732638888888887,borb_original
+Cutting Weevil/20211011_161128 (Custom).jpg,train,Cutting Weevil,0.028888888888888888,borb_original
+Cutting Weevil/20211011_161140 (Custom) (Custom).jpg,train,Cutting Weevil,0.04362847222222222,borb_original
+Cutting Weevil/20211011_161140 (Custom).jpg,train,Cutting Weevil,0.04373263888888889,borb_original
+Cutting Weevil/20211011_161142 (Custom) (Custom).jpg,train,Cutting Weevil,0.04487847222222222,borb_original
+Cutting Weevil/20211011_161142 (Custom).jpg,train,Cutting Weevil,0.04491319444444444,borb_original
+Cutting Weevil/20211011_161145 (Custom) (Custom).jpg,train,Cutting Weevil,0.03923611111111111,borb_original
+Cutting Weevil/20211011_161145 (Custom).jpg,train,Cutting Weevil,0.039427083333333335,borb_original
+Cutting Weevil/20211011_161145(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.03704861111111111,borb_original
+Cutting Weevil/20211011_161145(0) (Custom).jpg,train,Cutting Weevil,0.03701388888888889,borb_original
+Cutting Weevil/20211011_161147 (Custom) (Custom).jpg,train,Cutting Weevil,0.04809027777777778,borb_original
+Cutting Weevil/20211011_161147 (Custom).jpg,train,Cutting Weevil,0.048038194444444446,borb_original
+Cutting Weevil/20211011_161155 (Custom) (Custom).jpg,train,Cutting Weevil,0.03392361111111111,borb_original
+Cutting Weevil/20211011_161155 (Custom).jpg,train,Cutting Weevil,0.034027777777777775,borb_original
+Cutting Weevil/20211011_161206 (Custom) (Custom).jpg,train,Cutting Weevil,0.04477430555555555,borb_original
+Cutting Weevil/20211011_161206 (Custom).jpg,train,Cutting Weevil,0.04482638888888889,borb_original
+Cutting Weevil/20211011_161207 (Custom) (Custom).jpg,train,Cutting Weevil,0.03630208333333333,borb_original
+Cutting Weevil/20211011_161207 (Custom).jpg,train,Cutting Weevil,0.036284722222222225,borb_original
+Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.04921875,borb_original
+Cutting Weevil/20211011_161210(0) (Custom).jpg,train,Cutting Weevil,0.04925347222222222,borb_original
+Cutting Weevil/20211011_161243 (Custom) (Custom).jpg,train,Cutting Weevil,0.045989583333333334,borb_original
+Cutting Weevil/20211011_161243 (Custom).jpg,train,Cutting Weevil,0.04600694444444445,borb_original
+Cutting Weevil/20211011_161245 (Custom) (Custom).jpg,train,Cutting Weevil,0.046232638888888886,borb_original
+Cutting Weevil/20211011_161245 (Custom).jpg,train,Cutting Weevil,0.04640625,borb_original
+Cutting Weevil/20211011_161246 (Custom) (Custom).jpg,train,Cutting Weevil,0.04020833333333333,borb_original
+Cutting Weevil/20211011_161246 (Custom).jpg,train,Cutting Weevil,0.04029513888888889,borb_original
+Cutting Weevil/20211011_161735 (Custom) (Custom).jpg,train,Cutting Weevil,0.036822916666666664,borb_original
+Cutting Weevil/20211011_161735 (Custom).jpg,train,Cutting Weevil,0.03690972222222222,borb_original
+Cutting Weevil/20211011_162308 (Custom) (Custom).jpg,train,Cutting Weevil,0.023802083333333335,borb_original
+Cutting Weevil/20211011_162308 (Custom).jpg,train,Cutting Weevil,0.02392361111111111,borb_original
+Cutting Weevil/20211011_162329 (Custom) (Custom).jpg,train,Cutting Weevil,0.04182291666666667,borb_original
+Cutting Weevil/20211011_162329 (Custom).jpg,train,Cutting Weevil,0.04190972222222222,borb_original
+Cutting Weevil/20211011_162612 (Custom) (Custom).jpg,train,Cutting Weevil,0.01840277777777778,borb_original
+Cutting Weevil/20211011_162612 (Custom).jpg,train,Cutting Weevil,0.0184375,borb_original
+Cutting Weevil/20211011_162617(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.03123263888888889,borb_original
+Cutting Weevil/20211011_162617(0) (Custom).jpg,train,Cutting Weevil,0.031336805555555555,borb_original
+Cutting Weevil/20211011_162620(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.02763888888888889,borb_original
+Cutting Weevil/20211011_162620(0) (Custom).jpg,train,Cutting Weevil,0.027621527777777776,borb_original
+Cutting Weevil/20211011_162625 (Custom) (Custom).jpg,train,Cutting Weevil,0.04904513888888889,borb_original
+Cutting Weevil/20211011_162625 (Custom).jpg,train,Cutting Weevil,0.048993055555555554,borb_original
+Die Back/20211129_160820 (Custom).jpg,train,Die Back,0.04984375,borb_original
+Die Back/20211129_160856 (Custom).jpg,train,Die Back,0.04951388888888889,borb_original
+Die Back/20211129_160859 (Custom).jpg,train,Die Back,0.044409722222222225,borb_original
+Die Back/20211129_160905 (Custom).jpg,train,Die Back,0.0496875,borb_original
+Die Back/20211129_161706 (Custom).jpg,train,Die Back,0.048003472222222225,borb_original
+Die Back/20211129_161755 (Custom).jpg,train,Die Back,0.04203125,borb_original
+Die Back/20211129_163744 (Custom).jpg,train,Die Back,0.04765625,borb_original
+Anthracnose/IMG_20211011_140510 (Custom).jpg,val,Anthracnose,0.048919270833333334,borb_original
+Bacterial Canker/IMG_20211106_134722 (Custom).jpg,val,Bacterial Canker,0.04872395833333333,borb_original
+Bacterial Canker/IMG_20211106_142921 (Custom).jpg,val,Bacterial Canker,0.04864583333333333,borb_original
+Cutting Weevil/20211011_160853 (Custom) (Custom).jpg,val,Cutting Weevil,0.02829861111111111,borb_original
+Cutting Weevil/20211011_160853 (Custom).jpg,val,Cutting Weevil,0.028246527777777777,borb_original
+Cutting Weevil/20211011_160904 (Custom) (Custom).jpg,val,Cutting Weevil,0.01628472222222222,borb_original
+Cutting Weevil/20211011_160904 (Custom).jpg,val,Cutting Weevil,0.016145833333333335,borb_original
+Cutting Weevil/20211011_161126 (Custom) (Custom).jpg,val,Cutting Weevil,0.046892361111111114,borb_original
+Cutting Weevil/20211011_161126 (Custom).jpg,val,Cutting Weevil,0.046961805555555555,borb_original
+Cutting Weevil/20211011_161127 (Custom) (Custom).jpg,val,Cutting Weevil,0.03711805555555556,borb_original
+Cutting Weevil/20211011_161127 (Custom).jpg,val,Cutting Weevil,0.03710069444444444,borb_original
+Cutting Weevil/20211011_161140(0) (Custom) (Custom).jpg,val,Cutting Weevil,0.04739583333333333,borb_original
+Cutting Weevil/20211011_161140(0) (Custom).jpg,val,Cutting Weevil,0.04753472222222222,borb_original
+Cutting Weevil/20211011_161146 (Custom) (Custom).jpg,val,Cutting Weevil,0.04461805555555556,borb_original
+Cutting Weevil/20211011_161146 (Custom).jpg,val,Cutting Weevil,0.04477430555555555,borb_original
+Cutting Weevil/20211011_161242 (Custom) (Custom).jpg,val,Cutting Weevil,0.0490625,borb_original
+Cutting Weevil/20211011_161242 (Custom).jpg,val,Cutting Weevil,0.04920138888888889,borb_original
+Cutting Weevil/20211011_161243(0) (Custom).jpg,val,Cutting Weevil,0.049930555555555554,borb_original
+Cutting Weevil/20211011_161309 (Custom) (Custom).jpg,val,Cutting Weevil,0.046927083333333335,borb_original
+Cutting Weevil/20211011_161309 (Custom).jpg,val,Cutting Weevil,0.046875,borb_original
+Cutting Weevil/20211011_162552 (Custom) (Custom).jpg,val,Cutting Weevil,0.03692708333333333,borb_original
+Cutting Weevil/20211011_162552 (Custom).jpg,val,Cutting Weevil,0.037135416666666664,borb_original
+Cutting Weevil/20211011_170153 (Custom) (Custom).jpg,val,Cutting Weevil,0.04189236111111111,borb_original
+Cutting Weevil/20211011_170153 (Custom).jpg,val,Cutting Weevil,0.04170138888888889,borb_original
+Die Back/20211129_160558 (Custom).jpg,val,Die Back,0.04901041666666667,borb_original
+Die Back/20211129_160910 (Custom).jpg,val,Die Back,0.04888888888888889,borb_original
+Die Back/20211129_162827 (Custom).jpg,val,Die Back,0.03892361111111111,borb_original
+Bacterial Canker/IMG_20211106_135325 (Custom).jpg,test,Bacterial Canker,0.0433984375,borb_original
+Bacterial Canker/IMG_20211106_142928 (Custom).jpg,test,Bacterial Canker,0.04627604166666666,borb_original
+Cutting Weevil/20211011_160915 (Custom) (Custom).jpg,test,Cutting Weevil,0.027777777777777776,borb_original
+Cutting Weevil/20211011_160915 (Custom).jpg,test,Cutting Weevil,0.02782986111111111,borb_original
+Cutting Weevil/20211011_161141 (Custom) (Custom).jpg,test,Cutting Weevil,0.04142361111111111,borb_original
+Cutting Weevil/20211011_161141 (Custom).jpg,test,Cutting Weevil,0.04151041666666667,borb_original
+Cutting Weevil/20211011_161150 (Custom) (Custom).jpg,test,Cutting Weevil,0.04909722222222222,borb_original
+Cutting Weevil/20211011_161150 (Custom).jpg,test,Cutting Weevil,0.049114583333333336,borb_original
+Cutting Weevil/20211011_161205 (Custom) (Custom).jpg,test,Cutting Weevil,0.04388888888888889,borb_original
+Cutting Weevil/20211011_161205 (Custom).jpg,test,Cutting Weevil,0.04394097222222222,borb_original
+Cutting Weevil/20211011_161245(0) (Custom) (Custom).jpg,test,Cutting Weevil,0.04100694444444444,borb_original
+Cutting Weevil/20211011_161245(0) (Custom).jpg,test,Cutting Weevil,0.04102430555555556,borb_original
+Cutting Weevil/20211011_161410 (Custom) (Custom).jpg,test,Cutting Weevil,0.03815972222222222,borb_original
+Cutting Weevil/20211011_161410 (Custom).jpg,test,Cutting Weevil,0.038177083333333334,borb_original
+Cutting Weevil/20211011_161641 (Custom) (Custom).jpg,test,Cutting Weevil,0.043402777777777776,borb_original
+Cutting Weevil/20211011_161641 (Custom).jpg,test,Cutting Weevil,0.043645833333333335,borb_original
+Cutting Weevil/20211011_161744 (Custom) (Custom).jpg,test,Cutting Weevil,0.04805555555555555,borb_original
+Cutting Weevil/20211011_161744 (Custom).jpg,test,Cutting Weevil,0.04805555555555555,borb_original
+Cutting Weevil/20211011_162616 (Custom) (Custom).jpg,test,Cutting Weevil,0.021388888888888888,borb_original
+Cutting Weevil/20211011_162616 (Custom).jpg,test,Cutting Weevil,0.021475694444444443,borb_original
+Die Back/20211129_160816 (Custom).jpg,test,Die Back,0.041979166666666665,borb_original
+Die Back/20211129_161747 (Custom).jpg,test,Die Back,0.04954861111111111,borb_original
+Anthracnose/IMG_20211011_140606 (Custom).jpg,train,Anthracnose,0.039036458333333336,borb_plus
+Anthracnose/IMG_20211011_140610 (Custom).jpg,train,Anthracnose,0.033463541666666666,borb_plus
+Anthracnose/IMG_20211011_140614 (Custom).jpg,train,Anthracnose,0.046171875,borb_plus
+Anthracnose/IMG_20211011_140621 (Custom).jpg,train,Anthracnose,0.0387109375,borb_plus
+Anthracnose/IMG_20211011_140624 (Custom).jpg,train,Anthracnose,0.035872395833333334,borb_plus
+Bacterial Canker/IMG_20211106_135326 (Custom).jpg,train,Bacterial Canker,0.031653645833333334,borb_plus
+Bacterial Canker/IMG_20211106_141631 (Custom).jpg,train,Bacterial Canker,0.0489453125,borb_plus
+Bacterial Canker/IMG_20211106_142714 (Custom).jpg,train,Bacterial Canker,0.027669270833333332,borb_plus
+Bacterial Canker/IMG_20211106_142914 (Custom).jpg,train,Bacterial Canker,0.04407552083333333,borb_plus
+Bacterial Canker/IMG_20211106_142919 (Custom).jpg,train,Bacterial Canker,0.0459765625,borb_plus
+Bacterial Canker/IMG_20211106_142922 (Custom).jpg,train,Bacterial Canker,0.04388020833333333,borb_plus
+Bacterial Canker/IMG_20211106_142924 (Custom).jpg,train,Bacterial Canker,0.0429296875,borb_plus
+Bacterial Canker/IMG_20211106_142954 (Custom).jpg,train,Bacterial Canker,0.046796875,borb_plus
+Bacterial Canker/IMG_20211106_142956 (Custom).jpg,train,Bacterial Canker,0.037161458333333335,borb_plus
+Bacterial Canker/IMG_20211106_142959 (Custom).jpg,train,Bacterial Canker,0.03471354166666667,borb_plus
+Cutting Weevil/20211011_160852 (Custom) (Custom).jpg,train,Cutting Weevil,0.033993055555555554,borb_plus
+Cutting Weevil/20211011_160852 (Custom).jpg,train,Cutting Weevil,0.03239583333333333,borb_plus
+Cutting Weevil/20211011_160903(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.03017361111111111,borb_plus
+Cutting Weevil/20211011_160903(0) (Custom).jpg,train,Cutting Weevil,0.029097222222222222,borb_plus
+Cutting Weevil/20211011_160904(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.025208333333333333,borb_plus
+Cutting Weevil/20211011_160904(0) (Custom).jpg,train,Cutting Weevil,0.025225694444444443,borb_plus
+Cutting Weevil/20211011_160914 (Custom) (Custom).jpg,train,Cutting Weevil,0.03319444444444444,borb_plus
+Cutting Weevil/20211011_160914 (Custom).jpg,train,Cutting Weevil,0.032378472222222225,borb_plus
+Cutting Weevil/20211011_160933 (Custom) (Custom).jpg,train,Cutting Weevil,0.033819444444444444,borb_plus
+Cutting Weevil/20211011_160933 (Custom).jpg,train,Cutting Weevil,0.032864583333333336,borb_plus
+Cutting Weevil/20211011_160942 (Custom) (Custom).jpg,train,Cutting Weevil,0.04894097222222222,borb_plus
+Cutting Weevil/20211011_160942 (Custom).jpg,train,Cutting Weevil,0.047899305555555556,borb_plus
+Cutting Weevil/20211011_161128 (Custom) (Custom).jpg,train,Cutting Weevil,0.039253472222222224,borb_plus
+Cutting Weevil/20211011_161128 (Custom).jpg,train,Cutting Weevil,0.03850694444444445,borb_plus
+Cutting Weevil/20211011_161145 (Custom) (Custom).jpg,train,Cutting Weevil,0.04618055555555556,borb_plus
+Cutting Weevil/20211011_161145 (Custom).jpg,train,Cutting Weevil,0.045538194444444444,borb_plus
+Cutting Weevil/20211011_161145(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.04694444444444444,borb_plus
+Cutting Weevil/20211011_161145(0) (Custom).jpg,train,Cutting Weevil,0.04642361111111111,borb_plus
+Cutting Weevil/20211011_161155 (Custom) (Custom).jpg,train,Cutting Weevil,0.03927083333333333,borb_plus
+Cutting Weevil/20211011_161155 (Custom).jpg,train,Cutting Weevil,0.03892361111111111,borb_plus
+Cutting Weevil/20211011_161207 (Custom) (Custom).jpg,train,Cutting Weevil,0.04611111111111111,borb_plus
+Cutting Weevil/20211011_161207 (Custom).jpg,train,Cutting Weevil,0.04609375,borb_plus
+Cutting Weevil/20211011_161735 (Custom) (Custom).jpg,train,Cutting Weevil,0.043645833333333335,borb_plus
+Cutting Weevil/20211011_161735 (Custom).jpg,train,Cutting Weevil,0.04307291666666667,borb_plus
+Cutting Weevil/20211011_162308 (Custom) (Custom).jpg,train,Cutting Weevil,0.03012152777777778,borb_plus
+Cutting Weevil/20211011_162308 (Custom).jpg,train,Cutting Weevil,0.03017361111111111,borb_plus
+Cutting Weevil/20211011_162329 (Custom) (Custom).jpg,train,Cutting Weevil,0.04314236111111111,borb_plus
+Cutting Weevil/20211011_162329 (Custom).jpg,train,Cutting Weevil,0.042673611111111114,borb_plus
+Cutting Weevil/20211011_162612 (Custom) (Custom).jpg,train,Cutting Weevil,0.02347222222222222,borb_plus
+Cutting Weevil/20211011_162612 (Custom).jpg,train,Cutting Weevil,0.02357638888888889,borb_plus
+Cutting Weevil/20211011_162617(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.03888888888888889,borb_plus
+Cutting Weevil/20211011_162617(0) (Custom).jpg,train,Cutting Weevil,0.038315972222222223,borb_plus
+Cutting Weevil/20211011_162620(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.03217013888888889,borb_plus
+Cutting Weevil/20211011_162620(0) (Custom).jpg,train,Cutting Weevil,0.031927083333333335,borb_plus
+Die Back/20211129_160820 (Custom).jpg,train,Die Back,0.04829861111111111,borb_plus
+Die Back/20211129_160856 (Custom).jpg,train,Die Back,0.048315972222222225,borb_plus
+Die Back/20211129_160859 (Custom).jpg,train,Die Back,0.04352430555555555,borb_plus
+Die Back/20211129_160905 (Custom).jpg,train,Die Back,0.047204861111111114,borb_plus
+Die Back/20211129_161024 (Custom).jpg,train,Die Back,0.048663194444444446,borb_plus
+Die Back/20211129_161706 (Custom).jpg,train,Die Back,0.045989583333333334,borb_plus
+Die Back/20211129_161755 (Custom).jpg,train,Die Back,0.03975694444444444,borb_plus
+Die Back/20211129_163744 (Custom).jpg,train,Die Back,0.04196180555555556,borb_plus
+Anthracnose/IMG_20211011_140510 (Custom).jpg,val,Anthracnose,0.048984375,borb_plus
+Bacterial Canker/IMG_20211106_134722 (Custom).jpg,val,Bacterial Canker,0.04290364583333333,borb_plus
+Bacterial Canker/IMG_20211106_142921 (Custom).jpg,val,Bacterial Canker,0.0425390625,borb_plus
+Bacterial Canker/IMG_20211106_142926 (Custom).jpg,val,Bacterial Canker,0.04122395833333333,borb_plus
+Cutting Weevil/20211011_160853 (Custom) (Custom).jpg,val,Cutting Weevil,0.035138888888888886,borb_plus
+Cutting Weevil/20211011_160853 (Custom).jpg,val,Cutting Weevil,0.03498263888888889,borb_plus
+Cutting Weevil/20211011_160904 (Custom) (Custom).jpg,val,Cutting Weevil,0.019913194444444445,borb_plus
+Cutting Weevil/20211011_160904 (Custom).jpg,val,Cutting Weevil,0.01951388888888889,borb_plus
+Cutting Weevil/20211011_161127 (Custom) (Custom).jpg,val,Cutting Weevil,0.04871527777777778,borb_plus
+Cutting Weevil/20211011_161127 (Custom).jpg,val,Cutting Weevil,0.04743055555555555,borb_plus
+Cutting Weevil/20211011_170153 (Custom) (Custom).jpg,val,Cutting Weevil,0.04477430555555555,borb_plus
+Cutting Weevil/20211011_170153 (Custom).jpg,val,Cutting Weevil,0.04392361111111111,borb_plus
+Die Back/20211129_160558 (Custom).jpg,val,Die Back,0.04746527777777778,borb_plus
+Die Back/20211129_160910 (Custom).jpg,val,Die Back,0.04677083333333333,borb_plus
+Die Back/20211129_162127 (Custom).jpg,val,Die Back,0.04743055555555555,borb_plus
+Die Back/20211129_162827 (Custom).jpg,val,Die Back,0.03753472222222222,borb_plus
+Die Back/20211129_163749 (Custom).jpg,val,Die Back,0.046475694444444444,borb_plus
+Bacterial Canker/IMG_20211106_135325 (Custom).jpg,test,Bacterial Canker,0.03859375,borb_plus
+Bacterial Canker/IMG_20211106_142907 (Custom).jpg,test,Bacterial Canker,0.047278645833333334,borb_plus
+Bacterial Canker/IMG_20211106_142912 (Custom).jpg,test,Bacterial Canker,0.046484375,borb_plus
+Bacterial Canker/IMG_20211106_142928 (Custom).jpg,test,Bacterial Canker,0.036875,borb_plus
+Cutting Weevil/20211011_160915 (Custom) (Custom).jpg,test,Cutting Weevil,0.03675347222222222,borb_plus
+Cutting Weevil/20211011_160915 (Custom).jpg,test,Cutting Weevil,0.03588541666666667,borb_plus
+Cutting Weevil/20211011_161410 (Custom) (Custom).jpg,test,Cutting Weevil,0.04991319444444445,borb_plus
+Cutting Weevil/20211011_161410 (Custom).jpg,test,Cutting Weevil,0.04838541666666667,borb_plus
+Cutting Weevil/20211011_161744 (Custom).jpg,test,Cutting Weevil,0.04980902777777778,borb_plus
+Cutting Weevil/20211011_162616 (Custom) (Custom).jpg,test,Cutting Weevil,0.026493055555555554,borb_plus
+Cutting Weevil/20211011_162616 (Custom).jpg,test,Cutting Weevil,0.025972222222222223,borb_plus
+Die Back/20211129_160816 (Custom).jpg,test,Die Back,0.042847222222222224,borb_plus
+Die Back/20211129_160853 (Custom).jpg,test,Die Back,0.04178819444444445,borb_plus
+Die Back/20211129_161654 (Custom).jpg,test,Die Back,0.049166666666666664,borb_plus
+Die Back/20211129_161747 (Custom).jpg,test,Die Back,0.04694444444444444,borb_plus
+Die Back/20211129_162815 (Custom).jpg,test,Die Back,0.047204861111111114,borb_plus
+Die Back/20211129_163751 (Custom).jpg,test,Die Back,0.04928819444444445,borb_plus
+Anthracnose/IMG_20211008_113726 (Custom).jpg,train,Anthracnose,0.044934895833333335,borb_plus_no_chroma
+Anthracnose/IMG_20211011_140606 (Custom).jpg,train,Anthracnose,0.038515625,borb_plus_no_chroma
+Anthracnose/IMG_20211011_140610 (Custom).jpg,train,Anthracnose,0.032903645833333335,borb_plus_no_chroma
+Anthracnose/IMG_20211011_140614 (Custom).jpg,train,Anthracnose,0.04516927083333333,borb_plus_no_chroma
+Anthracnose/IMG_20211011_140621 (Custom).jpg,train,Anthracnose,0.03821614583333333,borb_plus_no_chroma
+Anthracnose/IMG_20211011_140624 (Custom).jpg,train,Anthracnose,0.03536458333333333,borb_plus_no_chroma
+Anthracnose/IMG_20211011_140636 (Custom).jpg,train,Anthracnose,0.04708333333333333,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_135326 (Custom).jpg,train,Bacterial Canker,0.031653645833333334,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_141631 (Custom).jpg,train,Bacterial Canker,0.0489453125,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_142714 (Custom).jpg,train,Bacterial Canker,0.027669270833333332,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_142914 (Custom).jpg,train,Bacterial Canker,0.04404947916666667,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_142919 (Custom).jpg,train,Bacterial Canker,0.04596354166666667,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_142922 (Custom).jpg,train,Bacterial Canker,0.043854166666666666,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_142924 (Custom).jpg,train,Bacterial Canker,0.0429296875,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_142954 (Custom).jpg,train,Bacterial Canker,0.046796875,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_142956 (Custom).jpg,train,Bacterial Canker,0.037161458333333335,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_142959 (Custom).jpg,train,Bacterial Canker,0.03471354166666667,borb_plus_no_chroma
+Cutting Weevil/20211011_160614 (Custom) (Custom).jpg,train,Cutting Weevil,0.04694444444444444,borb_plus_no_chroma
+Cutting Weevil/20211011_160614 (Custom).jpg,train,Cutting Weevil,0.047135416666666666,borb_plus_no_chroma
+Cutting Weevil/20211011_160625 (Custom) (Custom).jpg,train,Cutting Weevil,0.03829861111111111,borb_plus_no_chroma
+Cutting Weevil/20211011_160625 (Custom).jpg,train,Cutting Weevil,0.03850694444444445,borb_plus_no_chroma
+Cutting Weevil/20211011_160852 (Custom) (Custom).jpg,train,Cutting Weevil,0.024427083333333332,borb_plus_no_chroma
+Cutting Weevil/20211011_160852 (Custom).jpg,train,Cutting Weevil,0.024496527777777777,borb_plus_no_chroma
+Cutting Weevil/20211011_160903(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.0209375,borb_plus_no_chroma
+Cutting Weevil/20211011_160903(0) (Custom).jpg,train,Cutting Weevil,0.020885416666666667,borb_plus_no_chroma
+Cutting Weevil/20211011_160904(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.020121527777777776,borb_plus_no_chroma
+Cutting Weevil/20211011_160904(0) (Custom).jpg,train,Cutting Weevil,0.020104166666666666,borb_plus_no_chroma
+Cutting Weevil/20211011_160914 (Custom) (Custom).jpg,train,Cutting Weevil,0.024965277777777777,borb_plus_no_chroma
+Cutting Weevil/20211011_160914 (Custom).jpg,train,Cutting Weevil,0.024895833333333332,borb_plus_no_chroma
+Cutting Weevil/20211011_160933 (Custom) (Custom).jpg,train,Cutting Weevil,0.02484375,borb_plus_no_chroma
+Cutting Weevil/20211011_160933 (Custom).jpg,train,Cutting Weevil,0.025034722222222222,borb_plus_no_chroma
+Cutting Weevil/20211011_160942 (Custom) (Custom).jpg,train,Cutting Weevil,0.03944444444444444,borb_plus_no_chroma
+Cutting Weevil/20211011_160942 (Custom).jpg,train,Cutting Weevil,0.03953125,borb_plus_no_chroma
+Cutting Weevil/20211011_161128 (Custom) (Custom).jpg,train,Cutting Weevil,0.027743055555555556,borb_plus_no_chroma
+Cutting Weevil/20211011_161128 (Custom).jpg,train,Cutting Weevil,0.02795138888888889,borb_plus_no_chroma
+Cutting Weevil/20211011_161140 (Custom) (Custom).jpg,train,Cutting Weevil,0.04276041666666667,borb_plus_no_chroma
+Cutting Weevil/20211011_161140 (Custom).jpg,train,Cutting Weevil,0.04282986111111111,borb_plus_no_chroma
+Cutting Weevil/20211011_161142 (Custom) (Custom).jpg,train,Cutting Weevil,0.04388888888888889,borb_plus_no_chroma
+Cutting Weevil/20211011_161142 (Custom).jpg,train,Cutting Weevil,0.04397569444444444,borb_plus_no_chroma
+Cutting Weevil/20211011_161145 (Custom) (Custom).jpg,train,Cutting Weevil,0.038420138888888886,borb_plus_no_chroma
+Cutting Weevil/20211011_161145 (Custom).jpg,train,Cutting Weevil,0.0384375,borb_plus_no_chroma
+Cutting Weevil/20211011_161145(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.036493055555555556,borb_plus_no_chroma
+Cutting Weevil/20211011_161145(0) (Custom).jpg,train,Cutting Weevil,0.036597222222222225,borb_plus_no_chroma
+Cutting Weevil/20211011_161155 (Custom) (Custom).jpg,train,Cutting Weevil,0.03185763888888889,borb_plus_no_chroma
+Cutting Weevil/20211011_161155 (Custom).jpg,train,Cutting Weevil,0.032065972222222225,borb_plus_no_chroma
+Cutting Weevil/20211011_161207 (Custom) (Custom).jpg,train,Cutting Weevil,0.04055555555555555,borb_plus_no_chroma
+Cutting Weevil/20211011_161207 (Custom).jpg,train,Cutting Weevil,0.040677083333333336,borb_plus_no_chroma
+Cutting Weevil/20211011_161243 (Custom) (Custom).jpg,train,Cutting Weevil,0.046875,borb_plus_no_chroma
+Cutting Weevil/20211011_161243 (Custom).jpg,train,Cutting Weevil,0.046996527777777776,borb_plus_no_chroma
+Cutting Weevil/20211011_161245 (Custom) (Custom).jpg,train,Cutting Weevil,0.04703125,borb_plus_no_chroma
+Cutting Weevil/20211011_161245 (Custom).jpg,train,Cutting Weevil,0.04722222222222222,borb_plus_no_chroma
+Cutting Weevil/20211011_161246 (Custom) (Custom).jpg,train,Cutting Weevil,0.03954861111111111,borb_plus_no_chroma
+Cutting Weevil/20211011_161246 (Custom).jpg,train,Cutting Weevil,0.039704861111111114,borb_plus_no_chroma
+Cutting Weevil/20211011_161735 (Custom) (Custom).jpg,train,Cutting Weevil,0.036006944444444446,borb_plus_no_chroma
+Cutting Weevil/20211011_161735 (Custom).jpg,train,Cutting Weevil,0.03602430555555555,borb_plus_no_chroma
+Cutting Weevil/20211011_162308 (Custom) (Custom).jpg,train,Cutting Weevil,0.024982638888888888,borb_plus_no_chroma
+Cutting Weevil/20211011_162308 (Custom).jpg,train,Cutting Weevil,0.025,borb_plus_no_chroma
+Cutting Weevil/20211011_162329 (Custom) (Custom).jpg,train,Cutting Weevil,0.035381944444444445,borb_plus_no_chroma
+Cutting Weevil/20211011_162329 (Custom).jpg,train,Cutting Weevil,0.03553819444444444,borb_plus_no_chroma
+Cutting Weevil/20211011_162612 (Custom) (Custom).jpg,train,Cutting Weevil,0.01876736111111111,borb_plus_no_chroma
+Cutting Weevil/20211011_162612 (Custom).jpg,train,Cutting Weevil,0.01887152777777778,borb_plus_no_chroma
+Cutting Weevil/20211011_162617(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.030538194444444444,borb_plus_no_chroma
+Cutting Weevil/20211011_162617(0) (Custom).jpg,train,Cutting Weevil,0.03059027777777778,borb_plus_no_chroma
+Cutting Weevil/20211011_162620(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.028368055555555556,borb_plus_no_chroma
+Cutting Weevil/20211011_162620(0) (Custom).jpg,train,Cutting Weevil,0.028489583333333332,borb_plus_no_chroma
+Die Back/20211129_160820 (Custom).jpg,train,Die Back,0.04729166666666667,borb_plus_no_chroma
+Die Back/20211129_160856 (Custom).jpg,train,Die Back,0.046336805555555555,borb_plus_no_chroma
+Die Back/20211129_160859 (Custom).jpg,train,Die Back,0.04178819444444445,borb_plus_no_chroma
+Die Back/20211129_160905 (Custom).jpg,train,Die Back,0.04645833333333333,borb_plus_no_chroma
+Die Back/20211129_161024 (Custom).jpg,train,Die Back,0.046059027777777775,borb_plus_no_chroma
+Die Back/20211129_161706 (Custom).jpg,train,Die Back,0.045989583333333334,borb_plus_no_chroma
+Die Back/20211129_161755 (Custom).jpg,train,Die Back,0.03975694444444444,borb_plus_no_chroma
+Die Back/20211129_163744 (Custom).jpg,train,Die Back,0.04192708333333333,borb_plus_no_chroma
+Anthracnose/IMG_20211011_140510 (Custom).jpg,val,Anthracnose,0.047760416666666666,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_134722 (Custom).jpg,val,Bacterial Canker,0.042890625,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_142921 (Custom).jpg,val,Bacterial Canker,0.0425390625,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_142926 (Custom).jpg,val,Bacterial Canker,0.04122395833333333,borb_plus_no_chroma
+Cutting Weevil/20211011_160853 (Custom) (Custom).jpg,val,Cutting Weevil,0.027447916666666666,borb_plus_no_chroma
+Cutting Weevil/20211011_160853 (Custom).jpg,val,Cutting Weevil,0.02746527777777778,borb_plus_no_chroma
+Cutting Weevil/20211011_160904 (Custom) (Custom).jpg,val,Cutting Weevil,0.01578125,borb_plus_no_chroma
+Cutting Weevil/20211011_160904 (Custom).jpg,val,Cutting Weevil,0.015711805555555555,borb_plus_no_chroma
+Cutting Weevil/20211011_161126 (Custom) (Custom).jpg,val,Cutting Weevil,0.046545138888888886,borb_plus_no_chroma
+Cutting Weevil/20211011_161126 (Custom).jpg,val,Cutting Weevil,0.04663194444444444,borb_plus_no_chroma
+Cutting Weevil/20211011_161127 (Custom) (Custom).jpg,val,Cutting Weevil,0.036319444444444446,borb_plus_no_chroma
+Cutting Weevil/20211011_161127 (Custom).jpg,val,Cutting Weevil,0.036319444444444446,borb_plus_no_chroma
+Cutting Weevil/20211011_161140(0) (Custom) (Custom).jpg,val,Cutting Weevil,0.046822916666666665,borb_plus_no_chroma
+Cutting Weevil/20211011_161140(0) (Custom).jpg,val,Cutting Weevil,0.04690972222222222,borb_plus_no_chroma
+Cutting Weevil/20211011_170153 (Custom) (Custom).jpg,val,Cutting Weevil,0.03553819444444444,borb_plus_no_chroma
+Cutting Weevil/20211011_170153 (Custom).jpg,val,Cutting Weevil,0.035625,borb_plus_no_chroma
+Die Back/20211129_160558 (Custom).jpg,val,Die Back,0.047413194444444445,borb_plus_no_chroma
+Die Back/20211129_160910 (Custom).jpg,val,Die Back,0.04677083333333333,borb_plus_no_chroma
+Die Back/20211129_162127 (Custom).jpg,val,Die Back,0.04697916666666667,borb_plus_no_chroma
+Die Back/20211129_162827 (Custom).jpg,val,Die Back,0.0375,borb_plus_no_chroma
+Die Back/20211129_163749 (Custom).jpg,val,Die Back,0.046336805555555555,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_135325 (Custom).jpg,test,Bacterial Canker,0.03859375,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_142907 (Custom).jpg,test,Bacterial Canker,0.047278645833333334,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_142912 (Custom).jpg,test,Bacterial Canker,0.046484375,borb_plus_no_chroma
+Bacterial Canker/IMG_20211106_142928 (Custom).jpg,test,Bacterial Canker,0.036848958333333334,borb_plus_no_chroma
+Cutting Weevil/20211011_160915 (Custom) (Custom).jpg,test,Cutting Weevil,0.026979166666666665,borb_plus_no_chroma
+Cutting Weevil/20211011_160915 (Custom).jpg,test,Cutting Weevil,0.027118055555555555,borb_plus_no_chroma
+Cutting Weevil/20211011_161141 (Custom) (Custom).jpg,test,Cutting Weevil,0.04100694444444444,borb_plus_no_chroma
+Cutting Weevil/20211011_161141 (Custom).jpg,test,Cutting Weevil,0.04097222222222222,borb_plus_no_chroma
+Cutting Weevil/20211011_161205 (Custom) (Custom).jpg,test,Cutting Weevil,0.04317708333333333,borb_plus_no_chroma
+Cutting Weevil/20211011_161205 (Custom).jpg,test,Cutting Weevil,0.043229166666666666,borb_plus_no_chroma
+Cutting Weevil/20211011_161245(0) (Custom) (Custom).jpg,test,Cutting Weevil,0.04314236111111111,borb_plus_no_chroma
+Cutting Weevil/20211011_161245(0) (Custom).jpg,test,Cutting Weevil,0.04324652777777778,borb_plus_no_chroma
+Cutting Weevil/20211011_161410 (Custom) (Custom).jpg,test,Cutting Weevil,0.03791666666666667,borb_plus_no_chroma
+Cutting Weevil/20211011_161410 (Custom).jpg,test,Cutting Weevil,0.037934027777777775,borb_plus_no_chroma
+Cutting Weevil/20211011_161641 (Custom) (Custom).jpg,test,Cutting Weevil,0.04282986111111111,borb_plus_no_chroma
+Cutting Weevil/20211011_161641 (Custom).jpg,test,Cutting Weevil,0.04296875,borb_plus_no_chroma
+Cutting Weevil/20211011_161744 (Custom) (Custom).jpg,test,Cutting Weevil,0.04402777777777778,borb_plus_no_chroma
+Cutting Weevil/20211011_161744 (Custom).jpg,test,Cutting Weevil,0.044131944444444446,borb_plus_no_chroma
+Cutting Weevil/20211011_162616 (Custom) (Custom).jpg,test,Cutting Weevil,0.020711805555555556,borb_plus_no_chroma
+Cutting Weevil/20211011_162616 (Custom).jpg,test,Cutting Weevil,0.020920138888888887,borb_plus_no_chroma
+Die Back/20211129_160751 (Custom).jpg,test,Die Back,0.047899305555555556,borb_plus_no_chroma
+Die Back/20211129_160816 (Custom).jpg,test,Die Back,0.03961805555555555,borb_plus_no_chroma
+Die Back/20211129_160853 (Custom).jpg,test,Die Back,0.04065972222222222,borb_plus_no_chroma
+Die Back/20211129_161654 (Custom).jpg,test,Die Back,0.049114583333333336,borb_plus_no_chroma
+Die Back/20211129_161747 (Custom).jpg,test,Die Back,0.046875,borb_plus_no_chroma
+Die Back/20211129_162815 (Custom).jpg,test,Die Back,0.04684027777777778,borb_plus_no_chroma
+Die Back/20211129_163751 (Custom).jpg,test,Die Back,0.04928819444444445,borb_plus_no_chroma
+Anthracnose/IMG_20211008_113726 (Custom).jpg,train,Anthracnose,0.04471354166666667,borb_plus_nomorph
+Anthracnose/IMG_20211011_140606 (Custom).jpg,train,Anthracnose,0.0382421875,borb_plus_nomorph
+Anthracnose/IMG_20211011_140610 (Custom).jpg,train,Anthracnose,0.03178385416666667,borb_plus_nomorph
+Anthracnose/IMG_20211011_140614 (Custom).jpg,train,Anthracnose,0.04442708333333333,borb_plus_nomorph
+Anthracnose/IMG_20211011_140621 (Custom).jpg,train,Anthracnose,0.0380078125,borb_plus_nomorph
+Anthracnose/IMG_20211011_140624 (Custom).jpg,train,Anthracnose,0.04638020833333333,borb_plus_nomorph
+Anthracnose/IMG_20211011_140636 (Custom).jpg,train,Anthracnose,0.04712239583333333,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_135326 (Custom).jpg,train,Bacterial Canker,0.04932291666666667,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_142714 (Custom).jpg,train,Bacterial Canker,0.02796875,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_142914 (Custom).jpg,train,Bacterial Canker,0.0442578125,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_142919 (Custom).jpg,train,Bacterial Canker,0.04565104166666667,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_142922 (Custom).jpg,train,Bacterial Canker,0.04341145833333333,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_142924 (Custom).jpg,train,Bacterial Canker,0.042877604166666666,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_142954 (Custom).jpg,train,Bacterial Canker,0.046640625,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_142956 (Custom).jpg,train,Bacterial Canker,0.0373828125,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_142959 (Custom).jpg,train,Bacterial Canker,0.037799479166666664,borb_plus_nomorph
+Cutting Weevil/20211011_160614 (Custom) (Custom).jpg,train,Cutting Weevil,0.04282986111111111,borb_plus_nomorph
+Cutting Weevil/20211011_160614 (Custom).jpg,train,Cutting Weevil,0.043020833333333335,borb_plus_nomorph
+Cutting Weevil/20211011_160625 (Custom) (Custom).jpg,train,Cutting Weevil,0.03763888888888889,borb_plus_nomorph
+Cutting Weevil/20211011_160625 (Custom).jpg,train,Cutting Weevil,0.03779513888888889,borb_plus_nomorph
+Cutting Weevil/20211011_160852 (Custom) (Custom).jpg,train,Cutting Weevil,0.02407986111111111,borb_plus_nomorph
+Cutting Weevil/20211011_160852 (Custom).jpg,train,Cutting Weevil,0.024166666666666666,borb_plus_nomorph
+Cutting Weevil/20211011_160903(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.020729166666666667,borb_plus_nomorph
+Cutting Weevil/20211011_160903(0) (Custom).jpg,train,Cutting Weevil,0.020763888888888887,borb_plus_nomorph
+Cutting Weevil/20211011_160904(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.019947916666666666,borb_plus_nomorph
+Cutting Weevil/20211011_160904(0) (Custom).jpg,train,Cutting Weevil,0.019930555555555556,borb_plus_nomorph
+Cutting Weevil/20211011_160914 (Custom) (Custom).jpg,train,Cutting Weevil,0.022118055555555554,borb_plus_nomorph
+Cutting Weevil/20211011_160914 (Custom).jpg,train,Cutting Weevil,0.022083333333333333,borb_plus_nomorph
+Cutting Weevil/20211011_160933 (Custom) (Custom).jpg,train,Cutting Weevil,0.019097222222222224,borb_plus_nomorph
+Cutting Weevil/20211011_160933 (Custom).jpg,train,Cutting Weevil,0.019270833333333334,borb_plus_nomorph
+Cutting Weevil/20211011_160942 (Custom) (Custom).jpg,train,Cutting Weevil,0.03729166666666667,borb_plus_nomorph
+Cutting Weevil/20211011_160942 (Custom).jpg,train,Cutting Weevil,0.03734375,borb_plus_nomorph
+Cutting Weevil/20211011_161128 (Custom) (Custom).jpg,train,Cutting Weevil,0.02746527777777778,borb_plus_nomorph
+Cutting Weevil/20211011_161128 (Custom).jpg,train,Cutting Weevil,0.02763888888888889,borb_plus_nomorph
+Cutting Weevil/20211011_161140 (Custom) (Custom).jpg,train,Cutting Weevil,0.04237847222222222,borb_plus_nomorph
+Cutting Weevil/20211011_161140 (Custom).jpg,train,Cutting Weevil,0.042465277777777775,borb_plus_nomorph
+Cutting Weevil/20211011_161142 (Custom) (Custom).jpg,train,Cutting Weevil,0.043472222222222225,borb_plus_nomorph
+Cutting Weevil/20211011_161142 (Custom).jpg,train,Cutting Weevil,0.043541666666666666,borb_plus_nomorph
+Cutting Weevil/20211011_161145 (Custom) (Custom).jpg,train,Cutting Weevil,0.03809027777777778,borb_plus_nomorph
+Cutting Weevil/20211011_161145 (Custom).jpg,train,Cutting Weevil,0.038125,borb_plus_nomorph
+Cutting Weevil/20211011_161145(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.03592013888888889,borb_plus_nomorph
+Cutting Weevil/20211011_161145(0) (Custom).jpg,train,Cutting Weevil,0.03602430555555555,borb_plus_nomorph
+Cutting Weevil/20211011_161147 (Custom) (Custom).jpg,train,Cutting Weevil,0.04649305555555556,borb_plus_nomorph
+Cutting Weevil/20211011_161147 (Custom).jpg,train,Cutting Weevil,0.046614583333333334,borb_plus_nomorph
+Cutting Weevil/20211011_161155 (Custom) (Custom).jpg,train,Cutting Weevil,0.03265625,borb_plus_nomorph
+Cutting Weevil/20211011_161155 (Custom).jpg,train,Cutting Weevil,0.03274305555555555,borb_plus_nomorph
+Cutting Weevil/20211011_161206 (Custom) (Custom).jpg,train,Cutting Weevil,0.04359375,borb_plus_nomorph
+Cutting Weevil/20211011_161206 (Custom).jpg,train,Cutting Weevil,0.043472222222222225,borb_plus_nomorph
+Cutting Weevil/20211011_161207 (Custom) (Custom).jpg,train,Cutting Weevil,0.034895833333333334,borb_plus_nomorph
+Cutting Weevil/20211011_161207 (Custom).jpg,train,Cutting Weevil,0.035034722222222224,borb_plus_nomorph
+Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.04779513888888889,borb_plus_nomorph
+Cutting Weevil/20211011_161210(0) (Custom).jpg,train,Cutting Weevil,0.04777777777777778,borb_plus_nomorph
+Cutting Weevil/20211011_161243 (Custom) (Custom).jpg,train,Cutting Weevil,0.04454861111111111,borb_plus_nomorph
+Cutting Weevil/20211011_161243 (Custom).jpg,train,Cutting Weevil,0.04467013888888889,borb_plus_nomorph
+Cutting Weevil/20211011_161245 (Custom) (Custom).jpg,train,Cutting Weevil,0.04470486111111111,borb_plus_nomorph
+Cutting Weevil/20211011_161245 (Custom).jpg,train,Cutting Weevil,0.04479166666666667,borb_plus_nomorph
+Cutting Weevil/20211011_161246 (Custom) (Custom).jpg,train,Cutting Weevil,0.03902777777777778,borb_plus_nomorph
+Cutting Weevil/20211011_161246 (Custom).jpg,train,Cutting Weevil,0.039184027777777776,borb_plus_nomorph
+Cutting Weevil/20211011_161735 (Custom) (Custom).jpg,train,Cutting Weevil,0.035659722222222225,borb_plus_nomorph
+Cutting Weevil/20211011_161735 (Custom).jpg,train,Cutting Weevil,0.035694444444444445,borb_plus_nomorph
+Cutting Weevil/20211011_162308 (Custom) (Custom).jpg,train,Cutting Weevil,0.022743055555555555,borb_plus_nomorph
+Cutting Weevil/20211011_162308 (Custom).jpg,train,Cutting Weevil,0.02279513888888889,borb_plus_nomorph
+Cutting Weevil/20211011_162329 (Custom) (Custom).jpg,train,Cutting Weevil,0.040225694444444446,borb_plus_nomorph
+Cutting Weevil/20211011_162329 (Custom).jpg,train,Cutting Weevil,0.04041666666666666,borb_plus_nomorph
+Cutting Weevil/20211011_162612 (Custom) (Custom).jpg,train,Cutting Weevil,0.0175,borb_plus_nomorph
+Cutting Weevil/20211011_162612 (Custom).jpg,train,Cutting Weevil,0.017552083333333333,borb_plus_nomorph
+Cutting Weevil/20211011_162617(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.030225694444444444,borb_plus_nomorph
+Cutting Weevil/20211011_162617(0) (Custom).jpg,train,Cutting Weevil,0.0303125,borb_plus_nomorph
+Cutting Weevil/20211011_162620(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.026753472222222224,borb_plus_nomorph
+Cutting Weevil/20211011_162620(0) (Custom).jpg,train,Cutting Weevil,0.026909722222222224,borb_plus_nomorph
+Cutting Weevil/20211011_162625 (Custom) (Custom).jpg,train,Cutting Weevil,0.0478125,borb_plus_nomorph
+Cutting Weevil/20211011_162625 (Custom).jpg,train,Cutting Weevil,0.04782986111111111,borb_plus_nomorph
+Die Back/20211129_160741 (Custom).jpg,train,Die Back,0.04998263888888889,borb_plus_nomorph
+Die Back/20211129_160820 (Custom).jpg,train,Die Back,0.04715277777777778,borb_plus_nomorph
+Die Back/20211129_160856 (Custom).jpg,train,Die Back,0.04694444444444444,borb_plus_nomorph
+Die Back/20211129_160859 (Custom).jpg,train,Die Back,0.04175347222222222,borb_plus_nomorph
+Die Back/20211129_160905 (Custom).jpg,train,Die Back,0.04697916666666667,borb_plus_nomorph
+Die Back/20211129_161024 (Custom).jpg,train,Die Back,0.04567708333333333,borb_plus_nomorph
+Die Back/20211129_161706 (Custom).jpg,train,Die Back,0.045711805555555554,borb_plus_nomorph
+Die Back/20211129_161755 (Custom).jpg,train,Die Back,0.039253472222222224,borb_plus_nomorph
+Die Back/20211129_161839 (Custom).jpg,train,Die Back,0.04963541666666667,borb_plus_nomorph
+Die Back/20211129_163744 (Custom).jpg,train,Die Back,0.040503472222222225,borb_plus_nomorph
+Anthracnose/IMG_20211011_140510 (Custom).jpg,val,Anthracnose,0.04700520833333333,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_134722 (Custom).jpg,val,Bacterial Canker,0.04467447916666667,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_142921 (Custom).jpg,val,Bacterial Canker,0.04223958333333333,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_142926 (Custom).jpg,val,Bacterial Canker,0.043294270833333336,borb_plus_nomorph
+Cutting Weevil/20211011_160853 (Custom) (Custom).jpg,val,Cutting Weevil,0.02720486111111111,borb_plus_nomorph
+Cutting Weevil/20211011_160853 (Custom).jpg,val,Cutting Weevil,0.027239583333333334,borb_plus_nomorph
+Cutting Weevil/20211011_160904 (Custom) (Custom).jpg,val,Cutting Weevil,0.015364583333333333,borb_plus_nomorph
+Cutting Weevil/20211011_160904 (Custom).jpg,val,Cutting Weevil,0.015260416666666667,borb_plus_nomorph
+Cutting Weevil/20211011_161126 (Custom) (Custom).jpg,val,Cutting Weevil,0.04529513888888889,borb_plus_nomorph
+Cutting Weevil/20211011_161126 (Custom).jpg,val,Cutting Weevil,0.045399305555555554,borb_plus_nomorph
+Cutting Weevil/20211011_161127 (Custom) (Custom).jpg,val,Cutting Weevil,0.03574652777777778,borb_plus_nomorph
+Cutting Weevil/20211011_161127 (Custom).jpg,val,Cutting Weevil,0.035798611111111114,borb_plus_nomorph
+Cutting Weevil/20211011_161140(0) (Custom) (Custom).jpg,val,Cutting Weevil,0.046128472222222223,borb_plus_nomorph
+Cutting Weevil/20211011_161140(0) (Custom).jpg,val,Cutting Weevil,0.04621527777777778,borb_plus_nomorph
+Cutting Weevil/20211011_161146 (Custom) (Custom).jpg,val,Cutting Weevil,0.04338541666666667,borb_plus_nomorph
+Cutting Weevil/20211011_161146 (Custom).jpg,val,Cutting Weevil,0.043402777777777776,borb_plus_nomorph
+Cutting Weevil/20211011_161242 (Custom) (Custom).jpg,val,Cutting Weevil,0.047760416666666666,borb_plus_nomorph
+Cutting Weevil/20211011_161242 (Custom).jpg,val,Cutting Weevil,0.04784722222222222,borb_plus_nomorph
+Cutting Weevil/20211011_161243(0) (Custom) (Custom).jpg,val,Cutting Weevil,0.04859375,borb_plus_nomorph
+Cutting Weevil/20211011_161243(0) (Custom).jpg,val,Cutting Weevil,0.04862847222222222,borb_plus_nomorph
+Cutting Weevil/20211011_161309 (Custom) (Custom).jpg,val,Cutting Weevil,0.04564236111111111,borb_plus_nomorph
+Cutting Weevil/20211011_161309 (Custom).jpg,val,Cutting Weevil,0.04565972222222222,borb_plus_nomorph
+Cutting Weevil/20211011_162552 (Custom) (Custom).jpg,val,Cutting Weevil,0.03576388888888889,borb_plus_nomorph
+Cutting Weevil/20211011_162552 (Custom).jpg,val,Cutting Weevil,0.035972222222222225,borb_plus_nomorph
+Cutting Weevil/20211011_170153 (Custom) (Custom).jpg,val,Cutting Weevil,0.03954861111111111,borb_plus_nomorph
+Cutting Weevil/20211011_170153 (Custom).jpg,val,Cutting Weevil,0.03953125,borb_plus_nomorph
+Die Back/20211129_160558 (Custom).jpg,val,Die Back,0.047309027777777776,borb_plus_nomorph
+Die Back/20211129_160910 (Custom).jpg,val,Die Back,0.04774305555555555,borb_plus_nomorph
+Die Back/20211129_162127 (Custom).jpg,val,Die Back,0.046857638888888886,borb_plus_nomorph
+Die Back/20211129_162827 (Custom).jpg,val,Die Back,0.037135416666666664,borb_plus_nomorph
+Die Back/20211129_163749 (Custom).jpg,val,Die Back,0.04512152777777778,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_135325 (Custom).jpg,test,Bacterial Canker,0.038671875,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_142907 (Custom).jpg,test,Bacterial Canker,0.04733072916666667,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_142912 (Custom).jpg,test,Bacterial Canker,0.04635416666666667,borb_plus_nomorph
+Bacterial Canker/IMG_20211106_142928 (Custom).jpg,test,Bacterial Canker,0.03856770833333333,borb_plus_nomorph
+Cutting Weevil/20211011_160915 (Custom) (Custom).jpg,test,Cutting Weevil,0.026788194444444444,borb_plus_nomorph
+Cutting Weevil/20211011_160915 (Custom).jpg,test,Cutting Weevil,0.026944444444444444,borb_plus_nomorph
+Cutting Weevil/20211011_161141 (Custom) (Custom).jpg,test,Cutting Weevil,0.040190972222222225,borb_plus_nomorph
+Cutting Weevil/20211011_161141 (Custom).jpg,test,Cutting Weevil,0.040190972222222225,borb_plus_nomorph
+Cutting Weevil/20211011_161150 (Custom) (Custom).jpg,test,Cutting Weevil,0.04793402777777778,borb_plus_nomorph
+Cutting Weevil/20211011_161150 (Custom).jpg,test,Cutting Weevil,0.04802083333333333,borb_plus_nomorph
+Cutting Weevil/20211011_161205 (Custom) (Custom).jpg,test,Cutting Weevil,0.04244791666666667,borb_plus_nomorph
+Cutting Weevil/20211011_161205 (Custom).jpg,test,Cutting Weevil,0.042534722222222224,borb_plus_nomorph
+Cutting Weevil/20211011_161245(0) (Custom) (Custom).jpg,test,Cutting Weevil,0.03979166666666667,borb_plus_nomorph
+Cutting Weevil/20211011_161245(0) (Custom).jpg,test,Cutting Weevil,0.039878472222222225,borb_plus_nomorph
+Cutting Weevil/20211011_161410 (Custom) (Custom).jpg,test,Cutting Weevil,0.036944444444444446,borb_plus_nomorph
+Cutting Weevil/20211011_161410 (Custom).jpg,test,Cutting Weevil,0.03697916666666667,borb_plus_nomorph
+Cutting Weevil/20211011_161641 (Custom) (Custom).jpg,test,Cutting Weevil,0.042152777777777775,borb_plus_nomorph
+Cutting Weevil/20211011_161641 (Custom).jpg,test,Cutting Weevil,0.04230902777777778,borb_plus_nomorph
+Cutting Weevil/20211011_161744 (Custom) (Custom).jpg,test,Cutting Weevil,0.046753472222222224,borb_plus_nomorph
+Cutting Weevil/20211011_161744 (Custom).jpg,test,Cutting Weevil,0.04673611111111111,borb_plus_nomorph
+Cutting Weevil/20211011_162616 (Custom) (Custom).jpg,test,Cutting Weevil,0.02050347222222222,borb_plus_nomorph
+Cutting Weevil/20211011_162616 (Custom).jpg,test,Cutting Weevil,0.020711805555555556,borb_plus_nomorph
+Die Back/20211129_160751 (Custom).jpg,test,Die Back,0.04512152777777778,borb_plus_nomorph
+Die Back/20211129_160816 (Custom).jpg,test,Die Back,0.03934027777777778,borb_plus_nomorph
+Die Back/20211129_160853 (Custom).jpg,test,Die Back,0.04819444444444444,borb_plus_nomorph
+Die Back/20211129_161654 (Custom).jpg,test,Die Back,0.04869791666666667,borb_plus_nomorph
+Die Back/20211129_161747 (Custom).jpg,test,Die Back,0.04680555555555556,borb_plus_nomorph
+Die Back/20211129_162815 (Custom).jpg,test,Die Back,0.046024305555555554,borb_plus_nomorph
+Die Back/20211129_163751 (Custom).jpg,test,Die Back,0.049756944444444444,borb_plus_nomorph
+Anthracnose/IMG_20211011_140329 (Custom).jpg,train,Anthracnose,0.0475,otsu
+Bacterial Canker/IMG_20211106_134725 (Custom).jpg,train,Bacterial Canker,0.04446614583333333,otsu
+Bacterial Canker/IMG_20211106_135654 (Custom).jpg,train,Bacterial Canker,0.023268229166666668,otsu
+Bacterial Canker/IMG_20211106_135700 (Custom).jpg,train,Bacterial Canker,0.040234375,otsu
+Bacterial Canker/IMG_20211106_140545 (Custom).jpg,train,Bacterial Canker,0.048463541666666665,otsu
+Bacterial Canker/IMG_20211106_141626 (Custom).jpg,train,Bacterial Canker,0.04677083333333333,otsu
+Bacterial Canker/IMG_20211106_141631 (Custom).jpg,train,Bacterial Canker,0.045260416666666664,otsu
+Bacterial Canker/IMG_20211106_142714 (Custom).jpg,train,Bacterial Canker,0.026263020833333334,otsu
+Bacterial Canker/IMG_20211106_142914 (Custom).jpg,train,Bacterial Canker,0.0473828125,otsu
+Bacterial Canker/IMG_20211106_142919 (Custom).jpg,train,Bacterial Canker,0.04567708333333333,otsu
+Bacterial Canker/IMG_20211106_142922 (Custom).jpg,train,Bacterial Canker,0.04381510416666667,otsu
+Bacterial Canker/IMG_20211106_142924 (Custom).jpg,train,Bacterial Canker,0.0380859375,otsu
+Bacterial Canker/IMG_20211106_142954 (Custom).jpg,train,Bacterial Canker,0.0457421875,otsu
+Bacterial Canker/IMG_20211106_142956 (Custom).jpg,train,Bacterial Canker,0.03471354166666667,otsu
+Bacterial Canker/IMG_20211106_142959 (Custom).jpg,train,Bacterial Canker,0.034791666666666665,otsu
+Cutting Weevil/20211011_160614 (Custom) (Custom).jpg,train,Cutting Weevil,0.04635416666666667,otsu
+Cutting Weevil/20211011_160614 (Custom).jpg,train,Cutting Weevil,0.04635416666666667,otsu
+Cutting Weevil/20211011_160625 (Custom) (Custom).jpg,train,Cutting Weevil,0.0475,otsu
+Cutting Weevil/20211011_160625 (Custom).jpg,train,Cutting Weevil,0.0475,otsu
+Cutting Weevil/20211011_161140 (Custom) (Custom).jpg,train,Cutting Weevil,0.04465277777777778,otsu
+Cutting Weevil/20211011_161140 (Custom).jpg,train,Cutting Weevil,0.044635416666666664,otsu
+Cutting Weevil/20211011_161142 (Custom) (Custom).jpg,train,Cutting Weevil,0.04559027777777778,otsu
+Cutting Weevil/20211011_161142 (Custom).jpg,train,Cutting Weevil,0.04559027777777778,otsu
+Cutting Weevil/20211011_161145 (Custom) (Custom).jpg,train,Cutting Weevil,0.04078125,otsu
+Cutting Weevil/20211011_161145 (Custom).jpg,train,Cutting Weevil,0.04078125,otsu
+Cutting Weevil/20211011_161145(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.04026041666666667,otsu
+Cutting Weevil/20211011_161145(0) (Custom).jpg,train,Cutting Weevil,0.04026041666666667,otsu
+Cutting Weevil/20211011_161147 (Custom) (Custom).jpg,train,Cutting Weevil,0.049114583333333336,otsu
+Cutting Weevil/20211011_161147 (Custom).jpg,train,Cutting Weevil,0.049114583333333336,otsu
+Cutting Weevil/20211011_161155 (Custom) (Custom).jpg,train,Cutting Weevil,0.035381944444444445,otsu
+Cutting Weevil/20211011_161155 (Custom).jpg,train,Cutting Weevil,0.035381944444444445,otsu
+Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.04994791666666667,otsu
+Cutting Weevil/20211011_161210(0) (Custom).jpg,train,Cutting Weevil,0.04994791666666667,otsu
+Die Back/IMG_20211028_003413 (Custom).jpg,train,Die Back,0.044895833333333336,otsu
+Anthracnose/IMG_20211011_140510 (Custom).jpg,val,Anthracnose,0.04153645833333333,otsu
+Bacterial Canker/IMG_20211106_134722 (Custom).jpg,val,Bacterial Canker,0.0412109375,otsu
+Bacterial Canker/IMG_20211106_141645 (Custom).jpg,val,Bacterial Canker,0.04703125,otsu
+Bacterial Canker/IMG_20211106_142921 (Custom).jpg,val,Bacterial Canker,0.043971354166666664,otsu
+Bacterial Canker/IMG_20211106_142926 (Custom).jpg,val,Bacterial Canker,0.038359375,otsu
+Cutting Weevil/20211011_161140(0) (Custom) (Custom).jpg,val,Cutting Weevil,0.04828125,otsu
+Cutting Weevil/20211011_161140(0) (Custom).jpg,val,Cutting Weevil,0.04828125,otsu
+Cutting Weevil/20211011_161146 (Custom) (Custom).jpg,val,Cutting Weevil,0.04581597222222222,otsu
+Cutting Weevil/20211011_161146 (Custom).jpg,val,Cutting Weevil,0.04581597222222222,otsu
+Anthracnose/IMG_20211011_140327 (Custom).jpg,test,Anthracnose,0.049088541666666666,otsu
+Bacterial Canker/IMG_20211106_135325 (Custom).jpg,test,Bacterial Canker,0.034296875,otsu
+Bacterial Canker/IMG_20211106_141642 (Custom).jpg,test,Bacterial Canker,0.04674479166666667,otsu
+Bacterial Canker/IMG_20211106_142907 (Custom).jpg,test,Bacterial Canker,0.046848958333333336,otsu
+Bacterial Canker/IMG_20211106_142912 (Custom).jpg,test,Bacterial Canker,0.04705729166666667,otsu
+Bacterial Canker/IMG_20211106_142928 (Custom).jpg,test,Bacterial Canker,0.0372265625,otsu
+Cutting Weevil/20211011_161141 (Custom) (Custom).jpg,test,Cutting Weevil,0.04220486111111111,otsu
+Cutting Weevil/20211011_161141 (Custom).jpg,test,Cutting Weevil,0.04220486111111111,otsu
+Cutting Weevil/20211011_161150 (Custom) (Custom).jpg,test,Cutting Weevil,0.04913194444444444,otsu
+Cutting Weevil/20211011_161150 (Custom).jpg,test,Cutting Weevil,0.04913194444444444,otsu
+Cutting Weevil/20211011_161410 (Custom) (Custom).jpg,test,Cutting Weevil,0.03871527777777778,otsu
+Cutting Weevil/20211011_161410 (Custom).jpg,test,Cutting Weevil,0.03871527777777778,otsu
+Cutting Weevil/20211011_161641 (Custom) (Custom).jpg,test,Cutting Weevil,0.04425347222222222,otsu
+Cutting Weevil/20211011_161641 (Custom).jpg,test,Cutting Weevil,0.04425347222222222,otsu
+Cutting Weevil/20211011_161744 (Custom) (Custom).jpg,test,Cutting Weevil,0.048003472222222225,otsu
+Cutting Weevil/20211011_161744 (Custom).jpg,test,Cutting Weevil,0.048003472222222225,otsu
+Anthracnose/IMG_20211011_140329 (Custom).jpg,train,Anthracnose,0.04610677083333333,kmeans
+Bacterial Canker/IMG_20211106_134725 (Custom).jpg,train,Bacterial Canker,0.044596354166666664,kmeans
+Bacterial Canker/IMG_20211106_140545 (Custom).jpg,train,Bacterial Canker,0.04774739583333333,kmeans
+Bacterial Canker/IMG_20211106_141626 (Custom).jpg,train,Bacterial Canker,0.04635416666666667,kmeans
+Bacterial Canker/IMG_20211106_141631 (Custom).jpg,train,Bacterial Canker,0.04479166666666667,kmeans
+Bacterial Canker/IMG_20211106_142714 (Custom).jpg,train,Bacterial Canker,0.025703125,kmeans
+Bacterial Canker/IMG_20211106_142914 (Custom).jpg,train,Bacterial Canker,0.043984375,kmeans
+Bacterial Canker/IMG_20211106_142919 (Custom).jpg,train,Bacterial Canker,0.044596354166666664,kmeans
+Bacterial Canker/IMG_20211106_142922 (Custom).jpg,train,Bacterial Canker,0.04154947916666667,kmeans
+Bacterial Canker/IMG_20211106_142924 (Custom).jpg,train,Bacterial Canker,0.03764322916666667,kmeans
+Bacterial Canker/IMG_20211106_142954 (Custom).jpg,train,Bacterial Canker,0.0448046875,kmeans
+Bacterial Canker/IMG_20211106_142956 (Custom).jpg,train,Bacterial Canker,0.034296875,kmeans
+Bacterial Canker/IMG_20211106_142959 (Custom).jpg,train,Bacterial Canker,0.03380208333333334,kmeans
+Cutting Weevil/20211011_160614 (Custom) (Custom).jpg,train,Cutting Weevil,0.046059027777777775,kmeans
+Cutting Weevil/20211011_160614 (Custom).jpg,train,Cutting Weevil,0.0459375,kmeans
+Cutting Weevil/20211011_160625 (Custom) (Custom).jpg,train,Cutting Weevil,0.04579861111111111,kmeans
+Cutting Weevil/20211011_160625 (Custom).jpg,train,Cutting Weevil,0.045572916666666664,kmeans
+Cutting Weevil/20211011_161140 (Custom) (Custom).jpg,train,Cutting Weevil,0.04446180555555555,kmeans
+Cutting Weevil/20211011_161140 (Custom).jpg,train,Cutting Weevil,0.04442708333333333,kmeans
+Cutting Weevil/20211011_161142 (Custom) (Custom).jpg,train,Cutting Weevil,0.04536458333333333,kmeans
+Cutting Weevil/20211011_161142 (Custom).jpg,train,Cutting Weevil,0.04538194444444445,kmeans
+Cutting Weevil/20211011_161145 (Custom) (Custom).jpg,train,Cutting Weevil,0.04015625,kmeans
+Cutting Weevil/20211011_161145 (Custom).jpg,train,Cutting Weevil,0.04012152777777778,kmeans
+Cutting Weevil/20211011_161147 (Custom) (Custom).jpg,train,Cutting Weevil,0.048489583333333336,kmeans
+Cutting Weevil/20211011_161147 (Custom).jpg,train,Cutting Weevil,0.048489583333333336,kmeans
+Cutting Weevil/20211011_161210(0) (Custom) (Custom).jpg,train,Cutting Weevil,0.04927083333333333,kmeans
+Cutting Weevil/20211011_161210(0) (Custom).jpg,train,Cutting Weevil,0.04925347222222222,kmeans
+Cutting Weevil/20211011_161243 (Custom) (Custom).jpg,train,Cutting Weevil,0.04670138888888889,kmeans
+Cutting Weevil/20211011_161243 (Custom).jpg,train,Cutting Weevil,0.04670138888888889,kmeans
+Cutting Weevil/20211011_161246 (Custom) (Custom).jpg,train,Cutting Weevil,0.04105902777777778,kmeans
+Cutting Weevil/20211011_161246 (Custom).jpg,train,Cutting Weevil,0.04097222222222222,kmeans
+Cutting Weevil/20211011_161735 (Custom) (Custom).jpg,train,Cutting Weevil,0.03690972222222222,kmeans
+Cutting Weevil/20211011_161735 (Custom).jpg,train,Cutting Weevil,0.036875,kmeans
+Cutting Weevil/20211011_162329 (Custom) (Custom).jpg,train,Cutting Weevil,0.04456597222222222,kmeans
+Cutting Weevil/20211011_162329 (Custom).jpg,train,Cutting Weevil,0.04456597222222222,kmeans
+Cutting Weevil/20211011_162625 (Custom) (Custom).jpg,train,Cutting Weevil,0.04833333333333333,kmeans
+Cutting Weevil/20211011_162625 (Custom).jpg,train,Cutting Weevil,0.04836805555555555,kmeans
+Die Back/20211129_161755 (Custom).jpg,train,Die Back,0.04914930555555556,kmeans
+Die Back/IMG_20211028_003413 (Custom).jpg,train,Die Back,0.04419270833333333,kmeans
+Anthracnose/IMG_20211011_140510 (Custom).jpg,val,Anthracnose,0.0406640625,kmeans
+Bacterial Canker/IMG_20211106_134722 (Custom).jpg,val,Bacterial Canker,0.04145833333333333,kmeans
+Bacterial Canker/IMG_20211106_141645 (Custom).jpg,val,Bacterial Canker,0.04639322916666667,kmeans
+Bacterial Canker/IMG_20211106_142921 (Custom).jpg,val,Bacterial Canker,0.04184895833333333,kmeans
+Bacterial Canker/IMG_20211106_142926 (Custom).jpg,val,Bacterial Canker,0.03734375,kmeans
+Cutting Weevil/20211011_161140(0) (Custom) (Custom).jpg,val,Cutting Weevil,0.04802083333333333,kmeans
+Cutting Weevil/20211011_161140(0) (Custom).jpg,val,Cutting Weevil,0.04793402777777778,kmeans
+Cutting Weevil/20211011_161309 (Custom) (Custom).jpg,val,Cutting Weevil,0.047135416666666666,kmeans
+Cutting Weevil/20211011_161309 (Custom).jpg,val,Cutting Weevil,0.04715277777777778,kmeans
+Anthracnose/IMG_20211011_140327 (Custom).jpg,test,Anthracnose,0.04666666666666667,kmeans
+Bacterial Canker/IMG_20211106_135325 (Custom).jpg,test,Bacterial Canker,0.03411458333333333,kmeans
+Bacterial Canker/IMG_20211106_140554 (Custom).jpg,test,Bacterial Canker,0.033776041666666666,kmeans
+Bacterial Canker/IMG_20211106_141642 (Custom).jpg,test,Bacterial Canker,0.0462890625,kmeans
+Bacterial Canker/IMG_20211106_142907 (Custom).jpg,test,Bacterial Canker,0.046302083333333334,kmeans
+Bacterial Canker/IMG_20211106_142912 (Custom).jpg,test,Bacterial Canker,0.046158854166666666,kmeans
+Bacterial Canker/IMG_20211106_142928 (Custom).jpg,test,Bacterial Canker,0.0361328125,kmeans
+Cutting Weevil/20211011_161141 (Custom) (Custom).jpg,test,Cutting Weevil,0.04178819444444445,kmeans
+Cutting Weevil/20211011_161141 (Custom).jpg,test,Cutting Weevil,0.04182291666666667,kmeans
+Cutting Weevil/20211011_161150 (Custom) (Custom).jpg,test,Cutting Weevil,0.04890625,kmeans
+Cutting Weevil/20211011_161150 (Custom).jpg,test,Cutting Weevil,0.04892361111111111,kmeans
+Cutting Weevil/20211011_161641 (Custom) (Custom).jpg,test,Cutting Weevil,0.04338541666666667,kmeans
+Cutting Weevil/20211011_161641 (Custom).jpg,test,Cutting Weevil,0.043611111111111114,kmeans
+Cutting Weevil/20211011_161744 (Custom) (Custom).jpg,test,Cutting Weevil,0.047725694444444446,kmeans
+Cutting Weevil/20211011_161744 (Custom).jpg,test,Cutting Weevil,0.047725694444444446,kmeans

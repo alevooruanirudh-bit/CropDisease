@@ -1,0 +1,9 @@
+class_name,borb_original,borb_plus,borb_plus_no_chroma,borb_plus_nomorph,otsu,kmeans
+Anthracnose,1.23,1.23,1.65,1.65,0.62,0.62
+Bacterial Canker,1.6,3.4,3.4,3.2,4.6,4.4
+Cutting Weevil,19.0,9.8,15.2,19.2,6.4,7.2
+Die Back,2.43,3.85,4.06,4.46,0.2,0.41
+Gall Midge,0.0,0.0,0.0,0.0,0.0,0.0
+Healthy,0.0,0.0,0.0,0.0,0.0,0.0
+Powdery Mildew,0.0,0.0,0.0,0.0,0.0,0.0
+Sooty Mould,0.0,0.0,0.0,0.0,0.0,0.0

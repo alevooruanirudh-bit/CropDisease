@@ -1,0 +1,7 @@
+# Ablation: paper BorB (fixed 130/135, no cleanup) vs BorB+.
+_base_: base.yaml
+experiment:
+  name: abl_borb_original
+  ablation: {axis: borb_variant, value: "BorB-original"}
+segmentation:
+  method: borb_original

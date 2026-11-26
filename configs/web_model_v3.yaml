@@ -1,0 +1,22 @@
+# Website model v3 (speed benchmark on the M4: fp32 at batch 48 is fastest, 67 img/s;
+# bf16 55 img/s and channels_last 22 img/s are slower on MPS, so both stay off).
+# Adds: ~22k photos recovered from the file-name bug, guava leaves (Mendeley), 13 gap-filling HF sets,
+# frogeye and algal-leaf-spot label fixes. Warm-started from v2. Test keeps every v1 test image (--keep-test).
+_base_: web_model.yaml
+experiment:
+  name: web_model_v3
+data:
+  split_dir: splits/web_v3
+model:
+  init_from: results/web_model_v2_snapshot.pt
+train:
+  epochs: 5           # warm start from v2; 5 epochs (~8-9 h) finish by morning
+  early_stopping_patience: 3
+  batch_size: 48
+  lr_head: 2.00e-03
+  lr: 4.00e-04
+  amp: false
+  channels_last: false
+augment:
+  rrc_scale: [0.35, 1.0]
+num_workers: 8

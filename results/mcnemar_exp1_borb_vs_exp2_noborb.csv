@@ -1,0 +1,2 @@
+backbone,seed,acc_a,acc_b,diff,diff_ci_lo,diff_ci_hi,b,c,statistic,p_value,method
+efficientnet_b3,0,0.9975769323964139,0.9975769323964139,0.0,-0.001696147322510298,0.001696147322510298,6,6,6.0,1.0,exact binomial

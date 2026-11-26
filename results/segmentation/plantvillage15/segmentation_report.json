@@ -1,0 +1,73 @@
+{
+  "thresholds": {
+    "t_B": 98,
+    "t_b": 141,
+    "method_B": "otsu",
+    "method_b": "otsu",
+    "pol_B": "low",
+    "pol_b": "high"
+  },
+  "polarity_votes": {
+    "pol_B": "low",
+    "pol_b": "high",
+    "vote_B_low": 0.992,
+    "vote_b_high": 0.998,
+    "n": 2000
+  },
+  "summary": [
+    {
+      "method": "borb_original",
+      "n": 20625,
+      "fail_<5%": 0,
+      "fail_>95%": 773,
+      "failure_rate_%": 3.748,
+      "coverage_mean_%": 65.97,
+      "coverage_median_%": 65.3
+    },
+    {
+      "method": "borb_plus",
+      "n": 20625,
+      "fail_<5%": 0,
+      "fail_>95%": 176,
+      "failure_rate_%": 0.853,
+      "coverage_mean_%": 51.29,
+      "coverage_median_%": 51.81
+    },
+    {
+      "method": "borb_plus_no_chroma",
+      "n": 20625,
+      "fail_<5%": 0,
+      "fail_>95%": 176,
+      "failure_rate_%": 0.853,
+      "coverage_mean_%": 50.36,
+      "coverage_median_%": 50.72
+    },
+    {
+      "method": "borb_plus_nomorph",
+      "n": 20625,
+      "fail_<5%": 0,
+      "fail_>95%": 155,
+      "failure_rate_%": 0.752,
+      "coverage_mean_%": 48.07,
+      "coverage_median_%": 48.13
+    },
+    {
+      "method": "otsu",
+      "n": 20625,
+      "fail_<5%": 9,
+      "fail_>95%": 0,
+      "failure_rate_%": 0.044,
+      "coverage_mean_%": 38.48,
+      "coverage_median_%": 38.02
+    },
+    {
+      "method": "kmeans",
+      "n": 20625,
+      "fail_<5%": 0,
+      "fail_>95%": 0,
+      "failure_rate_%": 0.0,
+      "coverage_mean_%": 36.32,
+      "coverage_median_%": 35.26
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Ablation: no training augmentation.
+_base_: exp1_borb.yaml
+experiment:
+  name: abl_noaug
+  ablation: {axis: augmentation, value: "off"}
+augment:
+  enabled: false

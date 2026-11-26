@@ -1,0 +1,664 @@
+                                                       precision    recall  f1-score   support
+
+                 Alfalfa | insect | Alfalfa plant bug     0.6000    0.4839    0.5357        62
+              Alfalfa | insect | Alfalfa seed chalcid     0.6000    0.3333    0.4286        18
+                    Alfalfa | insect | Alfalfa thrips     0.6500    0.7222    0.6842        18
+                    Alfalfa | insect | Alfalfa weevil     0.5893    0.6226    0.6055        53
+                   Alfalfa | insect | Blister beetles     0.5846    0.6333    0.6080        60
+                      Alfalfa | insect | Flax budworm     0.4000    0.4211    0.4103        57
+          Alfalfa | insect | Grasshoppers and locusts     0.6933    0.8525    0.7647        61
+              Alfalfa | insect | Green blister beetle     0.7097    0.7458    0.7273        59
+             Alfalfa | insect | Legume blister beetle     0.7778    0.6140    0.6863        57
+             Alfalfa | insect | Spotted alfalfa aphid     0.1538    0.0952    0.1176        21
+               Alfalfa | insect | Tarnished plant bug     0.6604    0.5833    0.6195        60
+                            Alfalfa | insect | Thrips     0.3731    0.4237    0.3968        59
+             Apple | fruit | Fruit rot (post-harvest)     1.0000    0.9600    0.9796       125
+                  Apple | leaf | Alternaria leaf spot     0.9776    0.9316    0.9540       234
+                     Apple | leaf | Frogeye leaf spot     0.9698    0.9923    0.9809       389
+                             Apple | leaf | Grey spot     0.8667    0.9701    0.9155        67
+        Apple | leaf | Marssonina blotch (brown spot)     0.9722    0.9459    0.9589       111
+                        Apple | leaf | Powdery mildew     0.9559    0.9799    0.9677       199
+                           Apple | plant | Apple scab     0.9525    0.8680    0.9083       485
+                            Apple | plant | Black rot     0.6000    0.3158    0.4138        19
+                     Apple | plant | Cedar apple rust     0.9581    0.9489    0.9535       313
+                              Apple | plant | Healthy     0.9225    0.9876    0.9540       808
+                         Apple | plant | Mosaic virus     0.9708    0.9668    0.9688       241
+                             Apricot | leaf | Healthy     0.9722    1.0000    0.9859       105
+                         Apricot | leaf | Leaf blight     0.9189    1.0000    0.9577        34
+                           Apricot | leaf | Shot hole     0.9896    1.0000    0.9948        95
+                            Ash gourd | leaf | Aphids     1.0000    0.8750    0.9333        24
+                      Ash gourd | leaf | Downy mildew     0.9185    0.9920    0.9538       125
+                           Ash gourd | leaf | Healthy     0.9932    0.9797    0.9864       148
+                   Ash gourd | leaf | Leaf curl virus     0.9899    0.9608    0.9751       102
+                        Ash gourd | leaf | Leaf miner     1.0000    0.5000    0.6667         4
+                         Banana | fruit | Anthracnose     0.8000    0.5000    0.6154         8
+                       Banana | fruit | Cigar end rot     0.6667    0.4000    0.5000         5
+            Banana | fruit | Fruit rot (post-harvest)     1.0000    0.9844    0.9921       128
+               Banana | fruit | Fruit-scarring beetle     1.0000    1.0000    1.0000        34
+                     Banana | leaf | Boron deficiency     0.9000    0.7500    0.8182        12
+                   Banana | leaf | Calcium deficiency     0.4054    0.7143    0.5172        42
+                      Banana | leaf | Iron deficiency     0.0000    0.0000    0.0000         9
+                 Banana | leaf | Magnesium deficiency     0.5000    0.2500    0.3333        16
+             Banana | leaf | Pestalotiopsis leaf spot     0.9697    0.8649    0.9143        37
+                 Banana | leaf | Potassium deficiency     0.9464    0.9815    0.9636       162
+                   Banana | leaf | Sulphur deficiency     0.5652    0.5735    0.5693        68
+                      Banana | leaf | Zinc deficiency     0.7059    0.3158    0.4364        38
+                   Banana | plant | Cordana leaf spot     0.9000    0.7297    0.8060        37
+                             Banana | plant | Healthy     0.8985    0.9335    0.9156       436
+                  Banana | plant | Sigatoka leaf spot     0.9669    0.9832    0.9749       475
+                   Banana | stem | Bacterial soft rot     0.9583    0.9928    0.9753       139
+                         Banana | stem | Banana aphid     1.0000    1.0000    1.0000        86
+                    Banana | stem | Pseudostem weevil     0.9808    0.9684    0.9745       158
+              Banana | whole plant | Bunchy top virus     0.8571    0.8571    0.8571        14
+Banana | whole plant | Fusarium wilt (Panama disease)     0.8772    0.8065    0.8403        62
+              Banana | whole plant | Xanthomonas wilt     0.9627    0.8600    0.9085       150
+                         Basil | plant | Downy mildew     0.7143    0.7143    0.7143         7
+                              Basil | plant | Healthy     0.8909    0.8596    0.8750        57
+                      Bean | leaf | Angular leaf spot     0.9250    0.9367    0.9308        79
+                       Bean | leaf | Bacterial blight     0.9902    1.0000    0.9951       101
+                         Bean | leaf | Bacterial wilt     1.0000    1.0000    1.0000       112
+                     Bean | leaf | Septoria leaf spot     1.0000    1.0000    1.0000        93
+                           Bean | plant | Halo blight     0.5000    0.3000    0.3750        10
+                               Bean | plant | Healthy     0.9024    0.9593    0.9300       270
+                          Bean | plant | Mosaic virus     0.9623    0.9503    0.9563       161
+                                  Bean | plant | Rust     0.9404    0.9364    0.9384       236
+                Bell pepper | fruit | Blossom end rot     0.8667    0.8667    0.8667        15
+       Bell pepper | fruit | Fruit rot (post-harvest)     0.9597    0.9597    0.9597       124
+                 Bell pepper | plant | Bacterial spot     0.9343    0.9585    0.9463       193
+              Bell pepper | plant | Frogeye leaf spot     0.5000    0.3333    0.4000         3
+                        Bell pepper | plant | Healthy     0.9687    0.9712    0.9699       382
+                      Bell pepper | plant | Leaf spot     0.6000    0.3000    0.4000        10
+                 Bell pepper | plant | Powdery mildew     1.0000    1.0000    1.0000         2
+                               Betel | leaf | Healthy     0.9720    0.9586    0.9653       145
+                              Betel | leaf | Leaf rot     1.0000    0.9216    0.9592        51
+                             Betel | leaf | Leaf spot     0.9302    0.9756    0.9524       123
+      Bitter gourd | fruit | Fruit rot (post-harvest)     1.0000    1.0000    1.0000        35
+                       Bitter gourd | fruit | Healthy     1.0000    1.0000    1.0000        33
+                      Black gram | leaf | Anthracnose     0.9375    1.0000    0.9677        45
+                          Black gram | leaf | Healthy     1.0000    0.9750    0.9873        40
+               Black gram | leaf | Leaf crinkle virus     1.0000    0.9643    0.9818        28
+                   Black gram | leaf | Powdery mildew     0.9459    1.0000    0.9722        35
+              Black gram | leaf | Yellow mosaic virus     1.0000    0.9500    0.9744        40
+                      Blueberry | fruit | Anthracnose     0.4000    0.6667    0.5000         3
+                      Blueberry | fruit | Mummy berry     0.0000    0.0000    0.0000         5
+                        Blueberry | plant | Gray mold     0.7500    0.7500    0.7500         4
+                          Blueberry | plant | Healthy     0.9565    0.9531    0.9548       277
+                             Blueberry | plant | Rust     0.5000    0.2000    0.2857        10
+                     Blueberry | plant | Scorch virus     0.6667    0.4000    0.5000         5
+              Broccoli | plant | Alternaria leaf spot     0.3333    0.3333    0.3333         6
+                      Broccoli | plant | Downy mildew     0.1429    0.1667    0.1538         6
+                           Broccoli | plant | Healthy     0.7000    0.7500    0.7241        28
+                         Broccoli | plant | Ring spot     0.0000    0.0000    0.0000         1
+           Cabbage | insect | Cabbage white butterfly     0.8936    0.8936    0.8936        47
+               Cabbage | plant | Alternaria leaf spot     0.6364    0.5000    0.5600        14
+                          Cabbage | plant | Black rot     0.7500    0.8571    0.8000        14
+                       Cabbage | plant | Downy mildew     0.3000    0.4286    0.3529         7
+                            Cabbage | plant | Healthy     0.8627    0.9167    0.8889        48
+                          Cacao | pod | Black pod rot     0.9737    0.9487    0.9610        78
+                        Cacao | pod | Cocoa pod borer     0.9091    0.8333    0.8696        12
+                                Cacao | pod | Healthy     0.9625    0.9872    0.9747        78
+                      Carambola | leaf | Insect holes     1.0000    1.0000    1.0000        69
+                          Carambola | plant | Healthy     1.0000    1.0000    1.0000       216
+              Carrot | plant | Alternaria leaf blight     0.7500    0.5000    0.6000         6
+                Carrot | plant | Cercospora leaf spot     0.0000    0.0000    0.0000         2
+                          Carrot | root | Cavity spot     1.0000    0.7500    0.8571         8
+                              Carrot | root | Healthy     0.9333    0.9333    0.9333        60
+                             Carrot | root | Soft rot     0.8085    0.7755    0.7917        49
+                      Cashew | leaf | Algal leaf spot     0.9868    1.0000    0.9933       149
+                          Cashew | leaf | Anthracnose     0.9586    0.9267    0.9424       150
+                              Cashew | leaf | Healthy     0.9485    0.9847    0.9663       131
+                           Cashew | leaf | Leaf miner     0.9701    0.9420    0.9559       138
+                             Cashew | stem | Gummosis     1.0000    0.9730    0.9863        37
+                    Cassava | leaf | Bacterial blight     0.8627    0.7402    0.7967       331
+                          Cassava | leaf | Brown spot     0.9653    0.9521    0.9586       146
+                Cassava | leaf | Brown streak disease     0.8502    0.8031    0.8259       325
+                          Cassava | leaf | Green mite     0.9703    0.9608    0.9655       102
+                        Cassava | leaf | Green mottle     0.8377    0.7279    0.7789       305
+                             Cassava | leaf | Healthy     0.7446    0.8779    0.8058       475
+                      Cassava | leaf | Mosaic disease     0.8682    0.9264    0.8963       462
+              Cauliflower | head | Bacterial soft rot     0.9091    0.9375    0.9231        32
+                       Cauliflower | leaf | Black rot     0.9583    1.0000    0.9787        23
+                    Cauliflower | leaf | Downy mildew     1.0000    0.7778    0.8750        27
+           Cauliflower | plant | Alternaria leaf spot     0.3333    0.1429    0.2000         7
+                        Cauliflower | plant | Healthy     0.6000    0.6316    0.6154        19
+                         Celery | plant | Anthracnose     1.0000    0.2000    0.3333         5
+                        Celery | plant | Early blight     0.8333    0.8333    0.8333         6
+                             Celery | plant | Healthy     0.8947    0.8500    0.8718        20
+                          Cherry | leaf | Leaf scorch     1.0000    0.8667    0.9286        30
+                            Cherry | leaf | Shot hole     1.0000    0.7000    0.8235        10
+                             Cherry | plant | Healthy     0.9143    0.9275    0.9209       207
+                           Cherry | plant | Leaf spot     0.7375    0.8429    0.7867        70
+                      Cherry | plant | Powdery mildew     0.9831    0.9409    0.9615       186
+               Chickpea | whole plant | Fusarium wilt     0.9652    0.9911    0.9780       112
+                     Chickpea | whole plant | Healthy     0.9872    0.9506    0.9686        81
+                         Chili pepper | leaf | Aphids     1.0000    1.0000    1.0000        20
+           Chili pepper | leaf | Cercospora leaf spot     0.8972    0.9600    0.9275       100
+                Chili pepper | leaf | Leaf curl virus     0.9851    0.9429    0.9635        70
+       Chili pepper | leaf | Leaf-eating caterpillars     0.9608    1.0000    0.9800        49
+               Chili pepper | leaf | Mites and thrips     0.8095    0.8947    0.8500        19
+            Chili pepper | leaf | Nutrient deficiency     0.8000    0.4706    0.5926        17
+                 Chili pepper | leaf | Powdery mildew     1.0000    1.0000    1.0000        20
+                         Chili pepper | leaf | Thrips     0.9909    0.9820    0.9864       111
+                     Chili pepper | leaf | Whiteflies     0.9800    1.0000    0.9899        49
+                       Chili pepper | plant | Healthy     0.9091    0.9402    0.9244       117
+             Chili pepper | whole plant | Anthracnose     1.0000    0.9333    0.9655        15
+                    Citrus | insect | Arrowhead scale     0.8276    0.6857    0.7500        35
+                 Citrus | insect | Black citrus aphid     0.7368    0.6087    0.6667        23
+             Citrus | insect | Black parlatoria scale     1.0000    0.5556    0.7143         9
+                 Citrus | insect | Brown citrus aphid     0.6000    0.5000    0.5455        18
+                 Citrus | insect | Chinese citrus fly     0.7000    0.6000    0.6462        35
+                   Citrus | insect | Citrus leafminer     0.8372    0.8372    0.8372        43
+                    Citrus | insect | Citrus red mite     0.6538    0.8095    0.7234        42
+                   Citrus | insect | Citrus rust mite     0.7895    0.8333    0.8108        18
+     Citrus | insect | Citrus swallowtail caterpillar     0.9592    1.0000    0.9792        47
+              Citrus | insect | Cottony cushion scale     0.7451    0.7037    0.7238        54
+                  Citrus | insect | Florida red scale     0.7692    0.5263    0.6250        19
+                Citrus | insect | Fruit-piercing moth     0.7500    0.7000    0.7241        30
+                 Citrus | insect | Green citrus aphid     0.7273    0.5161    0.6038        31
+                Citrus | insect | Japanese orange fly     0.6250    0.3333    0.4348        15
+                 Citrus | insect | Oriental fruit fly     0.7179    0.6667    0.6914        42
+                      Citrus | insect | Red wax scale     0.8333    0.8696    0.8511        23
+                 Citrus | insect | Spherical mealybug     0.0000    0.0000    0.0000         8
+                     Citrus | insect | Spiny whitefly     0.9571    0.9437    0.9504        71
+                    Citrus | insect | Tobacco cutworm     0.5422    0.6818    0.6040        66
+                       Citrus | plant | Citrus canker     0.8750    0.7778    0.8235        54
+     Citrus | plant | Huanglongbing (citrus greening)     0.5000    0.1600    0.2424       100
+    Coconut | leaf | Coconut black-headed caterpillar     0.9416    1.0000    0.9699       129
+                      Coconut | leaf | Grey leaf spot     0.9865    1.0000    0.9932       146
+                             Coconut | leaf | Healthy     1.0000    1.0000    1.0000        14
+                            Coconut | leaf | Leaf rot     0.9932    0.9932    0.9932       148
+          Coconut | leaf | Weligama coconut leaf wilt     0.9890    1.0000    0.9945       180
+                       Coconut | stem | Stem bleeding     0.9867    1.0000    0.9933       148
+                      Coconut | whole plant | Bud rot     1.0000    1.0000    1.0000        98
+                        Coffee | fruit | Berry blotch     0.7273    0.8889    0.8000         9
+                    Coffee | leaf | Coffee leaf miner     0.9933    0.9487    0.9705       156
+                      Coffee | leaf | Phoma leaf spot     0.9880    0.9880    0.9880       166
+                      Coffee | leaf | Red spider mite     0.6875    0.6875    0.6875        32
+                Coffee | plant | Cercospora leaf spot     0.9886    0.9457    0.9667        92
+                    Coffee | plant | Coffee leaf rust     0.9516    0.9112    0.9310       259
+                             Coffee | plant | Healthy     0.9062    0.9667    0.9355       180
+                 Cotton | leaf | Alternaria leaf spot     0.9677    0.9375    0.9524        32
+                     Cotton | leaf | Bacterial blight     0.8966    0.9541    0.9244       109
+                        Cotton | leaf | Fusarium wilt     0.9655    0.9825    0.9739        57
+                              Cotton | leaf | Healthy     0.9405    1.0000    0.9693        79
+                     Cotton | leaf | Herbicide damage     1.0000    0.9608    0.9800        51
+                      Cotton | leaf | Leaf curl virus     0.9878    0.9529    0.9701        85
+                       Cotton | leaf | Leaf reddening     0.9519    0.9167    0.9340       108
+                 Cotton | leaf | Leafhopper (jassids)     0.9722    0.8537    0.9091        41
+                    Cotton | leaf | Verticillium wilt     0.9091    0.9804    0.9434        51
+                         Cucumber | fruit | Belly rot     1.0000    0.9878    0.9939       164
+          Cucumber | fruit | Fruit rot (post-harvest)     0.8235    0.8235    0.8235        51
+                 Cucumber | fruit | Pythium fruit rot     1.0000    1.0000    1.0000       155
+                        Cucumber | leaf | Anthracnose     0.9521    0.9329    0.9424       149
+                       Cucumber | leaf | Downy mildew     1.0000    0.9597    0.9795       149
+                 Cucumber | plant | Angular leaf spot     0.6190    0.5417    0.5778        24
+                    Cucumber | plant | Bacterial wilt     0.9005    0.9829    0.9399       175
+                           Cucumber | plant | Healthy     0.9402    0.9752    0.9574       403
+                    Cucumber | plant | Powdery mildew     0.9286    0.5200    0.6667        25
+                  Cucumber | stem | Gummy stem blight     0.9276    0.9527    0.9400       148
+                  Custard apple | fruit | Anthracnose     1.0000    0.9932    0.9966       147
+                 Custard apple | fruit | Black canker     0.9811    0.9873    0.9842       158
+                 Custard apple | fruit | Diplodia rot     1.0000    1.0000    1.0000       149
+                   Custard apple | fruit | Fruit spot     0.9935    0.9809    0.9872       157
+                     Custard apple | fruit | Mealybug     0.9875    0.9937    0.9906       159
+                     Custard apple | leaf | Leaf spot     0.9937    1.0000    0.9968       158
+                      Date palm | leaf | Black scorch     0.9474    0.8571    0.9000        21
+                         Date palm | leaf | Dubas bug     0.9755    0.9938    0.9845       160
+            Date palm | leaf | Fusarium wilt (bayoud)     0.7959    0.9512    0.8667        41
+                           Date palm | leaf | Healthy     1.0000    0.9929    0.9964       141
+                         Date palm | leaf | Leaf spot     1.0000    0.3846    0.5556        13
+              Date palm | leaf | Magnesium deficiency     0.9651    0.8925    0.9274        93
+              Date palm | leaf | Manganese deficiency     0.9861    1.0000    0.9930        71
+              Date palm | leaf | Potassium deficiency     0.9664    0.9730    0.9697       148
+                     Date palm | leaf | Rachis blight     1.0000    0.9677    0.9836        62
+          Date palm | leaf | White scale (Parlatoria)     0.9500    0.9048    0.9268        21
+                           Durian | fruit | Fruit rot     1.0000    0.9636    0.9815        55
+                            Durian | fruit | Mealybug     0.9661    0.8507    0.9048        67
+                      Durian | leaf | Algal leaf spot     1.0000    0.9663    0.9829        89
+                          Durian | leaf | Anthracnose     0.9341    0.9884    0.9605        86
+                              Durian | leaf | Healthy     0.9894    0.9894    0.9894        94
+                          Durian | leaf | Leaf blight     0.9459    0.8974    0.9211        78
+                  Durian | leaf | Phomopsis leaf spot     0.9756    0.9756    0.9756        82
+              Durian | leaf | Rhizoctonia leaf blight     0.9146    0.9615    0.9375        78
+                          Durian | leaf | Sooty mould     1.0000    0.8305    0.9074        59
+                  Durian | stem | Phytophthora canker     1.0000    0.9839    0.9919        62
+                          Durian | stem | Stem blight     0.9277    1.0000    0.9625        77
+             Durian | stem | Stem cracking (gummosis)     0.9672    0.9077    0.9365        65
+                    Eggplant | fruit | Fruit cracking     0.8378    0.8378    0.8378        37
+                  Eggplant | fruit | Phomopsis blight     0.8276    0.7273    0.7742        33
+             Eggplant | fruit | Shoot and fruit borer     0.9262    0.8968    0.9113       126
+                           Eggplant | fruit | Wet rot     0.9500    0.9500    0.9500        40
+                             Eggplant | leaf | Aphids     0.6429    0.8372    0.7273        43
+                       Eggplant | leaf | Flea beetles     1.0000    0.6769    0.8073        65
+                      Eggplant | leaf | Insect damage     0.6957    0.7692    0.7306       104
+                          Eggplant | leaf | Leaf spot     0.6410    0.5618    0.5988        89
+                       Eggplant | leaf | Mosaic virus     0.8381    0.7686    0.8018       229
+                     Eggplant | leaf | Powdery mildew     0.8864    0.9512    0.9176        41
+                         Eggplant | leaf | White mold     0.0000    0.0000    0.0000        10
+                               Eggplant | leaf | Wilt     1.0000    0.8214    0.9020        28
+              Eggplant | plant | Cercospora leaf spot     0.7647    0.7647    0.7647        34
+                           Eggplant | plant | Healthy     0.8164    0.9220    0.8660       410
+               Eggplant | plant | Phytophthora blight     0.9518    0.9186    0.9349        86
+                              Fig | leaf | Brown spot     1.0000    0.9000    0.9474        10
+                                 Fig | leaf | Healthy     1.0000    0.8125    0.8966        16
+                             Fig | leaf | Leaf blight     0.8261    0.9048    0.8636        21
+                                    Fig | leaf | Rust     0.9231    1.0000    0.9600        12
+                          Finger millet | head | Smut     1.0000    1.0000    1.0000        18
+                         Finger millet | leaf | Blast     0.6591    0.4603    0.5421        63
+                  Finger millet | leaf | Downy mildew     1.0000    1.0000    1.0000        26
+                       Finger millet | leaf | Healthy     0.9167    0.9565    0.9362        23
+           Finger millet | leaf | Mottle streak virus     0.9259    0.9615    0.9434        26
+                          Finger millet | leaf | Rust     0.5385    0.6176    0.5753        68
+                   Finger millet | whole plant | Wilt     0.9200    0.8846    0.9020        26
+                             Garlic | plant | Healthy     0.6000    0.7826    0.6792        23
+                         Garlic | plant | Leaf blight     0.4167    0.3571    0.3846        14
+                                Garlic | plant | Rust     1.0000    0.3571    0.5263        14
+                             Ginger | plant | Healthy     0.8000    0.7059    0.7500        17
+                           Ginger | plant | Leaf spot     0.3333    0.1111    0.1667         9
+                        Ginger | stem | Sheath blight     0.5000    0.1429    0.2222         7
+             Grape | fruit | Fruit rot (post-harvest)     1.0000    1.0000    1.0000        20
+                          Grape | insect | Broad mite     0.6000    0.3750    0.4615         8
+                           Grape | insect | Flat mite     1.0000    0.8571    0.9231         7
+                Grape | insect | Grape clearwing moth     0.8462    0.6471    0.7333        17
+                      Grape | insect | Grape hornworm     0.7324    0.8125    0.7704        64
+                   Grape | insect | Grape leaf beetle     1.0000    0.8966    0.9455        29
+                    Grape | insect | Grape leafhopper     0.0000    0.0000    0.0000         8
+                    Grape | insect | Grape phylloxera     0.6857    0.6857    0.6857        35
+                   Grape | insect | Grape trunk borer     0.5625    0.5902    0.5760        61
+                    Grape | insect | Green leafhopper     0.7857    0.7333    0.7586        60
+                     Grape | insect | Green mirid bug     0.5789    0.5946    0.5867        37
+                 Grape | insect | Greenhouse whitefly     0.6212    0.7193    0.6667        57
+                            Grape | insect | Mealybug     0.5185    0.5000    0.5091        28
+                 Grape | insect | Plant bugs (mirids)     0.4667    0.4667    0.4667        60
+                   Grape | insect | Slug caterpillars     0.8689    0.9138    0.8908        58
+                  Grape | insect | Spotted lanternfly     0.7361    0.8413    0.7852        63
+                           Grape | leaf | Anthracnose     0.8182    0.7826    0.8000        23
+                   Grape | leaf | Bacterial leaf spot     1.0000    1.0000    1.0000        19
+                  Grape | leaf | Esca (black measles)     0.9965    0.9829    0.9897       293
+                  Grape | leaf | Isariopsis leaf spot     1.0000    1.0000    1.0000       182
+                        Grape | leaf | Powdery mildew     0.9185    0.9389    0.9286       180
+                            Grape | plant | Black rot     0.9610    0.9528    0.9569       233
+                         Grape | plant | Downy mildew     0.9135    0.9263    0.9199       285
+                   Grape | plant | Grape erineum mite     0.9263    0.8148    0.8670       108
+                              Grape | plant | Healthy     0.9100    0.9733    0.9406       374
+                            Grape | plant | Leaf spot     0.5000    0.3000    0.3750        10
+                       Grape | plant | Leafroll virus     1.0000    0.5333    0.6957        15
+              Groundnut | leaf | Alternaria leaf spot     0.9773    0.9773    0.9773        44
+                   Groundnut | leaf | Early leaf spot     0.8833    0.8112    0.8457       196
+                           Groundnut | leaf | Healthy     0.8540    0.9369    0.8935       206
+                    Groundnut | leaf | Late leaf spot     0.9840    0.9840    0.9840       125
+               Groundnut | leaf | Nutrient deficiency     0.9000    0.8571    0.8780        63
+                     Groundnut | leaf | Rosette virus     1.0000    0.9000    0.9474        10
+                              Groundnut | leaf | Rust     0.9423    0.8448    0.8909        58
+                          Guava | fruit | Dot disease     0.2414    0.1795    0.2059        39
+             Guava | fruit | Fruit rot (post-harvest)     0.9524    1.0000    0.9756        20
+                     Guava | fruit | Phytophthora rot     1.0000    0.8500    0.9189        20
+                                 Guava | fruit | Rust     0.5000    0.0645    0.1143        31
+                                 Guava | fruit | Scab     0.7121    0.7705    0.7402        61
+                       Guava | fruit | Styler end rot     0.8381    0.7928    0.8148       111
+                       Guava | leaf | Algal leaf spot     0.7113    0.8347    0.7681       121
+                               Guava | leaf | Dieback     1.0000    1.0000    1.0000         4
+                             Guava | leaf | Leaf spot     0.3478    0.2500    0.2909        32
+              Guava | leaf | Leaf-eating caterpillars     0.8721    0.9259    0.8982        81
+                   Guava | leaf | Nutrient deficiency     0.7647    1.0000    0.8667        13
+                            Guava | leaf | Whiteflies     1.0000    0.9759    0.9878        83
+                          Guava | plant | Anthracnose     0.8813    0.7878    0.8319       245
+                               Guava | plant | Canker     0.9077    0.8082    0.8551        73
+                              Guava | plant | Healthy     0.8865    0.9912    0.9360       457
+                   Jackfruit | leaf | Algal leaf spot     1.0000    1.0000    1.0000        27
+                        Jackfruit | leaf | Black spot     1.0000    1.0000    1.0000        26
+                           Jackfruit | leaf | Healthy     1.0000    1.0000    1.0000        32
+                    Java plum | leaf | Bacterial spot     1.0000    0.9067    0.9510        75
+                      Java plum | leaf | Brown blight     0.9494    1.0000    0.9740        75
+                           Java plum | leaf | Healthy     0.9608    1.0000    0.9800        49
+                    Java plum | leaf | Powdery mildew     0.9759    0.9878    0.9818        82
+                       Java plum | leaf | Sooty mould     0.9877    1.0000    0.9938        80
+            Jujube | fruit | Fruit rot (post-harvest)     0.9000    0.9474    0.9231        19
+             Jujube | leaf | Leaf-eating caterpillars     0.0000    0.0000    0.0000         0
+                                 Jujube | leaf | Rust     0.0000    0.0000    0.0000         0
+                             Jujube | plant | Healthy     0.9583    1.0000    0.9787        23
+                                Jute | leaf | Dieback     0.8514    1.0000    0.9197        63
+                                Jute | leaf | Healthy     0.9434    1.0000    0.9709        50
+                           Jute | leaf | Insect holes     0.9655    0.9655    0.9655        58
+                           Jute | leaf | Mosaic virus     1.0000    0.7955    0.8861        44
+                          Jute | stem | Stem soft rot     1.0000    0.8800    0.9362        50
+                           Lemon | leaf | Anthracnose     0.8696    1.0000    0.9302        20
+                      Lemon | leaf | Bacterial blight     1.0000    1.0000    1.0000        17
+                         Lemon | leaf | Citrus canker     1.0000    1.0000    1.0000        37
+                               Lemon | leaf | Healthy     1.0000    1.0000    1.0000        40
+                       Lemon | leaf | Leaf curl virus     1.0000    0.8696    0.9302        23
+                   Lemon | leaf | Nutrient deficiency     1.0000    1.0000    1.0000        35
+                           Lemon | leaf | Sooty mould     1.0000    1.0000    1.0000        29
+                          Lemon | leaf | Spider mites     1.0000    1.0000    1.0000        19
+                     Lentil | leaf | Ascochyta blight     0.8571    0.8684    0.8627       152
+                              Lentil | leaf | Healthy     0.7278    0.8039    0.7640       153
+                       Lentil | leaf | Powdery mildew     0.8939    0.8082    0.8489       146
+                                 Lentil | leaf | Rust     0.9262    0.9139    0.9200       151
+                       Lettuce | plant | Downy mildew     0.5714    0.5714    0.5714        14
+                            Lettuce | plant | Healthy     0.9506    0.9277    0.9390        83
+                       Lettuce | plant | Mosaic virus     1.0000    0.3333    0.5000         9
+                              Loquat | leaf | Healthy     0.8667    1.0000    0.9286        13
+                            Loquat | leaf | Leaf spot     1.0000    0.9048    0.9500        21
+                          Maize | fruit | Common smut     0.8710    0.9643    0.9153        28
+                              Maize | insect | Aphids     0.4242    0.6774    0.5217        62
+                    Maize | insect | Asian corn borer     0.4928    0.5965    0.5397        57
+                       Maize | insect | Black cutworm     0.4419    0.6552    0.5278        58
+                       Maize | insect | Large cutworm     0.3636    0.2449    0.2927        49
+                        Maize | insect | Mole cricket     0.8082    0.9833    0.8872        60
+                   Maize | insect | Oriental armyworm     0.4706    0.6780    0.5556        59
+                        Maize | insect | Spider mites     0.5789    0.6346    0.6055        52
+                         Maize | insect | White grubs     0.7794    0.8281    0.8030        64
+                 Maize | insect | White-margined moth     0.2500    0.1667    0.2000        12
+         Maize | insect | White-spotted flower chafer     0.9104    0.8714    0.8905        70
+                           Maize | insect | Wireworms     0.7000    0.7500    0.7241        56
+                      Maize | insect | Yellow cutworm     0.3636    0.2609    0.3038        46
+                   Maize | insect | Yellow peach moth     0.8182    0.6429    0.7200        56
+                  Maize | leaf | Curvularia leaf spot     1.0000    0.8500    0.9189        20
+                         Maize | leaf | Fall armyworm     0.8727    0.9796    0.9231        49
+                    Maize | leaf | Grasshopper damage     0.9710    0.9437    0.9571        71
+                      Maize | leaf | Holcus leaf spot     1.0000    0.8333    0.9091        12
+                           Maize | leaf | Leaf beetle     0.9778    0.9565    0.9670        92
+                             Maize | leaf | Leaf spot     0.8241    0.8318    0.8279       107
+                 Maize | leaf | Maize lethal necrosis     0.9574    0.8940    0.9247       151
+                    Maize | leaf | Maize streak virus     0.9307    0.9261    0.9284       203
+                   Maize | leaf | Nitrogen deficiency     1.0000    1.0000    1.0000        77
+                   Maize | leaf | Nutrient deficiency     1.0000    1.0000    1.0000        63
+               Maize | leaf | Phaeosphaeria leaf spot     0.7890    0.7963    0.7926       108
+                 Maize | leaf | Phosphorus deficiency     0.9254    0.9538    0.9394        65
+                  Maize | leaf | Potassium deficiency     0.9483    0.9821    0.9649        56
+             Maize | leaf | Southern corn leaf blight     1.0000    0.9500    0.9744        20
+                         Maize | leaf | Southern rust     0.9423    0.8305    0.8829        59
+                       Maize | leaf | Zinc deficiency     0.9362    0.8462    0.8889        52
+                          Maize | plant | Common rust     0.9487    0.9217    0.9350       281
+                       Maize | plant | Gray leaf spot     0.7700    0.8325    0.8000       197
+                              Maize | plant | Healthy     0.9258    0.9834    0.9537       482
+                 Maize | plant | Northern leaf blight     0.8917    0.8575    0.8743       365
+         Maize | stem | Banded leaf and sheath blight     1.0000    0.9545    0.9767        22
+                Mango | fruit | Alternaria black spot     0.5294    0.8182    0.6429        11
+                      Mango | fruit | Black mould rot     0.7222    0.8667    0.7879        15
+             Mango | fruit | Fruit rot (post-harvest)     0.7500    0.6667    0.7059        54
+                         Mango | fruit | Stem-end rot     0.7500    0.4615    0.5714        13
+                       Mango | insect | Chilli thrips     0.6226    0.5690    0.5946        58
+                  Mango | insect | Flatid planthopper     0.5977    0.8387    0.6980        62
+      Mango | insect | Green broad-winged planthopper     0.7143    0.5455    0.6186        55
+                         Mango | insect | Leafhoppers     0.6429    0.7627    0.6977        59
+                        Mango | insect | Mango hopper     1.0000    0.6667    0.8000         9
+                   Mango | insect | Mango pulp weevil     0.7297    0.6136    0.6667        44
+                   Mango | insect | Mango shoot borer     0.5556    0.3333    0.4167        30
+                    Mango | insect | Mango stem borer     0.6400    0.5926    0.6154        54
+                      Mango | leaf | Bacterial canker     1.0000    1.0000    1.0000        93
+                               Mango | leaf | Dieback     1.0000    0.9899    0.9949        99
+                        Mango | leaf | Powdery mildew     1.0000    1.0000    1.0000        91
+                           Mango | leaf | Sooty mould     1.0000    1.0000    1.0000        96
+                          Mango | plant | Anthracnose     0.9706    0.9612    0.9659       103
+                       Mango | plant | Cutting weevil     0.9180    0.9492    0.9333       118
+                           Mango | plant | Gall midge     0.9021    0.8836    0.8927       146
+                              Mango | plant | Healthy     0.9873    0.9810    0.9841       158
+                              Maple | plant | Healthy     0.8182    0.8438    0.8308        32
+                             Maple | plant | Tar spot     0.8333    0.6667    0.7407        15
+                    Melon | leaf | Calcium deficiency     0.0000    0.0000    0.0000         0
+                               Melon | leaf | Healthy     0.0000    0.0000    0.0000         3
+                   Melon | leaf | Nitrogen deficiency     0.0000    0.0000    0.0000         0
+                  Melon | leaf | Potassium deficiency     0.0000    0.0000    0.0000         1
+                                Millet | leaf | Blast     0.6250    0.7792    0.6936        77
+                              Millet | leaf | Healthy     0.9873    1.0000    0.9936        78
+                                 Millet | leaf | Rust     0.6286    0.5641    0.5946        78
+                  Money plant | leaf | Bacterial wilt     1.0000    0.5000    0.6667         2
+                         Money plant | leaf | Healthy     1.0000    1.0000    1.0000        18
+              Money plant | leaf | Manganese toxicity     0.8333    1.0000    0.9091         5
+                       Night jasmine | leaf | Healthy     1.0000    0.5000    0.6667         2
+                          Night jasmine | leaf | Rust     0.0000    0.0000    0.0000         2
+              Okra | fruit | Fruit rot (post-harvest)     0.3333    0.7500    0.4615        12
+                   Okra | leaf | Alternaria leaf spot     0.6667    0.4000    0.5000        10
+                        Okra | leaf | Leaf curl virus     1.0000    0.5000    0.6667         6
+                 Okra | leaf | Phyllosticta leaf spot     0.4444    0.5714    0.5000         7
+                               Okra | plant | Healthy     0.9890    0.9499    0.9690       379
+                          Onion | leaf | Downy mildew     1.0000    0.8684    0.9296        76
+                    Onion | leaf | Fusarium basal rot     0.9878    0.9878    0.9878        82
+                               Onion | leaf | Healthy     0.9313    0.9457    0.9385       129
+                Onion | leaf | Iris yellow spot virus     0.8727    0.9057    0.8889        53
+                         Onion | leaf | Purple blotch     0.9494    0.9259    0.9375        81
+ Onion | leaf | Stemphylium / anthracnose leaf blight     0.7778    0.8235    0.8000        17
+            Orange | fruit | Fruit rot (post-harvest)     0.9919    0.9762    0.9840       126
+                              Orange | leaf | Dieback     1.0000    1.0000    1.0000       122
+      Orange | leaf | Huanglongbing (citrus greening)     0.7246    0.9804    0.8333       204
+                             Orange | leaf | Mealybug     1.0000    1.0000    1.0000       110
+                       Orange | leaf | Powdery mildew     1.0000    1.0000    1.0000       116
+                            Orange | leaf | Shot hole     1.0000    1.0000    1.0000       100
+                       Orange | leaf | Spiny whitefly     1.0000    1.0000    1.0000        65
+                             Orange | plant | Healthy     0.9894    0.9894    0.9894       189
+            Papaya | fruit | Fruit rot (post-harvest)     1.0000    1.0000    1.0000        34
+                              Papaya | leaf | Healthy     1.0000    1.0000    1.0000        35
+                      Papaya | leaf | Leaf curl virus     1.0000    0.9630    0.9811        27
+                             Papaya | leaf | Mealybug     1.0000    0.9600    0.9796        25
+                                Papaya | leaf | Mites     1.0000    1.0000    1.0000        10
+                         Papaya | leaf | Mosaic virus     0.9767    1.0000    0.9882        42
+                       Papaya | leaf | Ringspot virus     1.0000    1.0000    1.0000        20
+                            Peach | fruit | Brown rot     0.7778    0.8750    0.8235        16
+                                 Peach | fruit | Scab     0.7143    0.8333    0.7692         6
+                        Peach | leaf | Bacterial spot     0.9955    1.0000    0.9977       221
+                              Peach | plant | Healthy     0.8455    0.9118    0.8774       102
+                      Peach | plant | Peach leaf curl     0.9524    0.8333    0.8889        24
+                             Pear | leaf | Black spot     0.9500    1.0000    0.9744        19
+                            Pear | leaf | Fire blight     1.0000    1.0000    1.0000        13
+                                Pear | leaf | Healthy     0.9474    1.0000    0.9730        18
+                        Persimmon | leaf | Brown spot     1.0000    1.0000    1.0000        15
+                          Pigeon pea | leaf | Healthy     1.0000    0.9545    0.9767        22
+                        Pigeon pea | leaf | Leaf spot     0.8158    0.9394    0.8732        33
+                      Pigeon pea | leaf | Leaf webber     1.0000    0.8000    0.8889        15
+                 Pigeon pea | leaf | Sterility mosaic     0.9048    0.8636    0.8837        22
+                             Plum | fruit | Brown rot     0.6250    0.7143    0.6667         7
+                           Plum | fruit | Plum pocket     0.1667    0.1429    0.1538         7
+                        Plum | plant | Bacterial spot     0.0000    0.0000    0.0000         1
+                               Plum | plant | Healthy     0.8077    0.7683    0.7875        82
+                        Plum | plant | Plum pox virus     1.0000    0.5000    0.6667         4
+                                  Plum | plant | Rust     0.5000    0.3333    0.4000         3
+                    Pomegranate | fruit | Anthracnose     0.9697    0.9660    0.9679       265
+               Pomegranate | fruit | Bacterial blight     0.9888    0.9888    0.9888        89
+                     Pomegranate | fruit | Carob moth     0.9703    0.9333    0.9515       105
+       Pomegranate | fruit | Fruit rot (post-harvest)     0.8846    1.0000    0.9388        23
+                        Pomegranate | fruit | Healthy     0.9957    0.9872    0.9914       234
+                        Pomegranate | fruit | Sunburn     0.9351    0.9863    0.9600        73
+                        Potato | leaf | Insect damage     0.9444    0.8644    0.9027        59
+                         Potato | leaf | Mosaic virus     0.9000    0.8654    0.8824        52
+                      Potato | leaf | Nematode damage     1.0000    0.8571    0.9231         7
+                        Potato | plant | Early blight     0.9381    0.9206    0.9292       214
+                             Potato | plant | Healthy     0.9194    0.9406    0.9299       303
+                         Potato | plant | Late blight     0.9520    0.9083    0.9296       240
+                         Potato | tuber | Black scurf     0.8750    0.6364    0.7368        11
+                            Potato | tuber | Blackleg     0.6000    0.3000    0.4000        10
+                  Potato | tuber | Blackspot bruising     0.9933    1.0000    0.9966       148
+                           Potato | tuber | Brown rot     1.0000    1.0000    1.0000        22
+                         Potato | tuber | Common scab     0.6154    1.0000    0.7619         8
+                             Potato | tuber | Dry rot     0.9470    0.9795    0.9630       146
+                            Potato | tuber | Pink rot     0.7500    0.9000    0.8182        10
+                            Potato | tuber | Soft rot     0.9040    0.9275    0.9156       193
+                      Pumpkin | leaf | Bacterial spot     0.7174    0.8684    0.7857        38
+                        Pumpkin | leaf | Downy mildew     0.9024    0.9250    0.9136        40
+                             Pumpkin | leaf | Healthy     0.8605    0.9250    0.8916        40
+                        Pumpkin | leaf | Mosaic virus     0.9474    0.9231    0.9351        39
+                      Pumpkin | leaf | Powdery mildew     0.9118    0.7381    0.8158        42
+                      Radish | leaf | Black leaf spot     1.0000    0.9896    0.9948        96
+                         Radish | leaf | Downy mildew     0.9907    1.0000    0.9953       107
+                         Radish | leaf | Flea beetles     1.0000    1.0000    1.0000        94
+                              Radish | leaf | Healthy     1.0000    1.0000    1.0000       118
+                         Radish | leaf | Mosaic virus     1.0000    1.0000    1.0000       105
+                        Raspberry | fruit | Gray mold     1.0000    0.7500    0.8571         4
+                      Raspberry | plant | Fire blight     0.3333    0.2500    0.2857         4
+                          Raspberry | plant | Healthy     0.9407    0.9737    0.9569       114
+                        Raspberry | plant | Leaf spot     0.0000    0.0000    0.0000         2
+                             Raspberry | plant | Rust     0.7500    1.0000    0.8571         3
+                   Rice | insect | Asiatic rice borer     0.5068    0.5968    0.5481        62
+                    Rice | insect | Brown planthopper     0.5000    0.4098    0.4505        61
+                    Rice | insect | Paddy stem maggot     0.3913    0.4286    0.4091        21
+                      Rice | insect | Rice gall midge     0.8182    0.6923    0.7500        52
+                Rice | insect | Rice green leafhopper     0.5152    0.3542    0.4198        48
+                Rice | insect | Rice leaf caterpillar     0.4333    0.5778    0.4952        45
+                      Rice | insect | Rice shell pest     0.4565    0.4667    0.4615        45
+                        Rice | insect | Rice stem fly     0.7000    0.4375    0.5385        32
+                          Rice | insect | Rice thrips     0.7333    0.5500    0.6286        20
+                    Rice | insect | Rice water weevil     0.5962    0.4769    0.5299        65
+              Rice | insect | Small brown planthopper     0.4426    0.4821    0.4615        56
+             Rice | insect | White-backed planthopper     0.5147    0.5738    0.5426        61
+                    Rice | insect | Yellow stem borer     0.7000    0.5833    0.6364        48
+                  Rice | leaf | Bacterial leaf blight     0.9129    0.9362    0.9244       392
+                  Rice | leaf | Bacterial leaf streak     0.8488    0.9865    0.9125        74
+                             Rice | leaf | Brown spot     0.9134    0.9317    0.9225       498
+                           Rice | leaf | Downy mildew     0.7480    0.8559    0.7983       111
+                             Rice | leaf | Leaf scald     0.8200    0.8039    0.8119       204
+                              Rice | leaf | Leaf smut     1.0000    0.8000    0.8889         5
+                      Rice | leaf | Narrow brown spot     0.9286    0.7647    0.8387        17
+                    Rice | leaf | Nitrogen deficiency     1.0000    0.5349    0.6970        43
+                  Rice | leaf | Phosphorus deficiency     0.7000    0.2258    0.3415        31
+                   Rice | leaf | Potassium deficiency     0.7895    0.7500    0.7692        40
+                             Rice | leaf | Rice hispa     0.8571    0.8451    0.8511       142
+                           Rice | leaf | Stripe virus     0.8485    0.5000    0.6292        56
+                                 Rice | leaf | Tungro     0.9205    0.8663    0.8926       374
+            Rice | panicle | Bacterial panicle blight     0.9500    0.8906    0.9194        64
+                               Rice | plant | Healthy     0.8322    0.9514    0.8878       370
+                            Rice | plant | Rice blast     0.8869    0.8869    0.8869       628
+                       Rice | plant | Rice leaffolder     0.6909    0.7308    0.7103       104
+                          Rice | stem | Sheath blight     0.8542    0.8786    0.8662       140
+                Rice | stem | Stem borer (dead heart)     0.9662    0.9533    0.9597       150
+                             Rose | leaf | Black spot     1.0000    0.9615    0.9804        78
+                           Rose | leaf | Downy mildew     0.9474    0.9000    0.9231        20
+                                Rose | leaf | Healthy     0.9649    1.0000    0.9821       165
+                           Rose | leaf | Insect holes     1.0000    1.0000    1.0000        49
+                      Rubber | leaf | Algal leaf spot     1.0000    0.7778    0.8750         9
+                              Rubber | leaf | Healthy     0.8750    0.7778    0.8235         9
+                            Rubber | leaf | Leaf spot     0.9524    1.0000    0.9756        20
+                       Rubber | leaf | Powdery mildew     1.0000    1.0000    1.0000         4
+                         Soybean | leaf | Leaf beetle     0.9683    0.7349    0.8356        83
+            Soybean | leaf | Leaf-eating caterpillars     0.7444    0.8272    0.7836        81
+              Soybean | leaf | Semilooper caterpillar     0.7778    0.6512    0.7089        43
+                 Soybean | leaf | Vein necrosis virus     1.0000    1.0000    1.0000        25
+                   Soybean | plant | Bacterial blight     0.8539    0.9157    0.8837        83
+                       Soybean | plant | Downy mildew     0.6000    0.8571    0.7059        14
+                  Soybean | plant | Frogeye leaf spot     0.9130    0.9403    0.9265        67
+                            Soybean | plant | Healthy     0.8766    0.9515    0.9125       433
+                       Soybean | plant | Mosaic virus     0.6610    0.7222    0.6903        54
+                               Soybean | plant | Rust     1.0000    0.9545    0.9767        44
+                Soybean | plant | Septoria brown spot     0.8857    0.9118    0.8986        34
+                         Spinach | leaf | Anthracnose     0.8421    0.8421    0.8421        19
+                      Spinach | leaf | Bacterial spot     0.8145    0.7319    0.7710       138
+                        Spinach | leaf | Downy mildew     0.9032    0.5957    0.7179        47
+                             Spinach | leaf | Healthy     0.7619    0.9231    0.8348       156
+                       Spinach | leaf | Insect damage     0.7253    0.6600    0.6911       100
+           Sponge gourd | leaf | Alternaria leaf spot     0.9706    0.6226    0.7586        53
+              Sponge gourd | leaf | Angular leaf spot     0.7069    0.9111    0.7961        45
+                        Sponge gourd | leaf | Healthy     0.8036    0.8654    0.8333        52
+                   Sponge gourd | leaf | Insect holes     0.8000    0.7568    0.7778        37
+                   Sponge gourd | leaf | Mosaic virus     0.8667    0.9750    0.9176        40
+                      Squash | plant | Bacterial wilt     0.1429    0.1250    0.1333         8
+                        Squash | plant | Downy mildew     0.6667    0.5000    0.5714         8
+                             Squash | plant | Healthy     0.7179    0.7368    0.7273        38
+                        Squash | plant | Mosaic virus     0.7000    0.4375    0.5385        16
+                      Squash | plant | Powdery mildew     0.9467    0.9595    0.9530       296
+                     Strawberry | fruit | Anthracnose     1.0000    0.7000    0.8235        10
+        Strawberry | fruit | Fruit rot (post-harvest)     1.0000    0.9636    0.9815        55
+                         Strawberry | plant | Healthy     0.9545    0.9711    0.9628       173
+                     Strawberry | plant | Leaf scorch     0.9845    1.0000    0.9922       191
+                  Sugar beet | insect | Beet armyworm     0.4754    0.4531    0.4640        64
+                       Sugar beet | insect | Beet fly     0.0000    0.0000    0.0000         9
+           Sugar beet | insect | Beet leaf-mining fly     0.6429    0.6667    0.6545        27
+     Sugar beet | insect | Beet webworm (meadow moth)     0.5200    0.5200    0.5200        25
+                    Sugar beet | insect | Beet weevil     0.3953    0.5484    0.4595        31
+               Sugar beet | insect | Cabbage armyworm     0.4583    0.3793    0.4151        58
+                   Sugar beet | insect | Flea beetles     0.8451    0.9375    0.8889        64
+                Sugar beet | insect | Oriental chafer     0.8889    0.8421    0.8649        19
+                  Sugarcane | leaf | Banded chlorosis     0.8356    0.8971    0.8652        68
+                        Sugarcane | leaf | Brown rust     0.9398    0.9398    0.9398        83
+                        Sugarcane | leaf | Brown spot     0.9247    0.9247    0.9247       146
+                           Sugarcane | leaf | Healthy     0.8649    1.0000    0.9275        96
+                      Sugarcane | leaf | Pokkah boeng     1.0000    1.0000    1.0000        47
+            Sugarcane | leaf | Viral disease (mosaic)     0.9481    0.8951    0.9209       143
+               Sugarcane | leaf | Yellow leaf disease     0.9036    0.8721    0.8876       172
+                           Sugarcane | stem | Red rot     0.9815    1.0000    0.9907        53
+                          Sugarcane | stem | Sett rot     0.9852    1.0000    0.9925       133
+                              Sugarcane | stem | Smut     1.0000    0.9778    0.9888        45
+               Sugarcane | whole plant | Grassy shoot     0.9861    1.0000    0.9930        71
+                      Sunflower | leaf | Downy mildew     1.0000    1.0000    1.0000       110
+                         Sunflower | leaf | Gray mold     1.0000    1.0000    1.0000        90
+                           Sunflower | leaf | Healthy     1.0000    1.0000    1.0000       127
+                                Taro | leaf | Healthy     0.8411    0.9137    0.8759       197
+                           Taro | leaf | Mosaic virus     0.9870    0.9870    0.9870        77
+                       Taro | leaf | Taro leaf blight     0.9624    0.9377    0.9499       546
+                               Taro | root | Root rot     1.0000    1.0000    1.0000        99
+                         Tea | leaf | Algal leaf spot     0.9148    0.9583    0.9360       336
+                          Tea | leaf | Blister blight     1.0000    1.0000    1.0000        11
+                            Tea | leaf | Brown blight     0.9416    0.8616    0.8998       318
+                         Tea | leaf | Green mirid bug     0.9121    0.9022    0.9071       184
+                             Tea | leaf | Grey blight     0.9122    0.9499    0.9306       339
+                                 Tea | leaf | Healthy     0.9883    0.9907    0.9895       428
+                             Tea | leaf | Leaf blight     1.0000    1.0000    1.0000         6
+                           Tea | leaf | Red leaf spot     0.9941    0.9713    0.9826       174
+                         Tea | leaf | Red spider mite     0.9375    0.9740    0.9554       154
+           Tea | leaf | Tea mosquito bug (Helopeltis)     0.9684    0.9608    0.9646       383
+                      Tobacco | leaf | Potato virus Y     1.0000    1.0000    1.0000        14
+                         Tobacco | leaf | Target spot     1.0000    1.0000    1.0000        11
+                       Tobacco | leaf | Weather fleck     1.0000    1.0000    1.0000        11
+                          Tobacco | plant | Blue mold     0.5714    0.6667    0.6154         6
+                         Tobacco | plant | Brown spot     0.9310    0.8438    0.8852        32
+                  Tobacco | plant | Frogeye leaf spot     0.8929    0.9259    0.9091        27
+                            Tobacco | plant | Healthy     0.6000    0.5625    0.5806        16
+                       Tobacco | plant | Mosaic virus     1.0000    0.8696    0.9302        23
+            Tomato | fruit | Fruit rot (post-harvest)     0.9922    0.9769    0.9845       130
+                        Tomato | leaf | Fusarium wilt     1.0000    1.0000    1.0000        10
+                          Tomato | leaf | Leaf blight     0.8247    0.6504    0.7273       123
+                           Tomato | leaf | Leaf miner     0.9052    0.8974    0.9013       117
+                 Tomato | leaf | Magnesium deficiency     0.9048    0.7917    0.8444        72
+                  Tomato | leaf | Nitrogen deficiency     0.8444    0.9500    0.8941        40
+                 Tomato | leaf | Potassium deficiency     1.0000    1.0000    1.0000         5
+                   Tomato | leaf | Spotted wilt virus     0.7091    0.7647    0.7358        51
+                          Tomato | leaf | Target spot     0.9673    0.9857    0.9764       210
+              Tomato | leaf | Two-spotted spider mite     0.9870    0.9580    0.9723       238
+                    Tomato | leaf | Verticillium wilt     0.7143    0.6667    0.6897        90
+                      Tomato | plant | Bacterial spot     0.9186    0.8924    0.9053       316
+                        Tomato | plant | Early blight     0.8946    0.8680    0.8811       303
+                             Tomato | plant | Healthy     0.9106    0.9655    0.9372       464
+                         Tomato | plant | Late blight     0.8800    0.9541    0.9155       392
+                           Tomato | plant | Leaf mold     0.9512    0.9286    0.9398       252
+                        Tomato | plant | Mosaic virus     0.9268    0.7525    0.8306       101
+                  Tomato | plant | Septoria leaf spot     0.8301    0.8759    0.8523       435
+              Tomato | plant | Yellow leaf curl virus     0.9075    0.9155    0.9115       343
+                             Turmeric | leaf | Aphids     1.0000    1.0000    1.0000        25
+                        Turmeric | leaf | Leaf blotch     0.9848    1.0000    0.9924        65
+                           Turmeric | plant | Healthy     0.9400    1.0000    0.9691        47
+                     Turmeric | rhizome | Rhizome rot     1.0000    0.9412    0.9697        17
+                          Walnut | leaf | Anthracnose     0.9375    1.0000    0.9677        15
+                              Walnut | leaf | Healthy     0.8421    0.9412    0.8889        17
+                          Walnut | leaf | Leaf blotch     1.0000    0.9118    0.9538        34
+                       Walnut | leaf | Leaf gall mite     1.0000    0.9000    0.9474        10
+                            Walnut | leaf | Shot hole     0.9167    1.0000    0.9565        22
+                      Watermelon | leaf | Anthracnose     1.0000    1.0000    1.0000        32
+                     Watermelon | leaf | Downy mildew     1.0000    1.0000    1.0000        70
+                          Watermelon | leaf | Healthy     0.9333    1.0000    0.9655        42
+                     Watermelon | leaf | Mosaic virus     1.0000    0.9737    0.9867        76
+           Wheat | head | Fusarium head blight (scab)     0.5806    0.6923    0.6316        26
+                            Wheat | head | Loose smut     0.4848    0.8421    0.6154        19
+                           Wheat | head | Wheat blast     0.6364    0.7368    0.6829        19
+               Wheat | insect | Bird cherry-oat aphid     0.6222    0.4242    0.5045        66
+                    Wheat | insect | Brown wheat mite     0.4118    0.2692    0.3256        26
+                 Wheat | insect | English grain aphid     0.3902    0.2712    0.3200        59
+                            Wheat | insect | Greenbug     0.2564    0.3333    0.2899        30
+                 Wheat | insect | Wheat blossom midge     0.8140    0.7292    0.7692        48
+                    Wheat | insect | Wheat leaf miner     0.7692    0.5556    0.6452        18
+                        Wheat | insect | Wheat sawfly     0.9167    0.6286    0.7458        35
+                        Wheat | insect | Wheat thrips     0.5714    0.5333    0.5517        30
+                   Wheat | insect | Winter grain mite     0.3333    0.3043    0.3182        23
+                                Wheat | leaf | Aphids     0.5854    0.6000    0.5926        80
+                               Wheat | leaf | Healthy     0.8382    0.9477    0.8896       153
+                           Wheat | leaf | Leaf blight     0.6769    0.6471    0.6617        68
+                                 Wheat | leaf | Mites     0.5932    0.4795    0.5303        73
+                              Wheat | leaf | Tan spot     0.4096    0.4658    0.4359        73
+                Wheat | plant | Bacterial leaf streak     0.3636    0.3077    0.3333        13
+                           Wheat | plant | Brown rust     0.9016    0.8209    0.8594       134
+                       Wheat | plant | Powdery mildew     0.8218    0.8830    0.8513        94
+                 Wheat | plant | Septoria leaf blotch     0.8254    0.7761    0.8000        67
+                          Wheat | plant | Stripe rust     0.8581    0.9630    0.9075       270
+                             Wheat | stem | Stem rust     0.6154    0.5714    0.5926        14
+                                          Not a plant     0.9882    0.9608    0.9743       434
+
+                                             accuracy                         0.8947     57774
+                                            macro avg     0.8265    0.7982    0.8052     57774
+                                         weighted avg     0.8953    0.8947    0.8926     57774

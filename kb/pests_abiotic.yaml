@@ -1,0 +1,580 @@
+# Insect and mite pests, nutrient deficiencies, abiotic problems, healthy plants, non-plant images.
+
+Aphids:
+  type: Insect pest (sap-sucking)
+  pathogen: Aphids (Aphididae)
+  symptoms: Clusters of small soft green, black or yellow insects under leaves and on shoots; curled leaves; sticky honeydew and sooty mould.
+  spread: Fly in from nearby crops and weeds; multiply fast in warm weather; ants protect them. Aphids also spread many viruses.
+  cultural:
+    - Hose off small colonies; remove heavily infested shoots; control ants.
+    - Avoid excess nitrogen, which makes soft growth that aphids love.
+  organic:
+    - Insecticidal soap, neem oil or mild soap-water sprays; encourage ladybirds, lacewings and parasitic wasps.
+  chemical:
+    - Registered insecticides such as flonicamid, pymetrozine, acetamiprid or imidacloprid where allowed; rotate groups; avoid spraying during flowering to protect bees.
+  prevention:
+    - Regular scouting; yellow sticky traps; conserve natural enemies.
+
+Banana aphid:
+  type: Insect pest
+  pathogen: Pentalonia nigronervosa (vector of banana bunchy top virus)
+  symptoms: Dark brown aphids at the base of the pseudostem and in the crown; spread bunchy top disease.
+  spread: Winged aphids and infested suckers.
+  cultural:
+    - Remove and destroy bunchy-top infected plants; inspect suckers.
+  organic:
+    - Neem oil or insecticidal soap into leaf axils.
+  chemical:
+    - Registered systemic insecticides where recommended.
+  prevention:
+    - Clean tissue-culture planting material.
+
+Carob moth:
+  type: Insect pest (fruit borer)
+  pathogen: Ectomyelois ceratoniae
+  symptoms: Caterpillars bore into pomegranate fruit through the crown; frass and rot inside; fruit drops.
+  spread: Moths lay eggs on the fruit crown.
+  cultural:
+    - Remove the stamens from the crown of young fruit; collect and destroy fallen and infested fruit.
+    - Bag fruit where practical.
+  organic:
+    - Bacillus thuringiensis (Bt) sprays at egg hatch; pheromone traps for monitoring.
+  chemical:
+    - Registered insecticides at fruit set, timed with trap catches.
+  prevention:
+    - Orchard sanitation and monitoring.
+
+Coffee leaf miner:
+  type: Insect pest
+  pathogen: Leucoptera coffeella
+  symptoms: Brown, irregular blotches (mines) on the upper side of coffee leaves; leaves fall early.
+  spread: Moths; outbreaks in dry seasons.
+  cultural:
+    - Maintain shade and good nutrition.
+  organic:
+    - Conserve parasitic wasps; neem-based sprays.
+  chemical:
+    - Registered systemic insecticides where outbreaks are severe.
+  prevention:
+    - Monitoring and natural enemy conservation.
+
+Cutting weevil:
+  type: Insect pest
+  pathogen: Deporaus marginatus (mango leaf-cutting weevil)
+  symptoms: Tender mango leaves are cut off near the base as if by scissors; cut leaves fall to the ground.
+  spread: Adult weevils lay eggs in young leaves.
+  cultural:
+    - Collect and destroy fallen cut leaves (they contain the eggs/larvae).
+  organic:
+    - Neem-based sprays on new flushes.
+  chemical:
+    - Registered insecticides on new flushes if damage is heavy.
+  prevention:
+    - Monitoring new flushes and sanitation.
+
+Flea beetles:
+  type: Insect pest
+  pathogen: "Flea beetles (Chrysomelidae: Alticinae)"
+  symptoms: Many tiny round "shot holes" in leaves; seedlings badly damaged; small shiny beetles jump when disturbed.
+  spread: Overwinter in weeds and debris; active in warm dry weather.
+  cultural:
+    - Use floating row covers on seedlings; remove weeds; trap crops.
+  organic:
+    - Kaolin clay, neem oil or spinosad (where allowed).
+  chemical:
+    - Registered insecticides if seedlings are threatened.
+  prevention:
+    - Healthy transplants and row covers early in the season.
+
+Fruit-scarring beetle:
+  type: Insect pest
+  pathogen: Colaspis / Nodostoma spp.
+  symptoms: Brown scars and scratches on banana fruit skin; fruit quality falls.
+  spread: Adult beetles feed on young fruit and leaves.
+  cultural:
+    - Bag bunches early with plastic sleeves.
+  organic:
+    - Neem-based sprays on bunches.
+  chemical:
+    - Registered insecticides on emerging bunches where recommended.
+  prevention:
+    - Early bunch covering.
+
+Gall midge:
+  type: Insect pest
+  pathogen: Procontarinia spp. (mango leaf gall midge)
+  symptoms: Small raised wart-like galls on mango leaves; leaves distorted and drop early.
+  spread: Tiny flies lay eggs in tender leaves.
+  cultural:
+    - Remove and destroy galled leaves; plough soil under trees to expose pupae.
+  organic:
+    - Neem-based sprays at new flush.
+  chemical:
+    - Registered systemic insecticides on new flushes if heavy.
+  prevention:
+    - Monitoring and timely sprays on new flushes.
+
+Green mirid bug:
+  type: Insect pest
+  pathogen: Mirid bugs (Miridae)
+  symptoms: Tiny brown or black spots and holes on young tea leaves; shoots distorted.
+  spread: Adults and nymphs feeding on tender shoots.
+  cultural:
+    - Frequent plucking removes eggs; weed control.
+  organic:
+    - Neem-based sprays.
+  chemical:
+    - Registered insecticides used in tea.
+  prevention:
+    - Regular monitoring.
+
+Insect damage:
+  type: Insect pest damage (general)
+  pathogen: Chewing or sucking insects (caterpillars, beetles, bugs)
+  symptoms: Holes, chewed edges, tunnels, speckling or distortion of leaves; insects or droppings may be visible.
+  spread: Insects moving from weeds and nearby crops.
+  cultural:
+    - Inspect plants (including leaf undersides) to identify the pest; hand-pick larger insects.
+    - Remove weeds and crop residue.
+  organic:
+    - Neem oil; Bacillus thuringiensis for caterpillars; insecticidal soap for soft insects.
+  chemical:
+    - Choose a registered insecticide only after the pest is identified.
+  prevention:
+    - Regular scouting, nets or row covers, and encouraging natural enemies.
+
+Insect holes:
+  type: Insect pest damage
+  pathogen: Chewing insects (caterpillars, beetles, weevils)
+  symptoms: Round or irregular holes in leaves, sometimes with frass (droppings).
+  spread: Insects from nearby plants and weeds.
+  cultural:
+    - Look for and remove caterpillars or beetles, especially early morning or evening.
+  organic:
+    - Bacillus thuringiensis for caterpillars; neem oil.
+  chemical:
+    - Targeted registered insecticide once the pest is identified.
+  prevention:
+    - Scouting and field hygiene.
+
+Leaf miner:
+  type: Insect pest
+  pathogen: Liriomyza spp. (leaf-mining flies)
+  symptoms: White, winding tunnels (mines) inside leaves.
+  spread: Adult flies lay eggs in leaves.
+  cultural:
+    - Remove mined leaves; use yellow sticky traps.
+  organic:
+    - Neem oil; conserve parasitic wasps.
+  chemical:
+    - Registered translaminar insecticides (e.g. abamectin, cyromazine) where needed.
+  prevention:
+    - Monitoring with sticky traps; avoid broad-spectrum sprays that kill parasites.
+
+Leafhopper (jassids):
+  type: Insect pest
+  pathogen: Amrasca biguttula (cotton jassid)
+  symptoms: Leaf edges curl down and turn yellow then reddish-brown ("hopper burn").
+  spread: Nymphs and adults on leaf undersides.
+  cultural:
+    - Grow hairy-leaved tolerant varieties; balanced nitrogen.
+  organic:
+    - Neem oil sprays; conserve predators.
+  chemical:
+    - Registered insecticides (e.g. flonicamid, thiamethoxam) when above threshold.
+  prevention:
+    - Tolerant varieties and monitoring.
+
+Mealybug:
+  type: Insect pest (sap-sucking)
+  pathogen: Mealybugs (Pseudococcidae)
+  symptoms: White cottony insects on leaves, stems or fruit; honeydew and sooty mould; distorted growth.
+  spread: Crawlers move with wind, ants, tools and planting material.
+  cultural:
+    - Prune and destroy heavily infested parts; control ants; band trunks with sticky bands.
+  organic:
+    - Neem oil, insecticidal soap or fish-oil rosin soap; release the ladybird Cryptolaemus montrouzieri.
+  chemical:
+    - Registered systemic insecticides (e.g. buprofezin, spirotetramat) where needed.
+  prevention:
+    - Clean planting material and ant control.
+
+Mites:
+  type: Mite pest
+  pathogen: Spider mites / broad mites (Tetranychidae, Tarsonemidae)
+  symptoms: Fine yellow speckling, bronzing or curling of leaves; fine webbing in heavy infestations.
+  spread: Wind and plant contact; hot dry conditions favour outbreaks.
+  cultural:
+    - Spray water on leaf undersides; remove heavily infested leaves; reduce dust.
+  organic:
+    - Wettable sulphur (check crop safety), neem oil, insecticidal soap; release predatory mites.
+  chemical:
+    - Registered acaricides (e.g. abamectin, spiromesifen, fenpyroximate); rotate groups.
+  prevention:
+    - Avoid broad-spectrum insecticides that kill predatory mites; keep plants well watered.
+
+Mites and thrips:
+  type: Mite and insect pests
+  pathogen: Broad mite (Polyphagotarsonemus latus) and chilli thrips (Scirtothrips dorsalis)
+  symptoms: Leaves curl upward or downward and become leathery; silvery or bronze patches; small deformed fruit.
+  spread: Wind, plant contact, infested seedlings.
+  cultural:
+    - Remove severely affected shoots; blue sticky traps for thrips.
+  organic:
+    - Neem oil, spinosad (thrips) and sulphur (mites) where allowed.
+  chemical:
+    - Registered miticides and thrips insecticides on rotation.
+  prevention:
+    - Clean seedlings and early monitoring.
+
+Pseudostem weevil:
+  type: Insect pest
+  pathogen: Odoiporus longicollis
+  symptoms: Jelly-like ooze and holes on the banana pseudostem; tunnels inside; plants break.
+  spread: Adults lay eggs in the pseudostem.
+  cultural:
+    - Remove and chop infested plants and old pseudostems after harvest.
+    - Use split pseudostem traps to collect weevils.
+  organic:
+    - Entomopathogenic fungi (Beauveria bassiana) in traps.
+  chemical:
+    - Registered insecticide injections into the pseudostem where recommended.
+  prevention:
+    - Field sanitation and trapping.
+
+Red spider mite:
+  type: Mite pest
+  pathogen: Oligonychus coffeae
+  symptoms: Upper surface of tea leaves turns reddish-brown and dull; mites on the upper side.
+  spread: Wind; dry weather.
+  cultural:
+    - Proper shade and irrigation; avoid dust.
+  organic:
+    - Sulphur sprays (where allowed); predatory mites.
+  chemical:
+    - Registered acaricides used in tea.
+  prevention:
+    - Monitoring in dry periods.
+
+Rice hispa:
+  type: Insect pest
+  pathogen: Dicladispa armigera
+  symptoms: White parallel streaks where adults scrape leaves; blotch mines from larvae; leaves look whitish.
+  spread: Adult beetles fly between fields.
+  cultural:
+    - Clip leaf tips at transplanting; avoid excess nitrogen.
+  organic:
+    - Neem-based sprays.
+  chemical:
+    - Registered insecticides when above economic threshold.
+  prevention:
+    - Monitoring and early control.
+
+Rice leaffolder:
+  type: Insect pest
+  pathogen: Cnaphalocrocis medinalis
+  symptoms: Leaves folded lengthwise with white scraped streaks inside the fold.
+  spread: Moths; heavy nitrogen and shade favour it.
+  cultural:
+    - Balanced nitrogen; remove grassy weeds.
+  organic:
+    - Release Trichogramma egg parasitoids; Bt sprays.
+  chemical:
+    - Registered insecticides when damage exceeds threshold.
+  prevention:
+    - Conserve spiders and other natural enemies.
+
+Semilooper caterpillar:
+  type: Insect pest
+  pathogen: Semilooper caterpillars (e.g. Chrysodeixis spp.)
+  symptoms: Leaves chewed with irregular holes; green caterpillars that move in loops.
+  spread: Moths lay eggs on foliage.
+  cultural:
+    - Hand-pick caterpillars in small plots; bird perches in fields.
+  organic:
+    - Bacillus thuringiensis or nuclear polyhedrosis virus (NPV) sprays.
+  chemical:
+    - Registered insecticides when defoliation is heavy.
+  prevention:
+    - Monitoring and natural enemies.
+
+Shoot and fruit borer:
+  type: Insect pest
+  pathogen: Leucinodes orbonalis
+  symptoms: Young shoots wilt and droop; fruit with entry holes plugged with frass; caterpillars inside.
+  spread: Moths lay eggs on leaves, shoots and fruit.
+  cultural:
+    - Cut and destroy wilted shoots and bored fruit weekly; use insect nets.
+  organic:
+    - Pheromone traps (lure and kill); Bt sprays; neem.
+  chemical:
+    - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole) on rotation.
+  prevention:
+    - Sanitation, pheromone traps, and tolerant varieties.
+
+Spider mites:
+  type: Mite pest
+  pathogen: Tetranychus spp.
+  symptoms: Fine pale speckling on leaves that turn bronze or yellow; fine webbing under leaves.
+  spread: Wind; hot dry dusty conditions.
+  cultural:
+    - Water spray on leaf undersides; reduce dust; remove infested leaves.
+  organic:
+    - Neem oil, insecticidal soap, sulphur where safe; predatory mites.
+  chemical:
+    - Registered acaricides; rotate groups.
+  prevention:
+    - Avoid broad-spectrum insecticides; keep plants watered.
+
+Two-spotted spider mite:
+  type: Mite pest
+  pathogen: Tetranychus urticae
+  symptoms: Fine yellow-white speckling on tomato leaves, bronzing, webbing; leaves dry and drop.
+  spread: Wind and plant contact; hot dry weather.
+  cultural:
+    - Spray water on leaf undersides; remove heavily infested leaves; control weeds.
+  organic:
+    - Insecticidal soap, neem oil; release predatory mites (Phytoseiulus persimilis).
+  chemical:
+    - Registered acaricides such as abamectin, bifenazate or spiromesifen; rotate.
+  prevention:
+    - Monitor in hot weather; avoid pyrethroids that trigger mite outbreaks.
+
+Spiny whitefly:
+  type: Insect pest
+  pathogen: Aleurocanthus spiniferus
+  symptoms: Black spiny scale-like nymphs under citrus leaves; honeydew and sooty mould.
+  spread: Adults fly; infested nursery plants.
+  cultural:
+    - Prune heavily infested shoots.
+  organic:
+    - Horticultural oil, neem; conserve parasitic wasps.
+  chemical:
+    - Registered systemic insecticides where severe.
+  prevention:
+    - Clean nursery stock and natural enemy conservation.
+
+Stem borer (dead heart):
+  type: Insect pest
+  pathogen: Yellow stem borer (Scirpophaga incertulas) and others
+  symptoms: Central shoot dries and pulls out easily ("dead heart") at tillering; empty white panicles ("white ear") at heading.
+  spread: Moths lay eggs on leaves; larvae bore into stems.
+  cultural:
+    - Clip seedling tips before transplanting; harvest close to the ground and plough stubble.
+  organic:
+    - Trichogramma egg parasitoids; pheromone traps.
+  chemical:
+    - Registered granules or sprays (e.g. chlorantraniliprole) at threshold.
+  prevention:
+    - Synchronous planting and stubble destruction.
+
+Tea mosquito bug (Helopeltis):
+  type: Insect pest
+  pathogen: Helopeltis spp.
+  symptoms: Dark sunken spots on young leaves and shoots that turn black; shoots dry.
+  spread: Nymphs and adults feed on tender shoots; humid shaded conditions.
+  cultural:
+    - Frequent plucking; manage shade; remove weed hosts.
+  organic:
+    - Neem-based sprays; Beauveria bassiana.
+  chemical:
+    - Registered insecticides used in tea.
+  prevention:
+    - Monitoring and timely plucking.
+
+Thrips:
+  type: Insect pest
+  pathogen: Thrips (Thysanoptera)
+  symptoms: Silvery scars and tiny black dots on leaves and fruit; curled, distorted young leaves.
+  spread: Wind; weeds; hot dry weather.
+  cultural:
+    - Blue sticky traps; remove weeds; overhead water in dry spells.
+  organic:
+    - Spinosad (where allowed), neem oil, entomopathogenic fungi.
+  chemical:
+    - Registered insecticides on rotation.
+  prevention:
+    - Monitoring and weed control.
+
+White scale (Parlatoria):
+  type: Insect pest (scale)
+  pathogen: Parlatoria blanchardi
+  symptoms: Small white-grey scales covering date palm leaflets and fruit; leaves yellow and weak.
+  spread: Crawlers by wind, offshoots and tools.
+  cultural:
+    - Prune and burn heavily infested fronds.
+  organic:
+    - Mineral oil sprays; conserve ladybird predators.
+  chemical:
+    - Registered insecticides where recommended.
+  prevention:
+    - Clean offshoots and monitoring.
+
+Nutrient deficiency:
+  type: Nutrient disorder
+  pathogen: Lack of one or more nutrients (often N, K, Mg, Fe, Zn)
+  symptoms: Yellowing (all leaves = nitrogen; between veins = magnesium/iron/zinc), scorched leaf edges (potassium), purple tints (phosphorus), small or deformed leaves.
+  spread: Not infectious. Caused by poor soil, wrong pH, waterlogging or root damage.
+  cultural:
+    - Test the soil (and leaves if possible) before applying fertiliser.
+    - Correct pH; improve drainage; add compost or manure.
+  organic:
+    - Compost, well-rotted manure, vermicompost; seaweed or other organic foliar feeds.
+  chemical:
+    - Apply the missing nutrient as advised by the soil test (e.g. urea for N, muriate of potash for K, magnesium sulphate for Mg, chelated micronutrients).
+  prevention:
+    - Regular soil testing and balanced fertilisation.
+
+Potassium deficiency:
+  type: Nutrient disorder
+  pathogen: Low potassium (K)
+  symptoms: Older leaves yellow then scorch brown along the edges and tips; weak stems; small fruit.
+  spread: Not infectious; common on sandy or heavily cropped soils.
+  cultural:
+    - Soil test; add potassium; mulch to keep soil moist.
+  organic:
+    - Wood ash, compost, banana pseudostem mulch.
+  chemical:
+    - Muriate of potash (KCl) or sulphate of potash as per soil test.
+  prevention:
+    - Balanced fertilisation.
+
+Magnesium deficiency:
+  type: Nutrient disorder
+  pathogen: Low magnesium (Mg)
+  symptoms: Yellowing between veins on older leaves while veins stay green; leaf edges may turn orange.
+  spread: Not infectious; acidic or sandy soils, high potassium.
+  cultural:
+    - Soil test; correct pH.
+  organic:
+    - Dolomitic lime (if soil is acidic).
+  chemical:
+    - Magnesium sulphate (Epsom salt) foliar spray or soil application.
+  prevention:
+    - Balanced K and Mg fertilisation.
+
+Manganese deficiency:
+  type: Nutrient disorder
+  pathogen: Low manganese (Mn)
+  symptoms: Yellowing between veins on young leaves with a fine green network of veins; frizzled leaflets in palms.
+  spread: Not infectious; alkaline or very sandy soils.
+  cultural:
+    - Soil test; lower pH where too high.
+  organic:
+    - Organic matter improves availability.
+  chemical:
+    - Manganese sulphate foliar spray or soil application.
+  prevention:
+    - Monitor micronutrients.
+
+Leaf reddening:
+  type: Physiological / nutrient disorder
+  pathogen: Often magnesium or nitrogen deficiency, drought or cold stress
+  symptoms: Cotton leaves turn red, starting from older leaves.
+  spread: Not infectious.
+  cultural:
+    - Irrigate during drought; soil test.
+  organic:
+    - Compost and organic matter.
+  chemical:
+    - Foliar magnesium sulphate and urea sprays as recommended.
+  prevention:
+    - Balanced fertilisation and irrigation.
+
+Banded chlorosis:
+  type: Abiotic disorder
+  pathogen: Cold injury (low temperatures)
+  symptoms: Pale yellow to white bands across sugarcane leaves.
+  spread: Not infectious.
+  cultural:
+    - No treatment needed; new leaves grow normally when temperatures rise.
+  organic:
+    - Not applicable.
+  chemical:
+    - Not applicable.
+  prevention:
+    - Choose cold-tolerant varieties in cold-prone areas.
+
+Herbicide damage:
+  type: Abiotic disorder
+  pathogen: Herbicide drift or residues (e.g. 2,4-D)
+  symptoms: Twisted, cupped, strap-like or fan-shaped leaves; abnormal growth.
+  spread: Not infectious; drift from neighbouring fields or contaminated sprayers.
+  cultural:
+    - Rinse sprayers thoroughly; avoid spraying in wind; irrigate and feed to help recovery.
+  organic:
+    - Not applicable.
+  chemical:
+    - No antidote; keep the plants growing.
+  prevention:
+    - Separate sprayers for herbicides; spray in calm weather.
+
+Blackspot bruising:
+  type: Abiotic disorder
+  pathogen: Mechanical impact damage
+  symptoms: Grey-blue to black areas under the potato skin, visible after peeling; skin usually intact.
+  spread: Not infectious; caused by impacts during harvest and handling.
+  cultural:
+    - Reduce drop heights; handle tubers gently; avoid harvesting cold or very dry tubers.
+  organic:
+    - Adequate potassium nutrition.
+  chemical:
+    - Not applicable.
+  prevention:
+    - Careful harvesting and handling equipment.
+
+Fruit cracking:
+  type: Abiotic disorder
+  pathogen: Irregular watering, boron deficiency or temperature swings
+  symptoms: Splits or cracks on the fruit skin.
+  spread: Not infectious.
+  cultural:
+    - Water regularly; mulch to keep soil moisture even.
+  organic:
+    - Compost and mulch.
+  chemical:
+    - Boron or calcium sprays if a soil or leaf test shows deficiency.
+  prevention:
+    - Even irrigation and balanced nutrition.
+
+Sunburn:
+  type: Abiotic disorder
+  pathogen: Strong sun and heat
+  symptoms: Pale, bleached or brown leathery patches on the sun-facing side of fruit.
+  spread: Not infectious.
+  cultural:
+    - Keep leaf cover over fruit; shade nets in heat waves; irrigate well.
+  organic:
+    - Kaolin clay sprays reflect sunlight.
+  chemical:
+    - Not applicable.
+  prevention:
+    - Canopy management and kaolin protection.
+
+Healthy:
+  type: Healthy plant
+  pathogen: None detected
+  symptoms: No signs of disease, pests or nutrient problems were found in this photo.
+  spread: Not applicable.
+  cultural:
+    - Keep scouting weekly, including the underside of leaves.
+    - Water at the base early in the day and avoid waterlogging.
+    - Remove weeds and crop debris that harbour pests and diseases.
+  organic:
+    - Feed the soil with compost or well-rotted manure.
+  chemical:
+    - No treatment needed. Do not spray pesticides preventively without a reason.
+  prevention:
+    - Use clean seed and planting material; rotate crops; keep tools clean.
+
+Not a plant:
+  type: Not a plant
+  pathogen: None
+  symptoms: The photo does not look like a plant leaf, fruit, stem or root.
+  spread: Not applicable.
+  cultural:
+    - Take a close, sharp photo of the affected plant part in daylight.
+    - Fill most of the frame with the leaf, fruit or stem, and avoid busy backgrounds.
+  organic: []
+  chemical: []
+  prevention: []

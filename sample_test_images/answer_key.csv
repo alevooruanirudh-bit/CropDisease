@@ -1,0 +1,92 @@
+folder,file,plant,part,condition,kind,field_photo,source_dataset
+1_one_per_plant,01_Apple_leaf_Marssonina_blotch_brown_spot.jpg,Apple,leaf,Marssonina blotch (brown spot),disease,False,appleleaf9
+1_one_per_plant,02_Ash_gourd_leaf_Healthy.jpg,Ash gourd,leaf,Healthy,healthy,False,ash_gourd
+1_one_per_plant,03_Banana_leaf_Cordana_leaf_spot.jpg,Banana,leaf,Cordana leaf spot,disease,False,banana_lsd
+1_one_per_plant,04_Bean_leaf_Rust.jpg,Bean,leaf,Rust,disease,False,bean_cowpea
+1_one_per_plant,05_Bell_pepper_leaf_Healthy.jpg,Bell pepper,leaf,Healthy,healthy,False,plantvillage
+1_one_per_plant,06_Betel_leaf_Healthy.jpg,Betel,leaf,Healthy,healthy,False,betel
+1_one_per_plant,07_Black_gram_leaf_Anthracnose.jpg,Black gram,leaf,Anthracnose,disease,False,black_gram
+1_one_per_plant,08_Blueberry_leaf_Healthy.jpg,Blueberry,leaf,Healthy,healthy,False,plantvillage
+1_one_per_plant,09_Carambola_leaf_Healthy.jpg,Carambola,leaf,Healthy,healthy,False,carambola
+1_one_per_plant,10_Cauliflower_head_Bacterial_soft_rot.jpg,Cauliflower,head,Bacterial soft rot,disease,False,cauliflower
+1_one_per_plant,11_Cherry_leaf_Healthy.jpg,Cherry,leaf,Healthy,healthy,False,plantvillage
+1_one_per_plant,12_Chili_pepper_leaf_Cercospora_leaf_spot.jpg,Chili pepper,leaf,Cercospora leaf spot,disease,False,chili
+1_one_per_plant,13_Coconut_leaf_Leaf_rot.jpg,Coconut,leaf,Leaf rot,disease,False,coconut
+1_one_per_plant,14_Coffee_leaf_Phoma_leaf_spot.jpg,Coffee,leaf,Phoma leaf spot,disease,False,coffee
+1_one_per_plant,15_Cotton_leaf_Herbicide_damage.jpg,Cotton,leaf,Herbicide damage,abiotic,False,cotton_bd
+1_one_per_plant,16_Cucumber_fruit_Pythium_fruit_rot.jpg,Cucumber,fruit,Pythium fruit rot,disease,False,cucumber
+1_one_per_plant,17_Custard_apple_fruit_Fruit_spot.jpg,Custard apple,fruit,Fruit spot,disease,False,custard_apple
+1_one_per_plant,18_Date_palm_leaf_Fusarium_wilt_bayoud.jpg,Date palm,leaf,Fusarium wilt (bayoud),disease,False,date_palm
+1_one_per_plant,19_Durian_leaf_Algal_leaf_spot.jpg,Durian,leaf,Algal leaf spot,disease,False,durian_vn
+1_one_per_plant,20_Eggplant_leaf_Aphids.jpg,Eggplant,leaf,Aphids,pest,False,eggplant_leaf
+1_one_per_plant,21_Grape_leaf_Isariopsis_leaf_spot.jpg,Grape,leaf,Isariopsis leaf spot,disease,False,plantvillage
+1_one_per_plant,22_Groundnut_leaf_Early_leaf_spot.jpg,Groundnut,leaf,Early leaf spot,disease,False,groundnut
+1_one_per_plant,23_Guava_fruit_Anthracnose.jpg,Guava,fruit,Anthracnose,disease,False,guava
+1_one_per_plant,24_Java_plum_leaf_Bacterial_spot.jpg,Java plum,leaf,Bacterial spot,disease,False,java_plum
+1_one_per_plant,25_Jute_leaf_Mosaic_virus.jpg,Jute,leaf,Mosaic virus,disease,False,jute
+1_one_per_plant,26_Lemon_leaf_Anthracnose.jpg,Lemon,leaf,Anthracnose,disease,False,lemon
+1_one_per_plant,27_Lentil_leaf_Healthy.jpg,Lentil,leaf,Healthy,healthy,False,lentil
+1_one_per_plant,28_Maize_leaf_Healthy.jpg,Maize,leaf,Healthy,healthy,False,corn_kaggle
+1_one_per_plant,29_Mango_leaf_Dieback.jpg,Mango,leaf,Dieback,disease,False,mango
+1_one_per_plant,30_Okra_leaf_Phyllosticta_leaf_spot.jpg,Okra,leaf,Phyllosticta leaf spot,disease,False,okra
+1_one_per_plant,31_Onion_leaf_Stemphylium_anthracnose_leaf_blight.jpg,Onion,leaf,Stemphylium / anthracnose leaf blight,disease,False,onion
+1_one_per_plant,32_Orange_leaf_Dieback.jpg,Orange,leaf,Dieback,disease,False,orange
+1_one_per_plant,33_Papaya_leaf_Ringspot_virus.jpg,Papaya,leaf,Ringspot virus,disease,False,papaya
+1_one_per_plant,34_Peach_leaf_Bacterial_spot.jpg,Peach,leaf,Bacterial spot,disease,False,plantvillage
+1_one_per_plant,35_Plum_leaf_Healthy.jpg,Plum,leaf,Healthy,healthy,False,plum
+1_one_per_plant,36_Pomegranate_fruit_Anthracnose.jpg,Pomegranate,fruit,Anthracnose,disease,False,pomegranate_india
+1_one_per_plant,37_Potato_tuber_Dry_rot.jpg,Potato,tuber,Dry rot,disease,False,potato_tubers
+1_one_per_plant,38_Radish_leaf_Flea_beetles.jpg,Radish,leaf,Flea beetles,pest,False,radish
+1_one_per_plant,39_Raspberry_leaf_Healthy.jpg,Raspberry,leaf,Healthy,healthy,False,plantvillage
+1_one_per_plant,40_Rice_leaf_Healthy.jpg,Rice,leaf,Healthy,healthy,False,rice_bangladesh
+1_one_per_plant,41_Rose_leaf_Black_spot.jpg,Rose,leaf,Black spot,disease,False,rose
+1_one_per_plant,42_Soybean_leaf_Mosaic_virus.jpg,Soybean,leaf,Mosaic virus,disease,False,soybean_mh
+1_one_per_plant,43_Spinach_leaf_Bacterial_spot.jpg,Spinach,leaf,Bacterial spot,disease,False,spinach
+1_one_per_plant,44_Sponge_gourd_leaf_Alternaria_leaf_spot.jpg,Sponge gourd,leaf,Alternaria leaf spot,disease,False,luffa
+1_one_per_plant,45_Squash_leaf_Powdery_mildew.jpg,Squash,leaf,Powdery mildew,disease,False,plantvillage
+1_one_per_plant,46_Strawberry_leaf_Leaf_scorch.jpg,Strawberry,leaf,Leaf scorch,disease,False,plantvillage
+1_one_per_plant,47_Sugarcane_leaf_Banded_chlorosis.jpg,Sugarcane,leaf,Banded chlorosis,abiotic,False,sugarcane
+1_one_per_plant,48_Sunflower_leaf_Gray_mold.jpg,Sunflower,leaf,Gray mold,disease,False,sunflower
+1_one_per_plant,49_Taro_leaf_Healthy.jpg,Taro,leaf,Healthy,healthy,False,taro
+1_one_per_plant,50_Tea_leaf_Grey_blight.jpg,Tea,leaf,Grey blight,disease,False,tea_bd
+1_one_per_plant,51_Tomato_leaf_Septoria_leaf_spot.jpg,Tomato,leaf,Septoria leaf spot,disease,False,plantvillage
+1_one_per_plant,52_Turmeric_leaf_Healthy.jpg,Turmeric,leaf,Healthy,healthy,False,turmeric
+1_one_per_plant,53_Watermelon_leaf_Mosaic_virus.jpg,Watermelon,leaf,Mosaic virus,disease,False,watermelon
+2_fruit_stem_tuber_other_parts,01_Eggplant_fruit_Shoot_and_fruit_borer.jpg,Eggplant,fruit,Shoot and fruit borer,pest,False,brinjal_fruit
+2_fruit_stem_tuber_other_parts,02_Guava_fruit_Anthracnose.jpg,Guava,fruit,Anthracnose,disease,False,guava
+2_fruit_stem_tuber_other_parts,03_Pomegranate_fruit_Anthracnose.jpg,Pomegranate,fruit,Anthracnose,disease,False,pomegranate_india
+2_fruit_stem_tuber_other_parts,04_Cauliflower_head_Bacterial_soft_rot.jpg,Cauliflower,head,Bacterial soft rot,disease,False,cauliflower
+2_fruit_stem_tuber_other_parts,05_Cauliflower_head_Bacterial_soft_rot.jpg,Cauliflower,head,Bacterial soft rot,disease,False,cauliflower
+2_fruit_stem_tuber_other_parts,06_Cauliflower_head_Bacterial_soft_rot.jpg,Cauliflower,head,Bacterial soft rot,disease,False,cauliflower
+2_fruit_stem_tuber_other_parts,07_Rice_panicle_Bacterial_panicle_blight.jpg,Rice,panicle,Bacterial panicle blight,disease,False,paddy_doctor
+2_fruit_stem_tuber_other_parts,08_Rice_panicle_Bacterial_panicle_blight.jpg,Rice,panicle,Bacterial panicle blight,disease,False,paddy_doctor
+2_fruit_stem_tuber_other_parts,09_Rice_panicle_Bacterial_panicle_blight.jpg,Rice,panicle,Bacterial panicle blight,disease,False,paddy_doctor
+2_fruit_stem_tuber_other_parts,10_Turmeric_rhizome_Healthy.jpg,Turmeric,rhizome,Healthy,healthy,False,turmeric
+2_fruit_stem_tuber_other_parts,11_Turmeric_rhizome_Healthy.jpg,Turmeric,rhizome,Healthy,healthy,False,turmeric
+2_fruit_stem_tuber_other_parts,12_Turmeric_rhizome_Healthy.jpg,Turmeric,rhizome,Healthy,healthy,False,turmeric
+2_fruit_stem_tuber_other_parts,13_Rice_stem_Sheath_blight.jpg,Rice,stem,Sheath blight,disease,False,rice_leaf
+2_fruit_stem_tuber_other_parts,14_Banana_stem_Pseudostem_weevil.jpg,Banana,stem,Pseudostem weevil,pest,False,banana_pfsd
+2_fruit_stem_tuber_other_parts,15_Sugarcane_stem_Smut.jpg,Sugarcane,stem,Smut,disease,False,sugarcane
+2_fruit_stem_tuber_other_parts,16_Potato_tuber_Dry_rot.jpg,Potato,tuber,Dry rot,disease,False,potato_tubers
+2_fruit_stem_tuber_other_parts,17_Potato_tuber_Healthy.jpg,Potato,tuber,Healthy,healthy,False,potato_tubers
+2_fruit_stem_tuber_other_parts,18_Potato_tuber_Healthy.jpg,Potato,tuber,Healthy,healthy,False,potato_tubers
+2_fruit_stem_tuber_other_parts,19_Banana_whole_plant_Xanthomonas_wilt.jpg,Banana,whole plant,Xanthomonas wilt,disease,False,banana_leaf
+2_fruit_stem_tuber_other_parts,20_Banana_whole_plant_Xanthomonas_wilt.jpg,Banana,whole plant,Xanthomonas wilt,disease,False,banana_leaf
+2_fruit_stem_tuber_other_parts,21_Sugarcane_whole_plant_Grassy_shoot.jpg,Sugarcane,whole plant,Grassy shoot,disease,False,sugarcane
+3_real_field_photos,01_Cassava_leaf_Bacterial_blight.jpg,Cassava,leaf,Bacterial blight,disease,True,cassava
+3_real_field_photos,02_Strawberry_leaf_Healthy.jpg,Strawberry,leaf,Healthy,healthy,True,plantdoc
+3_real_field_photos,03_Cassava_leaf_Mosaic_disease.jpg,Cassava,leaf,Mosaic disease,disease,True,cassava
+3_real_field_photos,04_Bean_leaf_Rust.jpg,Bean,leaf,Rust,disease,True,bean_uganda
+3_real_field_photos,05_Raspberry_leaf_Healthy.jpg,Raspberry,leaf,Healthy,healthy,True,plantdoc
+3_real_field_photos,06_Tomato_leaf_Yellow_leaf_curl_virus.jpg,Tomato,leaf,Yellow leaf curl virus,disease,True,plantdoc
+3_real_field_photos,07_Banana_leaf_Sigatoka_leaf_spot.jpg,Banana,leaf,Sigatoka leaf spot,disease,True,banana_tz
+3_real_field_photos,08_Bean_leaf_Angular_leaf_spot.jpg,Bean,leaf,Angular leaf spot,disease,True,bean_uganda
+3_real_field_photos,09_Bean_leaf_Angular_leaf_spot.jpg,Bean,leaf,Angular leaf spot,disease,True,bean_uganda
+3_real_field_photos,10_Banana_leaf_Sigatoka_leaf_spot.jpg,Banana,leaf,Sigatoka leaf spot,disease,True,banana_tz
+3_real_field_photos,11_Cassava_leaf_Bacterial_blight.jpg,Cassava,leaf,Bacterial blight,disease,True,cassava
+3_real_field_photos,12_Banana_leaf_Sigatoka_leaf_spot.jpg,Banana,leaf,Sigatoka leaf spot,disease,True,banana_tz
+4_not_a_plant,01_not_a_plant.jpg,Not a plant,none,Not a plant,nonplant,False,imagenette
+4_not_a_plant,02_not_a_plant.jpg,Not a plant,none,Not a plant,nonplant,False,imagenette
+4_not_a_plant,03_not_a_plant.jpg,Not a plant,none,Not a plant,nonplant,False,imagenette
+4_not_a_plant,04_not_a_plant.jpg,Not a plant,none,Not a plant,nonplant,False,plant_leaf_background
+4_not_a_plant,05_not_a_plant.jpg,Not a plant,none,Not a plant,nonplant,False,imagenette

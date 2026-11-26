@@ -1,0 +1,25 @@
+# Exp 3 - robustness of the Exp 1 and Exp 2 checkpoints (no training).
+_base_: base.yaml
+experiment:
+  name: exp3_robustness
+  type: robustness
+robustness:
+  exp_borb: exp1_borb
+  exp_noborb: exp2_noborb
+  seed: 1234                     # perturbation RNG base seed
+  batch_size: 64
+  max_test_images: null          # e.g. 2000 for a faster stratified subset
+  plantdoc_root: data/plantdoc   # zero-shot cross-dataset test (overlapping classes only)
+  texture_dir: data/textures     # held-out soil/ grass/ clutter/ photos; procedural fallback if absent
+  gradcam_n: 8
+  perturbations:                 # family: severities (null -> defaults in src/robustness/perturbations.py)
+    gaussian_noise: [5, 15, 25]
+    gaussian_blur: [3, 7, 11]
+    brightness: [0.5, 0.7, 1.3, 1.6]
+    contrast: [0.5, 0.7, 1.5]
+    jpeg: [50, 20]
+    gamma: [0.5, 2.0]
+    rotation: [15, 30, 45]
+    scale: [0.7, 0.85, 1.2]
+    background: [soil, grass, clutter]
+    occlusion: [0.1, 0.2, 0.3]

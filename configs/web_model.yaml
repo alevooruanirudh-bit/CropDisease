@@ -1,0 +1,40 @@
+# Website model: one classifier over every "Crop | part | Condition" label in the unified catalog
+# (scripts/ingest_catalog.py -> scripts/prepare_web_splits.py). No BorB here: field photos, fruits,
+# stems and roots have backgrounds and colours BorB was not designed for.
+_base_: base.yaml
+experiment:
+  name: web_model
+data:
+  dataset: manifest
+  name: web
+  root: data/web
+  split_dir: splits/web
+  class_caps: {}
+segmentation:
+  method: none
+backbones: [efficientnet_b0]
+seeds: [0]
+model:
+  img_size: 224
+  drop_rate: 0.3
+train:
+  batch_size: 48
+  eval_batch_size: 128
+  epochs: 18
+  freeze_epochs: 1
+  lr_head: 2.0e-3
+  lr: 4.0e-4
+  weight_decay: 0.05
+  early_stopping_patience: 5
+  balanced_sampling: false
+  weighted_loss: false
+  label_smoothing: 0.1
+augment:
+  random_resized_crop: true
+  rrc_scale: [0.5, 1.0]
+  color_jitter: 0.25
+  mixup: {enabled: false}
+eval:
+  tta: true
+  gradcam_n: 12
+num_workers: 8

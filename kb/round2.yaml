@@ -1,0 +1,419 @@
+# Conditions added with the round-2 field datasets (PlantWild, PlantSeg, CCMT, Plant Pathology 2021).
+# Same fields as the other kb files. Chemical advice names active ingredients only; always follow the local label.
+
+_pathogen_by_crop:
+  Black rot: {Cabbage: Xanthomonas campestris pv. campestris (bacterium), Broccoli: Xanthomonas campestris pv. campestris (bacterium), Coffee: Ceratobasidium (Koleroga) noxium}
+  Rust: {Blueberry: Thekopsora minima, Garlic: Puccinia allii, Peach: Tranzschelia discolor, Plum: Tranzschelia discolor, Raspberry: Phragmidium rubi-idaei (yellow rust)}
+  Brown rust: {Wheat: Puccinia triticina (wheat leaf rust)}
+  Brown rot: {Peach: Monilinia fructicola / M. laxa, Plum: Monilinia fructicola / M. laxa}
+  Early blight: {Celery: Cercospora apii}
+  Leaf spot: {Cherry: Blumeriella jaapii (cherry leaf spot), Ginger: Phyllosticta zingiberi, Raspberry: Sphaerulina rubi, Maize: Leaf-spotting fungi (Curvularia / Bipolaris spp.)}
+  Leaf blight: {Garlic: Stemphylium vesicarium / Botrytis spp., Tomato: Alternaria / Septoria complex}
+  Brown spot: {Tobacco: Alternaria alternata, Cassava: Cercosporidium henningsii}
+  Scab: {Peach: Cladosporium carpophilum}
+  Bacterial blight: {Soybean: Pseudomonas savastanoi pv. glycinea}
+  Frogeye leaf spot: {Tobacco: Cercospora nicotianae, Bell pepper: Cercospora capsici}
+  Sheath blight: {Ginger: Rhizoctonia solani}
+  Alternaria leaf spot: {Cabbage: Alternaria brassicicola / A. brassicae, Broccoli: Alternaria brassicicola / A. brassicae, Cauliflower: Alternaria brassicicola / A. brassicae}
+
+Halo blight:
+  type: Bacterial disease
+  pathogen: Pseudomonas savastanoi pv. phaseolicola
+  symptoms: Small water-soaked spots on bean leaves surrounded by a wide light-green to yellow halo; pods show greasy spots that ooze in wet weather.
+  spread: Seed-borne; spread by rain splash, wind-driven rain, workers and tools in wet foliage. Favoured by cool, wet weather.
+  cultural:
+    - Remove badly infected plants; do not work in the crop while leaves are wet.
+    - Avoid overhead irrigation; plough in or remove residues after harvest.
+  organic:
+    - Copper sprays early, before symptoms spread, give partial protection.
+  chemical:
+    - Copper-based bactericides (e.g. copper hydroxide) on a protective schedule; fungicides do not control bacteria.
+  prevention:
+    - Sow certified disease-free seed; rotate away from beans for 2–3 years; grow tolerant varieties.
+
+Bunchy top virus:
+  type: Viral disease (aphid-transmitted)
+  pathogen: Banana bunchy top virus (BBTV), spread by the banana aphid Pentalonia nigronervosa
+  symptoms: Dark-green dot-dash streaks along leaf veins and midrib; new leaves narrow, upright, brittle and bunched at the top ("rosette"); plants stop fruiting.
+  spread: Banana aphids and infected suckers or planting material. Infected plants never recover.
+  cultural:
+    - Dig out and destroy infected mats (kill them first so aphids do not move off), including all suckers.
+    - Check new plantings weekly and remove suspects at once.
+  organic:
+    - Control aphids with insecticidal soap or neem on young plants; encourage natural enemies.
+  chemical:
+    - Spray or inject infected plants with a systemic insecticide before removal so aphids do not spread; there is no cure for the virus.
+  prevention:
+    - Plant only certified virus-free tissue-culture plantlets; quarantine — do not move suckers from infected areas.
+
+Cigar end rot:
+  type: Fungal disease (fruit)
+  pathogen: Trachysphaera fructigena / Verticillium theobromae
+  symptoms: The flower end of banana fingers turns black and dry, then grey and powdery, looking like the ash of a cigar.
+  spread: Spores from dead flower parts and leaves; favoured by high humidity and rain during flowering.
+  cultural:
+    - Remove dead flower parts (de-flowering) 8–10 days after bunch emergence.
+    - Remove dead and hanging leaves; improve drainage and air flow.
+  organic:
+    - Bag bunches with perforated polythene sleeves after de-flowering.
+  chemical:
+    - Protective fungicide on young bunches in very wet areas (e.g. mancozeb) where registered.
+  prevention:
+    - Field hygiene, de-flowering and bunch covers as routine practice.
+
+Blossom end rot:
+  type: Physiological disorder (abiotic)
+  pathogen: Not an infection — calcium shortage in the developing fruit, usually from uneven watering
+  symptoms: A water-soaked spot at the blossom end of the fruit that enlarges into a sunken, leathery brown-black patch.
+  spread: Does not spread between plants. Caused by irregular watering, root damage, very high nitrogen or salty soil.
+  cultural:
+    - Water deeply and evenly; mulch to keep soil moisture steady.
+    - Avoid heavy ammonium nitrogen; do not damage roots when cultivating.
+  organic:
+    - Correct low soil calcium with lime or gypsum based on a soil test.
+  chemical:
+    - Foliar calcium sprays help only a little; fixing watering matters more.
+  prevention:
+    - Test soil pH and calcium before planting; steady irrigation through fruit set.
+
+Mummy berry:
+  type: Fungal disease
+  pathogen: Monilinia vaccinii-corymbosi
+  symptoms: Young shoots and leaves wilt and turn brown in spring; infected berries become cream-coloured, then shrivel into hard grey "mummies".
+  spread: Mummies on the ground produce spores in spring that infect new shoots; flowers are infected by spores carried by bees and wind.
+  cultural:
+    - Rake up or bury mummified berries under 2–5 cm of mulch before bud break.
+    - Cultivate the soil under bushes in early spring to disturb the fungus.
+  organic:
+    - Lime sulphur at bud break where permitted.
+  chemical:
+    - Fenbuconazole, propiconazole or fenhexamid from bud break through bloom.
+  prevention:
+    - Grow resistant varieties; keep the ground under bushes clean.
+
+Scorch virus:
+  type: Viral disease (aphid-transmitted)
+  pathogen: Blueberry scorch virus (BlScV)
+  symptoms: Flowers and young leaves turn brown and die suddenly at bloom, looking scorched; some varieties show only leaf-margin yellowing.
+  spread: Aphids and infected planting material. Plants stay infected.
+  cultural:
+    - Remove and destroy infected bushes as soon as symptoms are confirmed.
+  organic:
+    - Manage aphids with natural enemies and insecticidal soaps.
+  chemical:
+    - Aphid control reduces spread; there is no cure for the virus.
+  prevention:
+    - Plant certified virus-tested stock; test suspicious bushes before propagating.
+
+Ring spot:
+  type: Fungal disease
+  pathogen: Mycosphaerella brassicicola
+  symptoms: Round grey-brown spots on brassica leaves with many tiny black dots arranged in rings, often with a yellow edge.
+  spread: Spores from infected crop residue and brassica weeds; rain splash and wind; cool, wet weather.
+  cultural:
+    - Plough in or remove crop residue; control brassica weeds.
+  organic:
+    - Copper sprays may slow spread.
+  chemical:
+    - Difenoconazole, tebuconazole or azoxystrobin where registered for brassicas.
+  prevention:
+    - Rotate away from brassicas for 3 years; separate new plantings from old crops.
+
+Alternaria leaf blight:
+  type: Fungal disease
+  pathogen: Alternaria dauci
+  symptoms: Dark brown to black spots with yellow edges on older carrot leaves; leaflets shrivel and the canopy looks burnt.
+  spread: Seed-borne and in crop residue; spores carried by wind and rain; warm, wet weather.
+  cultural:
+    - Remove carrot residue; avoid long periods of leaf wetness (irrigate in the morning).
+  organic:
+    - Hot-water seed treatment (50 °C for 20 min); copper sprays give partial control.
+  chemical:
+    - Chlorothalonil, azoxystrobin or difenoconazole when spots first appear.
+  prevention:
+    - Clean seed, tolerant varieties and a 2–3 year rotation.
+
+Cavity spot:
+  type: Soil-borne disease (oomycete)
+  pathogen: Pythium violae / P. sulcatum
+  symptoms: Small sunken elliptical lesions across the carrot root, often splitting the skin; roots look pitted.
+  spread: Lives in soil for years; worse in wet, compacted soils and with frequent carrot crops.
+  cultural:
+    - Improve drainage; avoid over-watering; harvest promptly when mature.
+  organic:
+    - Long rotations and liming acidic soils reduce disease.
+  chemical:
+    - Metalaxyl or mefenoxam applied to soil at sowing where registered.
+  prevention:
+    - Rotate away from carrots for 4–5 years; choose less-susceptible varieties.
+
+Berry blotch:
+  type: Fungal disease (fruit)
+  pathogen: Cercospora coffeicola
+  symptoms: Brown sunken blotches on green coffee berries, often on the sun-exposed side; berries ripen early and the bean quality falls.
+  spread: Spores from infected leaves and berries; worse in full sun and on poorly nourished plants.
+  cultural:
+    - Balance nutrition (nitrogen and potassium); provide moderate shade.
+  organic:
+    - Copper sprays during berry development.
+  chemical:
+    - Copper or triazole fungicides at berry formation where registered.
+  prevention:
+    - Good fertility, shade management and weed control.
+
+Common smut:
+  type: Fungal disease
+  pathogen: Ustilago maydis
+  symptoms: Large swollen galls on ears, tassels, stalks or leaves; galls are silvery-white at first, then burst releasing black powdery spores.
+  spread: Spores survive in soil for years; infect through wounds from hail, insects or cultivation.
+  cultural:
+    - Cut and remove galls before they burst; do not compost them.
+    - Avoid injuring plants; balance nitrogen.
+  organic:
+    - Crop rotation and removal of galls are the main controls.
+  chemical:
+    - Fungicides are not effective in the field.
+  prevention:
+    - Grow tolerant hybrids; rotate crops.
+
+Leafroll virus:
+  type: Viral disease
+  pathogen: Grapevine leafroll-associated viruses (mainly GLRaV-3), spread by mealybugs and soft scale
+  symptoms: In late summer, leaves roll downward; red varieties turn red-purple between green veins, white varieties turn yellow. Fruit ripens poorly.
+  spread: Infected cuttings and rootstocks; slowly by mealybugs and soft scale insects.
+  cultural:
+    - Remove infected vines (rogue) and replant with clean stock.
+  organic:
+    - Control mealybugs with natural enemies and mating disruption.
+  chemical:
+    - Systemic insecticides against mealybugs slow spread; there is no cure.
+  prevention:
+    - Plant only certified virus-tested vines.
+
+Tar spot:
+  type: Fungal disease
+  pathogen: Rhytisma acerinum / R. punctatum
+  symptoms: Yellow spots on maple leaves that turn into raised, shiny black tar-like patches by late summer.
+  spread: The fungus overwinters on fallen leaves and infects new leaves in spring by wind-borne spores.
+  cultural:
+    - Rake up and dispose of fallen leaves in autumn.
+  organic:
+    - Leaf clean-up is usually enough; damage is mostly cosmetic.
+  chemical:
+    - Rarely needed; copper or mancozeb at bud break on valuable young trees.
+  prevention:
+    - Yearly leaf clean-up; good air flow around trees.
+
+Peach leaf curl:
+  type: Fungal disease
+  pathogen: Taphrina deformans
+  symptoms: Young leaves thicken, pucker and curl, turning red or purple; later they become powdery grey and drop.
+  spread: Spores survive on bark and buds; infect as buds open in cool, wet spring weather. Treatment after symptoms appear is too late.
+  cultural:
+    - Remove and destroy curled leaves; feed and water trees to help them re-leaf.
+  organic:
+    - Copper or lime sulphur spray once after leaf fall and again before bud swell.
+  chemical:
+    - Copper, chlorothalonil or ziram as a dormant spray before buds open.
+  prevention:
+    - Yearly dormant spray; resistant varieties; shelter wall-trained trees from spring rain.
+
+Plum pocket:
+  type: Fungal disease
+  pathogen: Taphrina pruni
+  symptoms: Young plums swell into hollow, bladder-like, stoneless fruits that turn grey and powdery, then drop.
+  spread: Spores on twigs and buds infect at bloom in wet weather.
+  cultural:
+    - Remove and destroy affected fruit and distorted shoots.
+  organic:
+    - Copper or lime sulphur dormant spray before bud break.
+  chemical:
+    - Chlorothalonil or copper at bud swell.
+  prevention:
+    - Dormant sprays every year in wet regions.
+
+Plum pox virus:
+  type: Viral disease (aphid-transmitted)
+  pathogen: Plum pox virus (sharka)
+  symptoms: Pale green to yellow rings and lines on leaves; fruit with dark rings, deformation and early drop.
+  spread: Aphids over short distances; infected budwood and nursery trees over long distances.
+  cultural:
+    - Remove and destroy infected trees; report to plant-health authorities (notifiable in many countries).
+  organic:
+    - Control aphids; keep alternate hosts away.
+  chemical:
+    - No cure; aphid control alone does not stop spread.
+  prevention:
+    - Plant certified virus-free trees only.
+
+Fire blight:
+  type: Bacterial disease
+  pathogen: Erwinia amylovora
+  symptoms: Blossoms and shoot tips wilt and turn black as if scorched; shoot tips bend into a "shepherd's crook"; amber ooze from cankers.
+  spread: Bees, rain and pruning tools carry bacteria from cankers to flowers and wounds; warm, humid weather at bloom.
+  cultural:
+    - Prune infected shoots 20–30 cm below visible damage in dry weather; disinfect tools between cuts.
+    - Avoid heavy nitrogen that drives soft growth.
+  organic:
+    - Copper at bud break; Bacillus subtilis or Aureobasidium products at bloom.
+  chemical:
+    - Copper, or streptomycin/kasugamycin at bloom where legally allowed.
+  prevention:
+    - Resistant varieties and rootstocks; remove cankers in winter.
+
+Blue mold:
+  type: Oomycete disease
+  pathogen: Peronospora tabacina
+  symptoms: Yellow patches on upper leaf surfaces with blue-grey downy growth underneath; seedlings collapse quickly.
+  spread: Wind carries spores long distances; cool, wet, cloudy weather.
+  cultural:
+    - Destroy infected seedbeds and leftover plants; increase air flow in transplant beds.
+  organic:
+    - Copper sprays offer limited protection.
+  chemical:
+    - Mefenoxam/metalaxyl, dimethomorph or mandipropamid where registered.
+  prevention:
+    - Healthy transplants; monitor blue mold forecasts and protect early.
+
+Fusarium head blight (scab):
+  type: Fungal disease
+  pathogen: Fusarium graminearum and related species
+  symptoms: Parts of the wheat head bleach to straw colour early; pink-orange spore masses at the base of spikelets; shrivelled, chalky grains that may carry mycotoxins (DON).
+  spread: Spores from maize and wheat residue reach heads at flowering in warm, wet weather.
+  cultural:
+    - Bury or remove maize and cereal residue; do not follow maize with wheat.
+    - Harvest promptly; clean grain to remove light kernels.
+  organic:
+    - Rotation and residue management are the main tools.
+  chemical:
+    - Triazoles (prothioconazole, tebuconazole, metconazole) at early flowering.
+  prevention:
+    - Moderately resistant varieties; staggered flowering dates; test grain for mycotoxins.
+
+Loose smut:
+  type: Fungal disease (seed-borne)
+  pathogen: Ustilago tritici
+  symptoms: At heading, the grain is replaced by a mass of olive-black powdery spores; spores blow away leaving a bare stalk.
+  spread: Spores infect flowers of neighbouring plants; the fungus survives inside the seed.
+  cultural:
+    - Use clean seed from fields known to be free of smut.
+  organic:
+    - Hot-water seed treatment kills the fungus inside the seed.
+  chemical:
+    - Systemic seed treatments (tebuconazole, carboxin, difenoconazole).
+  prevention:
+    - Certified treated seed every season.
+
+Septoria leaf blotch:
+  type: Fungal disease
+  pathogen: Zymoseptoria tritici
+  symptoms: Long tan-brown blotches on wheat leaves with tiny black dots (pycnidia) inside; starts on lower leaves and moves up.
+  spread: Spores from stubble and volunteers; rain splash moves it up the plant.
+  cultural:
+    - Bury stubble; control volunteer wheat; avoid very early sowing.
+  organic:
+    - Variety resistance and rotation.
+  chemical:
+    - Triazoles mixed with SDHI or multi-site (chlorothalonil/folpet) at flag-leaf emergence; rotate modes of action.
+  prevention:
+    - Resistant varieties; rotation away from wheat.
+
+Stem rust:
+  type: Fungal disease
+  pathogen: Puccinia graminis f. sp. tritici
+  symptoms: Long, dark reddish-brown powdery pustules on stems, leaf sheaths and leaves; stems weaken and lodge, grain shrivels.
+  spread: Wind-borne spores over long distances; warm, humid weather.
+  cultural:
+    - Remove volunteer wheat and barberry near fields.
+  organic:
+    - Resistant varieties are the main control.
+  chemical:
+    - Triazoles or strobilurins at first pustules.
+  prevention:
+    - Grow varieties resistant to local races (including Ug99 where relevant).
+
+Stripe rust:
+  type: Fungal disease
+  pathogen: Puccinia striiformis f. sp. tritici (yellow rust)
+  symptoms: Yellow-orange powdery pustules in long stripes between leaf veins; whole leaves turn yellow and dry.
+  spread: Wind-borne spores; cool, moist weather (10–15 °C) with dew.
+  cultural:
+    - Remove volunteer wheat; avoid very early sowing in risk areas.
+  organic:
+    - Resistant varieties.
+  chemical:
+    - Triazoles (tebuconazole, propiconazole) or strobilurins at first stripes.
+  prevention:
+    - Resistant varieties; monitor from tillering.
+
+Gummosis:
+  type: Fungal disease / stress disorder
+  pathogen: Often Lasiodiplodia theobromae or other canker fungi, worsened by wounds and stress
+  symptoms: Amber gum oozing from cracks on the trunk and branches; bark darkens and dies underneath; branches die back.
+  spread: Fungi enter wounds from pruning, insects or machinery; worse in stressed trees.
+  cultural:
+    - Cut out diseased bark to healthy wood and remove dead branches; disinfect tools.
+    - Avoid trunk wounds; improve drainage.
+  organic:
+    - Paint cleaned wounds with Bordeaux paste.
+  chemical:
+    - Copper oxychloride paint on wounds; systemic fungicides where registered.
+  prevention:
+    - Good nutrition and water management; protect trunks from injury.
+
+Green mite:
+  type: Mite pest
+  pathogen: Cassava green mite (Mononychellus tanajoa)
+  symptoms: Fine yellow speckling on young leaves; leaves become small, mottled and deformed; shoot tips look "candlestick" in heavy attacks.
+  spread: Mites move by wind and on planting cuttings; worst in the dry season.
+  cultural:
+    - Plant early in the rainy season; use clean cuttings.
+  organic:
+    - Release or conserve the predatory mite Typhlodromalus aripo; neem sprays.
+  chemical:
+    - Acaricides are rarely economic and kill natural enemies.
+  prevention:
+    - Tolerant varieties and biological control.
+
+Fall armyworm:
+  type: Insect pest
+  pathogen: Spodoptera frugiperda (caterpillar)
+  symptoms: Ragged holes and "window-pane" feeding on leaves; sawdust-like droppings (frass) in the whorl; damage to tassels and ears.
+  spread: Moths fly long distances; several generations per season.
+  cultural:
+    - Scout the whorls twice a week; hand-pick egg masses and larvae in small plots.
+    - Intercrop with legumes (push-pull with Desmodium and Brachiaria where practised).
+  organic:
+    - Bacillus thuringiensis (Bt), spinosad or neem in the whorl when larvae are small; ash or sand in the whorl.
+  chemical:
+    - Emamectin benzoate, chlorantraniliprole or spinetoram into the whorl at the action threshold; rotate modes of action.
+  prevention:
+    - Early, synchronised planting; conserve natural enemies.
+
+Grasshopper damage:
+  type: Insect pest
+  pathogen: Grasshoppers and locusts (various species)
+  symptoms: Large irregular bites from leaf edges, often leaving only the midrib.
+  spread: Hatch from eggs laid in uncultivated soil and field margins; adults fly between fields.
+  cultural:
+    - Plough or till egg-laying sites; keep field edges mown.
+  organic:
+    - Metarhizium acridum biopesticide; poultry in small plots.
+  chemical:
+    - Baits or sprays on field margins when nymphs are young.
+  prevention:
+    - Monitor field edges early in the season.
+
+Leaf beetle:
+  type: Insect pest
+  pathogen: Leaf beetles (Chrysomelidae)
+  symptoms: Small round holes or stripes eaten from leaves; scraped "window" patches.
+  spread: Adults fly in from field margins and crop residue.
+  cultural:
+    - Destroy crop residue; rotate crops.
+  organic:
+    - Neem or pyrethrin sprays when beetles are numerous.
+  chemical:
+    - Contact insecticides only above action thresholds.
+  prevention:
+    - Healthy, vigorous plants tolerate light feeding; monitor early.

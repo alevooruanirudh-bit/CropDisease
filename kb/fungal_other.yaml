@@ -1,0 +1,847 @@
+# Mildews, rusts, anthracnose, rots, wilts, cankers and other fungal / oomycete diseases.
+
+Anthracnose:
+  type: Fungal disease
+  pathogen: Colletotrichum spp.
+  pathogen_by_crop: {Mango: Colletotrichum gloeosporioides, Guava: Colletotrichum psidii, Pomegranate: Colletotrichum spp., Black gram: Colletotrichum lindemuthianum, Cucumber: Colletotrichum orbiculare, Watermelon: Colletotrichum orbiculare}
+  symptoms: Dark, sunken spots on leaves, stems, flowers and fruit; fruit lesions often show pink-orange spore masses in wet weather; young shoots may die back.
+  spread: Spores spread by rain splash and wind; survives on infected twigs, leaves, fruit and seed; favoured by warm wet weather.
+  cultural:
+    - Prune and burn infected twigs, leaves and fruit.
+    - Improve canopy air flow; avoid overhead irrigation.
+    - Harvest carefully and keep fruit dry after harvest.
+  organic:
+    - Copper oxychloride or Bordeaux mixture sprays before and during wet weather.
+    - Bacillus-based biofungicides; hot-water treatment of fruit after harvest (mango, ~52 °C for 5 min).
+  chemical:
+    - Protectants (mancozeb, chlorothalonil) alternated with systemics (azoxystrobin, carbendazim, difenoconazole, prochloraz) as registered.
+  prevention:
+    - Use disease-free seed or planting material; rotate annual crops.
+    - Regular orchard sanitation and protective sprays at flowering and fruit set.
+
+Apple scab:
+  type: Fungal disease
+  pathogen: Venturia inaequalis
+  symptoms: Olive-green to black velvety spots on leaves and fruit; fruit become scabby, cracked and misshapen; leaves may yellow and drop.
+  spread: Overwinters in fallen leaves; spores released in spring rains infect new leaves and fruit.
+  cultural:
+    - Rake and destroy or shred fallen leaves in autumn.
+    - Prune to open the canopy.
+  organic:
+    - Sulphur or copper sprays from green tip through petal fall; lime-sulphur where allowed.
+    - Apply 5% urea to fallen leaves in autumn to speed decomposition.
+  chemical:
+    - "Protectants: captan, mancozeb, dodine. Systemics: difenoconazole, myclobutanil, trifloxystrobin. Spray before rain during primary infection season."
+  prevention:
+    - Plant scab-resistant varieties.
+    - Follow a spray schedule based on local scab-warning (infection period) alerts.
+
+Black rot:
+  type: Fungal disease (apple, grape) / bacterial disease (cauliflower)
+  pathogen: Apple — Botryosphaeria obtusa; Grape — Guignardia bidwellii; Cauliflower — Xanthomonas campestris pv. campestris (bacterium)
+  pathogen_by_crop: {Apple: Botryosphaeria obtusa, Grape: Guignardia bidwellii, Cauliflower: Xanthomonas campestris pv. campestris (bacterium)}
+  symptoms: Apple/grape — brown leaf spots with purple margins, fruit rot that turns black and mummifies. Cauliflower — yellow V-shaped lesions from leaf margins with blackened veins.
+  spread: Apple/grape — from mummified fruit and cankers by rain splash. Cauliflower — seed-borne bacteria, spread by rain, irrigation and tools.
+  cultural:
+    - Remove mummified fruit, dead wood and infected leaves.
+    - Cauliflower — remove infected plants and cruciferous weeds; avoid overhead irrigation.
+  organic:
+    - Copper sprays (all three crops); hot-water seed treatment (50 °C, 25–30 min) for brassica seed.
+  chemical:
+    - Apple/grape — captan, mancozeb, myclobutanil or strobilurins in the regular programme.
+    - Cauliflower — copper-based bactericides; fungicides do not control bacteria.
+  prevention:
+    - Sanitation and clean seed; rotate brassicas for 3 years.
+
+Black spot:
+  type: Fungal disease
+  pathogen: Diplocarpon rosae
+  symptoms: Round black spots with fringed edges on rose leaves; surrounding tissue yellows and leaves drop.
+  spread: Spores splash from infected leaves and canes; needs wet leaves for several hours.
+  cultural:
+    - Remove and bin infected leaves, including fallen ones; prune infected canes.
+    - Water at soil level in the morning; space plants for air flow.
+  organic:
+    - Neem oil, potassium bicarbonate or sulphur sprays.
+  chemical:
+    - Chlorothalonil, mancozeb, myclobutanil or tebuconazole every 7–14 days in wet weather.
+  prevention:
+    - Grow resistant varieties; mulch to reduce splash.
+
+Brown rust:
+  type: Fungal disease
+  pathogen: Puccinia melanocephala
+  symptoms: Small elongated brown to orange-brown pustules on sugarcane leaves, mainly underneath; leaves dry early.
+  spread: Wind-borne spores; favoured by mild humid weather.
+  cultural:
+    - Avoid planting susceptible varieties in high-risk seasons; balanced nitrogen.
+  organic:
+    - Limited; rely on resistant varieties.
+  chemical:
+    - Triazole or strobilurin fungicides where registered and economic.
+  prevention:
+    - Resistant varieties and clean seed cane.
+
+Canker:
+  type: Fungal / bacterial disease
+  pathogen: Pestalotiopsis psidii (guava fruit canker)
+  symptoms: Small brown circular raised spots on fruit that crack open with a sunken centre; fruit becomes unmarketable.
+  spread: Rain splash; enters through wounds.
+  cultural:
+    - Collect and destroy infected fruit; prune infected twigs.
+  organic:
+    - Copper oxychloride sprays.
+  chemical:
+    - Mancozeb or carbendazim sprays during fruit development.
+  prevention:
+    - Orchard sanitation; avoid fruit injuries.
+
+Black canker:
+  type: Fungal disease
+  pathogen: Phomopsis / Lasiodiplodia spp. (reported)
+  symptoms: Black sunken patches on custard apple fruit that spread and crack; fruit may mummify.
+  spread: Rain splash, infected twigs and fruit.
+  cultural:
+    - Remove and destroy diseased fruit and twigs.
+  organic:
+    - Copper oxychloride sprays.
+  chemical:
+    - Carbendazim or mancozeb sprays as locally recommended.
+  prevention:
+    - Orchard hygiene and protective sprays in wet periods.
+
+Cedar apple rust:
+  type: Fungal disease
+  pathogen: Gymnosporangium juniperi-virginianae (and related rusts)
+  symptoms: Bright yellow-orange spots on apple leaves, later with tiny black dots on top and tube-like structures underneath.
+  spread: Needs juniper/cedar as an alternate host; spores blow from galls on junipers in spring rains.
+  cultural:
+    - Remove nearby junipers/cedars or their galls where practical.
+  organic:
+    - Sulphur sprays from pink bud through early summer.
+  chemical:
+    - Myclobutanil, mancozeb or triazoles from pink bud to a few weeks after petal fall.
+  prevention:
+    - Plant rust-resistant apple varieties.
+
+Coffee leaf rust:
+  type: Fungal disease
+  pathogen: Hemileia vastatrix
+  symptoms: Yellow-orange powdery spots on the underside of coffee leaves, pale yellow patches on top; heavy leaf drop and weak next-year yield.
+  spread: Wind and rain-splashed spores; favoured by warm, humid weather and heavy crop load.
+  cultural:
+    - Prune for air flow; manage shade; fertilise well.
+    - Remove heavily infected leaves where practical.
+  organic:
+    - Copper-based sprays (copper hydroxide, Bordeaux mixture) before the rainy season.
+  chemical:
+    - Triazoles (cyproconazole, propiconazole) and strobilurins, alternated with copper.
+  prevention:
+    - Plant rust-resistant varieties; keep plants vigorous.
+
+Common rust:
+  type: Fungal disease
+  pathogen: Puccinia sorghi
+  symptoms: Small oval cinnamon-brown powdery pustules on both sides of maize leaves.
+  spread: Wind-borne spores; cool moist weather.
+  cultural:
+    - Early planting; balanced nutrition.
+  organic:
+    - Rely on resistant hybrids.
+  chemical:
+    - Triazole or strobilurin fungicides if rust is heavy before tasselling on susceptible hybrids.
+  prevention:
+    - Resistant hybrids.
+
+Rust:
+  type: Fungal disease
+  pathogen: Rust fungi (Puccinia / Uromyces / Phakopsora spp.)
+  pathogen_by_crop: {Bean: Uromyces appendiculatus, Lentil: Uromyces viciae-fabae, Groundnut: Puccinia arachidis, Soybean: Phakopsora pachyrhizi, Guava: Austropuccinia psidii}
+  symptoms: Small raised orange, brown or reddish powdery pustules, mostly on the underside of leaves; leaves yellow and drop early.
+  spread: Wind-borne spores, sometimes over long distances; favoured by dew and moderate temperatures.
+  cultural:
+    - Remove volunteer plants and crop residue; avoid late sowing.
+    - Wider spacing for air flow.
+  organic:
+    - Sulphur dust or sprays (check crop safety); neem-based products give partial control.
+  chemical:
+    - Triazoles (tebuconazole, propiconazole, hexaconazole) or strobilurins at first pustules.
+  prevention:
+    - Resistant varieties; timely sowing; rotation.
+
+Red rust (algal):
+  type: Algal disease
+  pathogen: Cephaleuros virescens (a parasitic green alga)
+  symptoms: Rusty orange to reddish velvety patches on leaves and twigs; twigs may crack and die back.
+  spread: Spores splash in rain; favoured by poor nutrition, shade and humidity.
+  cultural:
+    - Prune affected twigs; reduce shade; feed plants well.
+  organic:
+    - Copper oxychloride or Bordeaux mixture sprays.
+  chemical:
+    - Copper-based products are the standard control.
+  prevention:
+    - Good nutrition and air flow.
+
+Algal leaf spot:
+  type: Algal disease
+  pathogen: Cephaleuros spp.
+  symptoms: Raised, velvety grey-green to orange-red circular spots on the upper leaf surface (also called "red rust", e.g. on tea, guava and cashew); on twigs, rusty patches with cracking and die-back.
+  spread: Rain splash; humid shaded conditions.
+  cultural:
+    - Prune to improve light and air; balanced fertiliser.
+  organic:
+    - Copper sprays.
+  chemical:
+    - Copper oxychloride.
+  prevention:
+    - Avoid dense shade; keep plants vigorous.
+
+Red leaf spot:
+  type: Fungal / algal disease
+  pathogen: Phoma / Cephaleuros spp. (reported in tea)
+  symptoms: Small reddish-brown spots on tea leaves that enlarge and merge.
+  spread: Rain splash, humid conditions.
+  cultural:
+    - Remove affected leaves; improve drainage and nutrition.
+  organic:
+    - Copper oxychloride sprays.
+  chemical:
+    - Registered copper or triazole fungicides.
+  prevention:
+    - Healthy bushes and sanitation.
+
+Powdery mildew:
+  type: Fungal disease
+  pathogen: Powdery mildew fungi (Erysiphales)
+  pathogen_by_crop: {Mango: Oidium mangiferae, Grape: Erysiphe necator, Apple: Podosphaera leucotricha, Cherry: Podosphaera clandestina, Squash: Podosphaera xanthii, Eggplant: Leveillula taurica, Chili pepper: Leveillula taurica, Black gram: Erysiphe polygoni, Lentil: Erysiphe pisi}
+  symptoms: White to grey powdery patches on leaves, shoots, flowers and young fruit; leaves curl, yellow and dry; flower and fruit drop in mango.
+  spread: Wind-borne spores; unlike most fungi it thrives in warm, dry days with cool humid nights; does not need rain.
+  cultural:
+    - Remove heavily infected shoots and leaves.
+    - Improve sunlight and air flow; avoid excess nitrogen.
+  organic:
+    - Wettable sulphur sprays (avoid above ~32 °C).
+    - Potassium bicarbonate, neem oil or milk-water sprays for light infections.
+    - Bacillus-based biofungicides.
+  chemical:
+    - Triazoles (hexaconazole, myclobutanil, tebuconazole, penconazole), strobilurins, or dinocap/meptyldinocap where registered; rotate groups.
+  prevention:
+    - Grow resistant varieties; spray preventively at flowering in high-risk crops (mango, grape).
+
+Downy mildew:
+  type: Oomycete disease (water mould)
+  pathogen: Downy mildews (Peronosporaceae)
+  pathogen_by_crop: {Grape: Plasmopara viticola, Cucumber: Pseudoperonospora cubensis, Watermelon: Pseudoperonospora cubensis, Ash gourd: Pseudoperonospora cubensis, Okra: Pseudoperonospora sp., Spinach: Peronospora effusa, Cauliflower: Hyaloperonospora parasitica, Radish: Hyaloperonospora parasitica, Sunflower: Plasmopara halstedii, Rice: Sclerophthora macrospora}
+  symptoms: Yellow or pale angular patches on the upper leaf surface with grey, purple or white downy growth underneath; leaves brown and die.
+  spread: Spores spread by wind and rain; needs leaf wetness and cool-to-mild humid weather; can spread very fast.
+  cultural:
+    - Water at the base in the morning; improve air flow; remove infected leaves.
+    - Avoid planting in low, poorly drained or shaded sites.
+  organic:
+    - Copper (Bordeaux mixture, copper hydroxide) as a protectant before infection.
+  chemical:
+    - "Protectants: mancozeb, chlorothalonil. Systemics: metalaxyl-M, cymoxanil, dimethomorph, fosetyl-Al, mandipropamid; always mix or rotate with a protectant."
+  prevention:
+    - Resistant varieties; clean seed; crop rotation; early protective sprays in risk periods.
+
+Gray mold:
+  type: Fungal disease
+  pathogen: Botrytis cinerea
+  symptoms: Brown water-soaked lesions covered with fuzzy grey mould on leaves, flowers, heads and fruit.
+  spread: Air-borne spores; cool humid weather; enters through wounds and old flowers.
+  cultural:
+    - Remove dead flowers and infected tissue; improve ventilation; avoid dense planting.
+  organic:
+    - Bacillus or Trichoderma-based biofungicides.
+  chemical:
+    - Fenhexamid, iprodione, boscalid or fludioxonil-based products where registered; rotate.
+  prevention:
+    - Good air flow and avoiding prolonged wetness.
+
+White mold:
+  type: Fungal disease
+  pathogen: Sclerotinia sclerotiorum
+  symptoms: Water-soaked lesions covered with fluffy white mould; hard black bodies (sclerotia) form inside and on stems; plants wilt.
+  spread: Sclerotia survive in soil for years and release spores at flowering in cool moist weather.
+  cultural:
+    - Remove infected plants with sclerotia; wider spacing; avoid excess irrigation.
+    - Deep ploughing buries sclerotia.
+  organic:
+    - Coniothyrium minitans or Trichoderma soil applications.
+  chemical:
+    - Boscalid, iprodione or carbendazim at flowering where registered.
+  prevention:
+    - Rotate with cereals for 3+ years.
+
+Esca (black measles):
+  type: Fungal trunk disease
+  pathogen: Phaeomoniella chlamydospora, Phaeoacremonium spp. and others
+  symptoms: Tiger-stripe yellow or red bands between veins on grape leaves; berries with dark spots; sudden vine collapse in summer.
+  spread: Spores infect pruning wounds; disease develops in the wood over years.
+  cultural:
+    - Prune in dry weather; remove and burn dead wood; retrain trunks from healthy suckers.
+  organic:
+    - Protect pruning wounds with Trichoderma-based wound protectants.
+  chemical:
+    - No curative spray; wound protectants (e.g. registered paste fungicides) after pruning.
+  prevention:
+    - Clean nursery stock; wound protection; delayed or double pruning.
+
+Late blight:
+  type: Oomycete disease (water mould)
+  pathogen: Phytophthora infestans
+  symptoms: Large, dark, water-soaked patches on leaves that spread fast, with white mould on the underside in humid weather; dark greasy lesions on stems; firm brown rot on tomato fruit and potato tubers.
+  spread: Spores spread by wind and rain over long distances; cool, wet weather (10–25 °C) can destroy a field in days. Survives in infected tubers, volunteers and cull piles.
+  cultural:
+    - Remove and destroy infected plants immediately (bag them; do not compost).
+    - Destroy cull piles and volunteer potatoes; hill up potatoes to protect tubers.
+    - Harvest potatoes after haulm is dead and skins are set.
+  organic:
+    - Copper fungicides as protectants before and during wet weather (limited efficacy once established).
+  chemical:
+    - "Protectants: mancozeb, chlorothalonil. Systemics: metalaxyl-M, cymoxanil, dimethomorph, mandipropamid, fluopicolide, oxathiapiprolin — always with a protectant partner; rotate."
+  prevention:
+    - Certified seed potatoes; resistant varieties; follow local blight-forecast warnings.
+
+Phytophthora blight:
+  type: Oomycete disease
+  pathogen: Phytophthora capsici / P. nicotianae
+  symptoms: Dark water-soaked lesions on leaves and stems, stem collar rot, sudden wilting; fruit rot with white mould.
+  spread: Soil- and water-borne; spreads in standing water and rain splash.
+  cultural:
+    - Plant on raised beds; improve drainage; avoid over-irrigation.
+    - Remove infected plants with surrounding soil.
+  organic:
+    - Trichoderma and Pseudomonas soil applications; copper sprays.
+  chemical:
+    - Metalaxyl-M, fosetyl-Al, mandipropamid or dimethomorph soil drench/spray where registered.
+  prevention:
+    - Rotation away from solanaceous crops and cucurbits; good drainage.
+
+Phytophthora rot:
+  type: Oomycete disease
+  pathogen: Phytophthora nicotianae / P. citrophthora
+  symptoms: Brown water-soaked rot on fruit near the ground, spreading quickly with white mould in humid weather.
+  spread: Soil splash during rain; standing water.
+  cultural:
+    - Collect fallen fruit; mulch to prevent soil splash; prune low branches.
+  organic:
+    - Copper sprays on lower canopy.
+  chemical:
+    - Fosetyl-Al or metalaxyl-based products where registered.
+  prevention:
+    - Good drainage and orchard sanitation.
+
+Phytophthora canker:
+  type: Oomycete disease
+  pathogen: Phytophthora palmivora
+  symptoms: Dark, wet, oozing patches on the trunk and branches of durian; bark rots and the tree declines.
+  spread: Soil and water; rain splash; poorly drained soils.
+  cultural:
+    - Scrape out infected bark and paint the wound; improve drainage.
+  organic:
+    - Trichoderma soil application; copper paste on wounds.
+  chemical:
+    - Phosphonate (potassium phosphite) trunk injection or spray; metalaxyl paste on lesions where registered.
+  prevention:
+    - Drainage, avoiding trunk wounds, phosphonate preventive programmes.
+
+Pythium fruit rot:
+  type: Oomycete disease
+  pathogen: Pythium aphanidermatum and other Pythium spp.
+  symptoms: Water-soaked, soft rot on cucumber fruit touching the soil, with cottony white mould.
+  spread: Soil-borne; wet soils and warm weather.
+  cultural:
+    - Keep fruit off the soil (trellis or mulch); improve drainage; avoid over-watering.
+  organic:
+    - Trichoderma soil application.
+  chemical:
+    - Metalaxyl-M or propamocarb soil treatment where registered.
+  prevention:
+    - Raised beds, mulch and rotation.
+
+Belly rot:
+  type: Fungal disease
+  pathogen: Rhizoctonia solani
+  symptoms: Tan to brown sunken, sometimes cracked lesions on the side of cucumber fruit that lies on the soil.
+  spread: Soil-borne; warm wet soil.
+  cultural:
+    - Use mulch or trellises so fruit do not touch the soil; rotate.
+  organic:
+    - Trichoderma soil treatment.
+  chemical:
+    - Azoxystrobin or other registered fungicides banded at vining.
+  prevention:
+    - Rotation, plastic or straw mulch, trellising.
+
+Black scurf:
+  type: Fungal disease
+  pathogen: Rhizoctonia solani
+  symptoms: Hard black crusts (sclerotia) on potato tuber skin that do not wash off; stem cankers and poor emergence.
+  spread: Seed tubers and soil.
+  cultural:
+    - Plant certified seed; plant in warm soil; harvest promptly after vine death.
+  organic:
+    - Trichoderma seed-tuber treatment.
+  chemical:
+    - Seed-tuber treatment with fludioxonil, pencycuron or flutolanil; in-furrow azoxystrobin where registered.
+  prevention:
+    - Rotation of 3+ years and clean seed.
+
+Dry rot:
+  type: Fungal disease
+  pathogen: Fusarium spp.
+  symptoms: Wrinkled, sunken brown patches on stored potato tubers; inside dry, crumbly cavities with white, pink or blue mould.
+  spread: Enters through wounds at harvest and handling; spreads in storage.
+  cultural:
+    - Avoid bruising; cure tubers (12–18 °C, high humidity) for 2 weeks before cool storage.
+    - Discard rotting tubers; disinfect stores.
+  organic:
+    - Biocontrol seed treatments where available.
+  chemical:
+    - Seed-tuber treatment with fludioxonil or thiabendazole where registered.
+  prevention:
+    - Careful harvest and handling; clean, ventilated storage.
+
+Pink rot:
+  type: Oomycete disease
+  pathogen: Phytophthora erythroseptica
+  symptoms: Tuber flesh turns salmon-pink within 20–30 min of cutting, then black; tubers rubbery with a vinegar smell.
+  spread: Soil-borne; saturated soils near harvest.
+  cultural:
+    - Avoid waterlogging; harvest in dry conditions; do not store wet tubers.
+  organic:
+    - Improve drainage; rotation.
+  chemical:
+    - Mefenoxam/metalaxyl-M or phosphite applications where registered.
+  prevention:
+    - Good drainage and long rotations.
+
+Fusarium wilt:
+  type: Fungal disease
+  pathogen: Fusarium oxysporum f. sp. vasinfectum
+  symptoms: Yellowing and wilting from lower leaves, often on one side of the plant; brown streaks inside the stem when cut.
+  spread: Soil-borne, survives for many years; spread with soil, water and equipment; nematodes increase damage.
+  cultural:
+    - Remove and destroy wilted plants; clean equipment; avoid moving infested soil.
+  organic:
+    - Trichoderma or Pseudomonas soil applications; organic manure to support soil biology.
+  chemical:
+    - No effective curative spray; seed treatment with carbendazim where registered.
+  prevention:
+    - Resistant varieties; long rotations; control nematodes; balanced potassium.
+
+Fusarium wilt (Panama disease):
+  type: Fungal disease
+  pathogen: Fusarium oxysporum f. sp. cubense (including Tropical Race 4)
+  symptoms: Older banana leaves yellow from the edges and collapse around the pseudostem; pseudostem splits; reddish-brown streaks inside.
+  spread: Soil-borne for decades; spread by infected suckers, soil on tools, boots, vehicles and water.
+  cultural:
+    - Destroy infected plants in place; quarantine the area; disinfect boots and tools.
+    - Report suspected Tropical Race 4 to local plant-protection authorities.
+  organic:
+    - Trichoderma and organic matter to support soil health (does not cure).
+  chemical:
+    - No chemical cure.
+  prevention:
+    - Tissue-culture clean planting material; resistant cultivars; strict farm biosecurity.
+
+Fusarium wilt (bayoud):
+  type: Fungal disease
+  pathogen: Fusarium oxysporum f. sp. albedinis
+  symptoms: Fronds wither from one side of the crown, leaflets whiten and dry; brown streaks in the vascular tissue; palm dies.
+  spread: Soil-borne; spread by infected offshoots and soil movement.
+  cultural:
+    - Uproot and burn infected palms; quarantine; do not move offshoots from infected areas.
+  organic:
+    - None curative.
+  chemical:
+    - No chemical cure.
+  prevention:
+    - Resistant cultivars and strict quarantine.
+
+Verticillium wilt:
+  type: Fungal disease
+  pathogen: Verticillium dahliae
+  symptoms: Yellow blotches between veins, leaf scorching and wilting; brown discolouration inside the stem.
+  spread: Soil-borne microsclerotia survive for years; cool soils favour infection.
+  cultural:
+    - Remove infected plant debris; avoid excess nitrogen and over-irrigation.
+  organic:
+    - Long rotation with cereals; soil solarisation in small areas.
+  chemical:
+    - No effective curative spray.
+  prevention:
+    - Tolerant varieties; rotation; clean equipment.
+
+Wilt:
+  type: Fungal / bacterial wilt (general)
+  pathogen: Fusarium / Verticillium spp. or Ralstonia solanacearum
+  symptoms: Plants droop and wilt even with moist soil; leaves yellow; stem shows brown internal streaks.
+  spread: Soil- and water-borne; infected seedlings and tools.
+  cultural:
+    - Remove and destroy wilted plants with roots; avoid waterlogging.
+    - Do a stem test — cut stem placed in water oozing milky threads suggests bacterial wilt.
+  organic:
+    - Trichoderma / Pseudomonas soil applications; grafting on resistant rootstock.
+  chemical:
+    - No reliable curative spray.
+  prevention:
+    - Rotation with non-hosts; resistant varieties or rootstocks; clean seedlings.
+
+Dieback:
+  type: Fungal disease
+  pathogen: Lasiodiplodia theobromae and other fungi
+  pathogen_by_crop: {Mango: Lasiodiplodia theobromae, Orange: Lasiodiplodia / Diplodia spp., Jute: Colletotrichum corchori}
+  symptoms: Twigs and branches dry from the tip backwards; leaves turn brown and stay attached; dark streaks under the bark.
+  spread: Enters through wounds and stressed branches; spores spread by rain and wind.
+  cultural:
+    - Prune 5–10 cm below the dead part into healthy wood; burn prunings; seal cuts.
+    - Reduce tree stress (water, nutrition).
+  organic:
+    - Copper oxychloride paste or Bordeaux paste on cut ends; copper sprays.
+  chemical:
+    - Carbendazim or thiophanate-methyl sprays after pruning where registered.
+  prevention:
+    - Avoid wounding; keep trees well fed and watered.
+
+Diplodia rot:
+  type: Fungal disease
+  pathogen: Lasiodiplodia theobromae
+  symptoms: Dark brown to black rot spreading from the stem end of custard apple fruit; fruit becomes soft and mummified.
+  spread: Infected twigs, wounds, high humidity.
+  cultural:
+    - Remove and destroy infected fruit and dead twigs; harvest carefully.
+  organic:
+    - Copper sprays.
+  chemical:
+    - Carbendazim or mancozeb sprays at fruit development where registered.
+  prevention:
+    - Orchard hygiene; avoid fruit injury.
+
+Fruit spot:
+  type: Fungal disease
+  pathogen: Cercospora / Colletotrichum spp. (reported)
+  symptoms: Small brown to black spots on custard apple fruit, which may merge and crack the skin.
+  spread: Rain splash from infected leaves and twigs.
+  cultural:
+    - Remove infected fruit and leaves; prune for air flow.
+  organic:
+    - Copper oxychloride sprays.
+  chemical:
+    - Mancozeb or carbendazim at fruit development.
+  prevention:
+    - Sanitation and timely protective sprays.
+
+Fruit rot:
+  type: Fungal / oomycete disease
+  pathogen: Phytophthora palmivora, Lasiodiplodia and others
+  symptoms: Brown to black, spreading rot on durian fruit, often with white mould; fruit drop.
+  spread: Rain splash from soil and infected trees.
+  cultural:
+    - Remove infected fruit; avoid soil splash; prune lower canopy.
+  organic:
+    - Copper sprays.
+  chemical:
+    - Phosphonate or metalaxyl-based sprays where registered.
+  prevention:
+    - Orchard sanitation and drainage.
+
+Wet rot:
+  type: Fungal disease
+  pathogen: Choanephora / Phytophthora spp. (reported)
+  symptoms: Soft, water-soaked rot on eggplant fruit, often with fuzzy dark mould.
+  spread: Wet weather, damaged flowers and fruit.
+  cultural:
+    - Remove rotting fruit; improve air flow; avoid overhead irrigation.
+  organic:
+    - Copper sprays.
+  chemical:
+    - Mancozeb or registered fungicides in wet spells.
+  prevention:
+    - Good spacing and sanitation.
+
+Phomopsis blight:
+  type: Fungal disease
+  pathogen: Phomopsis vexans
+  symptoms: Pale sunken spots on eggplant fruit with black dots that grow until the fruit rots; grey-brown leaf spots; stem cankers.
+  spread: Seed-borne; rain splash.
+  cultural:
+    - Remove infected fruit and plant debris; rotate.
+  organic:
+    - Hot-water seed treatment (50 °C for 30 min); copper sprays.
+  chemical:
+    - Mancozeb, carbendazim or azoxystrobin sprays where registered.
+  prevention:
+    - Clean seed; 3-year rotation; resistant varieties.
+
+Pink disease:
+  type: Fungal disease
+  pathogen: Erythricium salmonicolor
+  symptoms: Pink to salmon-coloured crust on branches and stems; bark cracks; branches die.
+  spread: Wind and rain; very humid conditions.
+  cultural:
+    - Cut out infected branches; improve air flow.
+  organic:
+    - Bordeaux paste on infected bark.
+  chemical:
+    - Copper-based paints or registered fungicides on the bark.
+  prevention:
+    - Canopy management and regular inspection in the rainy season.
+
+Stem blight:
+  type: Fungal disease
+  pathogen: Lasiodiplodia / Phomopsis spp. (reported)
+  symptoms: Dark lesions on stems and branches with dieback of the parts above.
+  spread: Wounds and humid conditions.
+  cultural:
+    - Prune infected stems; disinfect tools.
+  organic:
+    - Copper paste on cuts.
+  chemical:
+    - Registered systemic fungicides after pruning.
+  prevention:
+    - Avoid wounds; keep trees vigorous.
+
+Stem cracking (gummosis):
+  type: Fungal / oomycete disease
+  pathogen: Phytophthora / Lasiodiplodia spp.
+  symptoms: Cracked bark that oozes gum or sap on the trunk; bark underneath turns brown.
+  spread: Wet soils, wounds, poor drainage.
+  cultural:
+    - Scrape away diseased bark; improve drainage.
+  organic:
+    - Bordeaux paste on wounds.
+  chemical:
+    - Phosphonate or metalaxyl paste where registered.
+  prevention:
+    - Drainage and wound prevention.
+
+Gummy stem blight:
+  type: Fungal disease
+  pathogen: Stagonosporopsis cucurbitacearum (Didymella bryoniae)
+  symptoms: Tan to brown stem cankers that ooze red-brown gum; brown leaf lesions from the margins; fruit rot.
+  spread: Seed and crop debris; rain splash; high humidity.
+  cultural:
+    - Remove infected vines; rotate; avoid overhead irrigation.
+  organic:
+    - Copper sprays.
+  chemical:
+    - Chlorothalonil, mancozeb, azoxystrobin or boscalid on rotation.
+  prevention:
+    - Clean seed and transplants; 2-year rotation away from cucurbits.
+
+Sheath blight:
+  type: Fungal disease
+  pathogen: Rhizoctonia solani
+  symptoms: Oval greenish-grey lesions with brown borders on rice leaf sheaths near the water line, climbing up the plant; tillers lodge.
+  spread: Sclerotia float in irrigation water; dense, heavily fertilised crops.
+  cultural:
+    - Avoid excessive nitrogen and very dense planting; remove weeds and stubble.
+  organic:
+    - Trichoderma or Pseudomonas fluorescens applications.
+  chemical:
+    - Validamycin, hexaconazole, azoxystrobin or thifluzamide where registered.
+  prevention:
+    - Balanced fertilisation, spacing and field sanitation.
+
+Banded leaf and sheath blight:
+  type: Fungal disease
+  pathogen: Rhizoctonia solani f. sp. sasakii
+  symptoms: Concentric bands of brown and grey on maize leaf sheaths and leaves; cob rot.
+  spread: Soil-borne sclerotia; humid weather.
+  cultural:
+    - Strip lower leaves and sheaths around 40 days; rotate.
+  organic:
+    - Trichoderma or Pseudomonas applications.
+  chemical:
+    - Validamycin or hexaconazole where registered.
+  prevention:
+    - Rotation and residue removal.
+
+Sett rot:
+  type: Fungal disease
+  pathogen: Ceratocystis paradoxa (pineapple disease)
+  symptoms: Sugarcane setts rot inside, turning red then black, with a pineapple-like smell; poor germination.
+  spread: Soil-borne; enters cut ends of setts.
+  cultural:
+    - Plant healthy setts in well-drained, warm soil.
+  organic:
+    - Sett dip in Trichoderma suspension.
+  chemical:
+    - Sett treatment with carbendazim or propiconazole where registered.
+  prevention:
+    - Healthy seed cane and sett treatment before planting.
+
+Smut:
+  type: Fungal disease
+  pathogen: Sporisorium scitamineum
+  symptoms: A long black whip-like structure grows from the top of sugarcane stalks; thin grassy shoots.
+  spread: Spores blow from whips and survive in soil; infected setts.
+  cultural:
+    - Rogue out and bag whips before they burst; destroy infected clumps.
+  organic:
+    - Hot-water sett treatment (50 °C for 2 h).
+  chemical:
+    - Sett treatment with propiconazole or triadimefon where registered.
+  prevention:
+    - Resistant varieties and clean, treated seed cane; avoid ratooning infected fields.
+
+Pokkah boeng:
+  type: Fungal disease
+  pathogen: Fusarium moniliforme (F. verticillioides / F. sacchari)
+  symptoms: Young leaves wrinkled, twisted and yellow at the base; top may rot ("knife-cut" lesions).
+  spread: Air-borne spores during the monsoon.
+  cultural:
+    - Remove severely affected tops; balanced nutrition.
+  organic:
+    - Copper sprays.
+  chemical:
+    - Carbendazim or copper oxychloride sprays as recommended.
+  prevention:
+    - Resistant varieties.
+
+Rice blast:
+  type: Fungal disease
+  pathogen: Magnaporthe oryzae (Pyricularia oryzae)
+  symptoms: Diamond-shaped spots with grey centres and brown borders on leaves; black rotting nodes; "neck blast" makes the panicle break and grains stay empty.
+  spread: Air-borne spores; favoured by high nitrogen, long dew periods and cool nights.
+  cultural:
+    - Avoid excessive and late nitrogen; split doses.
+    - Keep fields flooded where possible; remove infected stubble and weeds.
+  organic:
+    - Seed treatment and sprays with Pseudomonas fluorescens or Trichoderma; silicon fertiliser.
+  chemical:
+    - Tricyclazole, isoprothiolane, azoxystrobin or propiconazole at early leaf blast and at booting for neck blast.
+  prevention:
+    - Resistant varieties; clean seed; balanced fertilisation.
+
+Rhizome rot:
+  type: Oomycete / fungal disease
+  pathogen: Pythium aphanidermatum (often with Fusarium)
+  symptoms: Leaves yellow from the margins and dry; the collar becomes soft and water-soaked; rhizomes rot and turn brown.
+  spread: Soil-borne; infected seed rhizomes; waterlogging.
+  cultural:
+    - Use healthy seed rhizomes; plant on raised beds with good drainage.
+    - Remove and destroy infected clumps with the soil around them.
+  organic:
+    - Seed-rhizome and soil treatment with Trichoderma; neem cake.
+  chemical:
+    - Rhizome dip and soil drench with metalaxyl + mancozeb or copper oxychloride where registered.
+  prevention:
+    - Rotation, drainage and clean seed rhizomes.
+
+Sooty mould:
+  type: Fungal growth (secondary to insects)
+  pathogen: Capnodium and related fungi
+  symptoms: Black, soot-like coating on leaves, twigs and fruit that can be wiped off; reduces photosynthesis.
+  spread: Grows on honeydew produced by sap-sucking insects (aphids, mealybugs, scales, whiteflies, hoppers).
+  cultural:
+    - Control the insects producing honeydew; control ants that protect them.
+    - Wash off light coatings with water.
+  organic:
+    - Insecticidal soap or neem oil for the insects; starch spray (2–5%) which dries and peels the mould off.
+  chemical:
+    - Target the insect pest (e.g. registered systemic insecticides for scales or mealybugs); fungicides alone do not solve it.
+  prevention:
+    - Monitor and manage sap-sucking insects early.
+
+Leaf scorch:
+  type: Fungal disease
+  pathogen: Diplocarpon earlianum
+  symptoms: Many small purple spots on strawberry leaves that merge until the leaf looks scorched.
+  spread: Rain splash from infected leaves; survives on old leaves.
+  cultural:
+    - Remove old leaves after harvest; avoid overhead watering; renovate beds.
+  organic:
+    - Copper sprays.
+  chemical:
+    - Captan or other registered fungicides from early spring.
+  prevention:
+    - Resistant varieties, clean transplants, good spacing.
+
+Scab:
+  type: Fungal disease
+  pathogen: Pestalotiopsis / Sphaceloma spp. (guava)
+  symptoms: Small brown corky spots on the fruit surface that make the skin rough and cracked.
+  spread: Rain splash and humid weather.
+  cultural:
+    - Remove infected fruit; prune for air flow.
+  organic:
+    - Copper oxychloride sprays.
+  chemical:
+    - Mancozeb or carbendazim during fruit development.
+  prevention:
+    - Orchard sanitation and timely sprays.
+
+Styler end rot:
+  type: Fungal disease
+  pathogen: Phomopsis psidii / Lasiodiplodia spp. (reported)
+  symptoms: Brown to black soft rot starting at the flower (calyx) end of guava fruit and spreading over the fruit.
+  spread: Infection at flowering; wounds; humid weather.
+  cultural:
+    - Remove infected fruit; prune dead twigs.
+  organic:
+    - Copper oxychloride sprays at flowering and fruit set.
+  chemical:
+    - Carbendazim or mancozeb sprays where registered.
+  prevention:
+    - Orchard hygiene and protection at flowering.
+
+Shot hole:
+  type: Fungal / bacterial disease
+  pathogen: Wilsonomyces carpophilus (fungus) or Xanthomonas spp. (bacterium)
+  symptoms: Small round reddish-brown spots whose centres drop out, leaving leaves full of "shot" holes.
+  spread: Rain splash; survives on twigs and buds.
+  cultural:
+    - Prune and destroy infected twigs; avoid overhead irrigation.
+  organic:
+    - Copper sprays at leaf fall and bud swell.
+  chemical:
+    - Captan, chlorothalonil or copper where registered.
+  prevention:
+    - Sanitation and dormant-season copper sprays.
+
+Bud rot:
+  type: Oomycete disease
+  pathogen: Phytophthora palmivora
+  symptoms: The youngest (spear) leaf yellows and comes out easily; the bud rots with a foul smell; the whole crown dies.
+  spread: Rain splash and wind during the monsoon.
+  cultural:
+    - Remove all rotten tissue from the crown; burn removed material.
+  organic:
+    - Apply Bordeaux paste (10%) to the cleaned crown and cover from rain.
+  chemical:
+    - Prophylactic Bordeaux mixture (1%) or potassium phosphonate sprays to the crown before the monsoon.
+  prevention:
+    - Pre-monsoon protective sprays; remove dead palms that act as sources.
+
+Stem bleeding:
+  type: Fungal disease
+  pathogen: Thielaviopsis paradoxa
+  symptoms: Dark reddish-brown liquid oozes from cracks on the coconut trunk; tissue beneath rots.
+  spread: Enters through cracks and injuries; worse in waterlogged soils.
+  cultural:
+    - Chisel out affected tissue, burn it, and paint the wound with tar or Bordeaux paste.
+    - Improve drainage; apply neem cake and organic manure.
+  organic:
+    - Trichoderma-enriched neem cake to the basin.
+  chemical:
+    - Hexaconazole root feeding or painting where recommended.
+  prevention:
+    - Avoid trunk injury; balanced nutrition and drainage.
+
+Stem soft rot:
+  type: Fungal disease
+  pathogen: Sclerotium rolfsii / Macrophomina phaseolina
+  symptoms: Soft, water-soaked rot at the stem base; white mould and mustard-seed-like sclerotia; plants wilt and fall.
+  spread: Soil-borne; warm humid conditions.
+  cultural:
+    - Remove infected plants with soil; deep ploughing; avoid waterlogging.
+  organic:
+    - Trichoderma seed and soil treatment.
+  chemical:
+    - Carbendazim or hexaconazole soil drench where registered.
+  prevention:
+    - Rotation and seed treatment.

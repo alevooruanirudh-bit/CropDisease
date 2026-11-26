@@ -1,0 +1,12 @@
+2026-11-02 19:36:07,675 | INFO    | plant-borb.src.models.factory | Built efficientnet_b0 (efficientnet_b0), 4.85M params, pretrained=True
+2026-11-02 19:36:07,694 | INFO    | plant-borb.src.models.factory | Warm-started from results/web_model_v2_snapshot.pt: 358/360 tensors copied
+2026-11-02 19:36:07,771 | INFO    | plant-borb.src.training.trainer | Phase frozen: 1 epochs, lr=2.00e-03, trainable=0.84M
+2026-11-02 20:05:43,759 | INFO    | plant-borb.src.training.trainer | ep   1 [frozen] train 1.6251/0.8312  val 0.5924/0.8613  *(1776s)
+2026-11-02 20:05:43,765 | INFO    | plant-borb.src.training.trainer | Phase finetune: 4 epochs, lr=4.00e-04, trainable=4.85M
+2026-11-02 22:08:14,910 | INFO    | plant-borb.src.training.trainer | ep   2 [finetune] train 1.5710/0.8348  val 0.8207/0.8030   (7351s)
+2026-11-02 23:58:28,466 | INFO    | plant-borb.src.training.trainer | ep   3 [finetune] train 1.6723/0.8037  val 0.7626/0.8173   (6613s)
+2026-11-03 01:36:22,623 | INFO    | plant-borb.src.training.trainer | ep   4 [finetune] train 1.5274/0.8438  val 0.6342/0.8541   (5874s)
+2026-11-03 01:36:22,630 | INFO    | plant-borb.src.training.trainer | Early stopping at epoch 4 (val loss did not improve for 3 epochs)
+2026-11-03 11:03:34,767 | INFO    | plant-borb.src.training.pipeline | [web_model_v3/efficientnet_b0/seed0] val acc 0.8613 | test acc 0.8849 CI95 [0.8824211583065047, 0.8874407172776682]
+2026-11-03 11:05:35,237 | INFO    | plant-borb.src.eval.summary | Wrote results/summary.csv, summary.md, ablation.md
+2026-11-03 11:05:35,237 | INFO    | plant-borb | === web_model_v3 done in 929.5 min ===

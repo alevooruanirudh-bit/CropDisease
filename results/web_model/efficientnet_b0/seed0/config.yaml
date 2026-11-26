@@ -1,0 +1,438 @@
+experiment:
+  name: web_model
+  type: train
+device: auto
+num_workers: 8
+paths:
+  results_dir: results
+  cache_dir: cache
+  split_root: splits
+  keep_checkpoints: true
+data:
+  dataset: manifest
+  name: web
+  root: data/web
+  num_classes: 15
+  split_dir: splits/web
+  split_ratios:
+  - 0.6
+  - 0.2
+  - 0.2
+  split_seed: 42
+  dedup_max_dist: 4
+  hash_workers: 8
+  max_per_class: null
+  class_caps:
+    Tomato___Tomato_Yellow_Leaf_Curl_Virus: 3209
+  class_names:
+  - Apple | leaf | Alternaria leaf spot
+  - Apple | leaf | Apple scab
+  - Apple | leaf | Black rot
+  - Apple | leaf | Cedar apple rust
+  - Apple | leaf | Frogeye leaf spot
+  - Apple | leaf | Grey spot
+  - Apple | leaf | Healthy
+  - Apple | leaf | Marssonina blotch (brown spot)
+  - Apple | leaf | Mosaic virus
+  - Apple | leaf | Powdery mildew
+  - Ash gourd | leaf | Aphids
+  - Ash gourd | leaf | Downy mildew
+  - Ash gourd | leaf | Healthy
+  - Ash gourd | leaf | Leaf curl virus
+  - Ash gourd | leaf | Leaf miner
+  - Banana | fruit | Fruit-scarring beetle
+  - Banana | leaf | Cordana leaf spot
+  - Banana | leaf | Healthy
+  - Banana | leaf | Pestalotiopsis leaf spot
+  - Banana | leaf | Potassium deficiency
+  - Banana | leaf | Sigatoka leaf spot
+  - Banana | stem | Bacterial soft rot
+  - Banana | stem | Banana aphid
+  - Banana | stem | Pseudostem weevil
+  - Banana | whole plant | Fusarium wilt (Panama disease)
+  - Banana | whole plant | Xanthomonas wilt
+  - Bean | leaf | Angular leaf spot
+  - Bean | leaf | Bacterial blight
+  - Bean | leaf | Bacterial wilt
+  - Bean | leaf | Healthy
+  - Bean | leaf | Mosaic virus
+  - Bean | leaf | Rust
+  - Bean | leaf | Septoria leaf spot
+  - Bell pepper | leaf | Bacterial spot
+  - Bell pepper | leaf | Healthy
+  - Betel | leaf | Healthy
+  - Betel | leaf | Leaf rot
+  - Betel | leaf | Leaf spot
+  - Black gram | leaf | Anthracnose
+  - Black gram | leaf | Healthy
+  - Black gram | leaf | Leaf crinkle virus
+  - Black gram | leaf | Powdery mildew
+  - Black gram | leaf | Yellow mosaic virus
+  - Blueberry | leaf | Healthy
+  - Carambola | fruit | Healthy
+  - Carambola | leaf | Healthy
+  - Carambola | leaf | Insect holes
+  - Cassava | leaf | Bacterial blight
+  - Cassava | leaf | Brown streak disease
+  - Cassava | leaf | Green mottle
+  - Cassava | leaf | Healthy
+  - Cassava | leaf | Mosaic disease
+  - Cauliflower | head | Bacterial soft rot
+  - Cauliflower | leaf | Black rot
+  - Cauliflower | leaf | Downy mildew
+  - Cherry | leaf | Healthy
+  - Cherry | leaf | Powdery mildew
+  - Chili pepper | leaf | Cercospora leaf spot
+  - Chili pepper | leaf | Healthy
+  - Chili pepper | leaf | Mites and thrips
+  - Chili pepper | leaf | Nutrient deficiency
+  - Chili pepper | leaf | Powdery mildew
+  - Coconut | leaf | Grey leaf spot
+  - Coconut | leaf | Leaf rot
+  - Coconut | stem | Stem bleeding
+  - Coconut | whole plant | Bud rot
+  - Coffee | leaf | Cercospora leaf spot
+  - Coffee | leaf | Coffee leaf miner
+  - Coffee | leaf | Coffee leaf rust
+  - Coffee | leaf | Healthy
+  - Coffee | leaf | Phoma leaf spot
+  - Cotton | leaf | Alternaria leaf spot
+  - Cotton | leaf | Bacterial blight
+  - Cotton | leaf | Fusarium wilt
+  - Cotton | leaf | Healthy
+  - Cotton | leaf | Herbicide damage
+  - Cotton | leaf | Leaf curl virus
+  - Cotton | leaf | Leaf reddening
+  - Cotton | leaf | Leafhopper (jassids)
+  - Cotton | leaf | Verticillium wilt
+  - Cucumber | fruit | Belly rot
+  - Cucumber | fruit | Healthy
+  - Cucumber | fruit | Pythium fruit rot
+  - Cucumber | leaf | Anthracnose
+  - Cucumber | leaf | Bacterial wilt
+  - Cucumber | leaf | Downy mildew
+  - Cucumber | leaf | Healthy
+  - Cucumber | stem | Gummy stem blight
+  - Custard apple | fruit | Anthracnose
+  - Custard apple | fruit | Black canker
+  - Custard apple | fruit | Diplodia rot
+  - Custard apple | fruit | Fruit spot
+  - Custard apple | fruit | Mealybug
+  - Custard apple | leaf | Leaf spot
+  - Date palm | leaf | Black scorch
+  - Date palm | leaf | Fusarium wilt (bayoud)
+  - Date palm | leaf | Healthy
+  - Date palm | leaf | Leaf spot
+  - Date palm | leaf | Magnesium deficiency
+  - Date palm | leaf | Manganese deficiency
+  - Date palm | leaf | Potassium deficiency
+  - Date palm | leaf | Rachis blight
+  - Date palm | leaf | White scale (Parlatoria)
+  - Durian | fruit | Fruit rot
+  - Durian | fruit | Mealybug
+  - Durian | leaf | Algal leaf spot
+  - Durian | leaf | Anthracnose
+  - Durian | leaf | Healthy
+  - Durian | leaf | Leaf blight
+  - Durian | leaf | Phomopsis leaf spot
+  - Durian | leaf | Rhizoctonia leaf blight
+  - Durian | leaf | Sooty mould
+  - Durian | stem | Phytophthora canker
+  - Durian | stem | Stem blight
+  - Durian | stem | Stem cracking (gummosis)
+  - Eggplant | fruit | Fruit cracking
+  - Eggplant | fruit | Healthy
+  - Eggplant | fruit | Phomopsis blight
+  - Eggplant | fruit | Shoot and fruit borer
+  - Eggplant | fruit | Wet rot
+  - Eggplant | leaf | Aphids
+  - Eggplant | leaf | Cercospora leaf spot
+  - Eggplant | leaf | Flea beetles
+  - Eggplant | leaf | Healthy
+  - Eggplant | leaf | Insect damage
+  - Eggplant | leaf | Leaf spot
+  - Eggplant | leaf | Mosaic virus
+  - Eggplant | leaf | Phytophthora blight
+  - Eggplant | leaf | Powdery mildew
+  - Eggplant | leaf | White mold
+  - Eggplant | leaf | Wilt
+  - Grape | leaf | Bacterial leaf spot
+  - Grape | leaf | Black rot
+  - Grape | leaf | Downy mildew
+  - Grape | leaf | Esca (black measles)
+  - Grape | leaf | Healthy
+  - Grape | leaf | Isariopsis leaf spot
+  - Grape | leaf | Powdery mildew
+  - Groundnut | leaf | Early leaf spot
+  - Groundnut | leaf | Healthy
+  - Groundnut | leaf | Late leaf spot
+  - Groundnut | leaf | Nutrient deficiency
+  - Groundnut | leaf | Rust
+  - Guava | fruit | Anthracnose
+  - Guava | fruit | Canker
+  - Guava | fruit | Dot disease
+  - Guava | fruit | Healthy
+  - Guava | fruit | Phytophthora rot
+  - Guava | fruit | Rust
+  - Guava | fruit | Scab
+  - Guava | fruit | Styler end rot
+  - Guava | leaf | Red rust (algal)
+  - Java plum | leaf | Bacterial spot
+  - Java plum | leaf | Brown blight
+  - Java plum | leaf | Healthy
+  - Java plum | leaf | Powdery mildew
+  - Java plum | leaf | Sooty mould
+  - Jute | leaf | Dieback
+  - Jute | leaf | Healthy
+  - Jute | leaf | Insect holes
+  - Jute | leaf | Mosaic virus
+  - Jute | stem | Stem soft rot
+  - Lemon | leaf | Anthracnose
+  - Lemon | leaf | Bacterial blight
+  - Lemon | leaf | Citrus canker
+  - Lemon | leaf | Healthy
+  - Lemon | leaf | Leaf curl virus
+  - Lemon | leaf | Nutrient deficiency
+  - Lemon | leaf | Sooty mould
+  - Lemon | leaf | Spider mites
+  - Lentil | leaf | Ascochyta blight
+  - Lentil | leaf | Healthy
+  - Lentil | leaf | Powdery mildew
+  - Lentil | leaf | Rust
+  - Maize | leaf | Common rust
+  - Maize | leaf | Curvularia leaf spot
+  - Maize | leaf | Gray leaf spot
+  - Maize | leaf | Healthy
+  - Maize | leaf | Maize lethal necrosis
+  - Maize | leaf | Maize streak virus
+  - Maize | leaf | Northern leaf blight
+  - Maize | leaf | Southern corn leaf blight
+  - Maize | stem | Banded leaf and sheath blight
+  - Mango | leaf | Anthracnose
+  - Mango | leaf | Bacterial canker
+  - Mango | leaf | Cutting weevil
+  - Mango | leaf | Dieback
+  - Mango | leaf | Gall midge
+  - Mango | leaf | Healthy
+  - Mango | leaf | Powdery mildew
+  - Mango | leaf | Sooty mould
+  - Okra | leaf | Alternaria leaf spot
+  - Okra | leaf | Leaf curl virus
+  - Okra | leaf | Phyllosticta leaf spot
+  - Onion | leaf | Healthy
+  - Onion | leaf | Iris yellow spot virus
+  - Onion | leaf | Stemphylium / anthracnose leaf blight
+  - Orange | leaf | Dieback
+  - Orange | leaf | Healthy
+  - Orange | leaf | Huanglongbing (citrus greening)
+  - Orange | leaf | Mealybug
+  - Orange | leaf | Powdery mildew
+  - Orange | leaf | Shot hole
+  - Orange | leaf | Spiny whitefly
+  - Papaya | leaf | Healthy
+  - Papaya | leaf | Leaf curl virus
+  - Papaya | leaf | Mealybug
+  - Papaya | leaf | Mites
+  - Papaya | leaf | Mosaic virus
+  - Papaya | leaf | Ringspot virus
+  - Peach | leaf | Bacterial spot
+  - Peach | leaf | Healthy
+  - Plum | leaf | Healthy
+  - Pomegranate | fruit | Anthracnose
+  - Pomegranate | fruit | Bacterial blight
+  - Pomegranate | fruit | Carob moth
+  - Pomegranate | fruit | Healthy
+  - Pomegranate | fruit | Sunburn
+  - Potato | leaf | Early blight
+  - Potato | leaf | Healthy
+  - Potato | leaf | Late blight
+  - Potato | tuber | Black scurf
+  - Potato | tuber | Blackleg
+  - Potato | tuber | Blackspot bruising
+  - Potato | tuber | Brown rot
+  - Potato | tuber | Common scab
+  - Potato | tuber | Dry rot
+  - Potato | tuber | Healthy
+  - Potato | tuber | Pink rot
+  - Potato | tuber | Soft rot
+  - Radish | leaf | Black leaf spot
+  - Radish | leaf | Downy mildew
+  - Radish | leaf | Flea beetles
+  - Radish | leaf | Healthy
+  - Radish | leaf | Mosaic virus
+  - Raspberry | leaf | Healthy
+  - Rice | leaf | Bacterial leaf blight
+  - Rice | leaf | Bacterial leaf streak
+  - Rice | leaf | Brown spot
+  - Rice | leaf | Downy mildew
+  - Rice | leaf | Healthy
+  - Rice | leaf | Leaf scald
+  - Rice | leaf | Narrow brown spot
+  - Rice | leaf | Rice blast
+  - Rice | leaf | Rice hispa
+  - Rice | leaf | Rice leaffolder
+  - Rice | leaf | Stripe virus
+  - Rice | leaf | Tungro
+  - Rice | panicle | Bacterial panicle blight
+  - Rice | stem | Sheath blight
+  - Rice | stem | Stem borer (dead heart)
+  - Rose | leaf | Black spot
+  - Rose | leaf | Healthy
+  - Rose | leaf | Insect holes
+  - Soybean | leaf | Healthy
+  - Soybean | leaf | Mosaic virus
+  - Soybean | leaf | Semilooper caterpillar
+  - Spinach | leaf | Anthracnose
+  - Spinach | leaf | Bacterial spot
+  - Spinach | leaf | Downy mildew
+  - Spinach | leaf | Healthy
+  - Spinach | leaf | Insect damage
+  - Sponge gourd | leaf | Alternaria leaf spot
+  - Sponge gourd | leaf | Angular leaf spot
+  - Sponge gourd | leaf | Healthy
+  - Sponge gourd | leaf | Insect holes
+  - Sponge gourd | leaf | Mosaic virus
+  - Squash | leaf | Powdery mildew
+  - Strawberry | leaf | Healthy
+  - Strawberry | leaf | Leaf scorch
+  - Sugarcane | leaf | Banded chlorosis
+  - Sugarcane | leaf | Brown rust
+  - Sugarcane | leaf | Brown spot
+  - Sugarcane | leaf | Healthy
+  - Sugarcane | leaf | Pokkah boeng
+  - Sugarcane | leaf | Viral disease (mosaic)
+  - Sugarcane | leaf | Yellow leaf disease
+  - Sugarcane | stem | Sett rot
+  - Sugarcane | stem | Smut
+  - Sugarcane | whole plant | Grassy shoot
+  - Sunflower | leaf | Downy mildew
+  - Sunflower | leaf | Gray mold
+  - Sunflower | leaf | Healthy
+  - Taro | leaf | Healthy
+  - Taro | leaf | Taro leaf blight
+  - Tea | leaf | Algal leaf spot
+  - Tea | leaf | Brown blight
+  - Tea | leaf | Green mirid bug
+  - Tea | leaf | Grey blight
+  - Tea | leaf | Healthy
+  - Tea | leaf | Red leaf spot
+  - Tea | leaf | Red spider mite
+  - Tea | leaf | Tea mosquito bug (Helopeltis)
+  - Tomato | leaf | Bacterial spot
+  - Tomato | leaf | Early blight
+  - Tomato | leaf | Healthy
+  - Tomato | leaf | Late blight
+  - Tomato | leaf | Leaf mold
+  - Tomato | leaf | Mosaic virus
+  - Tomato | leaf | Septoria leaf spot
+  - Tomato | leaf | Target spot
+  - Tomato | leaf | Two-spotted spider mite
+  - Tomato | leaf | Yellow leaf curl virus
+  - Turmeric | leaf | Aphids
+  - Turmeric | leaf | Healthy
+  - Turmeric | leaf | Leaf blotch
+  - Turmeric | rhizome | Healthy
+  - Turmeric | rhizome | Rhizome rot
+  - Watermelon | leaf | Anthracnose
+  - Watermelon | leaf | Downy mildew
+  - Watermelon | leaf | Healthy
+  - Watermelon | leaf | Mosaic virus
+  - Not a plant
+  n_classes: 313
+segmentation:
+  method: none
+  output: black
+  crop_pad: 0.05
+  morphology: true
+  kernel_frac: 0.02
+  fill_holes: true
+  min_component_frac: 0.02
+  lesion_protect: true
+  grabcut: false
+  grabcut_iters: 3
+  threshold_sample: 2000
+  hist_sigma: 3.0
+  hist_min_prominence: 0.05
+model:
+  img_size: 224
+  pretrained: true
+  drop_rate: 0.3
+  backbone: efficientnet_b0
+backbones:
+- efficientnet_b0
+seeds:
+- 0
+train:
+  batch_size: 48
+  eval_batch_size: 128
+  epochs: 18
+  freeze_epochs: 1
+  lr_head: 0.002
+  lr: 0.0004
+  weight_decay: 0.05
+  warmup_epochs: 1
+  min_lr_ratio: 0.01
+  label_smoothing: 0.1
+  early_stopping_patience: 5
+  grad_clip: 1.0
+  amp: auto
+  balanced_sampling: false
+  weighted_loss: false
+  deterministic: true
+augment:
+  enabled: true
+  paper_geometric: true
+  random_resized_crop: true
+  rrc_scale:
+  - 0.5
+  - 1.0
+  color_jitter: 0.25
+  mixup:
+    enabled: false
+    mixup_alpha: 0.2
+    cutmix_alpha: 0.2
+    prob: 0.3
+hpo:
+  enabled: false
+  n_trials: 6
+  epochs: 6
+  seed: 0
+  trial_seed: 0
+  space:
+    train.lr:
+      type: loguniform
+      low: 3.0e-05
+      high: 0.0005
+    train.lr_head:
+      type: loguniform
+      low: 0.0003
+      high: 0.003
+    train.weight_decay:
+      type: loguniform
+      low: 0.001
+      high: 0.1
+eval:
+  tta: true
+  gradcam_n: 12
+summary:
+  pairs:
+  - exp_a: exp1_borb
+    exp_b: exp2_noborb
+    paper_key: plantvillage15
+  - exp_a: exp1_borb_mango
+    exp_b: exp2_noborb_mango
+    paper_key: mangoleafbd
+  segcomp_exps:
+  - exp2_noborb
+  - abl_borb_original
+  - exp1_borb
+  - seg_otsu
+  - seg_kmeans
+  ablation_reference:
+    exp: exp1_borb
+    labels:
+      borb_variant: BorB+ (Exp 1)
+      output: black (Exp 1)
+      augmentation: on (Exp 1)
+      morphology: on (Exp 1)
+seed: 0

@@ -1,0 +1,31 @@
+backbone,seed,perturbation,severity,b,c,statistic,p_value,method
+efficientnet_b3,0,clean,0,6,6,6.0,1.0,exact binomial
+efficientnet_b3,0,gaussian_noise,5,22,129,74.41059602649007,6.344754010552635e-18,chi2 with continuity correction
+efficientnet_b3,0,gaussian_noise,15,67,928,743.3165829145729,1.1392674870004658e-163,chi2 with continuity correction
+efficientnet_b3,0,gaussian_noise,25,431,959,199.80503597122302,2.3034432321804135e-45,chi2 with continuity correction
+efficientnet_b3,0,gaussian_blur,3,3,42,32.08888888888889,1.4727722527370959e-08,chi2 with continuity correction
+efficientnet_b3,0,gaussian_blur,7,39,244,147.0530035335689,7.640898008116645e-34,chi2 with continuity correction
+efficientnet_b3,0,gaussian_blur,11,106,637,378.0619111709287,3.2878836382515537e-84,chi2 with continuity correction
+efficientnet_b3,0,brightness,0.5,3,57,46.81666666666667,7.794767939438216e-12,chi2 with continuity correction
+efficientnet_b3,0,brightness,0.7,6,67,49.31506849315068,2.179816421123091e-12,chi2 with continuity correction
+efficientnet_b3,0,brightness,1.3,8,11,8.0,0.6476058959960938,exact binomial
+efficientnet_b3,0,brightness,1.6,9,31,11.025,0.0008989127881140907,chi2 with continuity correction
+efficientnet_b3,0,contrast,0.5,5,384,367.31105398457584,7.20554273602774e-82,chi2 with continuity correction
+efficientnet_b3,0,contrast,0.7,5,64,48.7536231884058,2.9022191489411463e-12,chi2 with continuity correction
+efficientnet_b3,0,contrast,1.5,15,205,162.36818181818182,3.4375745923178777e-37,chi2 with continuity correction
+efficientnet_b3,0,jpeg,50,66,68,0.007462686567164179,0.9311589059465123,chi2 with continuity correction
+efficientnet_b3,0,jpeg,20,55,60,0.1391304347826087,0.7091470125152433,chi2 with continuity correction
+efficientnet_b3,0,gamma,0.5,4,387,373.2071611253197,3.74889906333561e-83,chi2 with continuity correction
+efficientnet_b3,0,gamma,2.0,35,260,170.08813559322033,7.078102109644562e-39,chi2 with continuity correction
+efficientnet_b3,0,rotation,15,2,5,2.0,0.453125,exact binomial
+efficientnet_b3,0,rotation,30,3,12,3.0,0.03515625,exact binomial
+efficientnet_b3,0,rotation,45,3,16,3.0,0.004425048828125,exact binomial
+efficientnet_b3,0,scale,0.7,57,101,11.70253164556962,0.0006241512131928892,chi2 with continuity correction
+efficientnet_b3,0,scale,0.85,6,23,8.827586206896552,0.002967105898647615,chi2 with continuity correction
+efficientnet_b3,0,scale,1.2,4,7,4.0,0.548828125,exact binomial
+efficientnet_b3,0,background,soil,111,472,222.2984562607204,2.851302119294275e-50,chi2 with continuity correction
+efficientnet_b3,0,background,grass,178,126,8.555921052631579,0.0034440021042834897,chi2 with continuity correction
+efficientnet_b3,0,background,clutter,193,267,11.584782608695653,0.000664937069799666,chi2 with continuity correction
+efficientnet_b3,0,occlusion,0.1,76,57,2.43609022556391,0.11857143244439422,chi2 with continuity correction
+efficientnet_b3,0,occlusion,0.2,152,952,578.2617753623189,8.957378713202744e-128,chi2 with continuity correction
+efficientnet_b3,0,occlusion,0.3,326,1187,488.8301387970919,2.560714747052481e-108,chi2 with continuity correction

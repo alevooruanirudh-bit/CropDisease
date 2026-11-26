@@ -1,0 +1,6 @@
+# Segmentation comparison: kmeans instead of BorB, same recipe as Exp 1.
+_base_: base.yaml
+experiment:
+  name: seg_kmeans
+segmentation:
+  method: kmeans

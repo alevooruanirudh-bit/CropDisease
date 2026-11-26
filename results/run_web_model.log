@@ -1,0 +1,11 @@
+09:54:35 | INFO    | plant-borb | === web_model (train) ===
+09:54:36 | INFO    | plant-borb | Splits splits/web: {'train': 142651, 'val': 17699, 'test': 17858} (no overlap in path/md5/group)
+09:54:46 | INFO    | plant-borb.src.models.factory | Built efficientnet_b0 (efficientnet_b0), 4.41M params, pretrained=True
+09:54:46 | INFO    | plant-borb.src.training.trainer | Phase frozen: 1 epochs, lr=2.00e-03, trainable=0.40M
+10:31:21 | INFO    | plant-borb.src.training.trainer | ep   1 [frozen] train 2.0041/0.6999  val 0.8140/0.7950  *(2195s)
+10:31:21 | INFO    | plant-borb.src.training.trainer | Phase finetune: 17 epochs, lr=4.00e-04, trainable=4.41M
+12:05:44 | INFO    | plant-borb.src.training.trainer | ep   2 [finetune] train 1.7603/0.7702  val 0.5898/0.8482  *(5662s)
+13:51:03 | INFO    | plant-borb.src.training.trainer | ep   3 [finetune] train 1.4105/0.8628  val 0.4784/0.8869  *(6319s)
+15:28:13 | INFO    | plant-borb.src.training.trainer | ep   4 [finetune] train 1.3045/0.8902  val 0.4230/0.8984  *(5830s)
+/opt/anaconda3/envs/videoai/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 64 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

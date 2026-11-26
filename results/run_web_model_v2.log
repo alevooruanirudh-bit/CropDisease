@@ -1,0 +1,15 @@
+19:59:59 | INFO    | plant-borb | === web_model_v2 (train) ===
+20:00:03 | INFO    | plant-borb | Splits splits/web_v2: {'train': 271601, 'val': 34101, 'test': 51457} (no overlap in path/md5/group)
+20:00:14 | INFO    | plant-borb.src.models.factory | Built efficientnet_b0 (efficientnet_b0), 4.81M params, pretrained=True
+20:00:14 | INFO    | plant-borb.src.models.factory | Warm-started from results/web_model_v1_snapshot.pt: 358/360 tensors copied
+20:00:15 | INFO    | plant-borb.src.training.trainer | Phase frozen: 1 epochs, lr=2.00e-03, trainable=0.80M
+21:02:50 | INFO    | plant-borb.src.training.trainer | ep   1 [frozen] train 2.0782/0.7316  val 1.0165/0.7772  *(3755s)
+21:02:50 | INFO    | plant-borb.src.training.trainer | Phase finetune: 9 epochs, lr=4.00e-04, trainable=4.81M
+00:08:54 | INFO    | plant-borb.src.training.trainer | ep   2 [finetune] train 1.8537/0.7717  val 0.9770/0.7746   (11164s)
+10:48:11 | INFO    | plant-borb.src.training.trainer | ep   3 [finetune] train 1.8121/0.7738  val 0.8852/0.7911  *(38357s)
+13:21:17 | INFO    | plant-borb.src.training.trainer | ep   4 [finetune] train 1.7182/0.7951  val 0.8486/0.8011  *(9186s)
+14:58:25 | INFO    | plant-borb.src.training.trainer | ep   5 [finetune] train 1.6386/0.8151  val 0.7611/0.8148  *(5828s)
+16:33:49 | INFO    | plant-borb.src.training.trainer | ep   6 [finetune] train 1.5595/0.8355  val 0.7225/0.8261  *(5724s)
+18:24:02 | INFO    | plant-borb.src.training.trainer | ep   7 [finetune] train 1.4822/0.8568  val 0.6988/0.8364  *(6613s)
+/opt/anaconda3/envs/videoai/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 64 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

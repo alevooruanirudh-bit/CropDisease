@@ -1,0 +1,2019 @@
+# Unified plant-health catalog for the website model.
+#
+# Every source class maps to a canonical label  "Crop | part | Condition"  with a kind:
+#   disease | pest | nutrient | abiotic | healthy | nonplant
+# Class value forms:
+#   "Condition"                      -> default part of the dataset; kind = healthy if Condition == Healthy else disease
+#   [Condition, part]                -> explicit part
+#   [Condition, part, kind]          -> explicit part and kind
+#   part "plant"                     -> photos of any/several parts (web-scraped classes)
+#   null                             -> class skipped (generic "diseased"/"dry", unknown meaning, augmented artefacts)
+#
+# source: hf:<repo>[@folder]  |  hf-conv:<repo>  |  fo:<repo>  |  git:plantvillage  |  tgz:imagenette
+#         local:<dir>  -> images already on disk under $PLANT_LOCAL_DATA (default ../kaggle_data). Used for
+#                         Kaggle datasets: download them yourself from the `url` given (Kaggle account needed);
+#                         the project never contacts Kaggle and holds no credentials.
+# budget_mb: max parquet MB downloaded for this dataset (shards taken in random order).
+# Licences are listed so the website can show attribution; *-nc datasets are non-commercial only.
+
+defaults:
+  cap_per_class: 800
+  budget_mb: 2500
+
+datasets:
+  # ------------------------------------------------------------------ multi-crop
+  - name: plantvillage
+    source: git:plantvillage
+    license: CC0 (Hughes & Salathé 2015)
+    cap_per_class: 1500
+    part: leaf
+    classes:
+      Apple___Apple_scab: [Apple, Apple scab]
+      Apple___Black_rot: [Apple, Frogeye leaf spot]   # leaf photos: same fungus as black rot; on leaves it is frogeye leaf spot
+      Apple___Cedar_apple_rust: [Apple, Cedar apple rust]
+      Apple___healthy: [Apple, Healthy]
+      Blueberry___healthy: [Blueberry, Healthy]
+      Cherry_(including_sour)___Powdery_mildew: [Cherry, Powdery mildew]
+      Cherry_(including_sour)___healthy: [Cherry, Healthy]
+      Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot: [Maize, Gray leaf spot]
+      Corn_(maize)___Common_rust_: [Maize, Common rust]
+      Corn_(maize)___Northern_Leaf_Blight: [Maize, Northern leaf blight]
+      Corn_(maize)___healthy: [Maize, Healthy]
+      Grape___Black_rot: [Grape, Black rot]
+      Grape___Esca_(Black_Measles): [Grape, Esca (black measles)]
+      Grape___Leaf_blight_(Isariopsis_Leaf_Spot): [Grape, Isariopsis leaf spot]
+      Grape___healthy: [Grape, Healthy]
+      Orange___Haunglongbing_(Citrus_greening): [Orange, Huanglongbing (citrus greening)]
+      Peach___Bacterial_spot: [Peach, Bacterial spot]
+      Peach___healthy: [Peach, Healthy]
+      Pepper,_bell___Bacterial_spot: [Bell pepper, Bacterial spot]
+      Pepper,_bell___healthy: [Bell pepper, Healthy]
+      Potato___Early_blight: [Potato, Early blight]
+      Potato___Late_blight: [Potato, Late blight]
+      Potato___healthy: [Potato, Healthy]
+      Raspberry___healthy: [Raspberry, Healthy]
+      Soybean___healthy: [Soybean, Healthy]
+      Squash___Powdery_mildew: [Squash, Powdery mildew]
+      Strawberry___Leaf_scorch: [Strawberry, Leaf scorch]
+      Strawberry___healthy: [Strawberry, Healthy]
+      Tomato___Bacterial_spot: [Tomato, Bacterial spot]
+      Tomato___Early_blight: [Tomato, Early blight]
+      Tomato___Late_blight: [Tomato, Late blight]
+      Tomato___Leaf_Mold: [Tomato, Leaf mold]
+      Tomato___Septoria_leaf_spot: [Tomato, Septoria leaf spot]
+      Tomato___Spider_mites Two-spotted_spider_mite: [Tomato, Two-spotted spider mite, leaf, pest]
+      Tomato___Target_Spot: [Tomato, Target spot]
+      Tomato___Tomato_Yellow_Leaf_Curl_Virus: [Tomato, Yellow leaf curl virus]
+      Tomato___Tomato_mosaic_virus: [Tomato, Mosaic virus]
+      Tomato___healthy: [Tomato, Healthy]
+
+  - name: plantdoc
+    source: hf:Project-AgML/plant_doc_classification
+    license: CC-BY-4.0 (Singh et al. 2020)
+    part: leaf
+    field: true
+    classes:
+      Apple Scab Leaf: [Apple, Apple scab]
+      Apple leaf: [Apple, Healthy]
+      Apple rust leaf: [Apple, Cedar apple rust]
+      Bell_pepper leaf spot: [Bell pepper, Bacterial spot]
+      Bell_pepper leaf: [Bell pepper, Healthy]
+      Blueberry leaf: [Blueberry, Healthy]
+      Cherry leaf: [Cherry, Healthy]
+      Corn Gray leaf spot: [Maize, Gray leaf spot]
+      Corn leaf blight: [Maize, Northern leaf blight]
+      Corn rust leaf: [Maize, Common rust]
+      Peach leaf: [Peach, Healthy]
+      Potato leaf early blight: [Potato, Early blight]
+      Potato leaf late blight: [Potato, Late blight]
+      Raspberry leaf: [Raspberry, Healthy]
+      Soyabean leaf: [Soybean, Healthy]
+      Squash Powdery mildew leaf: [Squash, Powdery mildew]
+      Strawberry leaf: [Strawberry, Healthy]
+      Tomato Early blight leaf: [Tomato, Early blight]
+      Tomato Septoria leaf spot: [Tomato, Septoria leaf spot]
+      Tomato leaf: [Tomato, Healthy]
+      Tomato leaf bacterial spot: [Tomato, Bacterial spot]
+      Tomato leaf late blight: [Tomato, Late blight]
+      Tomato leaf mosaic virus: [Tomato, Mosaic virus]
+      Tomato leaf yellow virus: [Tomato, Yellow leaf curl virus]
+      Tomato mold leaf: [Tomato, Leaf mold]
+      Tomato two spotted spider mites leaf: [Tomato, Two-spotted spider mite, leaf, pest]
+      grape leaf black rot: [Grape, Black rot]
+      grape leaf: [Grape, Healthy]
+
+  - name: plant_leaf_background
+    source: hf:Project-AgML/Plant_leaf_diseases_dataset_classification@raw
+    license: CC-BY-4.0
+    only_listed: true
+    classes:
+      Background_without_leaves: [Not a plant, Not a plant, none, nonplant]
+
+  - name: imagenette
+    source: tgz:imagenette
+    license: Apache-2.0 (fast.ai Imagenette, ImageNet subset)
+    cap_per_class: 150
+    classes: "*nonplant*"
+
+  # ------------------------------------------------------------------ cereals
+  - name: rice_india
+    source: hf:Project-AgML/rice_leaf_disease_classification_india
+    license: CC-BY-4.0
+    crop: Rice
+    part: leaf
+    classes: {Bacterialblight: Bacterial leaf blight, Blast: Rice blast, Brownspot: Brown spot, Tungro: Tungro}
+  - name: paddy_doctor
+    source: hf:Project-AgML/paddy_disease_classification
+    license: see dataset card (Paddy Doctor)
+    crop: Rice
+    part: leaf
+    classes:
+      bacterial_leaf_blight: Bacterial leaf blight
+      bacterial_leaf_streak: Bacterial leaf streak
+      bacterial_panicle_blight: [Bacterial panicle blight, panicle]
+      blast: Rice blast
+      brown_spot: Brown spot
+      dead_heart: [Stem borer (dead heart), stem, pest]
+      downy_mildew: Downy mildew
+      hispa: [Rice hispa, leaf, pest]
+      normal: Healthy
+      tungro: Tungro
+  - name: rice_leaf
+    source: hf:Project-AgML/rice_leaf_disease_classification
+    license: see dataset card
+    crop: Rice
+    part: leaf
+    classes:
+      Bacterial_Leaf_Blight: Bacterial leaf blight
+      Brown_Spot: Brown spot
+      Healthy_Rice_Leaf: Healthy
+      Leaf_Blast: Rice blast
+      Leaf_Scald: Leaf scald
+      Sheath_Blight: [Sheath blight, stem]
+  - name: rice_bd
+    source: hf:Project-AgML/rice_leaf_disease_classification_bd
+    license: CC-BY-4.0
+    crop: Rice
+    part: leaf
+    classes: {bacterial_leaf_blight: Bacterial leaf blight, brown_spot: Brown spot, healthy: Healthy, leaf_blast: Rice blast, leaf_scald: Leaf scald, narrow_brown_spot: Narrow brown spot}
+  - name: dhan_shomadhan
+    source: hf:Project-AgML/Dhan-Shomadhan_rice_leaf_disease_classification
+    license: CC-BY-4.0
+    crop: Rice
+    part: leaf
+    classes:
+      Brown Spot: Brown spot
+      Browon Spot: Brown spot
+      Leaf Scaled: Leaf scald
+      Rice Blast: Rice blast
+      Rice Tungro: Tungro
+      Rice Turgro: Tungro
+      Shath Blight: [Sheath blight, stem]
+      Sheath Blight: [Sheath blight, stem]
+  - name: rice_bangladesh
+    source: hf:Project-AgML/rice_disease_classification_bangladesh@raw
+    license: CC-BY-4.0
+    crop: Rice
+    part: leaf
+    classes:
+      Healthy: Healthy
+      Insect: null
+      Leaf scald: Leaf scald
+      Leaf Scald: Leaf scald
+      Rice: null
+      Rice Blast: Rice blast
+      Rice Leaffolder: [Rice leaffolder, leaf, pest]
+      Rice Stripes: Stripe virus
+      Rice Tungro: Tungro
+  - name: maize_mln_msv
+    source: hf:Project-AgML/maize_disease_classification
+    license: CC-BY-4.0
+    crop: Maize
+    part: leaf
+    budget_mb: 2000
+    classes: {Healthy: Healthy, MLN: Maize lethal necrosis, MSV: Maize streak virus}
+  - name: corn_kaggle
+    source: hf:Project-AgML/corn_maize_leaf_disease
+    license: see dataset card
+    crop: Maize
+    part: leaf
+    classes: {Blight: Northern leaf blight, Common_Rust: Common rust, Gray_Leaf_Spot: Gray leaf spot, Healthy: Healthy}
+  - name: corn_leaf
+    source: hf:Project-AgML/corn_leaf_disease_classification
+    license: CC-BY-4.0
+    crop: Maize
+    part: leaf
+    classes:
+      Bipolaris_Maydis: Southern corn leaf blight
+      Common_Rust: Common rust
+      Curvularia_Lunata(wakker)boed_Spot: Curvularia leaf spot
+      Northern-Leaf-Blight: Northern leaf blight
+      Own-Spot: null
+      Sheath-Blight: [Banded leaf and sheath blight, stem]
+  - name: sugarcane
+    source: hf:Project-AgML/sugarcane_leaf_disease_classification
+    license: CC-BY-4.0
+    crop: Sugarcane
+    part: leaf
+    classes:
+      Banded Chlorosis: [Banded chlorosis, leaf, abiotic]
+      Brown Spot: Brown spot
+      BrownRust: Brown rust
+      Dried: null
+      Grassy shoot: [Grassy shoot, whole plant]
+      Healthy: Healthy
+      Pokkah Boeng: Pokkah boeng
+      Sett Rot: [Sett rot, stem]
+      Smut: [Smut, stem]
+      Viral Disease: Viral disease (mosaic)
+      Yellow Leaf: Yellow leaf disease
+
+  # ------------------------------------------------------------------ roots, tubers, pulses, oilseeds
+  - name: cassava
+    source: hf-files:Engineer101/cassava-leaf-disease-classification
+    license: Kaggle competition data (Makerere AI Lab), research use
+    cap_per_class: 2500
+    crop: Cassava
+    part: leaf
+    field: true
+    classes:
+      "0": Bacterial blight
+      "1": Brown streak disease
+      "2": Green mottle
+      "3": Mosaic disease
+      "4": Healthy
+  - name: potato_tubers
+    source: hf:Project-AgML/potato_disease_classification
+    license: CC-BY-4.0
+    crop: Potato
+    part: tuber
+    classes:
+      Black Scurf: Black scurf
+      Blackleg: Blackleg
+      Blackspot Bruising: [Blackspot bruising, tuber, abiotic]
+      Brown Rot: Brown rot
+      Common Scab: Common scab
+      Dry Rot: Dry rot
+      Healthy Potatoes: Healthy
+      Miscellaneous: null
+      Pink Rot: Pink rot
+      Soft Rot: Soft rot
+  - name: taro
+    source: hf:Project-AgML/taro_blight_stage_classification
+    license: CC-BY-4.0
+    crop: Taro
+    part: leaf
+    classes: {Early_Blight: Taro leaf blight, Mid_Blight: Taro leaf blight, Late_Blight: Taro leaf blight, Healthy: Healthy}
+  - name: turmeric
+    source: hf:Project-AgML/turmeric_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Turmeric
+    part: leaf
+    classes:
+      Dry Leaf: null
+      Healthy Leaf: Healthy
+      Leaf Blotch: Leaf blotch
+      Rhizome Disease Root: [Rhizome rot, rhizome]
+      Rhizome Healthy Root: [Healthy, rhizome]
+  - name: turmeric_leaf
+    source: hf:Project-AgML/turmeric_leaf_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Turmeric
+    part: leaf
+    budget_mb: 1200
+    classes: {Aphids_Disease: [Aphids, leaf, pest], Blotch: Leaf blotch, Healthy_Leaf: Healthy, Leaf_Spot: Leaf spot}
+  - name: lentil
+    source: hf:Project-AgML/lentil_disease_classification
+    license: CC-BY-4.0
+    crop: Lentil
+    part: leaf
+    classes: {Ascochyta blight: Ascochyta blight, Lentil Rust: Rust, Normal: Healthy, Powdery Mildew: Powdery mildew}
+  - name: black_gram
+    source: hf:Project-AgML/BPLD_leaf_disease_classification
+    license: CC-BY-4.0
+    crop: Black gram
+    part: leaf
+    classes: {Anthracnose: Anthracnose, Healthy: Healthy, Leaf Crinckle: Leaf crinkle virus, Powdery Mildew: Powdery mildew, Yellow Mosaic: Yellow mosaic virus}
+  - name: bean_uganda
+    source: hf:Project-AgML/bean_disease_uganda
+    license: CC-BY-4.0 (iBean)
+    crop: Bean
+    part: leaf
+    field: true
+    classes: {angular_leaf_spot: Angular leaf spot, bean_rust: Rust, healthy: Healthy}
+  - name: bean_cowpea
+    source: hf:Project-AgML/bean_cowpea_leaf_disease_classification
+    license: CC-BY-4.0
+    crop: Bean
+    part: leaf
+    classes: {Bacterial wilt: Bacterial wilt, Blight: Bacterial blight, Fresh Leaf: Healthy, Mosaic Virus: Mosaic virus, Rust: Rust, Septoria leaf spot: Septoria leaf spot}
+  - name: groundnut
+    source: hf:Project-AgML/groundnut_leaf_disease_classification_2
+    license: CC-BY-4.0
+    crop: Groundnut
+    part: leaf
+    classes: {early_leaf_spot: Early leaf spot, healthy leaf: Healthy, late leaf spot: Late leaf spot, nutrition deficiency: [Nutrient deficiency, leaf, nutrient], rust: Rust}
+  - name: soybean_mh
+    source: hf:Project-AgML/MH_SoyaHealthVision_disease_classification_leaf
+    license: CC-BY-4.0
+    crop: Soybean
+    part: leaf
+    budget_mb: 1500
+    classes: {Caterpillar_Semilooper_Pest: [Semilooper caterpillar, leaf, pest], Frog_Leaf_Eye: Frogeye leaf spot, Healthy: Healthy, Mosaic: Mosaic virus, Rust: Rust, Spectoria_Brown_Spot: Septoria brown spot}
+  - name: sunflower
+    source: hf:Project-AgML/sunflower_disease_classification
+    license: CC-BY-4.0
+    crop: Sunflower
+    part: leaf
+    classes: {Downy_mildew: Downy mildew, Fresh_leaf: Healthy, Gray_mold: Gray mold, Leaf_scars: null}
+  - name: cotton_bd
+    source: hf:Project-AgML/cotton_leaf_disease_classification_bangladesh_2@raw
+    license: CC-BY-4.0
+    crop: Cotton
+    part: leaf
+    classes:
+      Bacterial Blight: Bacterial blight
+      Curl Virus: Leaf curl virus
+      Healthy Leaf: Healthy
+      Herbicide Growth Damage: [Herbicide damage, leaf, abiotic]
+      Leaf Hopper Jassids: [Leafhopper (jassids), leaf, pest]
+      Leaf Redding: [Leaf reddening, leaf, nutrient]
+      Leaf Variegation: null
+  - name: cotton
+    source: hf:Project-AgML/cotton_leaf_disease_classification@raw
+    license: CC-BY-NC-4.0
+    crop: Cotton
+    part: leaf
+    classes: {Alternaria_Leaf: Alternaria leaf spot, Bacterial_Blight: Bacterial blight, Fusarium_Wilt: Fusarium wilt, Healthy_Leaf: Healthy, Verticillium_Wilt: Verticillium wilt}
+  - name: jute
+    source: hf:Project-AgML/jute_disease_classification
+    license: CC-BY-4.0
+    crop: Jute
+    part: leaf
+    classes: {Dieback: Dieback, Fresh: Healthy, Holed: [Insect holes, leaf, pest], Mosaic: Mosaic virus, Stem Soft Rot: [Stem soft rot, stem]}
+
+  # ------------------------------------------------------------------ vegetables
+  - name: eggplant
+    source: hf:Project-AgML/eggplant_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Eggplant
+    part: leaf
+    classes: {Healthy Leaf: Healthy, Insect Pest Disease: [Insect damage, leaf, pest], Leaf Spot Disease: Leaf spot, Mosaic Virus Disease: Mosaic virus, White Mold Disease: White mold, Wilt Disease: Wilt}
+  - name: eggplant_leaf
+    source: hf:Project-AgML/eggplant_leaf_disease_classification@raw
+    license: CC-BY-NC-4.0
+    crop: Eggplant
+    part: leaf
+    classes:
+      Aphids: [Aphids, leaf, pest]
+      Cercospora Leaf Spot: Cercospora leaf spot
+      Defect Eggplant: null
+      Flea Beetles: [Flea beetles, leaf, pest]
+      Fresh Eggplant: [Healthy, fruit]
+      Fresh Eggplant Leaf: Healthy
+      Leaf Wilt: Wilt
+      Phytophthora Blight: Phytophthora blight
+      Powdery Mildew: Powdery mildew
+      Tobacco Mosaic Virus: Mosaic virus
+  - name: brinjal_fruit
+    source: hf:Project-AgML/BrinjalFruitX_disease_classification
+    license: CC-BY-4.0
+    crop: Eggplant
+    part: fruit
+    classes:
+      Brinjal Fruit Creaking: [Fruit cracking, fruit, abiotic]
+      Healty Brinjal: Healthy
+      Phomopsis Bright: Phomopsis blight
+      Shoot and Fruit Borer: [Shoot and fruit borer, fruit, pest]
+      Wet Rot: Wet rot
+  - name: chili
+    source: hf:Project-AgML/COLD_chili_leaf_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Chili pepper
+    part: leaf
+    classes: {cercospora: Cercospora leaf spot, healthy: Healthy, mites_and_trips: [Mites and thrips, leaf, pest], nutritional: [Nutrient deficiency, leaf, nutrient], powdery mildew: Powdery mildew}
+  - name: onion
+    source: hf:Project-AgML/COLD_onion_leaf_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Onion
+    part: leaf
+    classes: {Iris yellow virus: Iris yellow spot virus, Stemphylium leaf blight and collectrichum leaf blight: Stemphylium / anthracnose leaf blight, healthy: Healthy, purple blotch: Purple blotch}
+  - name: cucumber
+    source: hf:Project-AgML/cucumber_disease_classification
+    license: see dataset card
+    crop: Cucumber
+    part: leaf
+    classes:
+      Anthracnose: Anthracnose
+      Bacterial_Wilt: Bacterial wilt
+      Belly_Rot: [Belly rot, fruit]
+      Downy_Mildew: Downy mildew
+      Fresh_Cucumber: [Healthy, fruit]
+      Fresh_Leaf: Healthy
+      Gummy_Stem_Blight: [Gummy stem blight, stem]
+      Pythium_Fruit_Rot: [Pythium fruit rot, fruit]
+  - name: cauliflower
+    source: hf:Project-AgML/VegNet_cauliflower_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Cauliflower
+    part: head
+    classes: {Bacterial spot rot: Bacterial soft rot, Black Rot: [Black rot, leaf], Disease Free: Healthy, Downy Mildew: [Downy mildew, leaf]}
+  - name: radish
+    source: hf:Project-AgML/radish_leaf_disease_classification
+    license: CC-BY-4.0
+    crop: Radish
+    part: leaf
+    classes: {Black leaf spot: Black leaf spot, Downey mildew: Downy mildew, Fresh leaf: Healthy, Mosaic virus: Mosaic virus, flea beetle: [Flea beetles, leaf, pest]}
+  - name: spinach
+    source: hf:Project-AgML/IDDMSLD_spinach_leaf_disease_classification
+    license: CC-BY-4.0
+    crop: Spinach
+    part: leaf
+    classes: {Anthracnose: Anthracnose, Bacterial-Spot: Bacterial spot, Downy-Mildew: Downy mildew, Healthy-Leaf: Healthy, Pest-Damage: [Insect damage, leaf, pest]}
+  - name: ash_gourd
+    source: hf:Project-AgML/ash_gourd_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Ash gourd
+    part: leaf
+    classes: {Aphid: [Aphids, leaf, pest], Downy mildew: Downy mildew, Healthy: Healthy, Leaf curl: Leaf curl virus, Leaf miner: [Leaf miner, leaf, pest]}
+  - name: luffa
+    source: hf:Project-AgML/Luffa_disease_classification
+    license: CC-BY-4.0
+    crop: Sponge gourd
+    part: leaf
+    classes: {Alternaria: Alternaria leaf spot, Angular Spot: Angular leaf spot, Fresh: Healthy, Holed: [Insect holes, leaf, pest], Mosaic Virus: Mosaic virus}
+  - name: watermelon
+    source: hf:Project-AgML/watermelon_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Watermelon
+    part: leaf
+    classes: {Anthracnose: Anthracnose, Downy_Mildew: Downy mildew, Healthy: Healthy, Mosaic_Virus: Mosaic virus}
+  - name: okra
+    source: hf:Project-AgML/OkraDiseaseNet_disease_classification
+    license: CC-BY-4.0
+    crop: Okra
+    part: leaf
+    budget_mb: 2000
+    classes: {Alternaria Leaf Spot: Alternaria leaf spot, Cercospora Leaf Spot: Cercospora leaf spot, Downy Mildew: Downy mildew, Healthy: Healthy, Leaf curly virus: Leaf curl virus, Phyllosticta leaf spot: Phyllosticta leaf spot}
+
+  # ------------------------------------------------------------------ fruit trees and plantation crops
+  - name: appleleaf9
+    source: hf:Project-AgML/appleleaf9_disease_classification
+    license: CC-BY-4.0
+    crop: Apple
+    part: leaf
+    classes: {Alternaria leaf spot: Alternaria leaf spot, Brown spot: Marssonina blotch (brown spot), Frogeye leaf spot: Frogeye leaf spot, Grey spot: Grey spot, Health: Healthy, Mosaic: Mosaic virus, Powdery mildew: Powdery mildew, Rust: Cedar apple rust, Scab: Apple scab}
+  - name: apple_leaf
+    source: hf:Project-AgML/apple_leaf_disease_classification
+    license: CC-BY-4.0
+    crop: Apple
+    part: leaf
+    classes: {Alternaria: Alternaria leaf spot, Apple_Mosaic: Mosaic virus, Healthy: Healthy}
+  - name: mango
+    source: hf:Project-AgML/mango_leaf_disease_classification
+    license: CC-BY-NC-3.0 (MangoLeafBD)
+    crop: Mango
+    part: leaf
+    classes: {Anthracnose: Anthracnose, Bacterial_Canker: Bacterial canker, Cutting_Weevil: [Cutting weevil, leaf, pest], Die_Back: Dieback, Gall_Midge: [Gall midge, leaf, pest], Healthy: Healthy, Powdery_Mildew: Powdery mildew, Sooty_Mold: Sooty mould}
+  - name: guava
+    source: hf:Project-AgML/guava_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Guava
+    part: fruit
+    classes: {Anthracnose: Anthracnose, Canker: Canker, Dot: Dot disease, Healthy: Healthy, Rust: Rust, Scab: Scab, Styler end root: Styler end rot}
+  - name: guava_bd
+    source: hf:Project-AgML/guava_disease_classification_bangladesh@raw
+    license: CC-BY-4.0
+    crop: Guava
+    part: fruit
+    classes: {Disease Free: Healthy, Phytopthora: Phytophthora rot, Red rust: [Algal leaf spot, leaf], Scab: Scab, Styler and Root: Styler end rot}
+  - name: pomegranate
+    source: hf:Project-AgML/pomegranate_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Pomegranate
+    part: fruit
+    classes: {Colletotrichum spp: Anthracnose, Ectomyelois ceratoniae: [Carob moth, fruit, pest], Healthy: Healthy, Sunburn: [Sunburn, fruit, abiotic]}
+  - name: pomegranate_india
+    source: hf:Project-AgML/pomegranate_disease_classification_india
+    license: CC-BY-4.0
+    crop: Pomegranate
+    part: fruit
+    budget_mb: 1500
+    classes: {Alternaria: Alternaria fruit rot, Anthracnose: Anthracnose, Bacterial_Blight: Bacterial blight, Cercospora: Cercospora fruit spot, Healthy: Healthy}
+  - name: plum
+    source: hf:Project-AgML/plum_leaf_fruit_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Plum
+    part: leaf
+    budget_mb: 1500
+    classes: {Bacterial Spot: Bacterial spot, Healthy Fruit: [Healthy, fruit], Healthy Leaf: Healthy, Shot Hole: Shot hole, Unhealthy Fruit: null, Wilted Leaf: null}
+  - name: java_plum
+    source: hf:Project-AgML/java_plum_leaf_disease_classification
+    license: see dataset card
+    crop: Java plum
+    part: leaf
+    classes: {Bacterial_Spot: Bacterial spot, Brown_Blight: Brown blight, Dry: null, Healthy: Healthy, Powdery_Mildew: Powdery mildew, Sooty_Mold: Sooty mould}
+  - name: custard_apple
+    source: hf:Project-AgML/custard_apple_disease_classification
+    license: CC-BY-4.0
+    crop: Custard apple
+    part: fruit
+    classes: {Athracnose: Anthracnose, Blank Canker: Black canker, Diplodia Rot: Diplodia rot, Leaf spot on Leaves: [Leaf spot, leaf], Leaf spot on fruit: Fruit spot, Mealy Bug: [Mealybug, fruit, pest]}
+  - name: carambola
+    source: hf:Project-AgML/carambola_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Carambola
+    part: fruit
+    budget_mb: 1500
+    classes: {Healthy Fruits: Healthy, Healthy Leaves: [Healthy, leaf], Insect Hole leaves: [Insect holes, leaf, pest], Unhealthy Fruits: null, Yellow Leaves: null}
+  - name: papaya
+    source: hf:Project-AgML/papaya_leaf_disease_classification_bangladesh
+    license: CC-BY-4.0
+    crop: Papaya
+    part: leaf
+    classes: {Healthy Leaf: Healthy, Leaf Curl: Leaf curl virus, Mealybug: [Mealybug, leaf, pest], Mite Disease: [Mites, leaf, pest], Mosaic: Mosaic virus, Ring Spot: Ringspot virus}
+  - name: lemon
+    source: hf:Project-AgML/lemon_leaf_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Lemon
+    part: leaf
+    classes: {Anthracnose: Anthracnose, Bacterial Blight: Bacterial blight, Citrus Canker: Citrus canker, Curl Virus: Leaf curl virus, Deficiency Leaf: [Nutrient deficiency, leaf, nutrient], Dry Leaf: null, Healthy Leaf: Healthy, Sooty Mould: Sooty mould, Spider Mites: [Spider mites, leaf, pest]}
+  - name: orange
+    source: hf:Project-AgML/orange_leaf_disease_classification
+    license: see dataset card
+    crop: Orange
+    part: leaf
+    budget_mb: 2000
+    classes:
+      citrus_canker: Citrus canker
+      citrus_greening: Huanglongbing (citrus greening)
+      citrus_mealybugs: [Mealybug, leaf, pest]
+      die_back: Dieback
+      foliage_damaged: null
+      healthy_leaf: Healthy
+      powdery_mildew: Powdery mildew
+      shot_hole: Shot hole
+      spiny_whitefly: [Spiny whitefly, leaf, pest]
+      yellow_dragon: Huanglongbing (citrus greening)
+      yellow_leaves: null
+  - name: banana_tz
+    source: hf:Project-AgML/banana_disease_classification_tanzania
+    license: CC0-1.0
+    crop: Banana
+    part: leaf
+    field: true
+    budget_mb: 2000
+    classes: {black_sigatoka: Sigatoka leaf spot, fusarium_wilt: [Fusarium wilt (Panama disease), whole plant], healthy: Healthy}
+  - name: banana_pfsd
+    source: hf:Project-AgML/PFSD_Musa_banana_disease_classification
+    license: CC-BY-4.0
+    crop: Banana
+    part: leaf
+    classes:
+      BACTERIAL SOFT ROT: [Bacterial soft rot, stem]
+      BANANA APHIDS: [Banana aphid, stem, pest]
+      BANANA FRUIT- SCARRING BEETLE: [Fruit-scarring beetle, fruit, pest]
+      BLACK SIGATOKA: Sigatoka leaf spot
+      PANAMA DISEASE: [Fusarium wilt (Panama disease), whole plant]
+      POTASSIUM DEFICIENCY: [Potassium deficiency, leaf, nutrient]
+      PSEUDOSTEM WEEVIL: [Pseudostem weevil, stem, pest]
+      YELLOW SIGATOKA: Sigatoka leaf spot
+  - name: banana_lsd
+    source: hf:Project-AgML/BananaLSD_leaf_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Banana
+    part: leaf
+    classes: {cordana: Cordana leaf spot, healthy: Healthy, pestalotiopsis: Pestalotiopsis leaf spot, sigatoka: Sigatoka leaf spot}
+  - name: banana_leaf
+    source: hf:Project-AgML/banana_leaf_disease_classification
+    license: CC-BY-4.0
+    crop: Banana
+    part: leaf
+    classes: {healthy: Healthy, segatoka: Sigatoka leaf spot, xamthomonas: [Xanthomonas wilt, whole plant]}
+  - name: coffee
+    source: hf:Project-AgML/arabica_coffee_leaf_disease_classification
+    license: CC-BY-4.0
+    crop: Coffee
+    part: leaf
+    budget_mb: 1500
+    classes: {Cerscospora: Cercospora leaf spot, Healthy: Healthy, Leaf_rust: Coffee leaf rust, Miner: [Coffee leaf miner, leaf, pest], Phoma: Phoma leaf spot}
+  - name: tea_bd
+    source: hf:Project-AgML/teaLeafBD_disease_classification
+    license: CC-BY-4.0
+    crop: Tea
+    part: leaf
+    classes: {Brown Blight: Brown blight, Gray Blight: Grey blight, Green mirid bug: [Green mirid bug, leaf, pest], Healthy leaf: Healthy, Helopeltis: [Tea mosquito bug (Helopeltis), leaf, pest], Red spider: [Red spider mite, leaf, pest], Tea algal leaf spot: Algal leaf spot}
+  - name: tea_kenya
+    source: hf:Project-AgML/tea_leaf_disease_classification
+    license: CC-BY-NC-4.0
+    crop: Tea
+    part: leaf
+    classes: {algal_spot: Algal leaf spot, brown_blight: Brown blight, gray_blight: Grey blight, healthy: Healthy, helopeltis: [Tea mosquito bug (Helopeltis), leaf, pest], red_spot: Red leaf spot}
+  - name: coconut
+    source: hf:Project-AgML/coconut_tree_disease_classification
+    license: see dataset card
+    crop: Coconut
+    part: leaf
+    classes: {Bud_Root_Dropping: null, Bud_Rot: [Bud rot, whole plant], Gray_Leaf_Spot: Grey leaf spot, Leaf_Rot: Leaf rot, Stem_Bleeding: [Stem bleeding, stem]}
+  - name: date_palm
+    source: hf:Project-AgML/date_palm_leaf_disease_classification
+    license: CC-BY-4.0
+    crop: Date palm
+    part: leaf
+    classes:
+      Black Scorch: Black scorch
+      Fusarium Wilt: Fusarium wilt (bayoud)
+      Healthy sample: Healthy
+      Leaf Spots: Leaf spot
+      Magnesium Deficiency: [Magnesium deficiency, leaf, nutrient]
+      Manganese Deficiency: [Manganese deficiency, leaf, nutrient]
+      Parlatoria Blanchardi: [White scale (Parlatoria), leaf, pest]
+      Potassium Deficiency: [Potassium deficiency, leaf, nutrient]
+      Rachis Blight: Rachis blight
+  - name: durian
+    source: hf:Project-AgML/durian_disease_classification
+    license: CC-BY-4.0
+    crop: Durian
+    part: leaf
+    budget_mb: 2000
+    classes:
+      anthracnose_disease: Anthracnose
+      canker_disease: [Phytophthora canker, stem]
+      fruit_rot: [Fruit rot, fruit]
+      mealybug_infestation: [Mealybug, fruit, pest]
+      pink_disease: [Pink disease, stem]
+      sooty_mold: Sooty mould
+      stem_blight: [Stem blight, stem]
+      stem_cracking_ gummosis: [Stem cracking (gummosis), stem]
+      thrips_disease: [Thrips, leaf, pest]
+      yellow_leaf: null
+  - name: durian_vn
+    source: hf:Project-AgML/durian_disease_classification_vietnam
+    license: CC-BY-4.0
+    crop: Durian
+    part: leaf
+    classes: {Leaf_Algal: Algal leaf spot, Leaf_Blight: Leaf blight, Leaf_Colletotrichum: Anthracnose, Leaf_Healthy: Healthy, Leaf_Phomopsis: Phomopsis leaf spot, Leaf_Rhizoctonia: Rhizoctonia leaf blight}
+  - name: grape_leaf
+    source: hf:Project-AgML/grape_leaf_disease_classification
+    license: CC-BY-4.0
+    crop: Grape
+    part: leaf
+    classes: {Bacterial Leaf Spot: Bacterial leaf spot, Downy Mildew: Downy mildew, Healthy Leaves: Healthy, Powdery Mildew: Powdery mildew}
+  - name: betel
+    source: hf:Project-AgML/betel_leaf_disease_classification_2@raw
+    license: CC-BY-4.0
+    crop: Betel
+    part: leaf
+    classes: {Healthy_Leaf: Healthy, Leaf_Rot: Leaf rot, Leaf_Spot: Leaf spot}
+  - name: rose
+    source: hf:Project-AgML/roseleafset_disease_classification@raw
+    license: CC-BY-4.0
+    crop: Rose
+    part: leaf
+    budget_mb: 1500
+    classes: {Black Spot: Black spot, Dry Leaf: null, Healthy Leaf: Healthy, Leaf Holes: [Insect holes, leaf, pest]}
+
+  # ------------------------------------------------------------------ in-the-wild / field photos (round 2)
+  # PlantWild (Wei et al. 2024): 30k web/field photos, 146 classes. "<crop> leaf" = healthy.
+  - name: plantwild
+    source: fo:Voxel51/PlantWild
+    license: CC-BY-NC-ND-4.0 (Wei et al. 2024) - non-commercial
+    part: plant          # web photos of any part (leaf, fruit, twig); explicit parts below where clear
+    field: true
+    cap_per_class: 1000
+    classes: &plantwild
+      apple black rot: [Apple, Black rot]
+      apple leaf: [Apple, Healthy]
+      apple mosaic virus: [Apple, Mosaic virus]
+      apple rust: [Apple, Cedar apple rust]
+      apple scab: [Apple, Apple scab]
+      banana anthracnose: [Banana, Anthracnose, fruit]
+      banana black leaf streak: [Banana, Sigatoka leaf spot]
+      banana bunchy top: [Banana, Bunchy top virus, whole plant]
+      banana cigar end rot: [Banana, Cigar end rot, fruit]
+      banana cordana leaf spot: [Banana, Cordana leaf spot]
+      banana leaf: [Banana, Healthy]
+      banana panama disease: [Banana, Fusarium wilt (Panama disease), whole plant]
+      basil downy mildew: [Basil, Downy mildew]
+      basil leaf: [Basil, Healthy]
+      bean halo blight: [Bean, Halo blight]
+      bean leaf: [Bean, Healthy]
+      bean mosaic virus: [Bean, Mosaic virus]
+      bean rust: [Bean, Rust]
+      bell pepper bacterial spot: [Bell pepper, Bacterial spot]
+      bell pepper blossom end rot: [Bell pepper, Blossom end rot, fruit, abiotic]
+      bell pepper frogeye leaf spot: [Bell pepper, Frogeye leaf spot]
+      bell pepper leaf: [Bell pepper, Healthy]
+      bell pepper leaf spot: [Bell pepper, Leaf spot]
+      bell pepper powdery mildew: [Bell pepper, Powdery mildew]
+      blueberry anthracnose: [Blueberry, Anthracnose, fruit]
+      blueberry botrytis blight: [Blueberry, Gray mold]
+      blueberry leaf: [Blueberry, Healthy]
+      blueberry mummy berry: [Blueberry, Mummy berry, fruit]
+      blueberry rust: [Blueberry, Rust]
+      blueberry scorch: [Blueberry, Scorch virus]
+      broccoli alternaria leaf spot: [Broccoli, Alternaria leaf spot]
+      broccoli downy mildew: [Broccoli, Downy mildew]
+      broccoli leaf: [Broccoli, Healthy]
+      broccoli ring spot: [Broccoli, Ring spot]
+      cabbage alternaria leaf spot: [Cabbage, Alternaria leaf spot]
+      cabbage black rot: [Cabbage, Black rot]
+      cabbage downy mildew: [Cabbage, Downy mildew]
+      cabbage leaf: [Cabbage, Healthy]
+      carrot alternaria leaf blight: [Carrot, Alternaria leaf blight]
+      carrot cavity spot: [Carrot, Cavity spot, root]
+      carrot cercospora leaf blight: [Carrot, Cercospora leaf spot]
+      cauliflower alternaria leaf spot: [Cauliflower, Alternaria leaf spot]
+      cauliflower bacterial soft rot: [Cauliflower, Bacterial soft rot, head]
+      cauliflower leaf: [Cauliflower, Healthy]
+      celery anthracnose: [Celery, Anthracnose]
+      celery early blight: [Celery, Early blight]
+      celery leaf: [Celery, Healthy]
+      cherry leaf: [Cherry, Healthy]
+      cherry leaf spot: [Cherry, Leaf spot]
+      cherry powdery mildew: [Cherry, Powdery mildew]
+      citrus canker: [Citrus, Citrus canker]
+      citrus greening disease: [Citrus, Huanglongbing (citrus greening)]
+      coffee berry blotch: [Coffee, Berry blotch, fruit]
+      coffee black rot: [Coffee, Black rot]
+      coffee brown eye spot: [Coffee, Cercospora leaf spot]
+      coffee leaf: [Coffee, Healthy]
+      coffee leaf rust: [Coffee, Coffee leaf rust]
+      corn gray leaf spot: [Maize, Gray leaf spot]
+      corn leaf: [Maize, Healthy]
+      corn northern leaf blight: [Maize, Northern leaf blight]
+      corn rust: [Maize, Common rust]
+      corn smut: [Maize, Common smut, fruit]
+      cucumber angular leaf spot: [Cucumber, Angular leaf spot]
+      cucumber bacterial wilt: [Cucumber, Bacterial wilt]
+      cucumber leaf: [Cucumber, Healthy]
+      cucumber powdery mildew: [Cucumber, Powdery mildew]
+      eggplant cercospora leaf spot: [Eggplant, Cercospora leaf spot]
+      eggplant leaf: [Eggplant, Healthy]
+      eggplant phomopsis fruit rot: [Eggplant, Phomopsis blight, fruit]
+      eggplant phytophthora blight: [Eggplant, Phytophthora blight]
+      garlic leaf: [Garlic, Healthy]
+      garlic leaf blight: [Garlic, Leaf blight]
+      garlic rust: [Garlic, Rust]
+      ginger leaf: [Ginger, Healthy]
+      ginger leaf spot: [Ginger, Leaf spot]
+      ginger sheath blight: [Ginger, Sheath blight, stem]
+      grape black rot: [Grape, Black rot]
+      grape downy mildew: [Grape, Downy mildew]
+      grape leaf: [Grape, Healthy]
+      grape leaf spot: [Grape, Leaf spot]
+      grapevine leafroll disease: [Grape, Leafroll virus]
+      lettuce downy mildew: [Lettuce, Downy mildew]
+      lettuce leaf: [Lettuce, Healthy]
+      lettuce mosaic virus: [Lettuce, Mosaic virus]
+      maple leaf: [Maple, Healthy]
+      maple tar spot: [Maple, Tar spot]
+      peach anthracnose: [Peach, Anthracnose, fruit]
+      peach brown rot: [Peach, Brown rot, fruit]
+      peach leaf: [Peach, Healthy]
+      peach leaf curl: [Peach, Peach leaf curl]
+      peach rust: [Peach, Rust]
+      peach scab: [Peach, Scab, fruit]
+      plum bacterial spot: [Plum, Bacterial spot]
+      plum brown rot: [Plum, Brown rot, fruit]
+      plum leaf: [Plum, Healthy]
+      plum pocket disease: [Plum, Plum pocket, fruit]
+      plum pox virus: [Plum, Plum pox virus]
+      plum rust: [Plum, Rust]
+      potato early blight: [Potato, Early blight]
+      potato late blight: [Potato, Late blight]
+      potato leaf: [Potato, Healthy]
+      raspberry fire blight: [Raspberry, Fire blight]
+      raspberry gray mold: [Raspberry, Gray mold, fruit]
+      raspberry leaf: [Raspberry, Healthy]
+      raspberry leaf spot: [Raspberry, Leaf spot]
+      raspberry yellow rust: [Raspberry, Rust]
+      rice blast: [Rice, Rice blast]
+      rice leaf: [Rice, Healthy]
+      rice sheath blight: [Rice, Sheath blight, stem]
+      soybean bacterial blight: [Soybean, Bacterial blight]
+      soybean brown spot: [Soybean, Septoria brown spot]
+      soybean downy mildew: [Soybean, Downy mildew]
+      soybean frog eye leaf spot: [Soybean, Frogeye leaf spot]
+      soybean leaf: [Soybean, Healthy]
+      soybean mosaic: [Soybean, Mosaic virus]
+      soybean rust: [Soybean, Rust]
+      squash leaf: [Squash, Healthy]
+      squash powdery mildew: [Squash, Powdery mildew]
+      strawberry anthracnose: [Strawberry, Anthracnose, fruit]
+      strawberry leaf: [Strawberry, Healthy]
+      strawberry leaf scorch: [Strawberry, Leaf scorch]
+      tobacco blue mold: [Tobacco, Blue mold]
+      tobacco brown spot: [Tobacco, Brown spot]
+      tobacco frogeye leaf spot: [Tobacco, Frogeye leaf spot]
+      tobacco leaf: [Tobacco, Healthy]
+      tobacco mosaic virus: [Tobacco, Mosaic virus]
+      tomato bacterial leaf spot: [Tomato, Bacterial spot]
+      tomato early blight: [Tomato, Early blight]
+      tomato late blight: [Tomato, Late blight]
+      tomato leaf: [Tomato, Healthy]
+      tomato leaf mold: [Tomato, Leaf mold]
+      tomato mosaic virus: [Tomato, Mosaic virus]
+      tomato septoria leaf spot: [Tomato, Septoria leaf spot]
+      tomato yellow leaf curl virus: [Tomato, Yellow leaf curl virus]
+      wheat bacterial leaf streak (black chaff): [Wheat, Bacterial leaf streak]
+      wheat head scab: [Wheat, Fusarium head blight (scab), head]
+      wheat leaf rust: [Wheat, Brown rust]
+      wheat loose smut: [Wheat, Loose smut, head]
+      wheat powdery mildew: [Wheat, Powdery mildew]
+      wheat septoria blotch: [Wheat, Septoria leaf blotch]
+      wheat stem rust: [Wheat, Stem rust, stem]
+      wheat stripe rust: [Wheat, Stripe rust]
+      zucchini bacterial wilt: [Squash, Bacterial wilt]
+      zucchini downy mildew: [Squash, Downy mildew]
+      zucchini powdery mildew: [Squash, Powdery mildew]
+      zucchini yellow mosaic virus: [Squash, Mosaic virus]
+
+  # PlantSeg (Wei et al. 2024): 11.4k field photos, same class names as PlantWild (may share images;
+  # near-duplicates are grouped by pHash so they never straddle train/test).
+  - name: plantseg
+    source: hf:XuVV/plantsegv3@data
+    license: CC-BY-NC-4.0 (Wei et al. 2024) - non-commercial
+    part: plant
+    field: true
+    label_col: answer
+    cap_per_class: 1000
+    classes: *plantwild
+
+  # CCMT (Mensah et al. 2023, Ghana): field photos of cashew, cassava, maize, tomato incl. pests.
+  - name: ccmt
+    source: hf:Project-AgML/crop_pest_disease_classification@raw
+    license: CC-BY-4.0 (Mensah et al. 2023)
+    part: leaf
+    field: true
+    group_col: crop
+    cap_per_class: 1500
+    classes:
+      Cashew / anthracnose: [Cashew, Anthracnose]
+      Cashew / gumosis: [Cashew, Gummosis, stem]
+      Cashew / healthy: [Cashew, Healthy]
+      Cashew / leaf miner: [Cashew, Leaf miner, leaf, pest]
+      Cashew / red rust: [Cashew, Algal leaf spot]
+      Cassava / bacterial blight: [Cassava, Bacterial blight]
+      Cassava / brown spot: [Cassava, Brown spot]
+      Cassava / green mite: [Cassava, Green mite, leaf, pest]
+      Cassava / healthy: [Cassava, Healthy]
+      Cassava / mosaic: [Cassava, Mosaic disease]
+      Maize / fall armyworm: [Maize, Fall armyworm, leaf, pest]
+      Maize / grasshoper: [Maize, Grasshopper damage, leaf, pest]
+      Maize / healthy: [Maize, Healthy]
+      Maize / leaf beetle: [Maize, Leaf beetle, leaf, pest]
+      Maize / leaf blight: [Maize, Northern leaf blight]
+      Maize / leaf spot: [Maize, Leaf spot]
+      Maize / streak virus: [Maize, Maize streak virus]
+      Tomato / healthy: [Tomato, Healthy]
+      Tomato / leaf blight: [Tomato, Leaf blight]
+      Tomato / leaf curl: [Tomato, Yellow leaf curl virus]
+      Tomato / septoria leaf spot: [Tomato, Septoria leaf spot]
+      Tomato / verticulium wilt: [Tomato, Verticillium wilt]
+
+  # Plant Pathology 2021 (FGVC8, Cornell): apple orchard photos; multi-label rows skipped.
+  - name: plant_pathology_2021
+    source: hf:timm/plant-pathology-2021@data
+    license: Apache-2.0 (Thapa et al. 2020)
+    crop: Apple
+    part: leaf
+    field: true
+    budget_mb: 4000
+    cap_per_class: 1500
+    classes:
+      complex: null
+      frog_eye_leaf_spot: Frogeye leaf spot
+      healthy: Healthy
+      powdery_mildew: Powdery mildew
+      rust: Cedar apple rust
+      scab: Apple scab
+
+  # ------------------------------------------------------------------ round 3: more field data, pests, fruit rot, new crops
+  # plant-diseases-100k: crop + status columns; PlantVillage-copied classes are skipped (null), we keep
+  # wheat (incl. healthy), cotton, sugarcane, citrus and rice classes.
+  - name: diseases100k
+    source: hf:ramyibrahim/plant-diseases-100k
+    license: see dataset card (aggregated public Kaggle datasets)
+    part: leaf
+    label_col: status
+    budget_mb: 5000
+    classes:
+      Wheat_Fusarium_Head_Blight: [Wheat, Fusarium head blight (scab), head]
+      Wheat_Healthy: [Wheat, Healthy]
+      Wheat_Black_Rust: [Wheat, Stem rust, stem]
+      Wheat_Mildew: [Wheat, Powdery mildew]
+      Wheat_Aphid: [Wheat, Aphids, leaf, pest]
+      Wheat_Common_Root_Rot: [Wheat, Common root rot, root]
+      Wheat_Mite: [Wheat, Mites, leaf, pest]
+      Wheat_Tan_spot: [Wheat, Tan spot]
+      Wheat_Blast: [Wheat, Wheat blast, head]
+      Wheat_Brown_Rust: [Wheat, Brown rust]
+      Wheat_Leaf_Blight: [Wheat, Leaf blight]
+      Wheat_Septoria: [Wheat, Septoria leaf blotch]
+      Wheat_Smut: [Wheat, Loose smut, head]
+      Wheat_Yellow_Rust: [Wheat, Stripe rust]
+      Wheat_Stem_fly: [Wheat, Stem fly, stem, pest]
+      Citrus_Black_spot: [Citrus, Citrus black spot]
+      Citrus_greening: [Citrus, Huanglongbing (citrus greening)]
+      Citrus_canker: [Citrus, Citrus canker]
+      Citrus_Healthy: [Citrus, Healthy]
+      Cotton_bacterial_blight: [Cotton, Bacterial blight]
+      Cotton_curl_virus: [Cotton, Leaf curl virus]
+      Cotton_fussarium_wilt: [Cotton, Fusarium wilt]
+      Cotton_healthy: [Cotton, Healthy]
+      Sugarcane_Healthy: [Sugarcane, Healthy]
+      Sugarcane_Mosaic_Virus: [Sugarcane, Viral disease (mosaic)]
+      Sugarcane_RedRot: [Sugarcane, Red rot, stem]
+      Sugarcane_Rust: [Sugarcane, Brown rust]
+      Sugarcane_Yellow: [Sugarcane, Yellow leaf disease]
+      Rice_Leaf_scald: [Rice, Leaf scald]
+      Rice_Brown_Spot: [Rice, Brown spot]
+      Rice_Bacterial_Leaf_Blight: [Rice, Bacterial leaf blight]
+      Rice_Sheath_Blight: [Rice, Sheath blight, stem]
+      Rice_Leaf_Blast: [Rice, Rice blast]
+      Rice_Healthy: [Rice, Healthy]
+      # PlantVillage copies (already ingested from the original)
+      Tomato_Leaf_Mold: null
+      Peach_Bacterial_spot: null
+      Corn_Northern_Leaf_Blight: null
+      Grape_Black_Measles: null
+      pepper_bell_healthy: null
+      Cherry_Healthy: null
+      Tomato_Target_Spot: null
+      Cherry_Powdery_mildew: null
+      Tomato_healthy: null
+      Tomato_Late_blight: null
+      Apple_Black_rot: null
+      Tomato_Bacterial_spot: null
+      Apple_scab: null
+      Potato_healthy: null
+      Pepper_bell_Bacterial_spot: null
+      Grape_Healthy: null
+      Corn_healthy: null
+      Tomato_Septoria_leaf_spot: null
+      Corn_Common_rust: null
+      Grape_Black_rot: null
+      Strawberry_Leaf_scorch: null
+      Corn_cercospora_gray_leaf_spot: null
+      Tomato_mosaic_virus: null
+      Apple_healthy: null
+      Grape_Isariopsis_Leaf_Spot: null
+      Peach_Healthy: null
+      Tomato_Early_blight: null
+      Potato_Late_blight: null
+      Tomato_YellowLeaf_Curl_Virus: null
+      Tomato_Spider_mites: null
+      Apple_Cedar_apple_rust: null
+      Potato_Early_blight: null
+      Strawberry_Healthy: null
+
+  # BeejX (India): finger millet (mandua), pigeon pea, potato in uncontrolled field settings, sugarcane, turmeric.
+  - name: beejx
+    source: hf-conv:bf369/BeejX-Crop-Disease-Dataset
+    license: MIT
+    part: leaf
+    field: true
+    classes:
+      Mandua_blast: [Finger millet, Blast]
+      Mandua_downy: [Finger millet, Downy mildew]
+      Mandua_healthy: [Finger millet, Healthy]
+      Mandua_mottle: [Finger millet, Mottle streak virus]
+      Mandua_rust: [Finger millet, Rust]
+      Mandua_smut: [Finger millet, Smut, head]
+      Mandua_wilt: [Finger millet, Wilt, whole plant]
+      Mandua_seedling: null
+      Pigeon_Pea_Healthy: [Pigeon pea, Healthy]
+      Pigeon_Pea_Leaf_Spot: [Pigeon pea, Leaf spot]
+      Pigeon_Pea_Leaf_webber: [Pigeon pea, Leaf webber, leaf, pest]
+      Pigeon_Pea_Sterilic_mosaic: [Pigeon pea, Sterility mosaic]
+      Potato_Leaf_Disease_Dataset_in_Uncontrolled_Environment_Healthy: [Potato, Healthy]
+      Potato_Leaf_Disease_Dataset_in_Uncontrolled_Environment_Phytopthora: [Potato, Late blight]
+      Potato_Leaf_Disease_Dataset_in_Uncontrolled_Environment_Virus: [Potato, Mosaic virus]
+      Potato_Leaf_Disease_Dataset_in_Uncontrolled_Environment_Pest: [Potato, Insect damage, leaf, pest]
+      Potato_Leaf_Disease_Dataset_in_Uncontrolled_Environment_Nematode: [Potato, Nematode damage, leaf, pest]
+      Potato_Leaf_Disease_Dataset_in_Uncontrolled_Environment_Bacteria: null
+      Potato_Leaf_Disease_Dataset_in_Uncontrolled_Environment_Fungi: null
+      SugarCane_Healthy: [Sugarcane, Healthy]
+      SugarCane_Mosaic: [Sugarcane, Viral disease (mosaic)]
+      SugarCane_RedRot: [Sugarcane, Red rot, stem]
+      SugarCane_Rust: [Sugarcane, Brown rust]
+      SugarCane_Yellow: [Sugarcane, Yellow leaf disease]
+      Turmeric_Plant_Disease_Healthy_Leaf: [Turmeric, Healthy]
+      Turmeric_Plant_Disease_Leaf_Blotch: [Turmeric, Leaf blotch]
+      Turmeric_Plant_Disease_Rhizome_Disease_Root: [Turmeric, Rhizome rot, rhizome]
+      Turmeric_Plant_Disease_Rhizome_Healthy_Root: [Turmeric, Healthy, rhizome]
+      Turmeric_Plant_Disease_Dry_Leaf: null
+      CUCUMBER_Bad: null
+      CUCUMBER_Good: null
+      Augmented_Mango_dataset_Anthracnose: null
+      Augmented_Mango_dataset_Die_Black: null
+      Augmented_Mango_dataset_Gall_Midge: null
+      Augmented_Mango_dataset_Healthy: null
+      Augmented_Mango_dataset_Powdery_Mildew: null
+      Mulberry_Leaf_Dataset_01_ChiangMai60: null
+      Mulberry_Leaf_Dataset_02_RedKing: null
+      Mulberry_Leaf_Dataset_03_WhiteKing: null
+      Mulberry_Leaf_Dataset_04_BlackOodTurkey: null
+      Mulberry_Leaf_Dataset_05_TaiwanStraberry: null
+      Mulberry_Leaf_Dataset_06_BlackAustralia: null
+      Mulberry_Leaf_Dataset_07_Buriram60: null
+      Mulberry_Leaf_Dataset_08_Kamphaengsaeng42: null
+      Mulberry_Leaf_Dataset_09_TaiwanMeacho: null
+      Mulberry_Leaf_Dataset_10_ChiangMaiBuriram60: null
+      Rose_Leaf_Augmented_Dataset_Black_Spot: null
+      Rose_Leaf_Augmented_Dataset_Dry_Leaf: null
+      Rose_Leaf_Augmented_Dataset_Healthy_Leaf: null
+      Rose_Leaf_Augmented_Dataset_Leaf_Hole: null
+
+  # Fresh vs rotten produce (market/kitchen photos): gives the model fruit/vegetable examples.
+  - name: fresh_rotten
+    source: hf-conv:Densu341/Fresh-rotten-fruit
+    license: OpenRAIL (see dataset card)
+    part: fruit
+    cap_per_class: 700
+    classes:
+      freshapples: [Apple, Healthy, fruit]
+      rottenapples: [Apple, Fruit rot (post-harvest), fruit]
+      freshbanana: [Banana, Healthy, fruit]
+      rottenbanana: [Banana, Fruit rot (post-harvest), fruit]
+      freshbittergroud: [Bitter gourd, Healthy, fruit]
+      rottenbittergroud: [Bitter gourd, Fruit rot (post-harvest), fruit]
+      freshcapsicum: [Bell pepper, Healthy, fruit]
+      rottencapsicum: [Bell pepper, Fruit rot (post-harvest), fruit]
+      freshcucumber: [Cucumber, Healthy, fruit]
+      rottencucumber: [Cucumber, Fruit rot (post-harvest), fruit]
+      freshokra: [Okra, Healthy, fruit]
+      rottenokra: [Okra, Fruit rot (post-harvest), fruit]
+      freshoranges: [Orange, Healthy, fruit]
+      rottenoranges: [Orange, Fruit rot (post-harvest), fruit]
+      freshpotato: [Potato, Healthy, tuber]
+      freshpatato: [Potato, Healthy, tuber]
+      rottenpotato: [Potato, Soft rot, tuber]
+      rottenpatato: [Potato, Soft rot, tuber]
+      freshtomato: [Tomato, Healthy, fruit]
+      freshtamto: [Tomato, Healthy, fruit]
+      rottentomato: [Tomato, Fruit rot (post-harvest), fruit]
+      rottentamto: [Tomato, Fruit rot (post-harvest), fruit]
+
+  - name: chili_id
+    source: hf-conv:edgararya/chili_disease.v12i.multiclass
+    license: see dataset card (Roboflow export)
+    crop: Chili pepper
+    part: leaf
+    field: true
+    cap_per_class: 700
+    classes:
+      bercak_daun: Cercospora leaf spot
+      sehat: Healthy
+      thrips: [Thrips, leaf, pest]
+      virus_kuning: Leaf curl virus
+
+  - name: maize_foliar
+    source: hf-conv:muAtarist/maize_foliar_diseases
+    license: see dataset card
+    crop: Maize
+    part: leaf
+    field: true
+    classes:
+      CommonRust: Common rust
+      CornLeafBlight: Northern leaf blight
+      GreyLeafSpot: Gray leaf spot
+      NoFoliarSymptoms: Healthy
+      PhaeosphaeriaLeafSpot: Phaeosphaeria leaf spot
+      UnidentifiedDisease: null
+
+  - name: maize_pests
+    source: hf:Project-AgML/corn_leaf_pest_classification@raw
+    license: CC-BY-4.0
+    crop: Maize
+    part: leaf
+    field: true
+    classes:
+      healthy: Healthy
+      helminthosporium_leaf_blight: Northern leaf blight
+      spodoptera_frugiperda: [Fall armyworm, leaf, pest]
+      zonocerus_variegatus: [Grasshopper damage, leaf, pest]
+
+  - name: cassava_dsa
+    source: hf:andrewkatumba/cassava_leaf_diseases_dsa_2023
+    license: CC-BY-SA-4.0
+    crop: Cassava
+    part: leaf
+    field: true
+    classes:
+      cbsd: Brown streak disease
+      cmd: Mosaic disease
+      healthy: Healthy
+
+  - name: soybean_leaf
+    source: hf:Project-AgML/soybean_leaf_disease_classification
+    license: CC-BY-4.0
+    crop: Soybean
+    part: leaf
+    field: true
+    classes:
+      Bacterial leaf Blight: Bacterial blight
+      Healthy: Healthy
+      Septoria_Brown_Spot: Septoria brown spot
+      Vein Necrosis: Vein necrosis virus
+      Dry_leaf: null
+      Root_images: null
+
+  - name: tea_srilanka
+    source: hf-conv:anupamavm/sri_lankan_tea_leaf_diseases
+    license: MIT
+    crop: Tea
+    part: leaf
+    field: true
+    classes:
+      BlisterBlight: Blister blight
+      BrownBlight: Brown blight
+      GrayBlight: Grey blight
+      Healthy: Healthy
+      RedRust: Algal leaf spot   # Cephaleuros; "red rust" and "algal leaf spot" are one disease
+      BlackBlight: null
+      Chlorina: null
+      Lycan: null
+      VirusEffect: null
+
+  - name: tea_bd2
+    source: hf:Project-AgML/tea_leaf_disease_classification_bangladesh_2
+    license: CC-BY-4.0
+    crop: Tea
+    part: leaf
+    field: true
+    classes:
+      Healthy_Leaf: Healthy
+      Helopeltis: [Tea mosquito bug (Helopeltis), leaf, pest]
+      Red_Rust: Algal leaf spot
+      Blight: null
+
+  - name: money_plant
+    source: hf:Project-AgML/money_plant_disease_classification
+    license: CC-BY-4.0
+    crop: Money plant
+    part: leaf
+    classes:
+      Bacterial wilt disease: Bacterial wilt
+      Healthy: Healthy
+      Manganese Toxicity: [Manganese toxicity, leaf, nutrient]
+
+  - name: tobacco
+    source: hf-conv:Joker5800/Tobacco_Leaf_Diseases
+    license: see dataset card
+    crop: Tobacco
+    part: leaf
+    classes:
+      Brown spot: Brown spot
+      alternaria alternata: Brown spot
+      Frogeye: Frogeye leaf spot
+      cercospora nicotianae: Frogeye leaf spot
+      Healthy: Healthy
+      Mosaic: Mosaic virus
+      Potato virus Y: Potato virus Y
+      Target spot: Target spot
+      Weather fleck: [Weather fleck, leaf, abiotic]
+      no cercospora nicotianae or alternaria alternata present: null
+
+  - name: rubber
+    source: hf-conv:dffesalbon/rubber-tree-leaf-disease-ph-labeled
+    license: see dataset card
+    crop: Rubber
+    part: leaf
+    field: true
+    classes:
+      ALGAL SPOT: Algal leaf spot
+      LEAF SPOT: Leaf spot
+      NO DISEASE: Healthy
+      POWDERY MILDEW: Powdery mildew
+
+  - name: onion_id
+    source: hf-conv:appdevop666/onion-leaf-disease
+    license: CC-BY-NC-SA (see dataset card) - non-commercial
+    crop: Onion
+    part: leaf
+    field: true
+    classes:
+      Busuk Daun: Downy mildew
+      Moler: Fusarium basal rot
+      Trotol: Purple blotch
+      Sehat: Healthy
+
+  - name: rice_leaf2
+    source: hf:Project-AgML/rice_leaf_disease_classification_2
+    license: CC-BY-4.0
+    crop: Rice
+    part: leaf
+    field: true
+    classes:
+      Bacterial leaf blight: Bacterial leaf blight
+      Brown spot: Brown spot
+      Leaf Blast: Rice blast
+
+  - name: rice_uci
+    source: hf:Project-AgML/uci_rice_leaf_diseases_classification
+    license: CC-BY-4.0
+    crop: Rice
+    part: leaf
+    classes:
+      bacterial_leaf_blight: Bacterial leaf blight
+      brown_spot: Brown spot
+      leaf_smut: Leaf smut
+
+  # ------------------------------------------------------------------ round 4: Kaggle datasets (local copies)
+  # Fetch each from its `url` into $PLANT_LOCAL_DATA/<owner>__<name>/ (Kaggle account needed); the project
+  # itself never contacts Kaggle. Sets that ship augmented copies get small caps / include filters.
+  - name: apple_kashmir
+    source: local:hsmcaju__d-kap
+    url: https://www.kaggle.com/datasets/hsmcaju/d-kap
+    license: see Kaggle page
+    crop: Apple
+    part: leaf
+    field: true
+    classes:
+      HEALTHY LEAVES: Healthy
+      LEAF BLOTCH: Marssonina blotch (brown spot)
+      SCAB LEAVES: Apple scab
+      APPLE ROT LEAVES: null
+
+  - name: melon_nutrients
+    source: local:binnassor89__melon-macronutrient-deficiency-dataset
+    url: https://www.kaggle.com/datasets/binnassor89/melon-macronutrient-deficiency-dataset
+    license: see Kaggle page
+    crop: Melon
+    part: leaf
+    classes:
+      health: Healthy
+      calcium: [Calcium deficiency, leaf, nutrient]
+      nitrogen: [Nitrogen deficiency, leaf, nutrient]
+      potasium: [Potassium deficiency, leaf, nutrient]
+
+  - name: mango_fruit
+    source: local:warcoder__mangofruitdds
+    url: https://www.kaggle.com/datasets/warcoder/mangofruitdds
+    license: see Kaggle page
+    crop: Mango
+    part: fruit
+    include: [SenMangoFruitDDS_original]
+    classes:
+      Alternaria: Alternaria black spot
+      Anthracnose: Anthracnose
+      Black Mould Rot: Black mould rot
+      Healthy: Healthy
+      Stem end Rot: Stem-end rot
+
+  - name: papaya_fruit
+    source: local:shuvokumarbasak4004__papaya-fruit-white-fungus-dataset
+    url: https://www.kaggle.com/datasets/shuvokumarbasak4004/papaya-fruit-white-fungus-dataset
+    license: see Kaggle page
+    crop: Papaya
+    part: fruit
+    classes:
+      papaya_fruit_white_fungus: Fruit rot (post-harvest)
+
+  - name: night_jasmine
+    source: local:shuvokumarbasak4004__night-jasmine-leaf-diseases-dataset
+    url: https://www.kaggle.com/datasets/shuvokumarbasak4004/night-jasmine-leaf-diseases-dataset
+    license: see Kaggle page
+    crop: Night jasmine
+    part: leaf
+    cap_per_class: 250   # augmented copies inside
+    classes:
+      healthy: Healthy
+      rust: Rust
+      multiple: null
+
+  - name: millet
+    source: local:rajsingh365__millet-crop-healthyrustblast
+    url: https://www.kaggle.com/datasets/rajsingh365/millet-crop-healthyrustblast
+    license: see Kaggle page
+    crop: Millet
+    part: leaf
+    field: true
+    classes:
+      Healthy: Healthy
+      blast: Blast
+      rust: Rust
+
+  - name: chili_anthracnose
+    source: local:prudhvi143413s__anthracnose-disease-in-chilli-mobile-captured
+    url: https://www.kaggle.com/datasets/prudhvi143413s/anthracnose-disease-in-chilli-mobile-captured
+    license: see Kaggle page
+    crop: Chili pepper
+    part: whole plant
+    field: true
+    classes:
+      Anthracnose: Anthracnose
+      Healthy: Healthy
+
+  - name: banana_nutrients
+    source: local:warcoder__nutrient-deficient-banana-plant-leaves
+    url: https://www.kaggle.com/datasets/warcoder/nutrient-deficient-banana-plant-leaves
+    license: see Kaggle page
+    crop: Banana
+    part: leaf
+    field: true
+    include: [RAW Images]
+    classes:
+      healthy: Healthy
+      boron: [Boron deficiency, leaf, nutrient]
+      calcium: [Calcium deficiency, leaf, nutrient]
+      iron: [Iron deficiency, leaf, nutrient]
+      magnesium: [Magnesium deficiency, leaf, nutrient]
+      manganese: [Manganese deficiency, leaf, nutrient]
+      potassium: [Potassium deficiency, leaf, nutrient]
+      sulphur: [Sulphur deficiency, leaf, nutrient]
+      zinc: [Zinc deficiency, leaf, nutrient]
+
+  - name: wheat_leafrust
+    source: local:jocelyndumlao__wheat-nitrogen-deficiency-and-leaf-rust-image
+    url: https://www.kaggle.com/datasets/jocelyndumlao/wheat-nitrogen-deficiency-and-leaf-rust-image
+    license: see Kaggle page
+    crop: Wheat
+    part: leaf
+    field: true
+    classes:
+      control: Healthy
+      diseased: Brown rust
+
+  - name: pumpkin
+    source: local:tahmidmir__pumpkin-leaf-diseases-dataset-from-bangladesh
+    url: https://www.kaggle.com/datasets/tahmidmir/pumpkin-leaf-diseases-dataset-from-bangladesh
+    license: see Kaggle page
+    crop: Pumpkin
+    part: leaf
+    field: true
+    include: [Original Dataset]
+    classes:
+      Bacterial Leaf Spot: Bacterial spot
+      Downy Mildew: Downy mildew
+      Healthy Leaf: Healthy
+      Mosaic Disease: Mosaic virus
+      Powdery_Mildew: Powdery mildew
+
+  - name: jackfruit
+    source: local:shuvokumarbasak4004__jackfruit-leaf-diseases
+    url: https://www.kaggle.com/datasets/shuvokumarbasak4004/jackfruit-leaf-diseases
+    license: see Kaggle page
+    crop: Jackfruit
+    part: leaf
+    include: [Jackfruit/train/]
+    cap_per_class: 300   # augmented (rotated) copies; test/validation folders repeat train
+    classes:
+      Algal_Leaf_Spot_of_Jackfruit: Algal leaf spot
+      Black_Spot_of_Jackfruit: Black spot
+      Healthy_Leaf_of_Jackfruit: Healthy
+
+  # IP102 (Wu et al. 2019): 75k photos of 102 insect pests, grouped by the crop they attack. Photos show the
+  # insect itself (part: insect). Folder names are class ids 0-101 (classes.txt).
+  - name: ip102
+    source: local:rtlmhjbn__ip02-dataset
+    url: https://www.kaggle.com/datasets/rtlmhjbn/ip02-dataset   # official release: https://github.com/xpwu95/IP102
+    license: research use (see IP102 GitHub)
+    part: insect
+    cap_per_class: 600
+    classes:
+      "0": [Rice, Rice leaffolder, insect, pest]
+      "1": [Rice, Rice leaf caterpillar, insect, pest]
+      "2": [Rice, Paddy stem maggot, insect, pest]
+      "3": [Rice, Asiatic rice borer, insect, pest]
+      "4": [Rice, Yellow stem borer, insect, pest]
+      "5": [Rice, Rice gall midge, insect, pest]
+      "6": [Rice, Rice stem fly, insect, pest]
+      "7": [Rice, Brown planthopper, insect, pest]
+      "8": [Rice, White-backed planthopper, insect, pest]
+      "9": [Rice, Small brown planthopper, insect, pest]
+      "10": [Rice, Rice water weevil, insect, pest]
+      "11": [Rice, Rice green leafhopper, insect, pest]
+      "12": [Rice, Rice thrips, insect, pest]
+      "13": [Rice, Rice shell pest, insect, pest]
+      "14": [Maize, White grubs, insect, pest]
+      "15": [Maize, Mole cricket, insect, pest]
+      "16": [Maize, Wireworms, insect, pest]
+      "17": [Maize, White-margined moth, insect, pest]
+      "18": [Maize, Black cutworm, insect, pest]
+      "19": [Maize, Large cutworm, insect, pest]
+      "20": [Maize, Yellow cutworm, insect, pest]
+      "21": [Maize, Spider mites, insect, pest]
+      "22": [Maize, Asian corn borer, insect, pest]
+      "23": [Maize, Oriental armyworm, insect, pest]
+      "24": [Maize, Aphids, insect, pest]
+      "25": [Maize, White-spotted flower chafer, insect, pest]
+      "26": [Maize, Yellow peach moth, insect, pest]
+      "27": [Wheat, English grain aphid, insect, pest]
+      "28": [Wheat, Greenbug, insect, pest]
+      "29": [Wheat, Bird cherry-oat aphid, insect, pest]
+      "30": [Wheat, Wheat blossom midge, insect, pest]
+      "31": [Wheat, Winter grain mite, insect, pest]
+      "32": [Wheat, Brown wheat mite, insect, pest]
+      "33": [Wheat, Wheat thrips, insect, pest]
+      "34": [Wheat, Wheat sawfly, insect, pest]
+      "35": [Wheat, Wheat leaf miner, insect, pest]
+      "36": [Sugar beet, Beet fly, insect, pest]
+      "37": [Sugar beet, Flea beetles, insect, pest]
+      "38": [Sugar beet, Cabbage armyworm, insect, pest]
+      "39": [Sugar beet, Beet armyworm, insect, pest]
+      "40": [Sugar beet, Beet leaf-mining fly, insect, pest]
+      "41": [Sugar beet, Beet webworm (meadow moth), insect, pest]
+      "42": [Sugar beet, Beet weevil, insect, pest]
+      "43": [Sugar beet, Oriental chafer, insect, pest]
+      "44": [Alfalfa, Alfalfa weevil, insect, pest]
+      "45": [Alfalfa, Flax budworm, insect, pest]
+      "46": [Alfalfa, Alfalfa plant bug, insect, pest]
+      "47": [Alfalfa, Tarnished plant bug, insect, pest]
+      "48": [Alfalfa, Grasshoppers and locusts, insect, pest]
+      "49": [Alfalfa, Green blister beetle, insect, pest]
+      "50": [Alfalfa, Legume blister beetle, insect, pest]
+      "51": [Alfalfa, Blister beetles, insect, pest]
+      "52": [Alfalfa, Spotted alfalfa aphid, insect, pest]
+      "53": [Alfalfa, Alfalfa thrips, insect, pest]
+      "54": [Alfalfa, Thrips, insect, pest]
+      "55": [Alfalfa, Alfalfa seed chalcid, insect, pest]
+      "56": [Cabbage, Cabbage white butterfly, insect, pest]
+      "57": [Grape, Green mirid bug, insect, pest]
+      "58": [Grape, Slug caterpillars, insect, pest]
+      "59": [Grape, Grape phylloxera, insect, pest]
+      "60": [Grape, Grape erineum mite, insect, pest]
+      "61": [Grape, Flat mite, insect, pest]
+      "62": [Grape, Grape leaf beetle, insect, pest]
+      "63": [Grape, Broad mite, insect, pest]
+      "64": [Grape, Mealybug, insect, pest]
+      "65": [Grape, Grape clearwing moth, insect, pest]
+      "66": [Grape, Grape hornworm, insect, pest]
+      "67": [Grape, Spotted lanternfly, insect, pest]
+      "68": [Grape, Grape trunk borer, insect, pest]
+      "69": [Grape, Green leafhopper, insect, pest]
+      "70": [Grape, Plant bugs (mirids), insect, pest]
+      "71": [Grape, Greenhouse whitefly, insect, pest]
+      "72": [Grape, Grape leafhopper, insect, pest]
+      "73": [Citrus, Citrus swallowtail caterpillar, insect, pest]
+      "74": [Citrus, Citrus red mite, insect, pest]
+      "75": [Citrus, Citrus rust mite, insect, pest]
+      "76": [Citrus, Cottony cushion scale, insect, pest]
+      "77": [Citrus, Arrowhead scale, insect, pest]
+      "78": [Citrus, Red wax scale, insect, pest]
+      "79": [Citrus, Florida red scale, insect, pest]
+      "80": [Citrus, Black parlatoria scale, insect, pest]
+      "81": [Citrus, Spherical mealybug, insect, pest]
+      "82": [Citrus, Spiny whitefly, insect, pest]
+      "83": [Citrus, Chinese citrus fly, insect, pest]
+      "84": [Citrus, Oriental fruit fly, insect, pest]
+      "85": [Citrus, Japanese orange fly, insect, pest]
+      "86": [Citrus, Tobacco cutworm, insect, pest]
+      "87": [Citrus, Fruit-piercing moth, insect, pest]
+      "88": [Citrus, Citrus leafminer, insect, pest]
+      "89": [Citrus, Brown citrus aphid, insect, pest]
+      "90": [Citrus, Black citrus aphid, insect, pest]
+      "91": [Citrus, Green citrus aphid, insect, pest]
+      "92": [Mango, Chilli thrips, insect, pest]
+      "93": [Mango, Gall midge, insect, pest]
+      "94": [Mango, Flatid planthopper, insect, pest]
+      "95": [Mango, Green broad-winged planthopper, insect, pest]
+      "96": [Mango, Cutting weevil, insect, pest]
+      "97": [Mango, Mango shoot borer, insect, pest]
+      "98": [Mango, Mango hopper, insect, pest]
+      "99": [Mango, Mango stem borer, insect, pest]
+      "100": [Mango, Mango pulp weevil, insect, pest]
+      "101": [Mango, Leafhoppers, insect, pest]
+
+  - name: maize_nutrients
+    source: local:ashishpatelresearch__maize-plant-leaf-nutrient-deficiency-dataset
+    url: https://www.kaggle.com/datasets/ashishpatelresearch/maize-plant-leaf-nutrient-deficiency-dataset
+    license: see Kaggle page
+    crop: Maize
+    part: leaf
+    field: true
+    classes:
+      ALL Present: Healthy
+      ALLAB: [Nutrient deficiency, leaf, nutrient]
+      KAB: [Potassium deficiency, leaf, nutrient]
+      NAB: [Nitrogen deficiency, leaf, nutrient]
+      PAB: [Phosphorus deficiency, leaf, nutrient]
+      ZNAB: [Zinc deficiency, leaf, nutrient]
+
+  - name: apricot
+    source: local:codewithsk__apricot-leaf-diseases-on-plantcity-2025
+    url: https://www.kaggle.com/datasets/codewithsk/apricot-leaf-diseases-on-plantcity-2025
+    license: see Kaggle page
+    crop: Apricot
+    part: leaf
+    classes:
+      Apricot Normal: Healthy
+      Apricot blight leaf disease: Leaf blight
+      Apricot shot_hole: Shot hole
+
+  - name: rocole
+    source: local:nirmalsankalana__rocole-a-robusta-coffee-leaf-images-dataset
+    url: https://www.kaggle.com/datasets/nirmalsankalana/rocole-a-robusta-coffee-leaf-images-dataset
+    license: CC BY 4.0 (RoCoLe, Mendeley Data)
+    crop: Coffee
+    part: leaf
+    field: true
+    classes:
+      coffee___healthy: Healthy
+      coffee___rust: Coffee leaf rust
+      coffee___red_spider_mite: [Red spider mite, leaf, pest]
+
+  - name: rust_blight_mix
+    source: local:alexzcheny__testdataset
+    url: https://www.kaggle.com/datasets/alexzcheny/testdataset
+    license: see Kaggle page
+    part: leaf
+    include: [OriginalData/]   # "Dataset/" holds augmented copies
+    classes:
+      cedar_apple_rust: [Apple, Cedar apple rust]
+      soybean_bacterial_blight: [Soybean, Bacterial blight]
+      wheat_stripe_rust: [Wheat, Stripe rust]
+
+  - name: rice_nutrients
+    source: local:guy007__nutrientdeficiencysymptomsinrice
+    url: https://www.kaggle.com/datasets/guy007/nutrientdeficiencysymptomsinrice
+    license: see Kaggle page
+    crop: Rice
+    part: leaf
+    field: true
+    classes:
+      Nitrogen(N): [Nitrogen deficiency, leaf, nutrient]
+      Phosphorus(P): [Phosphorus deficiency, leaf, nutrient]
+      Potassium(K): [Potassium deficiency, leaf, nutrient]
+
+  - name: cacao
+    source: local:zaldyjr__cacao-diseases
+    url: https://www.kaggle.com/datasets/zaldyjr/cacao-diseases
+    license: see Kaggle page
+    crop: Cacao
+    part: pod
+    field: true
+    classes:
+      healthy: Healthy
+      black_pod_rot: Black pod rot
+      pod_borer: [Cocoa pod borer, pod, pest]
+
+  - name: lettuce
+    source: local:ashishjstar__lettuce-diseases
+    url: https://www.kaggle.com/datasets/ashishjstar/lettuce-diseases
+    license: see Kaggle page
+    crop: Lettuce
+    part: leaf
+    cap_per_class: 600
+    classes:
+      Healthy: Healthy
+      Bacterial: Bacterial leaf spot
+      Downy_mildew_on_lettuce: Downy mildew
+      Powdery_mildew_on_lettuce: Powdery mildew
+      Septoria_blight_on_lettuce: Septoria leaf spot
+      Viral: null                       # virus not named
+      Wilt_and_leaf_blight_on_lettuce: null   # 6 photos, two conditions mixed
+      Shepherd_purse_weeds: null        # a weed, not a lettuce condition
+
+  - name: wheat_ethiopia
+    source: local:olyadgetch__wheat-leaf-dataset
+    url: https://www.kaggle.com/datasets/olyadgetch/wheat-leaf-dataset
+    license: see Kaggle page
+    crop: Wheat
+    part: leaf
+    field: true
+    classes:
+      Healthy: Healthy
+      septoria: Septoria leaf blotch
+      stripe_rust: Stripe rust
+
+  # Folder names are resistance scores; only the clear ends are used (0 = no rust, MS/S = heavy rust).
+  - name: yellowrust19
+    source: local:tolgahayit__yellowrust19-yellow-rust-disease-in-wheat
+    url: https://www.kaggle.com/datasets/tolgahayit/yellowrust19-yellow-rust-disease-in-wheat
+    license: see Kaggle page
+    crop: Wheat
+    part: leaf
+    include: [RAW/RAW/]   # YELLOW-RUST-19/ is the augmented copy
+    cap_per_class: 700
+    classes:
+      "0": Healthy
+      MS: Stripe rust
+      S: Stripe rust
+      R: null
+      MR: null
+      MRMS: null
+
+  # Heavily augmented (rotated / shifted copies of the same leaves): small caps.
+  - name: jujube
+    source: local:shuvokumarbasak4004__jujubeboroikul-plant-condition-and-disease-dataset
+    url: https://www.kaggle.com/datasets/shuvokumarbasak4004/jujubeboroikul-plant-condition-and-disease-dataset
+    license: see Kaggle page
+    crop: Jujube
+    part: leaf
+    cap_per_class: 150
+    classes:
+      healthy_leaf: Healthy
+      healthy_fruit: [Healthy, fruit]
+      rust: Rust
+      caterpillars_eat: [Leaf-eating caterpillars, leaf, pest]
+      insects_home: null         # rolled leaves, insect not named
+      boron_deficiency: null     # photos are small fruits; label unclear
+      death_leaf: null
+      young_leaves_diseases: null
+      multiple: null
+
+  - name: tomato_village
+    source: local:mamtag__tomato-village
+    url: https://www.kaggle.com/datasets/mamtag/tomato-village
+    license: see Kaggle page
+    crop: Tomato
+    part: leaf
+    field: true
+    include: [Variant-a(Multiclass Classification)/]
+    classes:
+      Early_blight: Early blight
+      Healthy: Healthy
+      Late_blight: Late blight
+      Leaf Miner: [Leaf miner, leaf, pest]
+      Magnesium Deficiency: [Magnesium deficiency, leaf, nutrient]
+      Nitrogen Deficiency: [Nitrogen deficiency, leaf, nutrient]
+      Pottassium Deficiency: [Potassium deficiency, leaf, nutrient]
+      Spotted Wilt Virus: Spotted wilt virus
+
+  # Class is the file-name prefix (Indonesian): ulat = caterpillar, kutu-kebul = whitefly, kutu-daun = aphid.
+  - name: chili_pests
+    source: local:indraagustian__red-chili-pepper-pests-dataset
+    url: https://www.kaggle.com/datasets/indraagustian/red-chili-pepper-pests-dataset
+    license: see Kaggle page
+    crop: Chili pepper
+    part: leaf
+    field: true
+    class_regex: "^([a-z]+(?:-[a-z]+)?)-+\\d"
+    cap_per_class: 500   # Roboflow export with augmented copies
+    classes:
+      ulat: [Leaf-eating caterpillars, leaf, pest]
+      kutu-kebul: [Whiteflies, leaf, pest]
+      kutu-daun: [Aphids, leaf, pest]
+      thrips: [Thrips, leaf, pest]
+      thrips-baru: [Thrips, leaf, pest]
+
+  - name: coconut_srilanka
+    source: local:samitha96__coconutdiseases
+    url: https://www.kaggle.com/datasets/samitha96/coconutdiseases
+    license: see Kaggle page
+    crop: Coconut
+    part: leaf
+    field: true
+    cap_per_class: 600
+    classes:
+      Healthy_Leaves: Healthy
+      CCI_Caterpillars: [Coconut black-headed caterpillar, leaf, pest]
+      CCI_Leaflets: [Coconut black-headed caterpillar, leaf, pest]
+      WCLWD_DryingofLeaflets: Weligama coconut leaf wilt
+      WCLWD_Flaccidity: Weligama coconut leaf wilt
+      WCLWD_Yellowing: Weligama coconut leaf wilt
+
+  - name: coffee_ethiopia
+    source: local:biniyamyoseph__ethiopian-coffee-leaf-disease
+    url: https://www.kaggle.com/datasets/biniyamyoseph/ethiopian-coffee-leaf-disease
+    license: see Kaggle page
+    crop: Coffee
+    part: leaf
+    include: [/test/]   # "train aug" holds augmented copies
+    classes:
+      Cerscospora: Cercospora leaf spot
+      Healthy: Healthy
+      Leaf rust: Coffee leaf rust
+      Phoma: Phoma leaf spot
+
+  - name: fruit_veg_rotten
+    source: local:muhammad0subhan__fruit-and-vegetable-disease-healthy-vs-rotten
+    url: https://www.kaggle.com/datasets/muhammad0subhan/fruit-and-vegetable-disease-healthy-vs-rotten
+    license: see Kaggle page
+    part: fruit
+    cap_per_class: 600
+    classes:
+      Apple__Healthy: [Apple, Healthy, fruit]
+      Apple__Rotten: [Apple, Fruit rot (post-harvest), fruit]
+      Banana__Healthy: [Banana, Healthy, fruit]
+      Banana__Rotten: [Banana, Fruit rot (post-harvest), fruit]
+      Bellpepper__Healthy: [Bell pepper, Healthy, fruit]
+      Bellpepper__Rotten: [Bell pepper, Fruit rot (post-harvest), fruit]
+      Carrot__Healthy: [Carrot, Healthy, root]
+      Carrot__Rotten: [Carrot, Soft rot, root]
+      Cucumber__Healthy: [Cucumber, Healthy, fruit]
+      Cucumber__Rotten: [Cucumber, Fruit rot (post-harvest), fruit]
+      Grape__Healthy: [Grape, Healthy, fruit]
+      Grape__Rotten: [Grape, Fruit rot (post-harvest), fruit]
+      Guava__Healthy: [Guava, Healthy, fruit]
+      Guava__Rotten: [Guava, Fruit rot (post-harvest), fruit]
+      Jujube__Healthy: [Jujube, Healthy, fruit]
+      Jujube__Rotten: [Jujube, Fruit rot (post-harvest), fruit]
+      Mango__Healthy: [Mango, Healthy, fruit]
+      Mango__Rotten: [Mango, Fruit rot (post-harvest), fruit]
+      Orange__Healthy: [Orange, Healthy, fruit]
+      Orange__Rotten: [Orange, Fruit rot (post-harvest), fruit]
+      Pomegranate__Healthy: [Pomegranate, Healthy, fruit]
+      Pomegranate__Rotten: [Pomegranate, Fruit rot (post-harvest), fruit]
+      Potato__Healthy: [Potato, Healthy, tuber]
+      Potato__Rotten: [Potato, Soft rot, tuber]
+      Strawberry__Healthy: [Strawberry, Healthy, fruit]
+      Strawberry__Rotten: [Strawberry, Fruit rot (post-harvest), fruit]
+      Tomato__Healthy: [Tomato, Healthy, fruit]
+      Tomato__Rotten: [Tomato, Fruit rot (post-harvest), fruit]
+
+  # Folder names are wilt scores 1 (highly resistant) .. 9 (highly susceptible); only the clear ends are used.
+  - name: chickpea_wilt
+    source: local:tolgahayit__fusarium-wilt-disease-in-chickpea-dataset
+    url: https://www.kaggle.com/datasets/tolgahayit/fusarium-wilt-disease-in-chickpea-dataset
+    license: see Kaggle page
+    crop: Chickpea
+    part: whole plant
+    field: true
+    include: [dataset_raw/]
+    classes:
+      1(HR): Healthy
+      7(S): Fusarium wilt
+      9(HS): Fusarium wilt
+      3(R): null
+      5(MR): null
+
+  # ------------------------------------------------------------------ round 6: gap-filling HF sets (2026-11-02)
+  # PlantCity: new crops (cherry, fig, pear, walnut, loquat, persimmon) + more field-style leaves.
+  - name: plantcity
+    source: hf:Project-AgML/plantcity_leaf_disease_classification@raw
+    license: see dataset card (AgML)
+    part: leaf
+    cap_per_class: 500
+    classes:
+      apple_black_spot: null            # "black spot" is ambiguous (scab vs Alternaria)
+      apple_brown_spot: [Apple, Marssonina blotch (brown spot)]
+      apple_normal: [Apple, Healthy]
+      apricot_blight_leaf_disease: [Apricot, Leaf blight]
+      apricot_normal: [Apricot, Healthy]
+      apricot_shot_hole: [Apricot, Shot hole]
+      bean_bean_rust_image: [Bean, Rust]
+      bean_fungal_leaf_disease: null
+      bean_normal_leaf: [Bean, Healthy]
+      bean_shot_hole: null
+      cherry_brown_spot: [Cherry, Leaf spot]
+      cherry_leaf_scorch: [Cherry, Leaf scorch]
+      cherry_normal_leaf: [Cherry, Healthy]
+      cherry_purple_leaf_spot: [Cherry, Leaf spot]
+      cherry_shot_hole_disease: [Cherry, Shot hole]
+      corn_fungal_leaf: null
+      corn_gray_leaf_spot: [Maize, Gray leaf spot]
+      corn_holcus_leaf_spot: [Maize, Holcus leaf spot]
+      corn_normal_leaf: [Maize, Healthy]
+      fig_blight_leaf_disease: [Fig, Leaf blight]
+      fig_brown_spot: [Fig, Brown spot]
+      fig_normal_leaf: [Fig, Healthy]
+      fig_rust_leaf: [Fig, Rust]
+      grape_anthracnose_leaf: [Grape, Anthracnose]
+      grape_brown_spot_leaf: null
+      grape_downy_mildew_leaf: [Grape, Downy mildew]
+      grape_mites_leaf_disease: [Grape, Grape erineum mite, leaf, pest]
+      grape_normal_leaf: [Grape, Healthy]
+      grape_powdery_mildew_leaf: [Grape, Powdery mildew]
+      grape_shot_hole_leaf_disease: null
+      lokat_leaf_spot: [Loquat, Leaf spot]
+      lokat_normal_leaf: [Loquat, Healthy]
+      pear_black_spot_leaf_disease: [Pear, Black spot]
+      pear_fire_blight: [Pear, Fire blight]
+      pear_normal_leaf: [Pear, Healthy]
+      persimmons_brown_spot: [Persimmon, Brown spot]
+      tomato_bacterial_spot: [Tomato, Bacterial spot]
+      tomato_early_blight: [Tomato, Early blight]
+      tomato_fusarium_wilt: [Tomato, Fusarium wilt]
+      tomato_healthy_leaf: [Tomato, Healthy]
+      tomato_late_blight: [Tomato, Late blight]
+      tomato_leaf_curl: [Tomato, Yellow leaf curl virus]
+      tomato_leaf_miner: [Tomato, Leaf miner, leaf, pest]
+      tomato_leaf_mold: [Tomato, Leaf mold]
+      tomato_septoria_leaf: [Tomato, Septoria leaf spot]
+      tomato_spider_mites: [Tomato, Two-spotted spider mite, leaf, pest]
+      tomato_verticillium_wilt: [Tomato, Verticillium wilt]
+      walnut_anthracnose_leaf_disease: [Walnut, Anthracnose]
+      walnut_blotch_leaf_disease: [Walnut, Leaf blotch]
+      walnut_leaf_gall_mite: [Walnut, Leaf gall mite, leaf, pest]
+      walnut_normal_leaf: [Walnut, Healthy]
+      walnut_shot_hole: [Walnut, Shot hole]
+
+  - name: taro_leaf
+    source: hf:Project-AgML/taro_leaf_disease_classification@raw
+    license: see dataset card (AgML)
+    crop: Taro
+    part: leaf
+    field: true
+    classes:
+      Healthy: Healthy
+      Leaf_Blight: Taro leaf blight
+      Mosaic: Mosaic virus
+      Root_Rot: [Root rot, root]
+
+  - name: tea_saifullah
+    source: hf-conv:saifullah03/tea-leaf-disease-dataset
+    license: see dataset card
+    crop: Tea
+    part: leaf
+    field: true
+    classes:
+      Brown Blight: Brown blight
+      Gray Blight: Grey blight
+      Green mirid bug: [Green mirid bug, leaf, pest]
+      Healthy leaf: Healthy
+      Helopeltis: [Tea mosquito bug (Helopeltis), leaf, pest]
+      Red spider: [Red spider mite, leaf, pest]
+      Tea algal leaf spot: Algal leaf spot
+
+  - name: tea_bd3
+    source: hf:Project-AgML/tea_leaf_disease_classification_bangladesh
+    license: see dataset card (AgML)
+    crop: Tea
+    part: leaf
+    field: true
+    classes:
+      Healthy: Healthy
+      Tea leaf blight: Leaf blight
+      Tea red leaf spot: Red leaf spot
+      Tea red scab: null   # name not standard; unclear which disease
+
+  - name: maize_alvaro
+    source: hf-conv:AlvaroVasquezAI/Maize_Leaf_Diseases
+    license: see dataset card
+    crop: Maize
+    part: leaf
+    classes:
+      Common_Rust: Common rust
+      Gray_Leaf_Spot: Gray leaf spot
+      Healthy: Healthy
+      Northern_Leaf_Blight: Northern leaf blight
+      Phaeosphaeria_Leaf_Spot: Phaeosphaeria leaf spot
+      Southern_Rust: Southern rust
+
+  - name: soybean_brazil
+    source: hf:Project-AgML/soybean_leaf_disease_classification_brazil
+    license: see dataset card (AgML)
+    crop: Soybean
+    part: leaf
+    field: true
+    classes:
+      Caterpillar: [Leaf-eating caterpillars, leaf, pest]
+      Diabrotica speciosa: [Leaf beetle, leaf, pest]
+      Healthy: Healthy
+
+  - name: soybean_anand
+    source: hf:anandvermagmailcom/soybean-leaf-diseases
+    license: see dataset card
+    crop: Soybean
+    part: leaf
+    classes:
+      Bacterial_blight: Bacterial blight
+      Frogeye: Frogeye leaf spot
+      Healthy: Healthy
+      Soyabean_rust: Rust
+
+  - name: grapevine_portugal
+    source: hf:Project-AgML/grapevine_leaf_disease_portugal
+    license: see dataset card (AgML)
+    crop: Grape
+    part: leaf
+    field: true
+    classes:
+      Downy Mildew: Downy mildew
+      Erineum Mite: [Grape erineum mite, leaf, pest]
+      Esca Complex: Esca (black measles)
+      Healthy: Healthy
+      Powdery Mildew: Powdery mildew
+
+  - name: rosenet
+    source: hf:Project-AgML/RoseNet_leaf_disease_classification@raw
+    license: see dataset card (AgML)
+    crop: Rose
+    part: leaf
+    classes:
+      Black Spot: Black spot
+      Downy Mildew: Downy mildew
+      Fresh Leaf: Healthy
+
+  # Generic "Bacteria / Fungi / Pest / Virus" classes are not specific enough to give advice: skipped.
+  - name: potato_leaf_id
+    source: hf:Project-AgML/potato_leaf_disease_classification
+    license: see dataset card (AgML)
+    crop: Potato
+    part: leaf
+    field: true
+    classes:
+      Healthy: Healthy
+      Phytopthora: Late blight
+      Nematode: Nematode damage
+      Bacteria: null
+      Fungi: null
+      Pest: null
+      Virus: null
+
+  - name: groundnut_rosette
+    source: hf:Project-AgML/groundnut_leaf_disease_classification
+    license: see dataset card (AgML)
+    crop: Groundnut
+    part: leaf
+    field: true
+    classes:
+      ALTERNARIA LEAF SPOT: Alternaria leaf spot
+      HEALTHY: Healthy
+      LEAF SPOT: Early leaf spot
+      ROSETTE: Rosette virus
+      RUST: Rust
+
+  - name: date_palm_iraq
+    source: hf:Project-AgML/date_palm_leaf_disease_classification_iraq
+    license: see dataset card (AgML)
+    crop: Date palm
+    part: leaf
+    field: true
+    classes:
+      Dubas: [Dubas bug, leaf, pest]
+      Honey: [Dubas bug, leaf, pest]   # honeydew deposits from the same bug
+      Healthy: Healthy
+      Bug: null                        # pest not named
+
+  - name: coffee_brainer
+    source: hf:brainer-fp66/coffee-leaf-diseases
+    license: see dataset card
+    crop: Coffee
+    part: leaf
+    classes:
+      Healthy: Healthy
+      Miner: [Coffee leaf miner, leaf, pest]
+      Phoma: Phoma leaf spot
+      Red Spider Mite: [Red spider mite, leaf, pest]
+      Rust: Coffee leaf rust
+
+  # Guava LEAVES (earlier guava sets were nearly all fruit). Mendeley Data, CC BY 4.0, fetched to local copies.
+  - name: guava_leaf_idgldd
+    source: local:mendeley__46spm4z4d3
+    url: https://data.mendeley.com/datasets/46spm4z4d3
+    license: CC BY 4.0
+    crop: Guava
+    part: leaf
+    field: true
+    classes:
+      healthy: Healthy
+      anthracnose: Anthracnose
+      red_rust: Algal leaf spot
+      spiraling_whitefly: [Whiteflies, leaf, pest]
+      caterpillar_damage: [Leaf-eating caterpillars, leaf, pest]
+
+  - name: guava_leaf_bd
+    source: local:mendeley__gtmz34sjvc
+    url: https://data.mendeley.com/datasets/gtmz34sjvc/1
+    license: CC BY 4.0
+    crop: Guava
+    part: leaf
+    field: true
+    include: [Guava Leaf/Guava Leaf/]   # the zip ships the same folder twice
+    classes:
+      healthy: Healthy
+      red rust: Algal leaf spot
+      catepillers: [Leaf-eating caterpillars, leaf, pest]
+      die back: Dieback
+      yelow spot: null   # cause not named
+
+  - name: guava_leaf_ugv
+    source: local:mendeley__cc3rttngdr
+    url: https://data.mendeley.com/datasets/cc3rttngdr/3
+    license: CC BY 4.0
+    crop: Guava
+    part: leaf
+    field: true
+    include: [/RAW/]   # "Augmented/" holds augmented copies
+    classes:
+      Healthy: Healthy
+      Canker: Canker
+      Leaf Spot: Leaf spot
+      Rust: Algal leaf spot   # reddish speckles of red rust (Cephaleuros), as in the other guava sets
+      Nutritional Deficiency: [Nutrient deficiency, leaf, nutrient]
+      Powdery Mildew: Powdery mildew
+      Curling: null           # cause not named
+
+  - name: guava_leaf_fsp
+    source: local:mendeley__fspx44mwfp
+    url: https://data.mendeley.com/datasets/fspx44mwfp/1
+    license: CC BY 4.0
+    crop: Guava
+    part: leaf
+    field: true
+    include: [/ORGINAL/Guava Fruits and leaves Dataset/Guava_Leaf/]   # "Augmented/" holds augmented copies
+    classes:
+      Healthy: Healthy
+      Anthracnose: Anthracnose
+      Canker: Canker
+      Dot: Leaf spot
+      Rust: Algal leaf spot   # same mapping as the other guava sets
+
+  - name: guava_leaf_fsp_fruit   # same download; fruit folders (name keeps the guava_leaf_ prefix for the v3 re-ingest)
+    source: local:mendeley__fspx44mwfp
+    url: https://data.mendeley.com/datasets/fspx44mwfp/1
+    license: CC BY 4.0
+    crop: Guava
+    part: fruit
+    field: true
+    include: [/ORGINAL/Guava Fruits and leaves Dataset/Guava_Fruit/]
+    classes:
+      Healthy: Healthy
+      Anthracnose: Anthracnose
+      Scab: Scab
+      Styler end root: Styler end rot

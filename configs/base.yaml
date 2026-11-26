@@ -1,0 +1,105 @@
+# Shared defaults. Every experiment inherits this via `_base_: base.yaml`.
+# Exp 1 and Exp 2 differ ONLY in `segmentation.method` (and the experiment name).
+experiment:
+  name: base
+  type: train            # train | robustness
+device: auto             # auto -> cuda > mps > cpu
+num_workers: 4
+
+paths:
+  results_dir: results
+  cache_dir: cache
+  split_root: splits
+  keep_checkpoints: true
+
+data:
+  dataset: plantvillage  # plantvillage | mangoleafbd | synthetic
+  name: plantvillage15
+  root: data/plantvillage
+  num_classes: 15        # 15 = paper subset; 38 = all PlantVillage classes (use data.name/split_dir *38)
+  split_dir: splits/plantvillage15
+  split_ratios: [0.6, 0.2, 0.2]
+  split_seed: 42
+  dedup_max_dist: 4      # pHash Hamming distance for near-duplicate grouping
+  hash_workers: 8
+  max_per_class: null
+  # The GitHub/abdallahalidev mirrors ship 5,357 YLCV images; the paper's 20,638-image set has 3,209.
+  # Seeded random cap to match the paper's class sizes (set to {} to use every image).
+  class_caps:
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 3209
+
+segmentation:
+  method: none           # none | borb_original | borb_plus | otsu | kmeans
+  output: black          # black | crop  (borb_plus only)
+  crop_pad: 0.05
+  morphology: true
+  kernel_frac: 0.02
+  fill_holes: true
+  min_component_frac: 0.02
+  lesion_protect: true
+  grabcut: false
+  grabcut_iters: 3
+  threshold_sample: 2000 # training images used for the mean histogram
+  hist_sigma: 3.0
+  hist_min_prominence: 0.05
+
+model:
+  img_size: 224
+  pretrained: true
+  drop_rate: 0.2
+backbones: [efficientnet_b3]
+seeds: [0, 1, 2]
+
+train:
+  batch_size: 16         # paper value; fits 6 GB with AMP for every backbone incl. VGG16
+  eval_batch_size: 64
+  epochs: 30
+  freeze_epochs: 3       # phase 1: train head only
+  lr_head: 1.0e-3
+  lr: 1.0e-4             # phase 2: full fine-tune (paper lr)
+  weight_decay: 0.05
+  warmup_epochs: 1
+  min_lr_ratio: 0.01
+  label_smoothing: 0.1
+  early_stopping_patience: 8   # on val loss (paper used 50 with no epoch cap)
+  grad_clip: 1.0
+  amp: auto              # auto = fp16 on CUDA; true also enables fp16 autocast on MPS
+  balanced_sampling: false
+  weighted_loss: false
+  deterministic: true
+
+augment:
+  enabled: true
+  paper_geometric: true  # rotation 40, zoom 0.115, shear 0.115, h/v flip, brightness 0.5-1.5, nearest fill
+  random_resized_crop: true
+  rrc_scale: [0.7, 1.0]
+  color_jitter: 0.2
+  mixup:
+    enabled: false
+    mixup_alpha: 0.2
+    cutmix_alpha: 0.2
+    prob: 0.3
+
+hpo:                     # random search on the VALIDATION split; same budget/candidates for Exp 1 and 2
+  enabled: false
+  n_trials: 6
+  epochs: 6
+  seed: 0
+  trial_seed: 0
+  space:
+    train.lr: {type: loguniform, low: 3.0e-5, high: 5.0e-4}
+    train.lr_head: {type: loguniform, low: 3.0e-4, high: 3.0e-3}
+    train.weight_decay: {type: loguniform, low: 1.0e-3, high: 1.0e-1}
+
+eval:
+  tta: true              # flips; reported separately from single-pass accuracy
+  gradcam_n: 8
+
+summary:
+  pairs:
+    - {exp_a: exp1_borb, exp_b: exp2_noborb, paper_key: plantvillage15}
+    - {exp_a: exp1_borb_mango, exp_b: exp2_noborb_mango, paper_key: mangoleafbd}
+  segcomp_exps: [exp2_noborb, abl_borb_original, exp1_borb, seg_otsu, seg_kmeans]
+  ablation_reference:
+    exp: exp1_borb
+    labels: {borb_variant: "BorB+ (Exp 1)", output: "black (Exp 1)", augmentation: "on (Exp 1)", morphology: "on (Exp 1)"}

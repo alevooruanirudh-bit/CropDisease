@@ -1,0 +1,10 @@
+2026-11-03 23:23:55,340 | INFO    | plant-borb.src.models.factory | Built efficientnet_b0 (efficientnet_b0), 4.85M params, pretrained=True
+2026-11-03 23:23:55,357 | INFO    | plant-borb.src.models.factory | Warm-started from results/web_model_v3_snapshot.pt: 360/360 tensors copied
+2026-11-03 23:23:55,428 | INFO    | plant-borb.src.training.trainer | Phase finetune: 4 epochs, lr=2.00e-04, trainable=4.85M
+2026-11-04 01:03:00,719 | INFO    | plant-borb.src.training.trainer | ep   1 [finetune] train 1.4590/0.8715  val 0.6797/0.8423  *(5945s)
+2026-11-04 09:09:46,902 | INFO    | plant-borb.src.training.trainer | ep   2 [finetune] train 1.5266/0.8453  val 0.6509/0.8475  *(29206s)
+2026-11-04 11:54:30,627 | INFO    | plant-borb.src.training.trainer | ep   3 [finetune] train 1.4395/0.8699  val 0.5683/0.8696  *(9884s)
+2026-11-04 17:29:40,232 | INFO    | plant-borb.src.training.trainer | ep   4 [finetune] train 1.3599/0.8934  val 0.5672/0.8729  *(20110s)
+2026-11-04 17:50:00,903 | INFO    | plant-borb.src.training.pipeline | [web_model_v3b/efficientnet_b0/seed0] val acc 0.8729 | test acc 0.8947 CI95 [0.8922690137432063, 0.8971860179319416]
+2026-11-04 17:52:01,391 | INFO    | plant-borb.src.eval.summary | Wrote results/summary.csv, summary.md, ablation.md
+2026-11-04 17:52:01,391 | INFO    | plant-borb | === web_model_v3b done in 1108.2 min ===

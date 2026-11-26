@@ -1,0 +1,28 @@
+{
+  "n_input": 4000,
+  "exact_byte_duplicates_removed": 21,
+  "exact_byte_duplicate_label_conflicts": 0,
+  "identical_phash_within_class": 247,
+  "near_duplicate_pairs": 319,
+  "n_groups": 3681,
+  "n_images_in_multi_groups": 578,
+  "n_multi_groups": 280,
+  "largest_group": 4,
+  "cross_class_near_duplicate_pairs": 8,
+  "n_kept": 3979,
+  "split_sizes": {
+    "train": 2394,
+    "val": 788,
+    "test": 797
+  },
+  "classes": [
+    "Anthracnose",
+    "Bacterial Canker",
+    "Cutting Weevil",
+    "Die Back",
+    "Gall Midge",
+    "Healthy",
+    "Powdery Mildew",
+    "Sooty Mould"
+  ]
+}

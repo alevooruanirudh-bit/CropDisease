@@ -1,0 +1,1378 @@
+# Insect and mite pests from IP102 (Wu et al., CVPR 2019), generated from a pest-group table:
+# advice is shared per pest group (stem borers, hoppers, aphids, mites, scales, fruit flies ...),
+# with the species name as the cause. Review with a local entomologist before deployment.
+
+Alfalfa plant bug:
+  chemical:
+  - Registered insecticides at bud stage when counts exceed the threshold.
+  cultural:
+  - Control weeds in and around the field; avoid planting next to alfalfa when it is cut.
+  organic:
+  - Neem; conserve predators; trap crops.
+  pathogen: Adelphocoris lineolatus
+  prevention:
+  - Scout buds and shoot tips with a beat tray or sweep net.
+  spread: Adults fly in from weeds and neighbouring crops; several generations per season.
+  symptoms: Small brown or black spots and holes on young leaves that tear as they expand; buds and young fruit
+    deformed or dropped.
+  type: Insect pest (plant bug / mirid)
+Alfalfa seed chalcid:
+  chemical:
+  - Rarely economic; follow local seed-crop guidance.
+  cultural:
+  - Clean up shattered seed; harvest uniformly; rotate seed fields.
+  organic:
+  - Conserve parasitoids.
+  pathogen: Bruchophagus roddi
+  prevention:
+  - Uniform flowering and timely harvest.
+  spread: Tiny wasps lay eggs in developing seeds; overwinter in seeds left in the field.
+  symptoms: Seeds hollowed out with a small exit hole; poor seed yield.
+  type: Insect pest (seed chalcid)
+Alfalfa thrips:
+  chemical:
+  - Registered insecticides (e.g. spinetoram, fipronil where allowed) when damage starts; rotate modes of action.
+  cultural:
+  - Overhead irrigation or mulch to reduce populations; remove weeds.
+  organic:
+  - Blue sticky traps; spinosad, neem or predatory mites (Amblyseius).
+  pathogen: Odontothrips loti
+  prevention:
+  - Scout flowers and young leaves; clean transplants.
+  spread: Tiny insects carried by wind; pupate in soil; worse in hot, dry weather.
+  symptoms: Silvery or bronze streaks and tiny black dots on leaves; young leaves curl upward; flowers and fruit
+    scarred.
+  type: Insect pest (thrips)
+Alfalfa weevil:
+  chemical:
+  - Registered insecticides at adult emergence or egg-laying, guided by local monitoring.
+  cultural:
+  - Rotate crops; remove crop residue and volunteer plants; collect and destroy infested fruit or seed.
+  organic:
+  - Entomopathogenic fungi (Beauveria) or nematodes; neem.
+  pathogen: Hypera postica
+  prevention:
+  - Clean planting material and timely sowing.
+  spread: Adults walk or fly in from field margins; larvae develop in soil or inside plant tissue.
+  symptoms: Notches or holes chewed in leaves, buds or roots; larvae feed inside roots, stems, seeds or fruit.
+  type: Insect pest (weevil)
+Arrowhead scale:
+  chemical:
+  - Registered systemic insecticides (e.g. spirotetramat, buprofezin) at crawler emergence.
+  cultural:
+  - Prune and destroy heavily infested twigs; control ants that protect scales.
+  organic:
+  - Horticultural oil sprays at crawler stage; conserve ladybird beetles and parasitoid wasps (e.g. Rodolia for
+    cottony cushion scale).
+  pathogen: Unaspis yanonensis
+  prevention:
+  - Inspect new plants; keep trees vigorous and dust-free.
+  spread: Crawlers move to new growth and are carried by wind, ants, birds and nursery stock.
+  symptoms: Small shell-like, waxy or cottony insects fixed on leaves, twigs and fruit; yellowing, honeydew and
+    sooty mould; twig die-back.
+  type: Insect pest (scale insect / mealybug)
+Asian corn borer:
+  chemical:
+  - Registered systemic insecticides (e.g. chlorantraniliprole, flubendiamide) at egg hatch when traps or dead hearts
+    pass the local threshold.
+  cultural:
+  - Remove and destroy egg masses and dead hearts; cut stubble close to the ground after harvest.
+  - Avoid excess nitrogen; synchronise planting with neighbours.
+  organic:
+  - Release Trichogramma egg parasitoids; pheromone traps for monitoring and mass trapping.
+  - Bacillus thuringiensis or neem when larvae hatch.
+  pathogen: Ostrinia furnacalis
+  prevention:
+  - Tolerant varieties, field sanitation, light or pheromone traps for early warning.
+  spread: Moths lay egg masses on leaves; larvae bore in within days. Stubble and volunteer plants carry the next
+    generation.
+  symptoms: Caterpillars tunnel inside stems; the central shoot dries ("dead heart") in young plants, and heads
+    or panicles turn white and empty later; small holes and frass on stems.
+  type: Insect pest (stem borer)
+Asiatic rice borer:
+  chemical:
+  - Registered systemic insecticides (e.g. chlorantraniliprole, flubendiamide) at egg hatch when traps or dead hearts
+    pass the local threshold.
+  cultural:
+  - Remove and destroy egg masses and dead hearts; cut stubble close to the ground after harvest.
+  - Avoid excess nitrogen; synchronise planting with neighbours.
+  organic:
+  - Release Trichogramma egg parasitoids; pheromone traps for monitoring and mass trapping.
+  - Bacillus thuringiensis or neem when larvae hatch.
+  pathogen: Chilo suppressalis
+  prevention:
+  - Tolerant varieties, field sanitation, light or pheromone traps for early warning.
+  spread: Moths lay egg masses on leaves; larvae bore in within days. Stubble and volunteer plants carry the next
+    generation.
+  symptoms: Caterpillars tunnel inside stems; the central shoot dries ("dead heart") in young plants, and heads
+    or panicles turn white and empty later; small holes and frass on stems.
+  type: Insect pest (stem borer)
+Beet armyworm:
+  chemical:
+  - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole, indoxacarb) when larvae pass the local
+    threshold; rotate modes of action.
+  cultural:
+  - Hand-pick caterpillars and egg masses in small plots; remove weeds that host them.
+  - Plough or flood after harvest to kill pupae in the soil.
+  organic:
+  - Bacillus thuringiensis, spinosad or neem on young larvae; nuclear polyhedrosis virus (NPV) where available.
+  - Encourage birds and parasitic wasps.
+  pathogen: Spodoptera exigua
+  prevention:
+  - Scout weekly; pheromone or light traps for early warning.
+  spread: Moths or butterflies lay eggs on leaves; several generations per season; outbreaks after warm, wet spells.
+  symptoms: Leaves chewed from the edges or skeletonised, sometimes rolled or webbed; green or brown caterpillars
+    and droppings on the plant.
+  type: Insect pest (leaf-eating caterpillar)
+Beet fly:
+  chemical:
+  - Registered translaminar insecticides (e.g. abamectin, cyromazine) at early mining.
+  cultural:
+  - Pick and destroy mined leaves early; remove weeds and residue.
+  organic:
+  - Yellow sticky traps; neem; conserve parasitic wasps.
+  pathogen: Pegomya hyoscyami
+  prevention:
+  - Monitor young leaves; avoid broad-spectrum sprays that kill parasitoids.
+  spread: Small flies or moths lay eggs in leaves; many short generations.
+  symptoms: Winding white or silvery tunnels (mines) or blotches inside leaves; heavily mined leaves dry up.
+  type: Insect pest (leaf miner)
+Beet leaf-mining fly:
+  chemical:
+  - Registered translaminar insecticides (e.g. abamectin, cyromazine) at early mining.
+  cultural:
+  - Pick and destroy mined leaves early; remove weeds and residue.
+  organic:
+  - Yellow sticky traps; neem; conserve parasitic wasps.
+  pathogen: Pegomya spp.
+  prevention:
+  - Monitor young leaves; avoid broad-spectrum sprays that kill parasitoids.
+  spread: Small flies or moths lay eggs in leaves; many short generations.
+  symptoms: Winding white or silvery tunnels (mines) or blotches inside leaves; heavily mined leaves dry up.
+  type: Insect pest (leaf miner)
+Beet webworm (meadow moth):
+  chemical:
+  - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole, indoxacarb) when larvae pass the local
+    threshold; rotate modes of action.
+  cultural:
+  - Hand-pick caterpillars and egg masses in small plots; remove weeds that host them.
+  - Plough or flood after harvest to kill pupae in the soil.
+  organic:
+  - Bacillus thuringiensis, spinosad or neem on young larvae; nuclear polyhedrosis virus (NPV) where available.
+  - Encourage birds and parasitic wasps.
+  pathogen: Loxostege sticticalis
+  prevention:
+  - Scout weekly; pheromone or light traps for early warning.
+  spread: Moths or butterflies lay eggs on leaves; several generations per season; outbreaks after warm, wet spells.
+  symptoms: Leaves chewed from the edges or skeletonised, sometimes rolled or webbed; green or brown caterpillars
+    and droppings on the plant.
+  type: Insect pest (leaf-eating caterpillar)
+Beet weevil:
+  chemical:
+  - Registered insecticides at adult emergence or egg-laying, guided by local monitoring.
+  cultural:
+  - Rotate crops; remove crop residue and volunteer plants; collect and destroy infested fruit or seed.
+  organic:
+  - Entomopathogenic fungi (Beauveria) or nematodes; neem.
+  pathogen: Bothynoderes punctiventris
+  prevention:
+  - Clean planting material and timely sowing.
+  spread: Adults walk or fly in from field margins; larvae develop in soil or inside plant tissue.
+  symptoms: Notches or holes chewed in leaves, buds or roots; larvae feed inside roots, stems, seeds or fruit.
+  type: Insect pest (weevil)
+Bird cherry-oat aphid:
+  chemical:
+  - Registered selective aphicides (e.g. flonicamid, pirimicarb) when colonies pass the threshold.
+  cultural:
+  - Remove heavily infested shoots; avoid excess nitrogen; control weeds.
+  - Strong water sprays on small plants.
+  organic:
+  - Insecticidal soap, neem or mineral oil; conserve ladybirds, lacewings and parasitic wasps.
+  pathogen: Rhopalosiphum padi
+  prevention:
+  - Monitor with yellow sticky traps; protect natural enemies by avoiding broad-spectrum sprays.
+  spread: Winged forms fly between plants; populations grow very fast in mild, dry weather.
+  symptoms: Clusters of small soft insects on young leaves, shoots or ears; leaves curl and yellow; sticky honeydew
+    and black sooty mould. Many aphids spread viruses.
+  type: Insect pest (aphid)
+Black citrus aphid:
+  chemical:
+  - Registered selective aphicides (e.g. flonicamid, pirimicarb) when colonies pass the threshold.
+  cultural:
+  - Remove heavily infested shoots; avoid excess nitrogen; control weeds.
+  - Strong water sprays on small plants.
+  organic:
+  - Insecticidal soap, neem or mineral oil; conserve ladybirds, lacewings and parasitic wasps.
+  pathogen: Toxoptera aurantii
+  prevention:
+  - Monitor with yellow sticky traps; protect natural enemies by avoiding broad-spectrum sprays.
+  spread: Winged forms fly between plants; populations grow very fast in mild, dry weather.
+  symptoms: Clusters of small soft insects on young leaves, shoots or ears; leaves curl and yellow; sticky honeydew
+    and black sooty mould. Many aphids spread viruses.
+  type: Insect pest (aphid)
+Black cutworm:
+  chemical:
+  - Poison baits or soil-directed sprays of registered insecticides in the evening.
+  cultural:
+  - Clean weeds 2 weeks before planting; dig around cut plants at dawn and destroy larvae.
+  - Collar transplants with paper or plastic rings.
+  organic:
+  - Baits of bran with Bacillus thuringiensis; entomopathogenic nematodes.
+  pathogen: Agrotis ipsilon
+  prevention:
+  - Deep ploughing, weed-free seedbeds, and pheromone traps for moth flights.
+  spread: Moths lay eggs on weeds and crop residue before planting; larvae hide in soil by day.
+  symptoms: Seedlings cut off at soil level overnight; grey-brown caterpillars curl into a C-shape in the soil nearby.
+  type: Insect pest (cutworm)
+Black parlatoria scale:
+  chemical:
+  - Registered systemic insecticides (e.g. spirotetramat, buprofezin) at crawler emergence.
+  cultural:
+  - Prune and destroy heavily infested twigs; control ants that protect scales.
+  organic:
+  - Horticultural oil sprays at crawler stage; conserve ladybird beetles and parasitoid wasps (e.g. Rodolia for
+    cottony cushion scale).
+  pathogen: Parlatoria ziziphi
+  prevention:
+  - Inspect new plants; keep trees vigorous and dust-free.
+  spread: Crawlers move to new growth and are carried by wind, ants, birds and nursery stock.
+  symptoms: Small shell-like, waxy or cottony insects fixed on leaves, twigs and fruit; yellowing, honeydew and
+    sooty mould; twig die-back.
+  type: Insect pest (scale insect / mealybug)
+Blister beetles:
+  chemical:
+  - Registered contact insecticides when swarms damage flowers; never feed infested hay to livestock (toxic).
+  cultural:
+  - Shake beetles into a bucket of soapy water using gloves; mow field borders.
+  organic:
+  - Neem or kaolin clay sprays; control grasshopper populations.
+  pathogen: Meloidae
+  prevention:
+  - Cut forage before flowering in risk areas; scout field edges.
+  spread: Adults fly in swarms; larvae feed on grasshopper eggs in the soil.
+  symptoms: Groups of long, soft-bodied beetles eating flowers and leaves; sudden defoliation in patches. The beetles
+    release a blistering chemical — do not handle them with bare hands.
+  type: Insect pest (blister beetle)
+Broad mite:
+  chemical:
+  - Registered acaricides (e.g. abamectin, spiromesifen, hexythiazox) at early infestation; rotate.
+  cultural:
+  - Keep plants well watered; reduce dust; remove badly infested leaves.
+  organic:
+  - Wettable sulphur (check crop safety), neem or horticultural oil; release predatory mites.
+  pathogen: Polyphagotarsonemus latus
+  prevention:
+  - Avoid unnecessary broad-spectrum insecticides; check leaf undersides weekly in dry weather.
+  spread: Mites drift on wind and on tools or clothing; explode in hot, dry, dusty weather and after insecticides
+    kill their predators.
+  symptoms: Fine yellow or bronze speckling on leaves, sometimes fine webbing underneath; leaves dry and drop. Some
+    mites cause galls, felt patches or rusty fruit.
+  type: Mite pest
+Brown citrus aphid:
+  chemical:
+  - Registered selective aphicides (e.g. flonicamid, pirimicarb) when colonies pass the threshold.
+  cultural:
+  - Remove heavily infested shoots; avoid excess nitrogen; control weeds.
+  - Strong water sprays on small plants.
+  organic:
+  - Insecticidal soap, neem or mineral oil; conserve ladybirds, lacewings and parasitic wasps.
+  pathogen: Toxoptera citricida
+  prevention:
+  - Monitor with yellow sticky traps; protect natural enemies by avoiding broad-spectrum sprays.
+  spread: Winged forms fly between plants; populations grow very fast in mild, dry weather.
+  symptoms: Clusters of small soft insects on young leaves, shoots or ears; leaves curl and yellow; sticky honeydew
+    and black sooty mould. Many aphids spread viruses.
+  type: Insect pest (aphid)
+Brown planthopper:
+  chemical:
+  - Registered systemic insecticides (e.g. pymetrozine, dinotefuran) only above the local threshold; avoid pyrethroids
+    that cause resurgence.
+  cultural:
+  - Avoid excess nitrogen and very dense planting; drain rice fields periodically.
+  - Remove weeds and volunteer plants that host hoppers.
+  organic:
+  - Conserve spiders, mirid predators and parasitoids; light traps; neem.
+  pathogen: Nilaparvata lugens
+  prevention:
+  - Resistant varieties; synchronised planting; regular scouting at the plant base.
+  spread: Adults fly or are carried by wind between fields; populations explode with dense crops and excess nitrogen.
+  symptoms: Leaves yellow or mottled from sap feeding; honeydew and sooty mould; heavy attacks cause "hopper burn"
+    (patches of dried plants). Some species transmit viruses.
+  type: Insect pest (planthopper / leafhopper)
+Brown wheat mite:
+  chemical:
+  - Registered acaricides (e.g. abamectin, spiromesifen, hexythiazox) at early infestation; rotate.
+  cultural:
+  - Keep plants well watered; reduce dust; remove badly infested leaves.
+  organic:
+  - Wettable sulphur (check crop safety), neem or horticultural oil; release predatory mites.
+  pathogen: Petrobia latens
+  prevention:
+  - Avoid unnecessary broad-spectrum insecticides; check leaf undersides weekly in dry weather.
+  spread: Mites drift on wind and on tools or clothing; explode in hot, dry, dusty weather and after insecticides
+    kill their predators.
+  symptoms: Fine yellow or bronze speckling on leaves, sometimes fine webbing underneath; leaves dry and drop. Some
+    mites cause galls, felt patches or rusty fruit.
+  type: Mite pest
+Cabbage armyworm:
+  chemical:
+  - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole, indoxacarb) when larvae pass the local
+    threshold; rotate modes of action.
+  cultural:
+  - Hand-pick caterpillars and egg masses in small plots; remove weeds that host them.
+  - Plough or flood after harvest to kill pupae in the soil.
+  organic:
+  - Bacillus thuringiensis, spinosad or neem on young larvae; nuclear polyhedrosis virus (NPV) where available.
+  - Encourage birds and parasitic wasps.
+  pathogen: Mamestra brassicae
+  prevention:
+  - Scout weekly; pheromone or light traps for early warning.
+  spread: Moths or butterflies lay eggs on leaves; several generations per season; outbreaks after warm, wet spells.
+  symptoms: Leaves chewed from the edges or skeletonised, sometimes rolled or webbed; green or brown caterpillars
+    and droppings on the plant.
+  type: Insect pest (leaf-eating caterpillar)
+Cabbage white butterfly:
+  chemical:
+  - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole, indoxacarb) when larvae pass the local
+    threshold; rotate modes of action.
+  cultural:
+  - Hand-pick caterpillars and egg masses in small plots; remove weeds that host them.
+  - Plough or flood after harvest to kill pupae in the soil.
+  organic:
+  - Bacillus thuringiensis, spinosad or neem on young larvae; nuclear polyhedrosis virus (NPV) where available.
+  - Encourage birds and parasitic wasps.
+  pathogen: Pieris canidia
+  prevention:
+  - Scout weekly; pheromone or light traps for early warning.
+  spread: Moths or butterflies lay eggs on leaves; several generations per season; outbreaks after warm, wet spells.
+  symptoms: Leaves chewed from the edges or skeletonised, sometimes rolled or webbed; green or brown caterpillars
+    and droppings on the plant.
+  type: Insect pest (leaf-eating caterpillar)
+Chilli thrips:
+  chemical:
+  - Registered insecticides (e.g. spinetoram, fipronil where allowed) when damage starts; rotate modes of action.
+  cultural:
+  - Overhead irrigation or mulch to reduce populations; remove weeds.
+  organic:
+  - Blue sticky traps; spinosad, neem or predatory mites (Amblyseius).
+  pathogen: Scirtothrips dorsalis
+  prevention:
+  - Scout flowers and young leaves; clean transplants.
+  spread: Tiny insects carried by wind; pupate in soil; worse in hot, dry weather.
+  symptoms: Silvery or bronze streaks and tiny black dots on leaves; young leaves curl upward; flowers and fruit
+    scarred.
+  type: Insect pest (thrips)
+Chinese citrus fly:
+  chemical:
+  - Registered bait sprays applied to foliage spots, not whole trees.
+  cultural:
+  - Collect and destroy fallen and infested fruit daily (bury deep or seal in bags).
+  - Harvest promptly; plough under trees to expose pupae.
+  organic:
+  - Protein bait sprays with spinosad; male-annihilation traps (methyl eugenol or cue-lure); fruit bagging.
+  pathogen: Bactrocera minax
+  prevention:
+  - Area-wide trapping with neighbours; orchard sanitation every season.
+  spread: Adult flies lay eggs under the skin of ripening fruit; larvae pupate in the soil below the tree.
+  symptoms: Small puncture marks on fruit skin; fruit rot and drop early; maggots inside the flesh.
+  type: Insect pest (fruit fly)
+Citrus leafminer:
+  chemical:
+  - Registered translaminar insecticides (e.g. abamectin, cyromazine) at early mining.
+  cultural:
+  - Pick and destroy mined leaves early; remove weeds and residue.
+  organic:
+  - Yellow sticky traps; neem; conserve parasitic wasps.
+  pathogen: Phyllocnistis citrella
+  prevention:
+  - Monitor young leaves; avoid broad-spectrum sprays that kill parasitoids.
+  spread: Small flies or moths lay eggs in leaves; many short generations.
+  symptoms: Winding white or silvery tunnels (mines) or blotches inside leaves; heavily mined leaves dry up.
+  type: Insect pest (leaf miner)
+Citrus red mite:
+  chemical:
+  - Registered acaricides (e.g. abamectin, spiromesifen, hexythiazox) at early infestation; rotate.
+  cultural:
+  - Keep plants well watered; reduce dust; remove badly infested leaves.
+  organic:
+  - Wettable sulphur (check crop safety), neem or horticultural oil; release predatory mites.
+  pathogen: Panonychus citri
+  prevention:
+  - Avoid unnecessary broad-spectrum insecticides; check leaf undersides weekly in dry weather.
+  spread: Mites drift on wind and on tools or clothing; explode in hot, dry, dusty weather and after insecticides
+    kill their predators.
+  symptoms: Fine yellow or bronze speckling on leaves, sometimes fine webbing underneath; leaves dry and drop. Some
+    mites cause galls, felt patches or rusty fruit.
+  type: Mite pest
+Citrus rust mite:
+  chemical:
+  - Registered acaricides (e.g. abamectin, spiromesifen, hexythiazox) at early infestation; rotate.
+  cultural:
+  - Keep plants well watered; reduce dust; remove badly infested leaves.
+  organic:
+  - Wettable sulphur (check crop safety), neem or horticultural oil; release predatory mites.
+  pathogen: Phyllocoptruta oleivora
+  prevention:
+  - Avoid unnecessary broad-spectrum insecticides; check leaf undersides weekly in dry weather.
+  spread: Mites drift on wind and on tools or clothing; explode in hot, dry, dusty weather and after insecticides
+    kill their predators.
+  symptoms: Fine yellow or bronze speckling on leaves, sometimes fine webbing underneath; leaves dry and drop. Some
+    mites cause galls, felt patches or rusty fruit.
+  type: Mite pest
+Citrus swallowtail caterpillar:
+  chemical:
+  - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole, indoxacarb) when larvae pass the local
+    threshold; rotate modes of action.
+  cultural:
+  - Hand-pick caterpillars and egg masses in small plots; remove weeds that host them.
+  - Plough or flood after harvest to kill pupae in the soil.
+  organic:
+  - Bacillus thuringiensis, spinosad or neem on young larvae; nuclear polyhedrosis virus (NPV) where available.
+  - Encourage birds and parasitic wasps.
+  pathogen: Papilio xuthus
+  prevention:
+  - Scout weekly; pheromone or light traps for early warning.
+  spread: Moths or butterflies lay eggs on leaves; several generations per season; outbreaks after warm, wet spells.
+  symptoms: Leaves chewed from the edges or skeletonised, sometimes rolled or webbed; green or brown caterpillars
+    and droppings on the plant.
+  type: Insect pest (leaf-eating caterpillar)
+Cottony cushion scale:
+  chemical:
+  - Registered systemic insecticides (e.g. spirotetramat, buprofezin) at crawler emergence.
+  cultural:
+  - Prune and destroy heavily infested twigs; control ants that protect scales.
+  organic:
+  - Horticultural oil sprays at crawler stage; conserve ladybird beetles and parasitoid wasps (e.g. Rodolia for
+    cottony cushion scale).
+  pathogen: Icerya purchasi
+  prevention:
+  - Inspect new plants; keep trees vigorous and dust-free.
+  spread: Crawlers move to new growth and are carried by wind, ants, birds and nursery stock.
+  symptoms: Small shell-like, waxy or cottony insects fixed on leaves, twigs and fruit; yellowing, honeydew and
+    sooty mould; twig die-back.
+  type: Insect pest (scale insect / mealybug)
+English grain aphid:
+  chemical:
+  - Registered selective aphicides (e.g. flonicamid, pirimicarb) when colonies pass the threshold.
+  cultural:
+  - Remove heavily infested shoots; avoid excess nitrogen; control weeds.
+  - Strong water sprays on small plants.
+  organic:
+  - Insecticidal soap, neem or mineral oil; conserve ladybirds, lacewings and parasitic wasps.
+  pathogen: Sitobion avenae
+  prevention:
+  - Monitor with yellow sticky traps; protect natural enemies by avoiding broad-spectrum sprays.
+  spread: Winged forms fly between plants; populations grow very fast in mild, dry weather.
+  symptoms: Clusters of small soft insects on young leaves, shoots or ears; leaves curl and yellow; sticky honeydew
+    and black sooty mould. Many aphids spread viruses.
+  type: Insect pest (aphid)
+Flat mite:
+  chemical:
+  - Registered acaricides (e.g. abamectin, spiromesifen, hexythiazox) at early infestation; rotate.
+  cultural:
+  - Keep plants well watered; reduce dust; remove badly infested leaves.
+  organic:
+  - Wettable sulphur (check crop safety), neem or horticultural oil; release predatory mites.
+  pathogen: Brevipalpus lewisi
+  prevention:
+  - Avoid unnecessary broad-spectrum insecticides; check leaf undersides weekly in dry weather.
+  spread: Mites drift on wind and on tools or clothing; explode in hot, dry, dusty weather and after insecticides
+    kill their predators.
+  symptoms: Fine yellow or bronze speckling on leaves, sometimes fine webbing underneath; leaves dry and drop. Some
+    mites cause galls, felt patches or rusty fruit.
+  type: Mite pest
+Flatid planthopper:
+  chemical:
+  - Registered systemic insecticides (e.g. pymetrozine, dinotefuran) only above the local threshold; avoid pyrethroids
+    that cause resurgence.
+  cultural:
+  - Avoid excess nitrogen and very dense planting; drain rice fields periodically.
+  - Remove weeds and volunteer plants that host hoppers.
+  organic:
+  - Conserve spiders, mirid predators and parasitoids; light traps; neem.
+  pathogen: Lawana imitata
+  prevention:
+  - Resistant varieties; synchronised planting; regular scouting at the plant base.
+  spread: Adults fly or are carried by wind between fields; populations explode with dense crops and excess nitrogen.
+  symptoms: Leaves yellow or mottled from sap feeding; honeydew and sooty mould; heavy attacks cause "hopper burn"
+    (patches of dried plants). Some species transmit viruses.
+  type: Insect pest (planthopper / leafhopper)
+Flax budworm:
+  chemical:
+  - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole, indoxacarb) when larvae pass the local
+    threshold; rotate modes of action.
+  cultural:
+  - Hand-pick caterpillars and egg masses in small plots; remove weeds that host them.
+  - Plough or flood after harvest to kill pupae in the soil.
+  organic:
+  - Bacillus thuringiensis, spinosad or neem on young larvae; nuclear polyhedrosis virus (NPV) where available.
+  - Encourage birds and parasitic wasps.
+  pathogen: Heliothis viriplaca
+  prevention:
+  - Scout weekly; pheromone or light traps for early warning.
+  spread: Moths or butterflies lay eggs on leaves; several generations per season; outbreaks after warm, wet spells.
+  symptoms: Leaves chewed from the edges or skeletonised, sometimes rolled or webbed; green or brown caterpillars
+    and droppings on the plant.
+  type: Insect pest (leaf-eating caterpillar)
+Florida red scale:
+  chemical:
+  - Registered systemic insecticides (e.g. spirotetramat, buprofezin) at crawler emergence.
+  cultural:
+  - Prune and destroy heavily infested twigs; control ants that protect scales.
+  organic:
+  - Horticultural oil sprays at crawler stage; conserve ladybird beetles and parasitoid wasps (e.g. Rodolia for
+    cottony cushion scale).
+  pathogen: Chrysomphalus aonidum
+  prevention:
+  - Inspect new plants; keep trees vigorous and dust-free.
+  spread: Crawlers move to new growth and are carried by wind, ants, birds and nursery stock.
+  symptoms: Small shell-like, waxy or cottony insects fixed on leaves, twigs and fruit; yellowing, honeydew and
+    sooty mould; twig die-back.
+  type: Insect pest (scale insect / mealybug)
+Fruit-piercing moth:
+  chemical:
+  - Sprays are generally ineffective; focus on bagging and traps.
+  cultural:
+  - Bag fruit; collect fallen fruit; remove larval host weeds and vines around the orchard.
+  organic:
+  - Light traps and fruit bagging; smoke or lights at night in small orchards.
+  pathogen: Eudocima (Adris) tyrannus
+  prevention:
+  - Early harvest of susceptible varieties; area-wide host control.
+  spread: Adults fly in at night from forest edges; larvae feed on weeds and vines.
+  symptoms: Night-flying moths pierce ripening fruit; small holes lead to rot and fruit drop.
+  type: Insect pest (fruit-piercing moth)
+Grape clearwing moth:
+  chemical:
+  - Inject or swab registered insecticide into active holes and seal; protective trunk sprays at adult emergence.
+  cultural:
+  - Prune and burn infested branches or canes below the damage; keep trees vigorous.
+  - Kill larvae in tunnels with a wire probe.
+  organic:
+  - Plug cleaned holes with cotton soaked in neem oil; entomopathogenic nematodes into tunnels.
+  pathogen: Parathrene regalis
+  prevention:
+  - Avoid bark wounds, remove dead wood, and inspect trunks regularly.
+  spread: Adults lay eggs in bark cracks or wounds; larvae feed inside the wood for months.
+  symptoms: Holes in trunks, canes or branches with sawdust-like frass or sap; shoots or whole branches wilt and
+    die back.
+  type: Insect pest (wood-boring beetle or moth)
+Grape erineum mite:
+  chemical:
+  - Registered acaricides (e.g. abamectin, spiromesifen, hexythiazox) at early infestation; rotate.
+  cultural:
+  - Keep plants well watered; reduce dust; remove badly infested leaves.
+  organic:
+  - Wettable sulphur (check crop safety), neem or horticultural oil; release predatory mites.
+  pathogen: Colomerus vitis
+  prevention:
+  - Avoid unnecessary broad-spectrum insecticides; check leaf undersides weekly in dry weather.
+  spread: Mites drift on wind and on tools or clothing; explode in hot, dry, dusty weather and after insecticides
+    kill their predators.
+  symptoms: Fine yellow or bronze speckling on leaves, sometimes fine webbing underneath; leaves dry and drop. Some
+    mites cause galls, felt patches or rusty fruit.
+  type: Mite pest
+Grape hornworm:
+  chemical:
+  - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole, indoxacarb) when larvae pass the local
+    threshold; rotate modes of action.
+  cultural:
+  - Hand-pick caterpillars and egg masses in small plots; remove weeds that host them.
+  - Plough or flood after harvest to kill pupae in the soil.
+  organic:
+  - Bacillus thuringiensis, spinosad or neem on young larvae; nuclear polyhedrosis virus (NPV) where available.
+  - Encourage birds and parasitic wasps.
+  pathogen: Ampelophaga rubiginosa
+  prevention:
+  - Scout weekly; pheromone or light traps for early warning.
+  spread: Moths or butterflies lay eggs on leaves; several generations per season; outbreaks after warm, wet spells.
+  symptoms: Leaves chewed from the edges or skeletonised, sometimes rolled or webbed; green or brown caterpillars
+    and droppings on the plant.
+  type: Insect pest (leaf-eating caterpillar)
+Grape leaf beetle:
+  chemical:
+  - Registered contact insecticides on adults when numbers are high; soil application for grubs where justified.
+  cultural:
+  - Hand-collect adults in the morning; plough to expose grubs; use well-rotted manure only.
+  organic:
+  - Light traps for adults; neem; Metarhizium or Beauveria for soil grubs.
+  pathogen: Oides decempunctata
+  prevention:
+  - Monitor at flowering; avoid planting next to heavily infested fields.
+  spread: Adults fly in from field edges; grubs live in soil rich in manure or organic matter.
+  symptoms: Holes or shot-holes in leaves, flowers or fruit; adults feed in groups; white C-shaped grubs of chafers
+    damage roots.
+  type: Insect pest (leaf beetle / chafer)
+Grape leafhopper:
+  chemical:
+  - Registered systemic insecticides (e.g. pymetrozine, dinotefuran) only above the local threshold; avoid pyrethroids
+    that cause resurgence.
+  cultural:
+  - Avoid excess nitrogen and very dense planting; drain rice fields periodically.
+  - Remove weeds and volunteer plants that host hoppers.
+  organic:
+  - Conserve spiders, mirid predators and parasitoids; light traps; neem.
+  pathogen: Erythroneura apicalis
+  prevention:
+  - Resistant varieties; synchronised planting; regular scouting at the plant base.
+  spread: Adults fly or are carried by wind between fields; populations explode with dense crops and excess nitrogen.
+  symptoms: Leaves yellow or mottled from sap feeding; honeydew and sooty mould; heavy attacks cause "hopper burn"
+    (patches of dried plants). Some species transmit viruses.
+  type: Insect pest (planthopper / leafhopper)
+Grape phylloxera:
+  chemical:
+  - Leaf-gall sprays rarely needed; no effective root control.
+  cultural:
+  - Plant on resistant rootstocks — the only lasting control.
+  organic:
+  - Clean planting material; disinfect equipment between vineyards.
+  pathogen: Daktulosphaira (Viteus) vitifoliae
+  prevention:
+  - Resistant rootstocks and certified planting material.
+  spread: Crawlers move through soil cracks and on planting material and machinery.
+  symptoms: Small wart-like galls on the underside of grape leaves; on roots, swellings that decline the vine over
+    years.
+  type: Insect pest (grape phylloxera)
+Grape trunk borer:
+  chemical:
+  - Inject or swab registered insecticide into active holes and seal; protective trunk sprays at adult emergence.
+  cultural:
+  - Prune and burn infested branches or canes below the damage; keep trees vigorous.
+  - Kill larvae in tunnels with a wire probe.
+  organic:
+  - Plug cleaned holes with cotton soaked in neem oil; entomopathogenic nematodes into tunnels.
+  pathogen: Xylotrechus pyrrhoderus
+  prevention:
+  - Avoid bark wounds, remove dead wood, and inspect trunks regularly.
+  spread: Adults lay eggs in bark cracks or wounds; larvae feed inside the wood for months.
+  symptoms: Holes in trunks, canes or branches with sawdust-like frass or sap; shoots or whole branches wilt and
+    die back.
+  type: Insect pest (wood-boring beetle or moth)
+Grasshoppers and locusts:
+  chemical:
+  - Baits or sprays when nymphs are young; locust swarms are handled by national plant-protection services.
+  cultural:
+  - Till egg-laying sites; mow field margins.
+  organic:
+  - Metarhizium acridum biopesticide; poultry in small plots.
+  pathogen: Acridoidea (Locustoidea)
+  prevention:
+  - Monitor field edges early in the season; report swarms.
+  spread: Hatch from eggs in uncultivated soil; adults fly between fields; locust swarms travel long distances.
+  symptoms: Large irregular bites from leaf edges, sometimes complete defoliation in swarms.
+  type: Insect pest (grasshopper / locust)
+Green blister beetle:
+  chemical:
+  - Registered contact insecticides when swarms damage flowers; never feed infested hay to livestock (toxic).
+  cultural:
+  - Shake beetles into a bucket of soapy water using gloves; mow field borders.
+  organic:
+  - Neem or kaolin clay sprays; control grasshopper populations.
+  pathogen: Lytta polita
+  prevention:
+  - Cut forage before flowering in risk areas; scout field edges.
+  spread: Adults fly in swarms; larvae feed on grasshopper eggs in the soil.
+  symptoms: Groups of long, soft-bodied beetles eating flowers and leaves; sudden defoliation in patches. The beetles
+    release a blistering chemical — do not handle them with bare hands.
+  type: Insect pest (blister beetle)
+Green broad-winged planthopper:
+  chemical:
+  - Registered systemic insecticides (e.g. pymetrozine, dinotefuran) only above the local threshold; avoid pyrethroids
+    that cause resurgence.
+  cultural:
+  - Avoid excess nitrogen and very dense planting; drain rice fields periodically.
+  - Remove weeds and volunteer plants that host hoppers.
+  organic:
+  - Conserve spiders, mirid predators and parasitoids; light traps; neem.
+  pathogen: Salurnis marginella
+  prevention:
+  - Resistant varieties; synchronised planting; regular scouting at the plant base.
+  spread: Adults fly or are carried by wind between fields; populations explode with dense crops and excess nitrogen.
+  symptoms: Leaves yellow or mottled from sap feeding; honeydew and sooty mould; heavy attacks cause "hopper burn"
+    (patches of dried plants). Some species transmit viruses.
+  type: Insect pest (planthopper / leafhopper)
+Green citrus aphid:
+  chemical:
+  - Registered selective aphicides (e.g. flonicamid, pirimicarb) when colonies pass the threshold.
+  cultural:
+  - Remove heavily infested shoots; avoid excess nitrogen; control weeds.
+  - Strong water sprays on small plants.
+  organic:
+  - Insecticidal soap, neem or mineral oil; conserve ladybirds, lacewings and parasitic wasps.
+  pathogen: Aphis spiraecola (citricola)
+  prevention:
+  - Monitor with yellow sticky traps; protect natural enemies by avoiding broad-spectrum sprays.
+  spread: Winged forms fly between plants; populations grow very fast in mild, dry weather.
+  symptoms: Clusters of small soft insects on young leaves, shoots or ears; leaves curl and yellow; sticky honeydew
+    and black sooty mould. Many aphids spread viruses.
+  type: Insect pest (aphid)
+Green leafhopper:
+  chemical:
+  - Registered systemic insecticides (e.g. pymetrozine, dinotefuran) only above the local threshold; avoid pyrethroids
+    that cause resurgence.
+  cultural:
+  - Avoid excess nitrogen and very dense planting; drain rice fields periodically.
+  - Remove weeds and volunteer plants that host hoppers.
+  organic:
+  - Conserve spiders, mirid predators and parasitoids; light traps; neem.
+  pathogen: Cicadella viridis
+  prevention:
+  - Resistant varieties; synchronised planting; regular scouting at the plant base.
+  spread: Adults fly or are carried by wind between fields; populations explode with dense crops and excess nitrogen.
+  symptoms: Leaves yellow or mottled from sap feeding; honeydew and sooty mould; heavy attacks cause "hopper burn"
+    (patches of dried plants). Some species transmit viruses.
+  type: Insect pest (planthopper / leafhopper)
+Greenbug:
+  chemical:
+  - Registered selective aphicides (e.g. flonicamid, pirimicarb) when colonies pass the threshold.
+  cultural:
+  - Remove heavily infested shoots; avoid excess nitrogen; control weeds.
+  - Strong water sprays on small plants.
+  organic:
+  - Insecticidal soap, neem or mineral oil; conserve ladybirds, lacewings and parasitic wasps.
+  pathogen: Schizaphis graminum
+  prevention:
+  - Monitor with yellow sticky traps; protect natural enemies by avoiding broad-spectrum sprays.
+  spread: Winged forms fly between plants; populations grow very fast in mild, dry weather.
+  symptoms: Clusters of small soft insects on young leaves, shoots or ears; leaves curl and yellow; sticky honeydew
+    and black sooty mould. Many aphids spread viruses.
+  type: Insect pest (aphid)
+Greenhouse whitefly:
+  chemical:
+  - Registered insecticides (e.g. pyriproxyfen, spirotetramat) when numbers pass the threshold; rotate.
+  cultural:
+  - Remove weeds and old crop; use insect netting in nurseries.
+  organic:
+  - Yellow sticky traps; insecticidal soap, neem; Encarsia formosa parasitoids in greenhouses.
+  pathogen: Trialeurodes vaporariorum
+  prevention:
+  - Clean transplants; crop-free periods to break the cycle.
+  spread: Adults fly between plants; very fast build-up in warm, sheltered conditions and greenhouses.
+  symptoms: Tiny white flying insects under leaves that rise when disturbed; yellowing, honeydew and sooty mould;
+    some spread viruses.
+  type: Insect pest (whitefly)
+Japanese orange fly:
+  chemical:
+  - Registered bait sprays applied to foliage spots, not whole trees.
+  cultural:
+  - Collect and destroy fallen and infested fruit daily (bury deep or seal in bags).
+  - Harvest promptly; plough under trees to expose pupae.
+  organic:
+  - Protein bait sprays with spinosad; male-annihilation traps (methyl eugenol or cue-lure); fruit bagging.
+  pathogen: Bactrocera tsuneonis
+  prevention:
+  - Area-wide trapping with neighbours; orchard sanitation every season.
+  spread: Adult flies lay eggs under the skin of ripening fruit; larvae pupate in the soil below the tree.
+  symptoms: Small puncture marks on fruit skin; fruit rot and drop early; maggots inside the flesh.
+  type: Insect pest (fruit fly)
+Large cutworm:
+  chemical:
+  - Poison baits or soil-directed sprays of registered insecticides in the evening.
+  cultural:
+  - Clean weeds 2 weeks before planting; dig around cut plants at dawn and destroy larvae.
+  - Collar transplants with paper or plastic rings.
+  organic:
+  - Baits of bran with Bacillus thuringiensis; entomopathogenic nematodes.
+  pathogen: Agrotis tokionis
+  prevention:
+  - Deep ploughing, weed-free seedbeds, and pheromone traps for moth flights.
+  spread: Moths lay eggs on weeds and crop residue before planting; larvae hide in soil by day.
+  symptoms: Seedlings cut off at soil level overnight; grey-brown caterpillars curl into a C-shape in the soil nearby.
+  type: Insect pest (cutworm)
+Leafhoppers:
+  chemical:
+  - Registered systemic insecticides (e.g. pymetrozine, dinotefuran) only above the local threshold; avoid pyrethroids
+    that cause resurgence.
+  cultural:
+  - Avoid excess nitrogen and very dense planting; drain rice fields periodically.
+  - Remove weeds and volunteer plants that host hoppers.
+  organic:
+  - Conserve spiders, mirid predators and parasitoids; light traps; neem.
+  pathogen: Cicadellidae
+  prevention:
+  - Resistant varieties; synchronised planting; regular scouting at the plant base.
+  spread: Adults fly or are carried by wind between fields; populations explode with dense crops and excess nitrogen.
+  symptoms: Leaves yellow or mottled from sap feeding; honeydew and sooty mould; heavy attacks cause "hopper burn"
+    (patches of dried plants). Some species transmit viruses.
+  type: Insect pest (planthopper / leafhopper)
+Legume blister beetle:
+  chemical:
+  - Registered contact insecticides when swarms damage flowers; never feed infested hay to livestock (toxic).
+  cultural:
+  - Shake beetles into a bucket of soapy water using gloves; mow field borders.
+  organic:
+  - Neem or kaolin clay sprays; control grasshopper populations.
+  pathogen: Epicauta gorhami
+  prevention:
+  - Cut forage before flowering in risk areas; scout field edges.
+  spread: Adults fly in swarms; larvae feed on grasshopper eggs in the soil.
+  symptoms: Groups of long, soft-bodied beetles eating flowers and leaves; sudden defoliation in patches. The beetles
+    release a blistering chemical — do not handle them with bare hands.
+  type: Insect pest (blister beetle)
+Mango hopper:
+  chemical:
+  - Registered systemic insecticides (e.g. pymetrozine, dinotefuran) only above the local threshold; avoid pyrethroids
+    that cause resurgence.
+  cultural:
+  - Avoid excess nitrogen and very dense planting; drain rice fields periodically.
+  - Remove weeds and volunteer plants that host hoppers.
+  organic:
+  - Conserve spiders, mirid predators and parasitoids; light traps; neem.
+  pathogen: Idioscopus clypealis
+  prevention:
+  - Resistant varieties; synchronised planting; regular scouting at the plant base.
+  spread: Adults fly or are carried by wind between fields; populations explode with dense crops and excess nitrogen.
+  symptoms: Leaves yellow or mottled from sap feeding; honeydew and sooty mould; heavy attacks cause "hopper burn"
+    (patches of dried plants). Some species transmit viruses.
+  type: Insect pest (planthopper / leafhopper)
+Mango pulp weevil:
+  chemical:
+  - Registered insecticides at adult emergence or egg-laying, guided by local monitoring.
+  cultural:
+  - Rotate crops; remove crop residue and volunteer plants; collect and destroy infested fruit or seed.
+  organic:
+  - Entomopathogenic fungi (Beauveria) or nematodes; neem.
+  pathogen: Sternochetus frigidus
+  prevention:
+  - Clean planting material and timely sowing.
+  spread: Adults walk or fly in from field margins; larvae develop in soil or inside plant tissue.
+  symptoms: Notches or holes chewed in leaves, buds or roots; larvae feed inside roots, stems, seeds or fruit.
+  type: Insect pest (weevil)
+Mango shoot borer:
+  chemical:
+  - Registered systemic insecticides (e.g. chlorantraniliprole, flubendiamide) at egg hatch when traps or dead hearts
+    pass the local threshold.
+  cultural:
+  - Remove and destroy egg masses and dead hearts; cut stubble close to the ground after harvest.
+  - Avoid excess nitrogen; synchronise planting with neighbours.
+  organic:
+  - Release Trichogramma egg parasitoids; pheromone traps for monitoring and mass trapping.
+  - Bacillus thuringiensis or neem when larvae hatch.
+  pathogen: Chlumetia transversa
+  prevention:
+  - Tolerant varieties, field sanitation, light or pheromone traps for early warning.
+  spread: Moths lay egg masses on leaves; larvae bore in within days. Stubble and volunteer plants carry the next
+    generation.
+  symptoms: Caterpillars tunnel inside stems; the central shoot dries ("dead heart") in young plants, and heads
+    or panicles turn white and empty later; small holes and frass on stems.
+  type: Insect pest (stem borer)
+Mango stem borer:
+  chemical:
+  - Inject or swab registered insecticide into active holes and seal; protective trunk sprays at adult emergence.
+  cultural:
+  - Prune and burn infested branches or canes below the damage; keep trees vigorous.
+  - Kill larvae in tunnels with a wire probe.
+  organic:
+  - Plug cleaned holes with cotton soaked in neem oil; entomopathogenic nematodes into tunnels.
+  pathogen: Rhytidodera bowringii
+  prevention:
+  - Avoid bark wounds, remove dead wood, and inspect trunks regularly.
+  spread: Adults lay eggs in bark cracks or wounds; larvae feed inside the wood for months.
+  symptoms: Holes in trunks, canes or branches with sawdust-like frass or sap; shoots or whole branches wilt and
+    die back.
+  type: Insect pest (wood-boring beetle or moth)
+Mole cricket:
+  chemical:
+  - Registered seed treatments or soil-applied insecticides where damage history justifies it.
+  cultural:
+  - Deep ploughing to expose larvae to birds; avoid planting right after grassland; good drainage.
+  organic:
+  - Entomopathogenic nematodes or Metarhizium; light traps for adults.
+  pathogen: Gryllotalpa spp.
+  prevention:
+  - Monitor with bait traps before planting; rotate crops.
+  spread: Live in soil for months or years, especially after grass or pasture; adults fly at night.
+  symptoms: Seedlings wilt, are cut or pulled down; roots, tubers or seeds chewed or tunnelled; patchy stand.
+  type: Insect pest (soil-dwelling)
+Oriental armyworm:
+  chemical:
+  - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole, indoxacarb) when larvae pass the local
+    threshold; rotate modes of action.
+  cultural:
+  - Hand-pick caterpillars and egg masses in small plots; remove weeds that host them.
+  - Plough or flood after harvest to kill pupae in the soil.
+  organic:
+  - Bacillus thuringiensis, spinosad or neem on young larvae; nuclear polyhedrosis virus (NPV) where available.
+  - Encourage birds and parasitic wasps.
+  pathogen: Mythimna separata
+  prevention:
+  - Scout weekly; pheromone or light traps for early warning.
+  spread: Moths or butterflies lay eggs on leaves; several generations per season; outbreaks after warm, wet spells.
+  symptoms: Leaves chewed from the edges or skeletonised, sometimes rolled or webbed; green or brown caterpillars
+    and droppings on the plant.
+  type: Insect pest (leaf-eating caterpillar)
+Oriental chafer:
+  chemical:
+  - Registered contact insecticides on adults when numbers are high; soil application for grubs where justified.
+  cultural:
+  - Hand-collect adults in the morning; plough to expose grubs; use well-rotted manure only.
+  organic:
+  - Light traps for adults; neem; Metarhizium or Beauveria for soil grubs.
+  pathogen: Serica orientalis
+  prevention:
+  - Monitor at flowering; avoid planting next to heavily infested fields.
+  spread: Adults fly in from field edges; grubs live in soil rich in manure or organic matter.
+  symptoms: Holes or shot-holes in leaves, flowers or fruit; adults feed in groups; white C-shaped grubs of chafers
+    damage roots.
+  type: Insect pest (leaf beetle / chafer)
+Oriental fruit fly:
+  chemical:
+  - Registered bait sprays applied to foliage spots, not whole trees.
+  cultural:
+  - Collect and destroy fallen and infested fruit daily (bury deep or seal in bags).
+  - Harvest promptly; plough under trees to expose pupae.
+  organic:
+  - Protein bait sprays with spinosad; male-annihilation traps (methyl eugenol or cue-lure); fruit bagging.
+  pathogen: Bactrocera dorsalis
+  prevention:
+  - Area-wide trapping with neighbours; orchard sanitation every season.
+  spread: Adult flies lay eggs under the skin of ripening fruit; larvae pupate in the soil below the tree.
+  symptoms: Small puncture marks on fruit skin; fruit rot and drop early; maggots inside the flesh.
+  type: Insect pest (fruit fly)
+Paddy stem maggot:
+  chemical:
+  - Registered insecticides timed to adult flights at the susceptible stage.
+  cultural:
+  - Adjust sowing date so the susceptible stage avoids adult flights; plough residue; rotate crops.
+  organic:
+  - Conserve parasitoid wasps; remove and destroy galled shoots.
+  pathogen: Chlorops oryzae
+  prevention:
+  - Resistant varieties and monitoring traps.
+  spread: Small adult flies lay eggs at a susceptible crop stage; larvae overwinter in soil or residue.
+  symptoms: Galls or swellings on leaves, shoots or florets; maggots feed inside stems, leaves or developing grain,
+    causing shrivelled grain or dead shoots.
+  type: Insect pest (gall midge / fly larvae)
+Plant bugs (mirids):
+  chemical:
+  - Registered insecticides at bud stage when counts exceed the threshold.
+  cultural:
+  - Control weeds in and around the field; avoid planting next to alfalfa when it is cut.
+  organic:
+  - Neem; conserve predators; trap crops.
+  pathogen: Miridae
+  prevention:
+  - Scout buds and shoot tips with a beat tray or sweep net.
+  spread: Adults fly in from weeds and neighbouring crops; several generations per season.
+  symptoms: Small brown or black spots and holes on young leaves that tear as they expand; buds and young fruit
+    deformed or dropped.
+  type: Insect pest (plant bug / mirid)
+Red wax scale:
+  chemical:
+  - Registered systemic insecticides (e.g. spirotetramat, buprofezin) at crawler emergence.
+  cultural:
+  - Prune and destroy heavily infested twigs; control ants that protect scales.
+  organic:
+  - Horticultural oil sprays at crawler stage; conserve ladybird beetles and parasitoid wasps (e.g. Rodolia for
+    cottony cushion scale).
+  pathogen: Ceroplastes rubens
+  prevention:
+  - Inspect new plants; keep trees vigorous and dust-free.
+  spread: Crawlers move to new growth and are carried by wind, ants, birds and nursery stock.
+  symptoms: Small shell-like, waxy or cottony insects fixed on leaves, twigs and fruit; yellowing, honeydew and
+    sooty mould; twig die-back.
+  type: Insect pest (scale insect / mealybug)
+Rice gall midge:
+  chemical:
+  - Registered insecticides timed to adult flights at the susceptible stage.
+  cultural:
+  - Adjust sowing date so the susceptible stage avoids adult flights; plough residue; rotate crops.
+  organic:
+  - Conserve parasitoid wasps; remove and destroy galled shoots.
+  pathogen: Orseolia oryzae
+  prevention:
+  - Resistant varieties and monitoring traps.
+  spread: Small adult flies lay eggs at a susceptible crop stage; larvae overwinter in soil or residue.
+  symptoms: Galls or swellings on leaves, shoots or florets; maggots feed inside stems, leaves or developing grain,
+    causing shrivelled grain or dead shoots.
+  type: Insect pest (gall midge / fly larvae)
+Rice green leafhopper:
+  chemical:
+  - Registered systemic insecticides (e.g. pymetrozine, dinotefuran) only above the local threshold; avoid pyrethroids
+    that cause resurgence.
+  cultural:
+  - Avoid excess nitrogen and very dense planting; drain rice fields periodically.
+  - Remove weeds and volunteer plants that host hoppers.
+  organic:
+  - Conserve spiders, mirid predators and parasitoids; light traps; neem.
+  pathogen: Nephotettix spp.
+  prevention:
+  - Resistant varieties; synchronised planting; regular scouting at the plant base.
+  spread: Adults fly or are carried by wind between fields; populations explode with dense crops and excess nitrogen.
+  symptoms: Leaves yellow or mottled from sap feeding; honeydew and sooty mould; heavy attacks cause "hopper burn"
+    (patches of dried plants). Some species transmit viruses.
+  type: Insect pest (planthopper / leafhopper)
+Rice leaf caterpillar:
+  chemical:
+  - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole, indoxacarb) when larvae pass the local
+    threshold; rotate modes of action.
+  cultural:
+  - Hand-pick caterpillars and egg masses in small plots; remove weeds that host them.
+  - Plough or flood after harvest to kill pupae in the soil.
+  organic:
+  - Bacillus thuringiensis, spinosad or neem on young larvae; nuclear polyhedrosis virus (NPV) where available.
+  - Encourage birds and parasitic wasps.
+  pathogen: Naranga aenescens / Mythimna spp.
+  prevention:
+  - Scout weekly; pheromone or light traps for early warning.
+  spread: Moths or butterflies lay eggs on leaves; several generations per season; outbreaks after warm, wet spells.
+  symptoms: Leaves chewed from the edges or skeletonised, sometimes rolled or webbed; green or brown caterpillars
+    and droppings on the plant.
+  type: Insect pest (leaf-eating caterpillar)
+Rice shell pest:
+  chemical:
+  - Registered insecticides at bud stage when counts exceed the threshold.
+  cultural:
+  - Control weeds in and around the field; avoid planting next to alfalfa when it is cut.
+  organic:
+  - Neem; conserve predators; trap crops.
+  pathogen: Rice ear-feeding bugs and moths
+  prevention:
+  - Scout buds and shoot tips with a beat tray or sweep net.
+  spread: Adults fly in from weeds and neighbouring crops; several generations per season.
+  symptoms: Small brown or black spots and holes on young leaves that tear as they expand; buds and young fruit
+    deformed or dropped.
+  type: Insect pest (plant bug / mirid)
+Rice stem fly:
+  chemical:
+  - Registered insecticides timed to adult flights at the susceptible stage.
+  cultural:
+  - Adjust sowing date so the susceptible stage avoids adult flights; plough residue; rotate crops.
+  organic:
+  - Conserve parasitoid wasps; remove and destroy galled shoots.
+  pathogen: Chlorops / Hydrellia spp.
+  prevention:
+  - Resistant varieties and monitoring traps.
+  spread: Small adult flies lay eggs at a susceptible crop stage; larvae overwinter in soil or residue.
+  symptoms: Galls or swellings on leaves, shoots or florets; maggots feed inside stems, leaves or developing grain,
+    causing shrivelled grain or dead shoots.
+  type: Insect pest (gall midge / fly larvae)
+Rice thrips:
+  chemical:
+  - Registered insecticides (e.g. spinetoram, fipronil where allowed) when damage starts; rotate modes of action.
+  cultural:
+  - Overhead irrigation or mulch to reduce populations; remove weeds.
+  organic:
+  - Blue sticky traps; spinosad, neem or predatory mites (Amblyseius).
+  pathogen: Stenchaetothrips biformis
+  prevention:
+  - Scout flowers and young leaves; clean transplants.
+  spread: Tiny insects carried by wind; pupate in soil; worse in hot, dry weather.
+  symptoms: Silvery or bronze streaks and tiny black dots on leaves; young leaves curl upward; flowers and fruit
+    scarred.
+  type: Insect pest (thrips)
+Rice water weevil:
+  chemical:
+  - Registered insecticides at adult emergence or egg-laying, guided by local monitoring.
+  cultural:
+  - Rotate crops; remove crop residue and volunteer plants; collect and destroy infested fruit or seed.
+  organic:
+  - Entomopathogenic fungi (Beauveria) or nematodes; neem.
+  pathogen: Lissorhoptrus oryzophilus
+  prevention:
+  - Clean planting material and timely sowing.
+  spread: Adults walk or fly in from field margins; larvae develop in soil or inside plant tissue.
+  symptoms: Notches or holes chewed in leaves, buds or roots; larvae feed inside roots, stems, seeds or fruit.
+  type: Insect pest (weevil)
+Slug caterpillars:
+  chemical:
+  - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole, indoxacarb) when larvae pass the local
+    threshold; rotate modes of action.
+  cultural:
+  - Hand-pick caterpillars and egg masses in small plots; remove weeds that host them.
+  - Plough or flood after harvest to kill pupae in the soil.
+  organic:
+  - Bacillus thuringiensis, spinosad or neem on young larvae; nuclear polyhedrosis virus (NPV) where available.
+  - Encourage birds and parasitic wasps.
+  pathogen: Limacodidae
+  prevention:
+  - Scout weekly; pheromone or light traps for early warning.
+  spread: Moths or butterflies lay eggs on leaves; several generations per season; outbreaks after warm, wet spells.
+  symptoms: Leaves chewed from the edges or skeletonised, sometimes rolled or webbed; green or brown caterpillars
+    and droppings on the plant.
+  type: Insect pest (leaf-eating caterpillar)
+Small brown planthopper:
+  chemical:
+  - Registered systemic insecticides (e.g. pymetrozine, dinotefuran) only above the local threshold; avoid pyrethroids
+    that cause resurgence.
+  cultural:
+  - Avoid excess nitrogen and very dense planting; drain rice fields periodically.
+  - Remove weeds and volunteer plants that host hoppers.
+  organic:
+  - Conserve spiders, mirid predators and parasitoids; light traps; neem.
+  pathogen: Laodelphax striatellus
+  prevention:
+  - Resistant varieties; synchronised planting; regular scouting at the plant base.
+  spread: Adults fly or are carried by wind between fields; populations explode with dense crops and excess nitrogen.
+  symptoms: Leaves yellow or mottled from sap feeding; honeydew and sooty mould; heavy attacks cause "hopper burn"
+    (patches of dried plants). Some species transmit viruses.
+  type: Insect pest (planthopper / leafhopper)
+Spherical mealybug:
+  chemical:
+  - Registered systemic insecticides (e.g. spirotetramat, buprofezin) at crawler emergence.
+  cultural:
+  - Prune and destroy heavily infested twigs; control ants that protect scales.
+  organic:
+  - Horticultural oil sprays at crawler stage; conserve ladybird beetles and parasitoid wasps (e.g. Rodolia for
+    cottony cushion scale).
+  pathogen: Nipaecoccus viridis (vastator)
+  prevention:
+  - Inspect new plants; keep trees vigorous and dust-free.
+  spread: Crawlers move to new growth and are carried by wind, ants, birds and nursery stock.
+  symptoms: Small shell-like, waxy or cottony insects fixed on leaves, twigs and fruit; yellowing, honeydew and
+    sooty mould; twig die-back.
+  type: Insect pest (scale insect / mealybug)
+Spotted alfalfa aphid:
+  chemical:
+  - Registered selective aphicides (e.g. flonicamid, pirimicarb) when colonies pass the threshold.
+  cultural:
+  - Remove heavily infested shoots; avoid excess nitrogen; control weeds.
+  - Strong water sprays on small plants.
+  organic:
+  - Insecticidal soap, neem or mineral oil; conserve ladybirds, lacewings and parasitic wasps.
+  pathogen: Therioaphis maculata
+  prevention:
+  - Monitor with yellow sticky traps; protect natural enemies by avoiding broad-spectrum sprays.
+  spread: Winged forms fly between plants; populations grow very fast in mild, dry weather.
+  symptoms: Clusters of small soft insects on young leaves, shoots or ears; leaves curl and yellow; sticky honeydew
+    and black sooty mould. Many aphids spread viruses.
+  type: Insect pest (aphid)
+Spotted lanternfly:
+  chemical:
+  - Registered systemic insecticides (e.g. pymetrozine, dinotefuran) only above the local threshold; avoid pyrethroids
+    that cause resurgence.
+  cultural:
+  - Avoid excess nitrogen and very dense planting; drain rice fields periodically.
+  - Remove weeds and volunteer plants that host hoppers.
+  organic:
+  - Conserve spiders, mirid predators and parasitoids; light traps; neem.
+  pathogen: Lycorma delicatula
+  prevention:
+  - Resistant varieties; synchronised planting; regular scouting at the plant base.
+  spread: Adults fly or are carried by wind between fields; populations explode with dense crops and excess nitrogen.
+  symptoms: Leaves yellow or mottled from sap feeding; honeydew and sooty mould; heavy attacks cause "hopper burn"
+    (patches of dried plants). Some species transmit viruses.
+  type: Insect pest (planthopper / leafhopper)
+Tarnished plant bug:
+  chemical:
+  - Registered insecticides at bud stage when counts exceed the threshold.
+  cultural:
+  - Control weeds in and around the field; avoid planting next to alfalfa when it is cut.
+  organic:
+  - Neem; conserve predators; trap crops.
+  pathogen: Lygus lineolaris
+  prevention:
+  - Scout buds and shoot tips with a beat tray or sweep net.
+  spread: Adults fly in from weeds and neighbouring crops; several generations per season.
+  symptoms: Small brown or black spots and holes on young leaves that tear as they expand; buds and young fruit
+    deformed or dropped.
+  type: Insect pest (plant bug / mirid)
+Tobacco cutworm:
+  chemical:
+  - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole, indoxacarb) when larvae pass the local
+    threshold; rotate modes of action.
+  cultural:
+  - Hand-pick caterpillars and egg masses in small plots; remove weeds that host them.
+  - Plough or flood after harvest to kill pupae in the soil.
+  organic:
+  - Bacillus thuringiensis, spinosad or neem on young larvae; nuclear polyhedrosis virus (NPV) where available.
+  - Encourage birds and parasitic wasps.
+  pathogen: Spodoptera litura
+  prevention:
+  - Scout weekly; pheromone or light traps for early warning.
+  spread: Moths or butterflies lay eggs on leaves; several generations per season; outbreaks after warm, wet spells.
+  symptoms: Leaves chewed from the edges or skeletonised, sometimes rolled or webbed; green or brown caterpillars
+    and droppings on the plant.
+  type: Insect pest (leaf-eating caterpillar)
+Wheat blossom midge:
+  chemical:
+  - Registered insecticides timed to adult flights at the susceptible stage.
+  cultural:
+  - Adjust sowing date so the susceptible stage avoids adult flights; plough residue; rotate crops.
+  organic:
+  - Conserve parasitoid wasps; remove and destroy galled shoots.
+  pathogen: Sitodiplosis mosellana
+  prevention:
+  - Resistant varieties and monitoring traps.
+  spread: Small adult flies lay eggs at a susceptible crop stage; larvae overwinter in soil or residue.
+  symptoms: Galls or swellings on leaves, shoots or florets; maggots feed inside stems, leaves or developing grain,
+    causing shrivelled grain or dead shoots.
+  type: Insect pest (gall midge / fly larvae)
+Wheat leaf miner:
+  chemical:
+  - Registered translaminar insecticides (e.g. abamectin, cyromazine) at early mining.
+  cultural:
+  - Pick and destroy mined leaves early; remove weeds and residue.
+  organic:
+  - Yellow sticky traps; neem; conserve parasitic wasps.
+  pathogen: Cerodonta denticornis
+  prevention:
+  - Monitor young leaves; avoid broad-spectrum sprays that kill parasitoids.
+  spread: Small flies or moths lay eggs in leaves; many short generations.
+  symptoms: Winding white or silvery tunnels (mines) or blotches inside leaves; heavily mined leaves dry up.
+  type: Insect pest (leaf miner)
+Wheat sawfly:
+  chemical:
+  - Registered insecticides on young larvae when damage exceeds thresholds.
+  cultural:
+  - Plough stubble; rotate crops; hand-pick larvae in small plots.
+  organic:
+  - Conserve parasitoids; neem on young larvae.
+  pathogen: Dolerus / Cephus spp.
+  prevention:
+  - Resistant (solid-stem) varieties where available.
+  spread: Adults emerge from soil or stubble in spring.
+  symptoms: Caterpillar-like larvae eat leaves from the edges, or larvae inside stems cause lodging.
+  type: Insect pest (sawfly)
+Wheat thrips:
+  chemical:
+  - Registered insecticides (e.g. spinetoram, fipronil where allowed) when damage starts; rotate modes of action.
+  cultural:
+  - Overhead irrigation or mulch to reduce populations; remove weeds.
+  organic:
+  - Blue sticky traps; spinosad, neem or predatory mites (Amblyseius).
+  pathogen: Haplothrips tritici
+  prevention:
+  - Scout flowers and young leaves; clean transplants.
+  spread: Tiny insects carried by wind; pupate in soil; worse in hot, dry weather.
+  symptoms: Silvery or bronze streaks and tiny black dots on leaves; young leaves curl upward; flowers and fruit
+    scarred.
+  type: Insect pest (thrips)
+White grubs:
+  chemical:
+  - Registered seed treatments or soil-applied insecticides where damage history justifies it.
+  cultural:
+  - Deep ploughing to expose larvae to birds; avoid planting right after grassland; good drainage.
+  organic:
+  - Entomopathogenic nematodes or Metarhizium; light traps for adults.
+  pathogen: Holotrichia spp. and other chafer larvae
+  prevention:
+  - Monitor with bait traps before planting; rotate crops.
+  spread: Live in soil for months or years, especially after grass or pasture; adults fly at night.
+  symptoms: Seedlings wilt, are cut or pulled down; roots, tubers or seeds chewed or tunnelled; patchy stand.
+  type: Insect pest (soil-dwelling)
+White-backed planthopper:
+  chemical:
+  - Registered systemic insecticides (e.g. pymetrozine, dinotefuran) only above the local threshold; avoid pyrethroids
+    that cause resurgence.
+  cultural:
+  - Avoid excess nitrogen and very dense planting; drain rice fields periodically.
+  - Remove weeds and volunteer plants that host hoppers.
+  organic:
+  - Conserve spiders, mirid predators and parasitoids; light traps; neem.
+  pathogen: Sogatella furcifera
+  prevention:
+  - Resistant varieties; synchronised planting; regular scouting at the plant base.
+  spread: Adults fly or are carried by wind between fields; populations explode with dense crops and excess nitrogen.
+  symptoms: Leaves yellow or mottled from sap feeding; honeydew and sooty mould; heavy attacks cause "hopper burn"
+    (patches of dried plants). Some species transmit viruses.
+  type: Insect pest (planthopper / leafhopper)
+White-margined moth:
+  chemical:
+  - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole, indoxacarb) when larvae pass the local
+    threshold; rotate modes of action.
+  cultural:
+  - Hand-pick caterpillars and egg masses in small plots; remove weeds that host them.
+  - Plough or flood after harvest to kill pupae in the soil.
+  organic:
+  - Bacillus thuringiensis, spinosad or neem on young larvae; nuclear polyhedrosis virus (NPV) where available.
+  - Encourage birds and parasitic wasps.
+  pathogen: Noctuid moth larvae
+  prevention:
+  - Scout weekly; pheromone or light traps for early warning.
+  spread: Moths or butterflies lay eggs on leaves; several generations per season; outbreaks after warm, wet spells.
+  symptoms: Leaves chewed from the edges or skeletonised, sometimes rolled or webbed; green or brown caterpillars
+    and droppings on the plant.
+  type: Insect pest (leaf-eating caterpillar)
+White-spotted flower chafer:
+  chemical:
+  - Registered contact insecticides on adults when numbers are high; soil application for grubs where justified.
+  cultural:
+  - Hand-collect adults in the morning; plough to expose grubs; use well-rotted manure only.
+  organic:
+  - Light traps for adults; neem; Metarhizium or Beauveria for soil grubs.
+  pathogen: Protaetia brevitarsis
+  prevention:
+  - Monitor at flowering; avoid planting next to heavily infested fields.
+  spread: Adults fly in from field edges; grubs live in soil rich in manure or organic matter.
+  symptoms: Holes or shot-holes in leaves, flowers or fruit; adults feed in groups; white C-shaped grubs of chafers
+    damage roots.
+  type: Insect pest (leaf beetle / chafer)
+Winter grain mite:
+  chemical:
+  - Registered acaricides (e.g. abamectin, spiromesifen, hexythiazox) at early infestation; rotate.
+  cultural:
+  - Keep plants well watered; reduce dust; remove badly infested leaves.
+  organic:
+  - Wettable sulphur (check crop safety), neem or horticultural oil; release predatory mites.
+  pathogen: Penthaleus major
+  prevention:
+  - Avoid unnecessary broad-spectrum insecticides; check leaf undersides weekly in dry weather.
+  spread: Mites drift on wind and on tools or clothing; explode in hot, dry, dusty weather and after insecticides
+    kill their predators.
+  symptoms: Fine yellow or bronze speckling on leaves, sometimes fine webbing underneath; leaves dry and drop. Some
+    mites cause galls, felt patches or rusty fruit.
+  type: Mite pest
+Wireworms:
+  chemical:
+  - Registered seed treatments or soil-applied insecticides where damage history justifies it.
+  cultural:
+  - Deep ploughing to expose larvae to birds; avoid planting right after grassland; good drainage.
+  organic:
+  - Entomopathogenic nematodes or Metarhizium; light traps for adults.
+  pathogen: Click-beetle larvae (Elateridae)
+  prevention:
+  - Monitor with bait traps before planting; rotate crops.
+  spread: Live in soil for months or years, especially after grass or pasture; adults fly at night.
+  symptoms: Seedlings wilt, are cut or pulled down; roots, tubers or seeds chewed or tunnelled; patchy stand.
+  type: Insect pest (soil-dwelling)
+Yellow cutworm:
+  chemical:
+  - Poison baits or soil-directed sprays of registered insecticides in the evening.
+  cultural:
+  - Clean weeds 2 weeks before planting; dig around cut plants at dawn and destroy larvae.
+  - Collar transplants with paper or plastic rings.
+  organic:
+  - Baits of bran with Bacillus thuringiensis; entomopathogenic nematodes.
+  pathogen: Agrotis segetum
+  prevention:
+  - Deep ploughing, weed-free seedbeds, and pheromone traps for moth flights.
+  spread: Moths lay eggs on weeds and crop residue before planting; larvae hide in soil by day.
+  symptoms: Seedlings cut off at soil level overnight; grey-brown caterpillars curl into a C-shape in the soil nearby.
+  type: Insect pest (cutworm)
+Yellow peach moth:
+  chemical:
+  - Registered systemic insecticides (e.g. chlorantraniliprole, flubendiamide) at egg hatch when traps or dead hearts
+    pass the local threshold.
+  cultural:
+  - Remove and destroy egg masses and dead hearts; cut stubble close to the ground after harvest.
+  - Avoid excess nitrogen; synchronise planting with neighbours.
+  organic:
+  - Release Trichogramma egg parasitoids; pheromone traps for monitoring and mass trapping.
+  - Bacillus thuringiensis or neem when larvae hatch.
+  pathogen: Conogethes punctiferalis
+  prevention:
+  - Tolerant varieties, field sanitation, light or pheromone traps for early warning.
+  spread: Moths lay egg masses on leaves; larvae bore in within days. Stubble and volunteer plants carry the next
+    generation.
+  symptoms: Caterpillars tunnel inside stems; the central shoot dries ("dead heart") in young plants, and heads
+    or panicles turn white and empty later; small holes and frass on stems.
+  type: Insect pest (stem borer)
+Yellow stem borer:
+  chemical:
+  - Registered systemic insecticides (e.g. chlorantraniliprole, flubendiamide) at egg hatch when traps or dead hearts
+    pass the local threshold.
+  cultural:
+  - Remove and destroy egg masses and dead hearts; cut stubble close to the ground after harvest.
+  - Avoid excess nitrogen; synchronise planting with neighbours.
+  organic:
+  - Release Trichogramma egg parasitoids; pheromone traps for monitoring and mass trapping.
+  - Bacillus thuringiensis or neem when larvae hatch.
+  pathogen: Scirpophaga incertulas
+  prevention:
+  - Tolerant varieties, field sanitation, light or pheromone traps for early warning.
+  spread: Moths lay egg masses on leaves; larvae bore in within days. Stubble and volunteer plants carry the next
+    generation.
+  symptoms: Caterpillars tunnel inside stems; the central shoot dries ("dead heart") in young plants, and heads
+    or panicles turn white and empty later; small holes and frass on stems.
+  type: Insect pest (stem borer)

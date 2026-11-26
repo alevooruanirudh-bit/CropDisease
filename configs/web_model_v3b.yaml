@@ -1,0 +1,21 @@
+# Website model v3b: continues v3 on the same data (no new data). v3 stopped after its frozen epoch because of an
+# early-stopping bug (fine-tune epochs were compared with the frozen epoch's val loss); fixed in trainer.py.
+# Fine-tune only, lower lr than v3 since the backbone is already trained on this data.
+_base_: web_model.yaml
+experiment:
+  name: web_model_v3b
+data:
+  split_dir: splits/web_v3
+model:
+  init_from: results/web_model_v3_snapshot.pt
+train:
+  epochs: 4
+  freeze_epochs: 0
+  early_stopping_patience: 2
+  batch_size: 48
+  lr: 2.0e-4
+  amp: false
+  channels_last: false
+augment:
+  rrc_scale: [0.35, 1.0]
+num_workers: 8

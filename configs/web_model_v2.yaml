@@ -1,0 +1,15 @@
+# Website model v2: all rounds (HF rounds 2-3, Kaggle local copies, IP102 pests; ~400k images, 84 crops),
+# warm-started from the v1 backbone. Splits in splits/web_v2 keep every v1 test image in test (--keep-test).
+# Fewer epochs than v1 because of the warm start and the ~2x larger data.
+_base_: web_model.yaml
+experiment:
+  name: web_model_v2
+data:
+  split_dir: splits/web_v2
+model:
+  init_from: results/web_model_v1_snapshot.pt
+train:
+  epochs: 10
+  early_stopping_patience: 3
+augment:
+  rrc_scale: [0.35, 1.0]

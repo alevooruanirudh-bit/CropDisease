@@ -1,0 +1,129 @@
+# Conditions added with the round-5 Kaggle datasets (maize/rice nutrients, cacao, coconut, chili pests, tomato village...).
+# Nutrient advice is general; confirm with a soil or leaf test before applying fertiliser.
+
+Phosphorus deficiency:
+  type: Nutrient problem
+  pathogen: Not an infection — too little phosphorus available, common in cold, acidic or very alkaline soils
+  symptoms: Plants stunted and dark green; older leaves turn purple or reddish (maize) or narrow and upright (rice); fewer tillers and late maturity.
+  spread: Does not spread between plants. Worse early in the season in cold, wet soil.
+  cultural:
+    - Place phosphorus near the seed at planting; keep soil pH near neutral.
+  organic:
+    - Rock phosphate (acidic soils), bone meal, compost and manure.
+  chemical:
+    - DAP, MAP or single/triple superphosphate at rates from a soil test.
+  prevention:
+    - Soil testing; banded starter fertiliser in phosphorus-poor soils.
+
+Black pod rot:
+  type: Fungal-like disease (pod)
+  pathogen: Phytophthora palmivora / P. megakarya
+  symptoms: Small brown spots on cacao pods that spread quickly to cover the whole pod, which turns black; white mould may appear in wet weather; beans inside rot.
+  spread: Rain splash, ants, infected pods left on trees or the ground, and soil; worst in long wet seasons with poor air flow.
+  cultural:
+    - Harvest often and remove every black pod from trees and the ground; bury or compost them away from trees.
+    - Prune and thin shade to let air and light in; improve drainage.
+  organic:
+    - Copper-based sprays on pods in wet periods where permitted for organic cacao.
+  chemical:
+    - Copper fungicides or registered systemic products (e.g. metalaxyl mixtures) on pods during the rainy season.
+  prevention:
+    - Phytosanitary pod removal; tolerant clones; good canopy management.
+
+Cocoa pod borer:
+  type: Insect pest
+  pathogen: Conopomorpha cramerella (cocoa pod borer moth)
+  symptoms: Pods ripen unevenly with yellow-green patches; inside, beans stick together and are small; tiny exit holes on the husk.
+  spread: Moths lay eggs on pod surfaces; larvae bore in and feed on the pulp; moths fly between trees and farms.
+  cultural:
+    - Harvest ripe pods frequently (every 1–2 weeks) and remove and bury husks quickly.
+    - Prune trees low so pods are easy to reach and check.
+  organic:
+    - Sleeve young pods in plastic bags; encourage black ants and other natural enemies.
+  chemical:
+    - Registered insecticides aimed at moths on the lower trunk and branches, following local programmes.
+  prevention:
+    - Regular, complete harvesting across neighbouring farms.
+
+Leaf-eating caterpillars:
+  type: Insect pest
+  pathogen: Larvae of various moths and butterflies (e.g. Spodoptera, Helicoverpa, armyworms, loopers)
+  symptoms: Holes chewed in leaves, ragged edges or only veins left; droppings (frass) on leaves; caterpillars often under leaves or active at night.
+  spread: Adult moths lay egg batches on leaves; numbers build up quickly in warm weather.
+  cultural:
+    - Hand-pick caterpillars and egg masses; remove weeds that host them.
+    - Check plants every few days, especially the underside of young leaves.
+  organic:
+    - Bacillus thuringiensis (Bt) or neem sprays on young caterpillars; encourage birds and parasitic wasps.
+  chemical:
+    - Registered insecticides only when damage passes local thresholds; rotate groups to avoid resistance.
+  prevention:
+    - Pheromone or light traps to watch moth numbers; avoid broad sprays that kill natural enemies.
+
+Whiteflies:
+  type: Insect pest
+  pathogen: Whiteflies, mainly Bemisia tabaci and Trialeurodes vaporariorum
+  symptoms: Tiny white insects fly up when leaves are shaken; leaves yellow, sticky with honeydew and black sooty mould; they spread viruses (leaf curl, yellowing).
+  spread: Fly between plants and fields; build up fast in warm, dry weather and greenhouses.
+  cultural:
+    - Remove heavily infested leaves and weed hosts; use insect-proof nets for nurseries.
+  organic:
+    - Yellow sticky traps; neem oil, insecticidal soap or horticultural oil on leaf undersides.
+  chemical:
+    - Registered insecticides rotated by group; whiteflies become resistant quickly.
+  prevention:
+    - Clean seedlings, reflective mulches, crop-free periods between susceptible crops.
+
+Coconut black-headed caterpillar:
+  type: Insect pest
+  pathogen: Opisina arenosella
+  symptoms: Leaflets on the lower fronds dry and turn brown from the underside; silk galleries with droppings on the leaf underside; from a distance the crown looks scorched.
+  spread: Moths fly between palms; outbreaks build up in the dry season.
+  cultural:
+    - Cut and burn badly infested lower fronds early in an outbreak.
+  organic:
+    - Release parasitoids (Goniozus nephantidis, Bracon brevicornis) through local programmes.
+  chemical:
+    - Root-feeding or trunk-injected systemic insecticides only through extension programmes.
+  prevention:
+    - Regular monitoring of lower fronds; area-wide biological control.
+
+Weligama coconut leaf wilt:
+  type: Phytoplasma disease
+  pathogen: Phytoplasma (16SrXI group), Weligama coconut leaf wilt disease (WCLWD)
+  symptoms: Fronds bend down (flaccidity), leaflets yellow and then dry from the tips; nut yield falls. Found in southern Sri Lanka.
+  spread: Thought to be spread by sap-sucking insects (e.g. plant hoppers); moving planting material from affected areas spreads it further.
+  cultural:
+    - Report suspected palms to the Coconut Research Institute / local officers; affected palms are usually removed.
+    - Do not move seedlings out of affected areas.
+  organic:
+    - Good nutrition (organic manure) helps palms tolerate early infection.
+  chemical:
+    - No curative treatment; follow official removal and replanting programmes.
+  prevention:
+    - Quarantine rules; tolerant planting material; control of vector insects.
+
+Spotted wilt virus:
+  type: Viral disease
+  pathogen: Tomato spotted wilt virus (TSWV, Orthotospovirus)
+  symptoms: Bronze or purple flecks and rings on young leaves, leaf tips die back; fruit shows pale yellow rings or blotches; plants stunted.
+  spread: Spread by thrips; many weeds and ornamentals carry the virus.
+  cultural:
+    - Pull out infected plants early; control weeds around the field.
+  organic:
+    - Reflective mulches and blue/yellow sticky traps for thrips.
+  chemical:
+    - No cure for the virus; manage thrips with registered insecticides.
+  prevention:
+    - Resistant varieties (Sw-5 gene); thrips-free transplants.
+
+_pathogen_by_crop:
+  Red spider mite: {Coffee: Oligonychus ilicis (southern red mite)}
+  Rust: {Jujube: Phakopsora zizyphi-vulgaris}
+  Fusarium wilt: {Chickpea: Fusarium oxysporum f. sp. ciceris}
+  Cercospora leaf spot: {Coffee: Cercospora coffeicola (brown eye spot)}
+  Phoma leaf spot: {Coffee: Phoma tarda / P. costarricensis}
+  Bacterial leaf spot: {Lettuce: Xanthomonas hortorum pv. vitians}
+  Septoria leaf spot: {Lettuce: Septoria lactucae}
+  Bacterial blight: {Soybean: Pseudomonas savastanoi pv. glycinea}
+  Leaf blight: {Apricot: Leaf-blighting fungi (e.g. Alternaria / Monilinia spp.)}

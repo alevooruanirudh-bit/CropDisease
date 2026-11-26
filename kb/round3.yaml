@@ -1,0 +1,301 @@
+# Conditions added with the round-3 datasets (wheat/cotton/sugarcane/citrus field sets, BeejX, fresh-vs-rotten
+# produce, chili, maize, soybean, tea, tobacco, onion, rubber, money plant).
+
+_pathogen_by_crop:
+  Leaf blight: {Wheat: Bipolaris sorokiniana (spot blotch) and related fungi}
+  Smut: {Finger millet: Melanopsichium eleusinis (grain smut)}
+  Wilt: {Finger millet: Sclerotium rolfsii / Fusarium spp.}
+  Rust: {Finger millet: Puccinia substriata var. penicillariae}
+  Target spot: {Tobacco: Rhizoctonia solani}
+  Bacterial wilt: {Money plant: Ralstonia solanacearum / Xanthomonas spp.}
+  Downy mildew: {Onion: Peronospora destructor, Finger millet: Sclerophthora macrospora}
+  Leaf spot: {Pigeon pea: Cercospora cajani, Rubber: Corynespora / Colletotrichum spp.}
+  Powdery mildew: {Rubber: Erysiphe (Oidium) heveae}
+  Algal leaf spot: {Rubber: Cephaleuros virescens}
+  Cercospora leaf spot: {Chili pepper: Cercospora capsici}
+  Leaf curl virus: {Chili pepper: Pepper yellow leaf curl virus (begomovirus, whitefly-borne)}
+  Soft rot: {Potato: Pectobacterium spp. (soft-rot bacteria), often after bruising or wet storage}
+
+Common root rot:
+  type: Fungal disease (roots and crown)
+  pathogen: Bipolaris sorokiniana / Fusarium spp.
+  symptoms: Dark brown lesions on roots, crown and lower stem; plants are stunted with fewer tillers and white, empty heads in patches.
+  spread: Soil- and residue-borne; worse in dry, warm soils and in continuous cereal crops.
+  cultural:
+    - Rotate with non-cereal crops (pulses, oilseeds) for at least one season.
+    - Avoid drought stress and very deep sowing.
+  organic:
+    - Rotation and balanced fertility are the main tools.
+  chemical:
+    - Fungicidal seed treatment (e.g. difenoconazole, tebuconazole) where registered.
+  prevention:
+    - Clean seed, rotation and tolerant varieties.
+
+Tan spot:
+  type: Fungal disease
+  pathogen: Pyrenophora tritici-repentis
+  symptoms: Tan, oval spots with a yellow halo and often a small dark centre on wheat leaves; spots join and leaves die early.
+  spread: Survives on wheat stubble; spores carried by wind and rain in spring.
+  cultural:
+    - Bury or remove wheat stubble; avoid wheat after wheat.
+  organic:
+    - Rotation and resistant varieties.
+  chemical:
+    - Triazoles or strobilurins at flag-leaf stage if disease is moving up.
+  prevention:
+    - Resistant varieties; break the wheat-on-wheat cycle.
+
+Wheat blast:
+  type: Fungal disease
+  pathogen: Magnaporthe oryzae pathotype Triticum
+  symptoms: Wheat heads bleach above a dark lesion on the rachis; grains are small, shrivelled or absent; eye-shaped leaf lesions.
+  spread: Seed-borne and wind-borne spores in hot, humid weather at heading.
+  cultural:
+    - Adjust sowing date so heading avoids hot, wet periods; destroy infected residues.
+  organic:
+    - Clean seed and rotation.
+  chemical:
+    - Seed treatment plus triazole + strobilurin at heading in high-risk areas.
+  prevention:
+    - Resistant varieties (e.g. carrying 2NS); do not move seed from affected regions.
+
+Stem fly:
+  type: Insect pest
+  pathogen: Wheat stem fly / shoot fly larvae (e.g. Atherigona, Meromyza spp.)
+  symptoms: Central shoot of young tillers dries out ("dead heart"); maggots tunnel inside the stem.
+  spread: Flies lay eggs on seedlings; worse with late sowing.
+  cultural:
+    - Sow on time; destroy volunteer cereals and grassy weeds.
+  organic:
+    - Higher seed rate to compensate for killed tillers.
+  chemical:
+    - Seed treatment with a systemic insecticide where registered.
+  prevention:
+    - Timely, uniform sowing across neighbouring fields.
+
+Citrus black spot:
+  type: Fungal disease
+  pathogen: Phyllosticta citricarpa
+  symptoms: Hard, sunken, dark spots with grey centres and red-brown edges on ripening fruit; leaf spots are rare.
+  spread: Spores from fallen infected leaves in the orchard floor, during warm rainy weather.
+  cultural:
+    - Remove leaf litter under trees; prune to open the canopy.
+  organic:
+    - Copper sprays from fruit set through the rainy season.
+  chemical:
+    - Copper, mancozeb or strobilurins on a protective schedule.
+  prevention:
+    - Clean nursery stock; quarantine — notifiable in many countries.
+
+Red rot:
+  type: Fungal disease
+  pathogen: Colletotrichum falcatum
+  symptoms: Leaves yellow and dry from the top; when the cane is split, the inside is red with white cross-bands and smells sour.
+  spread: Infected setts (seed cane), rain splash and irrigation water.
+  cultural:
+    - Uproot and burn infected clumps; do not ratoon affected fields.
+    - Use healthy setts from disease-free nurseries.
+  organic:
+    - Hot-water or moist-hot-air treatment of setts; Trichoderma sett treatment.
+  chemical:
+    - Sett treatment with carbendazim or thiophanate-methyl where registered.
+  prevention:
+    - Resistant varieties; crop rotation; good drainage.
+
+Blast:
+  type: Fungal disease
+  pathogen: Magnaporthe grisea (finger-millet blast)
+  symptoms: Spindle-shaped grey lesions with brown margins on leaves; neck and finger blast turn ear heads brown and empty.
+  spread: Seed-borne and wind-borne spores; humid weather with heavy dew.
+  cultural:
+    - Remove infected stubble; avoid excess nitrogen.
+  organic:
+    - Seed treatment with Pseudomonas fluorescens or Trichoderma.
+  chemical:
+    - Tricyclazole or carbendazim spray at the first leaf lesions and at ear emergence.
+  prevention:
+    - Resistant varieties and clean seed.
+
+Mottle streak virus:
+  type: Viral disease (insect-transmitted)
+  pathogen: Finger millet mottle streak virus, spread by leafhoppers
+  symptoms: Pale yellow streaks and mottling along leaves; plants stunted with poor heads.
+  spread: Leafhoppers moving from infected plants and grassy weeds.
+  cultural:
+    - Remove infected plants early; control grass weeds around fields.
+  organic:
+    - Neem-based sprays to reduce leafhoppers.
+  chemical:
+    - Leafhopper control with registered insecticides; no cure for the virus.
+  prevention:
+    - Tolerant varieties; timely sowing.
+
+Leaf webber:
+  type: Insect pest
+  pathogen: Leaf webber caterpillars (e.g. Grapholita / Maruca spp. on pigeon pea)
+  symptoms: Leaves webbed together with silk at shoot tips and flowers; caterpillars feed inside the webs; flower and pod loss.
+  spread: Moths lay eggs on young leaves and flowers.
+  cultural:
+    - Hand-remove webbed shoots in small plots; intercrop with sorghum or maize.
+  organic:
+    - Bacillus thuringiensis, neem seed kernel extract (5%) or NPV at early stages.
+  chemical:
+    - Registered insecticides (e.g. emamectin benzoate, chlorantraniliprole) at flowering if above threshold.
+  prevention:
+    - Regular scouting during flowering; conserve natural enemies.
+
+Sterility mosaic:
+  type: Viral disease (mite-transmitted)
+  pathogen: Pigeonpea sterility mosaic virus, spread by the eriophyid mite Aceria cajani
+  symptoms: Light-green mosaic on small, crowded leaves; bushy plants that produce few or no flowers and pods.
+  spread: Microscopic mites carried by wind from infected or volunteer pigeon pea plants.
+  cultural:
+    - Uproot infected plants early; remove volunteer and ratoon pigeon pea.
+  organic:
+    - Sulphur sprays reduce the mite vector.
+  chemical:
+    - Acaricides (e.g. fenazaquin, dicofol alternatives where registered) at early stages.
+  prevention:
+    - Resistant varieties; avoid planting next to old pigeon pea.
+
+Nematode damage:
+  type: Pest (root-knot / cyst nematodes)
+  pathogen: Plant-parasitic nematodes (e.g. Meloidogyne, Globodera spp.)
+  symptoms: Plants yellow, wilt in the heat and grow poorly in patches; roots show galls or tiny cysts.
+  spread: In soil, on tubers, tools, boots and irrigation water.
+  cultural:
+    - Rotate with non-host crops for 3+ years; use clean seed tubers.
+    - Clean tools and machinery between fields.
+  organic:
+    - Organic amendments (neem cake), marigold or mustard cover crops, solarisation in hot climates.
+  chemical:
+    - Nematicides only where registered and by trained applicators.
+  prevention:
+    - Resistant varieties and certified seed.
+
+Fruit rot (post-harvest):
+  type: Fungal / bacterial rot (after harvest)
+  pathogen: Storage-rot fungi and bacteria (Penicillium, Botrytis, Rhizopus, Colletotrichum, soft-rot bacteria)
+  symptoms: Soft, discoloured, often mouldy or leaking areas that spread through the fruit; off smell.
+  spread: Enters through bruises, cuts and stem ends; spreads by contact in storage and with warmth and humidity.
+  cultural:
+    - Remove rotting produce at once; it infects neighbours.
+    - Harvest carefully, avoid bruising, cool produce quickly and store dry.
+  organic:
+    - Clean crates and stores; hot-water dips for some fruits (e.g. mango, citrus) where practised.
+  chemical:
+    - Post-harvest fungicides only as registered for the commodity and market.
+  prevention:
+    - Gentle handling, field sanitation before harvest, and cool, ventilated storage.
+
+Phaeosphaeria leaf spot:
+  type: Fungal disease
+  pathogen: Phaeosphaeria maydis
+  symptoms: Small round pale-green to straw-coloured spots with dark borders, scattered on maize leaves; leaves dry early in severe cases.
+  spread: Wind-borne spores; cool nights and high humidity at higher altitudes.
+  cultural:
+    - Avoid late planting; bury crop residue.
+  organic:
+    - Rotation and resistant hybrids.
+  chemical:
+    - Strobilurin or triazole fungicides at early symptoms in high-value fields.
+  prevention:
+    - Tolerant hybrids.
+
+Vein necrosis virus:
+  type: Viral disease (thrips-transmitted)
+  pathogen: Soybean vein necrosis virus (SVNV)
+  symptoms: Yellow, then brown, necrotic patches running along leaf veins; usually in mid to late season.
+  spread: Thrips feeding.
+  cultural:
+    - Control weeds that host thrips.
+  organic:
+    - Usually no action is needed; yield losses are small in most fields.
+  chemical:
+    - Insecticide for thrips is rarely justified.
+  prevention:
+    - Tolerant varieties.
+
+Blister blight:
+  type: Fungal disease
+  pathogen: Exobasidium vexans
+  symptoms: Small translucent spots on young tea leaves that swell into convex blisters, white and velvety underneath; leaves curl.
+  spread: Wind-borne spores in cool, misty, wet weather; attacks the tender leaves that are plucked.
+  cultural:
+    - Shorter plucking rounds remove infected shoots; thin shade trees to dry the bushes.
+  organic:
+    - Copper sprays in the monsoon.
+  chemical:
+    - Copper oxychloride with hexaconazole or propiconazole during wet periods.
+  prevention:
+    - Tolerant clones and canopy management.
+
+Manganese toxicity:
+  type: Nutrient problem (toxicity)
+  pathogen: Not an infection — too much available manganese, usually in acidic or waterlogged soil
+  symptoms: Brown spots and blotches on older leaves, crinkled or yellowed leaves, poor growth.
+  spread: Does not spread between plants.
+  cultural:
+    - Improve drainage; avoid over-watering potted plants.
+  organic:
+    - Raise soil pH with lime or dolomite based on a soil test.
+  chemical:
+    - Stop manganese-containing fertilisers or sprays.
+  prevention:
+    - Use a well-drained, pH-balanced potting mix or soil.
+
+Potato virus Y:
+  type: Viral disease (aphid-transmitted)
+  pathogen: Potato virus Y (PVY)
+  symptoms: On tobacco — vein clearing then dark-brown necrotic veins and spots; leaves may collapse.
+  spread: Aphids in a non-persistent way; also on infected potato seed nearby.
+  cultural:
+    - Keep tobacco away from potato and pepper fields; remove infected plants and weeds.
+  organic:
+    - Mineral oil sprays reduce aphid transmission.
+  chemical:
+    - Insecticides do not stop non-persistent transmission well; focus on prevention.
+  prevention:
+    - Resistant varieties and isolation from host crops.
+
+Weather fleck:
+  type: Physiological disorder (abiotic, ozone injury)
+  pathogen: Not an infection — damage from ground-level ozone during warm, humid weather
+  symptoms: Small grey-white to brown flecks scattered on upper surfaces of older and middle leaves.
+  spread: Does not spread between plants; appears after high-ozone days.
+  cultural:
+    - No cure; damaged leaves stay flecked.
+  organic:
+    - Balanced nutrition helps plants tolerate stress.
+  chemical:
+    - Not controlled by pesticides.
+  prevention:
+    - Grow tolerant varieties in high-ozone areas.
+
+Fusarium basal rot:
+  type: Fungal disease
+  pathogen: Fusarium oxysporum f. sp. cepae
+  symptoms: Onion leaves yellow and die back from the tips; the base and roots rot with white or pink mould; bulbs rot in storage.
+  spread: Soil-borne for years; enters through root wounds, worse in warm soils.
+  cultural:
+    - Rotate away from onion and garlic for 4+ years; avoid root damage.
+  organic:
+    - Trichoderma seed or set treatment; solarisation.
+  chemical:
+    - Seed or set treatment with registered fungicides.
+  prevention:
+    - Healthy sets and seed, tolerant varieties, cool dry storage.
+
+Leaf smut:
+  type: Fungal disease
+  pathogen: Entyloma oryzae
+  symptoms: Small, slightly raised black spots on both sides of rice leaves; leaf tips may die in heavy infections.
+  spread: Wind-borne spores from infected leaf debris.
+  cultural:
+    - Remove infected straw; balanced nitrogen.
+  organic:
+    - Usually minor; field hygiene is enough.
+  chemical:
+    - Rarely needed; propiconazole where severe.
+  prevention:
+    - Clean fields and resistant varieties.

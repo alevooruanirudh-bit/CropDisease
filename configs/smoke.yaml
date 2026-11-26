@@ -1,0 +1,35 @@
+# Merged on top of any config by `--smoke`: synthetic 2-class / 50-image / 1-epoch run.
+num_workers: 0
+paths:
+  results_dir: results_smoke
+  cache_dir: cache_smoke
+  split_root: splits_smoke
+data:
+  dataset: synthetic
+  name: synthetic2
+  root: data/synthetic
+  num_classes: null
+  split_dir: splits_smoke/synthetic2
+  synthetic_per_class: 25
+  hash_workers: 4
+segmentation:
+  threshold_sample: 30
+model:
+  img_size: 96
+  pretrained: false        # no weight download in smoke mode
+backbones: [mobilenetv3_large]
+seeds: [0]
+train:
+  batch_size: 8
+  eval_batch_size: 16
+  epochs: 1
+  freeze_epochs: 0
+hpo:
+  enabled: false
+eval:
+  gradcam_n: 2
+robustness:
+  plantdoc_root: null
+  texture_dir: null
+  gradcam_n: 2
+  batch_size: 16

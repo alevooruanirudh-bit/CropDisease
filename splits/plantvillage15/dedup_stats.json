@@ -1,0 +1,35 @@
+{
+  "n_input": 20639,
+  "exact_byte_duplicates_removed": 14,
+  "exact_byte_duplicate_label_conflicts": 0,
+  "identical_phash_within_class": 0,
+  "near_duplicate_pairs": 51,
+  "n_groups": 20574,
+  "n_images_in_multi_groups": 102,
+  "n_multi_groups": 51,
+  "largest_group": 2,
+  "cross_class_near_duplicate_pairs": 8,
+  "n_kept": 20625,
+  "split_sizes": {
+    "train": 12373,
+    "val": 4125,
+    "test": 4127
+  },
+  "classes": [
+    "Pepper,_bell___Bacterial_spot",
+    "Pepper,_bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato___Bacterial_spot",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___Septoria_leaf_spot",
+    "Tomato___Spider_mites Two-spotted_spider_mite",
+    "Tomato___Target_Spot",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "Tomato___Tomato_mosaic_virus",
+    "Tomato___healthy"
+  ]
+}

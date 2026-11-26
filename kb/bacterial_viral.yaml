@@ -1,0 +1,486 @@
+# Bacterial, phytoplasma and viral diseases.
+# Note for users: fungicides do not cure bacterial or viral diseases. Viruses cannot be cured at all;
+# management means removing infected plants and controlling the insects that spread them.
+
+Bacterial blight:
+  type: Bacterial disease
+  pathogen: Xanthomonas spp.
+  pathogen_by_crop: {Cotton: Xanthomonas citri pv. malvacearum, Cassava: Xanthomonas phaseoli pv. manihotis, Bean: Xanthomonas axonopodis pv. phaseoli, Pomegranate: Xanthomonas axonopodis pv. punicae, Lemon: Xanthomonas / Pseudomonas spp.}
+  symptoms: Water-soaked angular spots that turn brown or black, often with yellow halos; leaves wilt and fall; on pomegranate fruit, oily dark spots that crack; on cassava, shoot dieback and gum exudate.
+  spread: Infected seed or cuttings, rain splash, wind-driven rain, tools and workers moving through wet plants.
+  cultural:
+    - Remove and destroy infected plant parts; disinfect pruning tools (e.g. 70% alcohol or 1% bleach).
+    - Avoid working in the field when plants are wet; use drip instead of sprinklers.
+  organic:
+    - Copper-based bactericides (copper hydroxide, copper oxychloride, Bordeaux mixture) as protectants.
+  chemical:
+    - Copper products, sometimes mixed with mancozeb; antibiotics (e.g. streptocycline) only where legally permitted and recommended locally.
+  prevention:
+    - Use certified, disease-free seed and cuttings; acid-delinted seed for cotton.
+    - Rotation and resistant varieties.
+
+Bacterial leaf blight:
+  type: Bacterial disease
+  pathogen: Xanthomonas oryzae pv. oryzae
+  symptoms: Wavy yellow-to-white stripes starting from rice leaf tips and edges; leaves dry grey-white; seedlings may wilt ("kresek").
+  spread: Infected stubble, weeds and irrigation water; wind-driven rain; heavy nitrogen.
+  cultural:
+    - Avoid excess nitrogen; apply potassium; drain fields periodically.
+    - Remove weeds and stubble; avoid clipping seedling tips at transplanting.
+  organic:
+    - Fresh cow-dung extract or Pseudomonas fluorescens sprays (traditional/biological options with partial effect).
+  chemical:
+    - Copper-based sprays; streptomycin + tetracycline mixtures only where permitted.
+  prevention:
+    - Resistant varieties; balanced fertilisation; clean seed.
+
+Bacterial leaf streak:
+  type: Bacterial disease
+  pathogen: Xanthomonas oryzae pv. oryzicola
+  symptoms: Narrow dark-green water-soaked streaks between veins that turn yellow-brown, with tiny amber droplets of bacterial ooze.
+  spread: Seed, infected stubble, rain and wind.
+  cultural:
+    - Balanced nitrogen; field sanitation; avoid injuring plants.
+  organic:
+    - Seed treatment with Pseudomonas fluorescens.
+  chemical:
+    - Copper-based bactericides where recommended.
+  prevention:
+    - Clean seed and resistant varieties.
+
+Bacterial panicle blight:
+  type: Bacterial disease
+  pathogen: Burkholderia glumae
+  symptoms: Rice grains turn straw-coloured to brown with a dark band at the base; panicles stay upright because grains are empty.
+  spread: Seed-borne; hot, humid nights during flowering.
+  cultural:
+    - Avoid excess nitrogen; plant early to avoid peak heat at flowering.
+  organic:
+    - Clean seed.
+  chemical:
+    - Oxolinic acid where registered; otherwise no effective spray.
+  prevention:
+    - Clean seed and tolerant varieties.
+
+Bacterial spot:
+  type: Bacterial disease
+  pathogen: Xanthomonas spp.
+  pathogen_by_crop: {Tomato: Xanthomonas vesicatoria / X. perforans, Bell pepper: Xanthomonas euvesicatoria, Peach: Xanthomonas arboricola pv. pruni, Plum: Xanthomonas arboricola pv. pruni, Spinach: Pseudomonas / Xanthomonas spp., Java plum: Xanthomonas spp.}
+  symptoms: Small water-soaked spots that turn dark brown to black, often with yellow halos; spots may fall out leaving holes; raised scabby spots on fruit.
+  spread: Seed and transplants, rain splash, overhead irrigation, handling wet plants; warm wet weather.
+  cultural:
+    - Remove infected leaves and fruit; disinfect tools; do not handle wet plants.
+    - Use drip irrigation; rotate away from host crops.
+  organic:
+    - Copper-based sprays (often combined with mancozeb to reduce copper resistance).
+    - Bacillus-based biologicals as preventives.
+  chemical:
+    - Copper + mancozeb; acibenzolar-S-methyl (plant activator) where registered.
+  prevention:
+    - Certified clean seed (hot-water treated) and transplants; resistant varieties; 2–3 year rotation.
+
+Bacterial leaf spot:
+  type: Bacterial disease
+  pathogen: Xanthomonas campestris pv. viticola
+  symptoms: Small dark angular spots with yellow halos on grape leaves; cankers on shoots and black spots on berries.
+  spread: Infected cuttings, rain splash and pruning tools.
+  cultural:
+    - Prune infected canes; disinfect tools between vines.
+  organic:
+    - Copper sprays.
+  chemical:
+    - Copper oxychloride; antibiotics only where permitted.
+  prevention:
+    - Clean planting material and tool hygiene.
+
+Bacterial canker:
+  type: Bacterial disease
+  pathogen: Xanthomonas citri pv. mangiferaeindicae
+  symptoms: Raised black angular spots with yellow halos on mango leaves; cracked cankers on fruit and twigs that ooze gum.
+  spread: Rain and wind, infected nursery plants, pruning tools.
+  cultural:
+    - Prune and burn infected twigs; disinfect tools; windbreaks.
+  organic:
+    - Copper oxychloride sprays.
+  chemical:
+    - Copper products; streptocycline only where permitted.
+  prevention:
+    - Healthy nursery stock and windbreaks.
+
+Citrus canker:
+  type: Bacterial disease
+  pathogen: Xanthomonas citri subsp. citri
+  symptoms: Raised, corky, brown lesions with oily water-soaked edges and yellow halos on leaves, twigs and fruit.
+  spread: Wind-driven rain, leaf miner wounds, infected nursery plants, tools.
+  cultural:
+    - Prune infected shoots in dry weather; disinfect tools; windbreaks.
+    - Control citrus leaf miner, whose feeding wounds let bacteria in.
+  organic:
+    - Copper sprays on new flushes.
+  chemical:
+    - Copper hydroxide or copper oxychloride; streptocycline only where permitted.
+  prevention:
+    - Certified canker-free nursery plants; tolerant varieties; quarantine rules.
+
+Bacterial wilt:
+  type: Bacterial disease
+  pathogen: Cucumber — Erwinia tracheiphila; bean — Curtobacterium flaccumfaciens; many crops — Ralstonia solanacearum
+  pathogen_by_crop: {Cucumber: Erwinia tracheiphila (spread by cucumber beetles), Bean: Curtobacterium flaccumfaciens pv. flaccumfaciens}
+  symptoms: Leaves or whole vines wilt suddenly and do not recover at night; cut stems may ooze sticky threads of bacteria.
+  spread: Cucumber — cucumber beetles; bean — infected seed; Ralstonia — soil and water.
+  cultural:
+    - Remove wilted plants promptly; control cucumber beetles with row covers until flowering.
+  organic:
+    - Kaolin clay or neem for beetle deterrence.
+  chemical:
+    - No cure; insecticides against cucumber beetles prevent spread.
+  prevention:
+    - Clean seed, beetle control, rotation and resistant varieties.
+
+Bacterial soft rot:
+  type: Bacterial disease
+  pathogen: Pectobacterium / Dickeya spp.
+  pathogen_by_crop: {Banana: Dickeya / Pectobacterium spp. (rhizome and pseudostem rot), Cauliflower: Pectobacterium carotovorum}
+  symptoms: Soft, slimy, water-soaked rot with a foul smell; tissue collapses (cauliflower curd, banana pseudostem/rhizome).
+  spread: Wounds, insects, wet conditions and infected planting material.
+  cultural:
+    - Remove and destroy rotting plants; avoid wounding; improve drainage.
+    - Harvest in dry weather; keep produce cool.
+  organic:
+    - Bleaching powder or lime around affected banana plants (as recommended locally).
+  chemical:
+    - Copper-based sprays as protectants; no curative chemical.
+  prevention:
+    - Clean planting material, drainage, avoid injury and excess nitrogen.
+
+Blackleg:
+  type: Bacterial disease
+  pathogen: Pectobacterium atrosepticum / Dickeya spp.
+  symptoms: Black, slimy rot at the base of potato stems; plants yellow and wilt; tubers rot from the stem end.
+  spread: Infected seed tubers; wet soils.
+  cultural:
+    - Plant certified seed; avoid cutting seed in wet conditions; good drainage.
+    - Remove affected plants and tubers.
+  organic:
+    - None curative.
+  chemical:
+    - No effective chemical control.
+  prevention:
+    - Certified seed and good storage hygiene.
+
+Brown rot:
+  type: Bacterial disease
+  pathogen: Ralstonia solanacearum
+  symptoms: Potato tubers show a brown ring in the vascular area; bacterial ooze from eyes; plants wilt.
+  spread: Infected seed tubers, soil, irrigation water, weeds; a quarantine disease in many countries.
+  cultural:
+    - Use certified seed; destroy infected plants and tubers; do not irrigate with contaminated water.
+    - Report to plant-protection authorities where it is notifiable.
+  organic:
+    - Rotation with non-hosts (cereals) for several years.
+  chemical:
+    - No chemical cure.
+  prevention:
+    - Certified seed, clean water and long rotations.
+
+Soft rot:
+  type: Bacterial disease
+  pathogen: Pectobacterium / Dickeya spp.
+  symptoms: Potato tubers become soft, wet and foul-smelling, often in storage.
+  spread: Wounds and wet conditions; spreads from rotting tubers.
+  cultural:
+    - Harvest in dry weather; avoid bruising; dry tubers before storage; remove rotting tubers.
+  organic:
+    - Good ventilation and cool storage.
+  chemical:
+    - No curative chemical.
+  prevention:
+    - Careful handling and clean, ventilated storage.
+
+Common scab:
+  type: Bacterial disease (actinomycete)
+  pathogen: Streptomyces scabiei
+  symptoms: Rough, corky, raised or pitted scabs on the potato tuber skin.
+  spread: Soil-borne; worse in dry, alkaline soils at tuber initiation.
+  cultural:
+    - Keep soil moist for 4–6 weeks after tuber initiation; avoid liming before potatoes.
+  organic:
+    - Rotation; green manures.
+  chemical:
+    - Seed-tuber treatment where registered; soil pH management.
+  prevention:
+    - Resistant varieties and clean seed.
+
+Xanthomonas wilt:
+  type: Bacterial disease
+  pathogen: Xanthomonas vasicola pv. musacearum (banana Xanthomonas wilt, BXW)
+  symptoms: Leaves yellow and wilt; male flower bud shrivels; fruit ripen unevenly with brown stains inside; yellow ooze from cut stems.
+  spread: Insects visiting male flowers, contaminated tools and infected suckers.
+  cultural:
+    - Remove the male bud with a forked stick after the last hand forms.
+    - Disinfect tools (fire or bleach) between plants; cut down and destroy infected mats.
+  organic:
+    - None curative.
+  chemical:
+    - No chemical cure.
+  prevention:
+    - Clean planting material, tool hygiene, early male-bud removal.
+
+Huanglongbing (citrus greening):
+  type: Bacterial disease
+  pathogen: Candidatus Liberibacter asiaticus (spread by the Asian citrus psyllid)
+  symptoms: Blotchy, uneven (asymmetrical) yellowing of leaves; small lopsided bitter fruit; twig dieback; tree declines over years.
+  spread: Asian citrus psyllid insects and infected budwood or nursery plants.
+  cultural:
+    - Remove and destroy infected trees; report where required.
+    - Control psyllids; inspect new flushes regularly.
+  organic:
+    - Kaolin clay, neem oil or mineral oil sprays against psyllids.
+  chemical:
+    - No cure. Psyllid control with registered systemic insecticides (e.g. imidacloprid) and foliar sprays.
+  prevention:
+    - Plant certified disease-free nursery trees; area-wide psyllid control.
+
+Grassy shoot:
+  type: Phytoplasma disease
+  pathogen: Sugarcane grassy shoot phytoplasma
+  symptoms: Many thin, pale, grass-like tillers from the base; no millable canes.
+  spread: Infected seed cane and leafhopper vectors.
+  cultural:
+    - Uproot and destroy affected clumps; do not use them for seed.
+  organic:
+    - Hot-water or moist-hot-air treatment of setts (e.g. 50 °C for 2 h).
+  chemical:
+    - Vector control with registered insecticides.
+  prevention:
+    - Healthy, heat-treated seed cane.
+
+Mosaic virus:
+  type: Viral disease
+  pathogen: Various mosaic viruses (e.g. TMV/ToMV, CMV, potyviruses)
+  pathogen_by_crop: {Tomato: Tomato mosaic virus (ToMV) / TMV, Bean: Bean common mosaic virus, Soybean: Soybean mosaic virus, Apple: Apple mosaic virus, Watermelon: Watermelon mosaic virus / CMV, Eggplant: TMV / CMV, Radish: Turnip mosaic virus, Jute: Jute mosaic (begomovirus), Sponge gourd: CMV / begomoviruses, Papaya: Papaya mosaic virus}
+  symptoms: Light and dark green mottled (mosaic) pattern on leaves; leaves may be curled, puckered or narrow; plants stunted; fruit blotchy.
+  spread: Depending on the virus — aphids (CMV, potyviruses), infected seed, or contact on hands and tools (TMV/ToMV). Cannot be cured.
+  cultural:
+    - Remove and destroy infected plants early.
+    - Wash hands and disinfect tools (e.g. skimmed milk or 10% bleach) when handling plants; do not smoke near tomatoes (TMV).
+    - Control aphids and weeds that host viruses.
+  organic:
+    - Reflective mulch and insect nets to keep aphids away; neem or mineral oil sprays reduce aphid feeding.
+  chemical:
+    - No antiviral chemical. Control vectors with registered insecticides where needed.
+  prevention:
+    - Certified virus-free seed and resistant varieties; rogue infected plants; control vectors.
+
+Leaf curl virus:
+  type: Viral disease
+  pathogen: Begomoviruses (whitefly-transmitted)
+  pathogen_by_crop: {Cotton: Cotton leaf curl virus, Papaya: Papaya leaf curl virus, Okra: Okra leaf curl / yellow vein mosaic virus, Ash gourd: begomovirus, Lemon: Citrus leaf curl / begomovirus}
+  symptoms: Leaves curl upward or downward, thicken and become leathery; veins swell; plants stunted; leaf-like outgrowths under cotton leaves.
+  spread: Whiteflies (Bemisia tabaci); infected seedlings. Cannot be cured.
+  cultural:
+    - Uproot and destroy infected plants early; remove weed hosts.
+    - Raise seedlings under insect-proof nets.
+  organic:
+    - Yellow sticky traps; neem oil sprays; border crops (e.g. maize) to slow whiteflies.
+  chemical:
+    - No cure. Whitefly control with registered insecticides (e.g. spiromesifen, pyriproxyfen, flonicamid), rotating groups.
+  prevention:
+    - Resistant/tolerant varieties; whitefly management from seedling stage.
+
+Yellow leaf curl virus:
+  type: Viral disease
+  pathogen: Tomato yellow leaf curl virus (TYLCV)
+  symptoms: Young leaves curl upward and have yellow margins; leaves small; plants stunted and bushy; flowers drop.
+  spread: Whiteflies (Bemisia tabaci). Cannot be cured.
+  cultural:
+    - Remove infected plants; grow seedlings under insect nets; remove weeds.
+  organic:
+    - Yellow sticky traps, neem oil, reflective mulch.
+  chemical:
+    - Whitefly control with registered insecticides; rotate modes of action.
+  prevention:
+    - TYLCV-resistant varieties; whitefly-free transplants; a host-free period between crops.
+
+Yellow mosaic virus:
+  type: Viral disease
+  pathogen: Mungbean yellow mosaic virus (MYMV)
+  symptoms: Bright yellow and green patches on leaves, later fully yellow leaves; few pods.
+  spread: Whiteflies. Cannot be cured.
+  cultural:
+    - Rogue infected plants early; remove weed hosts.
+  organic:
+    - Yellow sticky traps; neem oil.
+  chemical:
+    - Whitefly control with registered insecticides (e.g. thiamethoxam seed treatment).
+  prevention:
+    - Resistant varieties and timely sowing.
+
+Leaf crinkle virus:
+  type: Viral disease
+  pathogen: Urdbean leaf crinkle virus (ULCV)
+  symptoms: Leaves become large, crinkled and puckered; flowers malformed; pods few.
+  spread: Infected seed and insects (aphids, beetles). Cannot be cured.
+  cultural:
+    - Remove infected plants; use virus-free seed.
+  organic:
+    - Neem oil to reduce vectors.
+  chemical:
+    - Vector control where needed.
+  prevention:
+    - Healthy seed and tolerant varieties.
+
+Ringspot virus:
+  type: Viral disease
+  pathogen: Papaya ringspot virus (PRSV)
+  symptoms: Mosaic and distorted leaves; dark green rings on fruit; oily streaks on stems; plants weaken.
+  spread: Aphids (non-persistent). Cannot be cured.
+  cultural:
+    - Remove infected plants immediately; avoid planting near cucurbits.
+    - Raise seedlings under nets; barrier crops such as maize.
+  organic:
+    - Mineral oil sprays reduce aphid transmission.
+  chemical:
+    - No cure; insecticides are of limited value against fast-transmitting aphids.
+  prevention:
+    - Tolerant/resistant varieties; isolation; roguing.
+
+Iris yellow spot virus:
+  type: Viral disease
+  pathogen: Iris yellow spot virus (orthotospovirus)
+  symptoms: Straw-coloured, diamond-shaped lesions on onion leaves and seed stalks; stalks may collapse.
+  spread: Onion thrips. Cannot be cured.
+  cultural:
+    - Control thrips; remove volunteer onions and weeds; avoid planting next to older onion fields.
+  organic:
+    - Spinosad (where allowed) or neem for thrips.
+  chemical:
+    - Thrips control with registered insecticides, rotating modes of action.
+  prevention:
+    - Thrips management and good plant vigour.
+
+Tungro:
+  type: Viral disease
+  pathogen: Rice tungro bacilliform and spherical viruses
+  symptoms: Yellow to orange leaves starting from the tip; stunted plants with fewer tillers.
+  spread: Green leafhoppers. Cannot be cured.
+  cultural:
+    - Rogue infected hills; plough under stubble; synchronous planting in an area.
+  organic:
+    - Light traps for leafhoppers.
+  chemical:
+    - Leafhopper control with registered insecticides in the nursery and early crop.
+  prevention:
+    - Resistant varieties; avoid staggered planting.
+
+Stripe virus:
+  type: Viral disease
+  pathogen: Rice stripe virus
+  symptoms: Yellow-white stripes on leaves; new leaves droop and twist; plants stunted with poor panicles.
+  spread: Small brown planthopper. Cannot be cured.
+  cultural:
+    - Remove infected plants; manage weed hosts.
+  organic:
+    - Avoid excess nitrogen.
+  chemical:
+    - Planthopper control where recommended.
+  prevention:
+    - Resistant varieties and adjusting planting time.
+
+Maize streak virus:
+  type: Viral disease
+  pathogen: Maize streak virus (MSV)
+  symptoms: Narrow, broken yellow streaks along leaf veins; severe stunting if infected early.
+  spread: Leafhoppers (Cicadulina spp.). Cannot be cured.
+  cultural:
+    - Plant early and at the same time as neighbours; remove grass weeds.
+  organic:
+    - Rogue infected seedlings.
+  chemical:
+    - Leafhopper control with seed-treatment insecticides where recommended.
+  prevention:
+    - MSV-resistant varieties.
+
+Maize lethal necrosis:
+  type: Viral disease
+  pathogen: Co-infection of Maize chlorotic mottle virus and a potyvirus (e.g. SCMV)
+  symptoms: Yellow mottling from the leaf margins inward, leaves dry from the edges ("firing"); plants die; ears small or empty.
+  spread: Thrips, beetles, aphids and infected seed. Cannot be cured.
+  cultural:
+    - Uproot and destroy infected plants; break the maize cycle with a maize-free period.
+  organic:
+    - Crop rotation with non-cereals.
+  chemical:
+    - Vector control where recommended.
+  prevention:
+    - Certified MLN-free seed and tolerant varieties.
+
+Mosaic disease:
+  type: Viral disease
+  pathogen: Cassava mosaic begomoviruses (CMD)
+  symptoms: Yellow-green mosaic, twisted and narrow leaves; plants stunted; small roots.
+  spread: Whiteflies and, mainly, infected stem cuttings. Cannot be cured.
+  cultural:
+    - Plant cuttings only from healthy plants; rogue infected plants early.
+  organic:
+    - None curative.
+  chemical:
+    - Whitefly control has limited value.
+  prevention:
+    - CMD-resistant varieties and clean cuttings.
+
+Brown streak disease:
+  type: Viral disease
+  pathogen: Cassava brown streak viruses (CBSV, UCBSV)
+  symptoms: Yellow blotches along veins of older leaves; brown streaks on stems; hard, brown dead patches inside the roots.
+  spread: Infected cuttings and whiteflies. Cannot be cured.
+  cultural:
+    - Use clean cuttings; harvest early in affected areas to limit root damage.
+  organic:
+    - None curative.
+  chemical:
+    - None.
+  prevention:
+    - Tolerant varieties and certified clean planting material.
+
+Green mottle:
+  type: Mite damage (cassava green mite) / mottle disease
+  pathogen: Mainly cassava green mite (Mononychellus tanajoa); green-mottle symptoms
+  symptoms: Young leaves with yellow speckles, mottling and small, deformed growth at the tips.
+  spread: Mites spread by wind and on cuttings; dry season outbreaks.
+  cultural:
+    - Plant early in the rains; remove heavily infested tips.
+  organic:
+    - Conserve predatory mites (Typhlodromalus aripo); avoid broad-spectrum insecticides.
+  chemical:
+    - Acaricides rarely economic; biological control is preferred.
+  prevention:
+    - Tolerant varieties and clean cuttings.
+
+Viral disease (mosaic):
+  type: Viral disease
+  pathogen: Sugarcane mosaic virus and related viruses
+  symptoms: Pale green to yellow mosaic streaks on young sugarcane leaves; stunting.
+  spread: Aphids and infected seed cane. Cannot be cured.
+  cultural:
+    - Use healthy seed cane; rogue infected stools.
+  organic:
+    - Heat-treated or tissue-culture seed cane.
+  chemical:
+    - None curative.
+  prevention:
+    - Resistant varieties and clean planting material.
+
+Yellow leaf disease:
+  type: Viral disease
+  pathogen: Sugarcane yellow leaf virus (SCYLV)
+  symptoms: Yellowing of the midrib on the underside of leaves, spreading to the blade; tops bunched.
+  spread: Aphids and infected seed cane. Cannot be cured.
+  cultural:
+    - Use virus-free seed cane; rogue infected clumps.
+  organic:
+    - Tissue-culture seedlings.
+  chemical:
+    - Aphid control where recommended.
+  prevention:
+    - Clean seed and resistant varieties.

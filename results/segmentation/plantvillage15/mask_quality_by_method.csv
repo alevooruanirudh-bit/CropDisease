@@ -1,0 +1,7 @@
+method,n,fail_<5%,fail_>95%,failure_rate_%,coverage_mean_%,coverage_median_%
+borb_original,20625,0,773,3.748,65.97,65.3
+borb_plus,20625,0,176,0.853,51.29,51.81
+borb_plus_no_chroma,20625,0,176,0.853,50.36,50.72
+borb_plus_nomorph,20625,0,155,0.752,48.07,48.13
+otsu,20625,9,0,0.044,38.48,38.02
+kmeans,20625,0,0,0.0,36.32,35.26

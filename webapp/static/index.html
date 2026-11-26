@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Plant Health Check</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one mobile-first column — capture first, then the diagnosis, then treatment, then reference lists. */
+:root {
+  --bg: #f3f6f1; --surface: #ffffff; --surface-2: #e8efe5; --fg: #17241a; --muted: #56655a; --line: #d3ddcf;
+  --accent: #2d6a3e; --accent-fg: #ffffff; --accent-soft: #dcebd9;
+  --disease: #b4462f; --disease-bg: #f8e2dc; --pest: #9a6400; --pest-bg: #f8ecd2;
+  --nutrient: #2f5f8f; --nutrient-bg: #dde8f4; --healthy: #2d6a3e; --healthy-bg: #dcebd9;
+  --display: "Young Serif", Georgia, serif; --body: "Figtree", system-ui, -apple-system, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root {
+  --bg: #111712; --surface: #18201a; --surface-2: #1f2a21; --fg: #e5ede3; --muted: #9db0a0; --line: #2d3a2f;
+  --accent: #7fc48e; --accent-fg: #0d1a10; --accent-soft: #233826;
+  --disease: #f19a84; --disease-bg: #3a221c; --pest: #e8bd63; --pest-bg: #362a12;
+  --nutrient: #8fb9e6; --nutrient-bg: #1b2a3a; --healthy: #7fc48e; --healthy-bg: #233826; color-scheme: dark } }
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--fg); font: 16px/1.55 var(--body); }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 28px; }
+h1, h2, h3 { margin: 0; text-wrap: balance; line-height: 1.15; }
+h1 { font: 400 clamp(30px, 6vw, 42px)/1.1 var(--display); }
+h2 { font: 400 26px/1.2 var(--display); }
+h3 { font-size: 15px; font-weight: 700; letter-spacing: .02em; }
+p { margin: 0; }
+.muted { color: var(--muted); }
+.label { font: 500 12px/1 var(--mono); letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+header { display: flex; flex-direction: column; gap: 8px; }
+
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; display: flex; flex-direction: column; gap: 16px; }
+.actions { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 56px; padding: 12px 18px;
+  border-radius: 12px; border: 1.5px solid var(--accent); font: 600 17px var(--body); cursor: pointer;
+  background: var(--surface); color: var(--accent); }
+.btn.primary { background: var(--accent); color: var(--accent-fg); }
+.btn:hover { filter: brightness(1.05); }
+.btn:focus-visible, summary:focus-visible, .tab:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.btn svg { width: 22px; height: 22px; flex: none; }
+.drop { border: 2px dashed var(--line); border-radius: 12px; padding: 14px; text-align: center; color: var(--muted); font-size: 14px; }
+.drop.over { border-color: var(--accent); background: var(--accent-soft); color: var(--fg); }
+input[type=file] { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+
+.banner { border-radius: 12px; padding: 12px 16px; font-size: 15px; }
+.banner.warn { background: var(--pest-bg); color: var(--fg); border: 1px solid var(--line); }
+.banner.err { background: var(--disease-bg); color: var(--fg); border: 1px solid var(--line); }
+
+.result { display: grid; grid-template-columns: 160px 1fr; gap: 18px; align-items: start; }
+@media (max-width: 520px) { .result { grid-template-columns: 1fr; } }
+.result img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 10px; border: 1px solid var(--line); }
+.verdict { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.verdict .plant { font-size: 15px; color: var(--muted); }
+.verdict .plant b { color: var(--fg); }
+.pill { display: inline-flex; align-self: flex-start; font: 600 12px/1 var(--body); letter-spacing: .04em; text-transform: uppercase;
+  padding: 6px 10px; border-radius: 99px; }
+.k-disease { color: var(--disease); background: var(--disease-bg); }
+.k-pest { color: var(--pest); background: var(--pest-bg); }
+.k-nutrient, .k-abiotic { color: var(--nutrient); background: var(--nutrient-bg); }
+.k-healthy { color: var(--healthy); background: var(--healthy-bg); }
+.meter { display: flex; align-items: center; gap: 10px; font: 500 14px var(--mono); font-variant-numeric: tabular-nums; }
+.meter .bar { flex: 1; height: 8px; border-radius: 99px; background: var(--surface-2); overflow: hidden; }
+.meter .bar i { display: block; height: 100%; background: var(--accent); border-radius: 99px; }
+.alts { display: flex; flex-direction: column; gap: 6px; font-size: 14px; }
+.alts div { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+.alts span:last-child { font-family: var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.facts { display: grid; gap: 14px; }
+.fact { display: flex; flex-direction: column; gap: 4px; }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.tab { border: 1px solid var(--line); background: var(--surface); color: var(--fg); padding: 8px 14px; border-radius: 99px;
+  font: 600 14px var(--body); cursor: pointer; }
+.tab[aria-selected="true"] { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+ul.steps { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; }
+.disclaimer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; }
+
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 18px; }
+summary { cursor: pointer; font-weight: 700; }
+.crops { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 12px; margin-top: 14px; }
+.crop { font-size: 14px; }
+.crop b { display: block; }
+.crop span { color: var(--muted); }
+.tips { margin: 12px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+
+dialog { border: 1px solid var(--line); border-radius: 14px; padding: 16px; background: var(--surface); color: var(--fg); max-width: min(560px, 94vw); }
+dialog::backdrop { background: rgb(0 0 0 / .55); }
+dialog video { width: 100%; border-radius: 10px; background: #000; }
+.row { display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap; margin-top: 12px; }
+.spinner { width: 20px; height: 20px; border-radius: 50%; border: 3px solid var(--accent-soft); border-top-color: var(--accent); animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .spinner { animation: none; } }
+footer { font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="label">Plant doctor</span>
+  <h1>Plant Health Check</h1>
+  <p class="muted">Photograph a sick leaf, fruit, stem or tuber. You'll get the likely plant and problem, what causes it,
+    and how to treat and prevent it.</p>
+</header>
+
+<div id="notReady" class="banner warn" hidden>The model is still being trained. Come back once training has finished.</div>
+
+<section class="card" aria-labelledby="h-scan">
+  <h2 id="h-scan">Check a plant</h2>
+  <div class="actions">
+    <label class="btn primary" for="camInput" id="takeBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+      Take photo
+    </label>
+    <label class="btn" for="fileInput">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 16V4m0 0-4 4m4-4 4 4M4 16v4h16v-4"/></svg>
+      Upload photo
+    </label>
+  </div>
+  <input id="camInput" type="file" accept="image/*" capture="environment">
+  <input id="fileInput" type="file" accept="image/*">
+  <div class="drop" id="drop">or drag and drop an image here</div>
+</section>
+
+<div id="status" class="banner" hidden></div>
+
+<section class="card" id="resultCard" hidden aria-live="polite">
+  <div class="result">
+    <img id="preview" alt="Your photo">
+    <div class="verdict">
+      <span class="plant" id="plantLine"></span>
+      <h2 id="condition"></h2>
+      <span class="pill" id="kind"></span>
+      <div class="meter"><span>Confidence</span><span class="bar"><i id="confBar"></i></span><span id="confTxt"></span></div>
+      <p id="message" class="muted"></p>
+    </div>
+  </div>
+  <div>
+    <h3 class="label" style="margin-bottom:8px">Other possibilities</h3>
+    <div class="alts" id="alts"></div>
+  </div>
+</section>
+
+<section class="card" id="adviceCard" hidden>
+  <h2>What it is and what to do</h2>
+  <div class="facts">
+    <div class="fact"><span class="label">Type</span><span id="aType"></span></div>
+    <div class="fact"><span class="label">Cause</span><span id="aCause"></span></div>
+    <div class="fact"><span class="label">Symptoms to look for</span><span id="aSymptoms"></span></div>
+    <div class="fact"><span class="label">How it spreads</span><span id="aSpread"></span></div>
+  </div>
+  <div class="tabs" role="tablist" id="tabs">
+    <button class="tab" role="tab" data-k="cultural" aria-selected="true">Field practices</button>
+    <button class="tab" role="tab" data-k="organic" aria-selected="false">Organic &amp; biological</button>
+    <button class="tab" role="tab" data-k="chemical" aria-selected="false">Chemical</button>
+    <button class="tab" role="tab" data-k="prevention" aria-selected="false">Prevention</button>
+  </div>
+  <ul class="steps" id="steps"></ul>
+  <p class="disclaimer" id="disclaimer"></p>
+</section>
+
+<details id="supported">
+  <summary id="supSummary">Plants and problems it can recognise</summary>
+  <div class="crops" id="crops"></div>
+</details>
+
+<details>
+  <summary>Tips for a good photo</summary>
+  <ul class="tips">
+    <li>Use daylight, not flash, and keep the camera steady.</li>
+    <li>Fill most of the photo with the affected leaf, fruit, stem or tuber.</li>
+    <li>Show the symptoms clearly: spots, mould, holes or discoloured areas.</li>
+    <li>Photograph one plant part at a time. A plain background helps.</li>
+  </ul>
+</details>
+
+<footer id="footer">Trained on public plant-disease image datasets (PlantVillage, PlantDoc, AgML collections and more). Advice is general guidance; check with your local agricultural extension service before treating.</footer>
+</div>
+
+<dialog id="camDialog">
+  <video id="video" autoplay playsinline muted></video>
+  <div class="row">
+    <button class="btn" id="camCancel" type="button">Cancel</button>
+    <button class="btn primary" id="camShoot" type="button">Capture</button>
+  </div>
+</dialog>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const KIND = { disease: "Disease", pest: "Pest", nutrient: "Nutrient problem", abiotic: "Non-infectious problem", healthy: "Healthy", nonplant: "Not a plant" };
+let lastAdvice = null, stream = null;
+
+function kindOf(cond, type) {
+  if (cond === "Healthy") return "healthy";
+  if (cond === "Not a plant") return "nonplant";
+  const t = (type || "").toLowerCase();
+  if (t.includes("pest") || t.includes("mite damage")) return "pest";
+  if (t.includes("nutrient")) return "nutrient";
+  if (t.includes("abiotic") || t.includes("physiological")) return "abiotic";
+  return "disease";
+}
+function showStatus(text, cls) {
+  const s = $("status");
+  if (!text) { s.hidden = true; return; }
+  s.className = "banner " + (cls || "");
+  s.innerHTML = text;
+  s.hidden = false;
+}
+// "plant" = photos of several or unspecified parts; then only the crop is shown.
+function partTxt(p) { return p && p !== "plant" && p !== "none" ? p : ""; }
+function pct(p) { return (100 * p).toFixed(p >= 0.995 ? 0 : 1) + "%"; }
+
+async function analyse(file) {
+  if (!file) return;
+  $("preview").src = URL.createObjectURL(file);
+  $("resultCard").hidden = true; $("adviceCard").hidden = true;
+  showStatus('<span style="display:inline-flex;gap:10px;align-items:center"><span class="spinner"></span>Checking your photo…</span>');
+  const fd = new FormData(); fd.append("file", file);
+  try {
+    const r = await fetch("/api/predict", { method: "POST", body: fd });
+    const data = await r.json();
+    if (!r.ok) { showStatus(data.detail || "Something went wrong. Try another photo.", "err"); return; }
+    render(data);
+  } catch (e) {
+    showStatus("Could not reach the server. Check that it is running and try again.", "err");
+  }
+}
+
+function render(d) {
+  showStatus("");
+  const best = d.top[0];
+  const adv = d.advice;
+  const plant = d.plants[0];
+  $("resultCard").hidden = false;
+  if (d.status === "not_plant") {
+    $("plantLine").textContent = "";
+    $("condition").textContent = "This doesn't look like a plant";
+  } else if (d.status === "uncertain") {
+    const c = (d.conditions || [])[0];
+    $("plantLine").innerHTML = "Plant unclear" + (plant ? ` · maybe <b>${plant.crop}</b> (${pct(plant.prob)})` : "");
+    $("condition").textContent = c ? `Possibly ${c.condition}` : "Not sure";
+  } else {
+    $("plantLine").innerHTML = `<b>${best.crop}</b>` + (partTxt(best.part) ? ` · ${best.part}` : "") + (plant && plant.crop === best.crop ? ` <span>(plant ${pct(plant.prob)})</span>` : "");
+    $("condition").textContent = best.condition;
+  }
+  const unsure = d.status === "uncertain";
+  const shown = unsure ? ((d.conditions || [])[0] || best) : best;
+  const k = unsure && !adv ? null : kindOf(shown.condition, adv && adv.type);
+  $("kind").hidden = !k;
+  if (k) { $("kind").className = "pill k-" + k; $("kind").textContent = KIND[k]; }
+  $("confBar").style.width = (100 * shown.prob).toFixed(1) + "%";
+  $("confTxt").textContent = pct(shown.prob);
+  $("message").textContent = d.message || "";
+  // When unsure, list problems totalled over all plants first, then the individual plant + problem guesses.
+  const probs = unsure ? (d.conditions || []).slice(1).map(c =>
+    `<div><span>${c.condition} <span class="muted">(any plant)</span></span><span>${pct(c.prob)}</span></div>`) : [];
+  $("alts").innerHTML = probs.concat(d.top.slice(unsure ? 0 : 1, 5).map(t =>
+    `<div><span>${t.crop === "Not a plant" ? "Not a plant" : `${t.crop} · ${t.condition}` + (partTxt(t.part) ? ` <span class="muted">(${t.part})</span>` : "")}</span><span>${pct(t.prob)}</span></div>`)).join("");
+
+  lastAdvice = adv;
+  if (adv && adv.found && d.status !== "not_plant") {
+    $("adviceCard").hidden = false;
+    $("aType").textContent = adv.type || "–";
+    $("aCause").textContent = adv.cause || "–";
+    $("aSymptoms").textContent = adv.symptoms || "–";
+    $("aSpread").textContent = adv.spread || "–";
+    $("disclaimer").textContent = (unsure ? "Low-confidence guess: confirm the symptoms match before treating. " : "") + adv.disclaimer;
+    selectTab("cultural");
+  }
+  $("resultCard").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+}
+
+function selectTab(key) {
+  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", String(t.dataset.k === key)));
+  const items = (lastAdvice && lastAdvice[key]) || [];
+  $("steps").innerHTML = items.length ? items.map(s => `<li>${s.replace(/</g, "&lt;")}</li>`).join("") : "<li>No specific steps for this section.</li>";
+}
+document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => selectTab(t.dataset.k)));
+
+$("fileInput").addEventListener("change", e => analyse(e.target.files[0]));
+$("camInput").addEventListener("change", e => analyse(e.target.files[0]));
+const drop = $("drop");
+["dragenter", "dragover"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add("over"); }));
+["dragleave", "drop"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove("over"); }));
+drop.addEventListener("drop", e => analyse(e.dataTransfer.files[0]));
+document.addEventListener("paste", e => { const f = [...e.clipboardData.files][0]; if (f) analyse(f); });
+
+// On computers without a phone camera picker, "Take photo" opens the webcam instead.
+const isTouch = matchMedia("(pointer: coarse)").matches;
+if (!isTouch && navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  $("takeBtn").addEventListener("click", async (e) => {
+    e.preventDefault();
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } });
+      $("video").srcObject = stream; $("camDialog").showModal();
+    } catch { $("camInput").click(); }
+  });
+}
+function stopCam() { if (stream) stream.getTracks().forEach(t => t.stop()); stream = null; $("camDialog").close(); }
+$("camCancel").addEventListener("click", stopCam);
+$("camShoot").addEventListener("click", () => {
+  const v = $("video"), c = document.createElement("canvas");
+  c.width = v.videoWidth; c.height = v.videoHeight; c.getContext("2d").drawImage(v, 0, 0);
+  c.toBlob(b => { stopCam(); analyse(new File([b], "camera.jpg", { type: "image/jpeg" })); }, "image/jpeg", 0.92);
+});
+
+fetch("/api/info").then(r => r.json()).then(info => {
+  if (!info.ready) { $("notReady").hidden = false; return; }
+  const crops = Object.entries(info.crops);
+  const nProblems = crops.reduce((a, [, v]) => a + v.filter(x => x.condition !== "Healthy").length, 0);
+  $("supSummary").textContent = `Plants and problems it can recognise (${crops.length} plants, ${nProblems} problems)`;
+  $("crops").innerHTML = crops.map(([c, v]) => {
+    const probs = v.filter(x => x.condition !== "Healthy");
+    const parts = [...new Set(v.map(x => partTxt(x.part)).filter(Boolean))].join(", ");
+    return `<div class="crop"><b>${c}</b><span>${parts ? parts + " · " : ""}${probs.map(x => x.condition).join(", ") || "healthy only"}</span></div>`;
+  }).join("");
+  if (info.test_accuracy != null)
+    $("footer").textContent += ` Model: ${info.backbone}, ${info.n_labels} classes, ${(100 * info.test_accuracy).toFixed(1)}% accuracy on held-out test photos.`;
+}).catch(() => {});
+</script>
+</body>
+</html>

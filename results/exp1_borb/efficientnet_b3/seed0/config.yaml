@@ -1,0 +1,140 @@
+experiment:
+  name: exp1_borb
+  type: train
+device: auto
+num_workers: 6
+paths:
+  results_dir: results
+  cache_dir: cache
+  split_root: splits
+  keep_checkpoints: true
+data:
+  dataset: plantvillage
+  name: plantvillage15
+  root: data/plantvillage
+  num_classes: 15
+  split_dir: splits/plantvillage15
+  split_ratios:
+  - 0.6
+  - 0.2
+  - 0.2
+  split_seed: 42
+  dedup_max_dist: 4
+  hash_workers: 8
+  max_per_class: null
+  class_caps:
+    Tomato___Tomato_Yellow_Leaf_Curl_Virus: 3209
+  class_names:
+  - Pepper,_bell___Bacterial_spot
+  - Pepper,_bell___healthy
+  - Potato___Early_blight
+  - Potato___Late_blight
+  - Potato___healthy
+  - Tomato___Bacterial_spot
+  - Tomato___Early_blight
+  - Tomato___Late_blight
+  - Tomato___Leaf_Mold
+  - Tomato___Septoria_leaf_spot
+  - Tomato___Spider_mites Two-spotted_spider_mite
+  - Tomato___Target_Spot
+  - Tomato___Tomato_Yellow_Leaf_Curl_Virus
+  - Tomato___Tomato_mosaic_virus
+  - Tomato___healthy
+  n_classes: 15
+segmentation:
+  method: borb_plus
+  output: black
+  crop_pad: 0.05
+  morphology: true
+  kernel_frac: 0.02
+  fill_holes: true
+  min_component_frac: 0.02
+  lesion_protect: true
+  grabcut: false
+  grabcut_iters: 3
+  threshold_sample: 2000
+  hist_sigma: 3.0
+  hist_min_prominence: 0.05
+model:
+  img_size: 224
+  pretrained: true
+  drop_rate: 0.2
+  backbone: efficientnet_b3
+backbones:
+- efficientnet_b3
+seeds:
+- 0
+train:
+  batch_size: 16
+  eval_batch_size: 64
+  epochs: 30
+  freeze_epochs: 3
+  lr_head: 0.001
+  lr: 0.0001
+  weight_decay: 0.05
+  warmup_epochs: 1
+  min_lr_ratio: 0.01
+  label_smoothing: 0.1
+  early_stopping_patience: 8
+  grad_clip: 1.0
+  amp: auto
+  balanced_sampling: false
+  weighted_loss: false
+  deterministic: true
+augment:
+  enabled: true
+  paper_geometric: true
+  random_resized_crop: true
+  rrc_scale:
+  - 0.7
+  - 1.0
+  color_jitter: 0.2
+  mixup:
+    enabled: false
+    mixup_alpha: 0.2
+    cutmix_alpha: 0.2
+    prob: 0.3
+hpo:
+  enabled: false
+  n_trials: 6
+  epochs: 6
+  seed: 0
+  trial_seed: 0
+  space:
+    train.lr:
+      type: loguniform
+      low: 3.0e-05
+      high: 0.0005
+    train.lr_head:
+      type: loguniform
+      low: 0.0003
+      high: 0.003
+    train.weight_decay:
+      type: loguniform
+      low: 0.001
+      high: 0.1
+eval:
+  tta: true
+  gradcam_n: 8
+summary:
+  pairs:
+  - exp_a: exp1_borb
+    exp_b: exp2_noborb
+    paper_key: plantvillage15
+  - exp_a: exp1_borb_mango
+    exp_b: exp2_noborb_mango
+    paper_key: mangoleafbd
+  segcomp_exps:
+  - exp2_noborb
+  - abl_borb_original
+  - exp1_borb
+  - seg_otsu
+  - seg_kmeans
+  ablation_reference:
+    exp: exp1_borb
+    labels:
+      borb_variant: BorB+ (Exp 1)
+      output: black (Exp 1)
+      augmentation: on (Exp 1)
+      morphology: on (Exp 1)
+seed: 0

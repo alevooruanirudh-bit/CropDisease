@@ -1,0 +1,659 @@
+crop,label_name,test,train,val
+Alfalfa,Alfalfa | insect | Alfalfa plant bug,62,477,61
+Alfalfa,Alfalfa | insect | Alfalfa seed chalcid,18,148,19
+Alfalfa,Alfalfa | insect | Alfalfa thrips,18,143,16
+Alfalfa,Alfalfa | insect | Alfalfa weevil,53,412,59
+Alfalfa,Alfalfa | insect | Blister beetles,60,481,59
+Alfalfa,Alfalfa | insect | Flax budworm,57,484,59
+Alfalfa,Alfalfa | insect | Grasshoppers and locusts,61,479,60
+Alfalfa,Alfalfa | insect | Green blister beetle,59,479,62
+Alfalfa,Alfalfa | insect | Legume blister beetle,57,486,57
+Alfalfa,Alfalfa | insect | Spotted alfalfa aphid,21,213,26
+Alfalfa,Alfalfa | insect | Tarnished plant bug,60,480,60
+Alfalfa,Alfalfa | insect | Thrips,59,482,59
+Apple,Apple | fruit | Fruit rot (post-harvest),125,1048,127
+Apple,Apple | leaf | Alternaria leaf spot,234,873,110
+Apple,Apple | leaf | Frogeye leaf spot,389,1663,212
+Apple,Apple | leaf | Grey spot,67,236,31
+Apple,Apple | leaf | Marssonina blotch (brown spot),111,572,75
+Apple,Apple | leaf | Powdery mildew,199,777,102
+Apple,Apple | plant | Apple scab,485,2512,307
+Apple,Apple | plant | Black rot,19,133,18
+Apple,Apple | plant | Cedar apple rust,313,1469,176
+Apple,Apple | plant | Healthy,808,4690,577
+Apple,Apple | plant | Mosaic virus,241,982,126
+Apricot,Apricot | leaf | Healthy,105,762,96
+Apricot,Apricot | leaf | Leaf blight,34,266,33
+Apricot,Apricot | leaf | Shot hole,95,814,99
+Ash gourd,Ash gourd | leaf | Aphids,24,103,13
+Ash gourd,Ash gourd | leaf | Downy mildew,125,546,77
+Ash gourd,Ash gourd | leaf | Healthy,148,568,84
+Ash gourd,Ash gourd | leaf | Leaf curl virus,102,373,36
+Ash gourd,Ash gourd | leaf | Leaf miner,4,15,2
+Banana,Banana | fruit | Anthracnose,8,55,6
+Banana,Banana | fruit | Cigar end rot,5,47,5
+Banana,Banana | fruit | Fruit rot (post-harvest),128,1029,136
+Banana,Banana | fruit | Fruit-scarring beetle,34,97,19
+Banana,Banana | leaf | Boron deficiency,12,79,9
+Banana,Banana | leaf | Calcium deficiency,42,350,47
+Banana,Banana | leaf | Iron deficiency,9,68,9
+Banana,Banana | leaf | Magnesium deficiency,16,119,18
+Banana,Banana | leaf | Pestalotiopsis leaf spot,37,116,19
+Banana,Banana | leaf | Potassium deficiency,162,756,45
+Banana,Banana | leaf | Sulphur deficiency,68,562,68
+Banana,Banana | leaf | Zinc deficiency,38,319,37
+Banana,Banana | plant | Cordana leaf spot,37,155,21
+Banana,Banana | plant | Healthy,436,2594,321
+Banana,Banana | plant | Sigatoka leaf spot,475,1797,218
+Banana,Banana | stem | Bacterial soft rot,139,590,69
+Banana,Banana | stem | Banana aphid,86,268,12
+Banana,Banana | stem | Pseudostem weevil,158,538,64
+Banana,Banana | whole plant | Bunchy top virus,14,111,17
+Banana,Banana | whole plant | Fusarium wilt (Panama disease),62,317,34
+Banana,Banana | whole plant | Xanthomonas wilt,150,578,72
+Basil,Basil | plant | Downy mildew,7,70,9
+Basil,Basil | plant | Healthy,57,471,60
+Bean,Bean | leaf | Angular leaf spot,79,317,36
+Bean,Bean | leaf | Bacterial blight,101,370,36
+Bean,Bean | leaf | Bacterial wilt,112,406,53
+Bean,Bean | leaf | Septoria leaf spot,93,377,45
+Bean,Bean | plant | Halo blight,10,88,13
+Bean,Bean | plant | Healthy,270,1271,163
+Bean,Bean | plant | Mosaic virus,161,654,78
+Bean,Bean | plant | Rust,236,1040,128
+Bell pepper,Bell pepper | fruit | Blossom end rot,15,82,12
+Bell pepper,Bell pepper | fruit | Fruit rot (post-harvest),124,996,127
+Bell pepper,Bell pepper | plant | Bacterial spot,193,839,107
+Bell pepper,Bell pepper | plant | Frogeye leaf spot,3,24,1
+Bell pepper,Bell pepper | plant | Healthy,382,2369,310
+Bell pepper,Bell pepper | plant | Leaf spot,10,90,11
+Bell pepper,Bell pepper | plant | Powdery mildew,2,23,2
+Betel,Betel | leaf | Healthy,145,585,70
+Betel,Betel | leaf | Leaf rot,51,181,20
+Betel,Betel | leaf | Leaf spot,123,490,65
+Bitter gourd,Bitter gourd | fruit | Fruit rot (post-harvest),35,285,37
+Bitter gourd,Bitter gourd | fruit | Healthy,33,263,31
+Black gram,Black gram | leaf | Anthracnose,45,167,18
+Black gram,Black gram | leaf | Healthy,40,159,22
+Black gram,Black gram | leaf | Leaf crinkle virus,28,110,14
+Black gram,Black gram | leaf | Powdery mildew,35,129,16
+Black gram,Black gram | leaf | Yellow mosaic virus,40,164,20
+Blueberry,Blueberry | fruit | Anthracnose,3,33,4
+Blueberry,Blueberry | fruit | Mummy berry,5,37,4
+Blueberry,Blueberry | plant | Gray mold,4,29,3
+Blueberry,Blueberry | plant | Healthy,277,1432,183
+Blueberry,Blueberry | plant | Rust,10,90,12
+Blueberry,Blueberry | plant | Scorch virus,5,34,3
+Broccoli,Broccoli | plant | Alternaria leaf spot,6,51,5
+Broccoli,Broccoli | plant | Downy mildew,6,51,6
+Broccoli,Broccoli | plant | Healthy,28,216,25
+Broccoli,Broccoli | plant | Ring spot,1,8,1
+Cabbage,Cabbage | insect | Cabbage white butterfly,47,373,47
+Cabbage,Cabbage | plant | Alternaria leaf spot,14,97,14
+Cabbage,Cabbage | plant | Black rot,14,98,11
+Cabbage,Cabbage | plant | Downy mildew,7,65,12
+Cabbage,Cabbage | plant | Healthy,48,365,44
+Cacao,Cacao | pod | Black pod rot,78,641,81
+Cacao,Cacao | pod | Cocoa pod borer,12,79,12
+Cacao,Cacao | pod | Healthy,78,641,81
+Carambola,Carambola | leaf | Insect holes,69,289,32
+Carambola,Carambola | plant | Healthy,216,823,104
+Carrot,Carrot | plant | Alternaria leaf blight,6,46,8
+Carrot,Carrot | plant | Cercospora leaf spot,2,14,1
+Carrot,Carrot | root | Cavity spot,8,59,7
+Carrot,Carrot | root | Healthy,60,472,59
+Carrot,Carrot | root | Soft rot,49,407,48
+Cashew,Cashew | leaf | Algal leaf spot,149,1203,147
+Cashew,Cashew | leaf | Anthracnose,150,1202,148
+Cashew,Cashew | leaf | Healthy,131,1079,158
+Cashew,Cashew | leaf | Leaf miner,138,1100,140
+Cashew,Cashew | stem | Gummosis,37,318,37
+Cassava,Cassava | leaf | Bacterial blight,331,2001,250
+Cassava,Cassava | leaf | Brown spot,146,1175,145
+Cassava,Cassava | leaf | Brown streak disease,325,1965,249
+Cassava,Cassava | leaf | Green mite,102,812,101
+Cassava,Cassava | leaf | Green mottle,305,1844,237
+Cassava,Cassava | leaf | Healthy,475,3165,403
+Cassava,Cassava | leaf | Mosaic disease,462,3120,380
+Cauliflower,Cauliflower | head | Bacterial soft rot,32,149,20
+Cauliflower,Cauliflower | leaf | Black rot,23,66,8
+Cauliflower,Cauliflower | leaf | Downy mildew,27,126,16
+Cauliflower,Cauliflower | plant | Alternaria leaf spot,7,57,11
+Cauliflower,Cauliflower | plant | Healthy,19,155,18
+Celery,Celery | plant | Anthracnose,5,34,5
+Celery,Celery | plant | Early blight,6,41,5
+Celery,Celery | plant | Healthy,20,168,22
+Cherry,Cherry | leaf | Leaf scorch,30,224,27
+Cherry,Cherry | leaf | Shot hole,10,86,13
+Cherry,Cherry | plant | Healthy,207,981,119
+Cherry,Cherry | plant | Leaf spot,70,566,71
+Cherry,Cherry | plant | Powdery mildew,186,866,108
+Chickpea,Chickpea | whole plant | Fusarium wilt,112,850,108
+Chickpea,Chickpea | whole plant | Healthy,81,640,79
+Chili pepper,Chili pepper | leaf | Aphids,20,369,31
+Chili pepper,Chili pepper | leaf | Cercospora leaf spot,100,669,83
+Chili pepper,Chili pepper | leaf | Leaf curl virus,70,561,69
+Chili pepper,Chili pepper | leaf | Leaf-eating caterpillars,49,383,44
+Chili pepper,Chili pepper | leaf | Mites and thrips,19,78,10
+Chili pepper,Chili pepper | leaf | Nutrient deficiency,17,76,9
+Chili pepper,Chili pepper | leaf | Powdery mildew,20,71,10
+Chili pepper,Chili pepper | leaf | Thrips,111,952,115
+Chili pepper,Chili pepper | leaf | Whiteflies,49,375,50
+Chili pepper,Chili pepper | plant | Healthy,117,867,112
+Chili pepper,Chili pepper | whole plant | Anthracnose,15,129,18
+Citrus,Citrus | insect | Arrowhead scale,35,336,48
+Citrus,Citrus | insect | Black citrus aphid,23,186,17
+Citrus,Citrus | insect | Black parlatoria scale,9,55,10
+Citrus,Citrus | insect | Brown citrus aphid,18,153,18
+Citrus,Citrus | insect | Chinese citrus fly,35,313,40
+Citrus,Citrus | insect | Citrus leafminer,43,328,33
+Citrus,Citrus | insect | Citrus red mite,42,306,37
+Citrus,Citrus | insect | Citrus rust mite,18,135,19
+Citrus,Citrus | insect | Citrus swallowtail caterpillar,47,357,45
+Citrus,Citrus | insect | Cottony cushion scale,54,492,54
+Citrus,Citrus | insect | Florida red scale,19,185,21
+Citrus,Citrus | insect | Fruit-piercing moth,30,253,28
+Citrus,Citrus | insect | Green citrus aphid,31,289,31
+Citrus,Citrus | insect | Japanese orange fly,15,134,19
+Citrus,Citrus | insect | Oriental fruit fly,42,350,47
+Citrus,Citrus | insect | Red wax scale,23,213,22
+Citrus,Citrus | insect | Spherical mealybug,8,83,8
+Citrus,Citrus | insect | Spiny whitefly,71,466,63
+Citrus,Citrus | insect | Tobacco cutworm,66,475,59
+Citrus,Citrus | plant | Citrus canker,54,423,52
+Citrus,Citrus | plant | Huanglongbing (citrus greening),100,836,101
+Coconut,Coconut | leaf | Coconut black-headed caterpillar,129,949,122
+Coconut,Coconut | leaf | Grey leaf spot,146,581,73
+Coconut,Coconut | leaf | Healthy,14,97,12
+Coconut,Coconut | leaf | Leaf rot,148,565,77
+Coconut,Coconut | leaf | Weligama coconut leaf wilt,180,1440,180
+Coconut,Coconut | stem | Stem bleeding,148,583,69
+Coconut,Coconut | whole plant | Bud rot,98,331,41
+Coffee,Coffee | fruit | Berry blotch,9,93,11
+Coffee,Coffee | leaf | Coffee leaf miner,156,846,102
+Coffee,Coffee | leaf | Phoma leaf spot,166,975,116
+Coffee,Coffee | leaf | Red spider mite,32,263,38
+Coffee,Coffee | plant | Cercospora leaf spot,92,457,60
+Coffee,Coffee | plant | Coffee leaf rust,259,1657,207
+Coffee,Coffee | plant | Healthy,180,1396,177
+Cotton,Cotton | leaf | Alternaria leaf spot,32,126,15
+Cotton,Cotton | leaf | Bacterial blight,109,553,69
+Cotton,Cotton | leaf | Fusarium wilt,57,226,33
+Cotton,Cotton | leaf | Healthy,79,312,35
+Cotton,Cotton | leaf | Herbicide damage,51,198,31
+Cotton,Cotton | leaf | Leaf curl virus,85,305,41
+Cotton,Cotton | leaf | Leaf reddening,108,421,49
+Cotton,Cotton | leaf | Leafhopper (jassids),41,163,21
+Cotton,Cotton | leaf | Verticillium wilt,51,216,24
+Cucumber,Cucumber | fruit | Belly rot,164,567,69
+Cucumber,Cucumber | fruit | Fruit rot (post-harvest),51,775,171
+Cucumber,Cucumber | fruit | Pythium fruit rot,155,567,70
+Cucumber,Cucumber | leaf | Anthracnose,149,571,73
+Cucumber,Cucumber | leaf | Downy mildew,149,574,77
+Cucumber,Cucumber | plant | Angular leaf spot,24,200,25
+Cucumber,Cucumber | plant | Bacterial wilt,175,676,91
+Cucumber,Cucumber | plant | Healthy,403,2139,262
+Cucumber,Cucumber | plant | Powdery mildew,25,177,29
+Cucumber,Cucumber | stem | Gummy stem blight,148,580,72
+Custard apple,Custard apple | fruit | Anthracnose,147,579,74
+Custard apple,Custard apple | fruit | Black canker,158,563,78
+Custard apple,Custard apple | fruit | Diplodia rot,149,578,73
+Custard apple,Custard apple | fruit | Fruit spot,157,581,60
+Custard apple,Custard apple | fruit | Mealybug,159,564,76
+Custard apple,Custard apple | leaf | Leaf spot,158,566,76
+Date palm,Date palm | leaf | Black scorch,21,74,11
+Date palm,Date palm | leaf | Dubas bug,160,1282,154
+Date palm,Date palm | leaf | Fusarium wilt (bayoud),41,153,16
+Date palm,Date palm | leaf | Healthy,141,872,107
+Date palm,Date palm | leaf | Leaf spot,13,50,6
+Date palm,Date palm | leaf | Magnesium deficiency,93,401,42
+Date palm,Date palm | leaf | Manganese deficiency,71,301,43
+Date palm,Date palm | leaf | Potassium deficiency,148,576,65
+Date palm,Date palm | leaf | Rachis blight,62,236,25
+Date palm,Date palm | leaf | White scale (Parlatoria),21,73,7
+Durian,Durian | fruit | Fruit rot,55,235,32
+Durian,Durian | fruit | Mealybug,67,262,35
+Durian,Durian | leaf | Algal leaf spot,89,327,41
+Durian,Durian | leaf | Anthracnose,86,329,42
+Durian,Durian | leaf | Healthy,94,344,46
+Durian,Durian | leaf | Leaf blight,78,320,41
+Durian,Durian | leaf | Phomopsis leaf spot,82,297,32
+Durian,Durian | leaf | Rhizoctonia leaf blight,78,285,35
+Durian,Durian | leaf | Sooty mould,59,218,28
+Durian,Durian | stem | Phytophthora canker,62,226,32
+Durian,Durian | stem | Stem blight,77,300,45
+Durian,Durian | stem | Stem cracking (gummosis),65,248,34
+Eggplant,Eggplant | fruit | Fruit cracking,37,145,15
+Eggplant,Eggplant | fruit | Phomopsis blight,33,155,18
+Eggplant,Eggplant | fruit | Shoot and fruit borer,126,456,55
+Eggplant,Eggplant | fruit | Wet rot,40,160,19
+Eggplant,Eggplant | leaf | Aphids,43,162,19
+Eggplant,Eggplant | leaf | Flea beetles,65,254,34
+Eggplant,Eggplant | leaf | Insect damage,104,384,53
+Eggplant,Eggplant | leaf | Leaf spot,89,361,46
+Eggplant,Eggplant | leaf | Mosaic virus,229,871,106
+Eggplant,Eggplant | leaf | Powdery mildew,41,154,18
+Eggplant,Eggplant | leaf | White mold,10,45,8
+Eggplant,Eggplant | leaf | Wilt,28,101,11
+Eggplant,Eggplant | plant | Cercospora leaf spot,34,158,22
+Eggplant,Eggplant | plant | Healthy,410,1644,201
+Eggplant,Eggplant | plant | Phytophthora blight,86,328,42
+Fig,Fig | leaf | Brown spot,10,87,10
+Fig,Fig | leaf | Healthy,16,120,14
+Fig,Fig | leaf | Leaf blight,21,147,23
+Fig,Fig | leaf | Rust,12,100,13
+Finger millet,Finger millet | head | Smut,18,210,21
+Finger millet,Finger millet | leaf | Blast,63,638,68
+Finger millet,Finger millet | leaf | Downy mildew,26,201,27
+Finger millet,Finger millet | leaf | Healthy,23,203,19
+Finger millet,Finger millet | leaf | Mottle streak virus,26,200,24
+Finger millet,Finger millet | leaf | Rust,68,621,82
+Finger millet,Finger millet | whole plant | Wilt,26,208,20
+Garlic,Garlic | plant | Healthy,23,182,22
+Garlic,Garlic | plant | Leaf blight,14,117,13
+Garlic,Garlic | plant | Rust,14,120,18
+Ginger,Ginger | plant | Healthy,17,143,15
+Ginger,Ginger | plant | Leaf spot,9,63,8
+Ginger,Ginger | stem | Sheath blight,7,71,9
+Grape,Grape | fruit | Fruit rot (post-harvest),20,158,22
+Grape,Grape | insect | Broad mite,8,69,7
+Grape,Grape | insect | Flat mite,7,65,7
+Grape,Grape | insect | Grape clearwing moth,17,107,16
+Grape,Grape | insect | Grape hornworm,64,476,60
+Grape,Grape | insect | Grape leaf beetle,29,223,31
+Grape,Grape | insect | Grape leafhopper,8,55,8
+Grape,Grape | insect | Grape phylloxera,35,287,32
+Grape,Grape | insect | Grape trunk borer,61,477,62
+Grape,Grape | insect | Green leafhopper,60,488,52
+Grape,Grape | insect | Green mirid bug,37,307,37
+Grape,Grape | insect | Greenhouse whitefly,57,478,65
+Grape,Grape | insect | Mealybug,28,252,27
+Grape,Grape | insect | Plant bugs (mirids),60,478,62
+Grape,Grape | insect | Slug caterpillars,58,482,60
+Grape,Grape | insect | Spotted lanternfly,63,479,58
+Grape,Grape | leaf | Anthracnose,23,203,23
+Grape,Grape | leaf | Bacterial leaf spot,19,73,8
+Grape,Grape | leaf | Esca (black measles),293,1675,215
+Grape,Grape | leaf | Isariopsis leaf spot,182,794,99
+Grape,Grape | leaf | Powdery mildew,180,1178,143
+Grape,Grape | plant | Black rot,233,1088,140
+Grape,Grape | plant | Downy mildew,285,1650,207
+Grape,Grape | plant | Grape erineum mite,108,876,117
+Grape,Grape | plant | Healthy,374,2087,254
+Grape,Grape | plant | Leaf spot,10,77,13
+Grape,Grape | plant | Leafroll virus,15,110,11
+Groundnut,Groundnut | leaf | Alternaria leaf spot,44,365,39
+Groundnut,Groundnut | leaf | Early leaf spot,196,923,113
+Groundnut,Groundnut | leaf | Healthy,206,1063,131
+Groundnut,Groundnut | leaf | Late leaf spot,125,499,65
+Groundnut,Groundnut | leaf | Nutrient deficiency,63,239,27
+Groundnut,Groundnut | leaf | Rosette virus,10,75,10
+Groundnut,Groundnut | leaf | Rust,58,260,28
+Guava,Guava | fruit | Dot disease,39,162,18
+Guava,Guava | fruit | Fruit rot (post-harvest),20,160,20
+Guava,Guava | fruit | Phytophthora rot,20,82,12
+Guava,Guava | fruit | Rust,31,111,15
+Guava,Guava | fruit | Scab,61,247,30
+Guava,Guava | fruit | Styler end rot,111,418,49
+Guava,Guava | leaf | Algal leaf spot,121,926,123
+Guava,Guava | leaf | Dieback,4,29,4
+Guava,Guava | leaf | Leaf spot,32,246,27
+Guava,Guava | leaf | Leaf-eating caterpillars,81,719,88
+Guava,Guava | leaf | Nutrient deficiency,13,116,13
+Guava,Guava | leaf | Whiteflies,83,641,76
+Guava,Guava | plant | Anthracnose,245,1380,173
+Guava,Guava | plant | Canker,73,309,39
+Guava,Guava | plant | Healthy,457,2473,290
+Jackfruit,Jackfruit | leaf | Algal leaf spot,27,245,28
+Jackfruit,Jackfruit | leaf | Black spot,26,243,31
+Jackfruit,Jackfruit | leaf | Healthy,32,242,26
+Java plum,Java plum | leaf | Bacterial spot,75,287,38
+Java plum,Java plum | leaf | Brown blight,75,292,33
+Java plum,Java plum | leaf | Healthy,49,200,23
+Java plum,Java plum | leaf | Powdery mildew,82,281,37
+Java plum,Java plum | leaf | Sooty mould,80,285,35
+Jujube,Jujube | fruit | Fruit rot (post-harvest),19,165,16
+Jujube,Jujube | leaf | Leaf-eating caterpillars,0,6,0
+Jujube,Jujube | leaf | Rust,0,0,2
+Jujube,Jujube | plant | Healthy,23,164,18
+Jute,Jute | leaf | Dieback,63,208,29
+Jute,Jute | leaf | Healthy,50,203,27
+Jute,Jute | leaf | Insect holes,58,219,23
+Jute,Jute | leaf | Mosaic virus,44,171,25
+Jute,Jute | stem | Stem soft rot,50,195,25
+Lemon,Lemon | leaf | Anthracnose,20,71,9
+Lemon,Lemon | leaf | Bacterial blight,17,77,11
+Lemon,Lemon | leaf | Citrus canker,37,126,15
+Lemon,Lemon | leaf | Healthy,40,150,20
+Lemon,Lemon | leaf | Leaf curl virus,23,81,11
+Lemon,Lemon | leaf | Nutrient deficiency,35,138,20
+Lemon,Lemon | leaf | Sooty mould,29,111,12
+Lemon,Lemon | leaf | Spider mites,19,84,11
+Lentil,Lentil | leaf | Ascochyta blight,152,574,74
+Lentil,Lentil | leaf | Healthy,153,574,73
+Lentil,Lentil | leaf | Powdery mildew,146,580,74
+Lentil,Lentil | leaf | Rust,151,574,75
+Lettuce,Lettuce | plant | Downy mildew,14,113,15
+Lettuce,Lettuce | plant | Healthy,83,677,82
+Lettuce,Lettuce | plant | Mosaic virus,9,72,9
+Loquat,Loquat | leaf | Healthy,13,104,12
+Loquat,Loquat | leaf | Leaf spot,21,156,21
+Maize,Maize | fruit | Common smut,28,231,33
+Maize,Maize | insect | Aphids,62,483,55
+Maize,Maize | insect | Asian corn borer,57,481,62
+Maize,Maize | insect | Black cutworm,58,478,64
+Maize,Maize | insect | Large cutworm,49,391,51
+Maize,Maize | insect | Mole cricket,60,472,68
+Maize,Maize | insect | Oriental armyworm,59,481,60
+Maize,Maize | insect | Spider mites,52,427,50
+Maize,Maize | insect | White grubs,64,476,60
+Maize,Maize | insect | White-margined moth,12,118,17
+Maize,Maize | insect | White-spotted flower chafer,70,443,52
+Maize,Maize | insect | Wireworms,56,488,56
+Maize,Maize | insect | Yellow cutworm,46,386,47
+Maize,Maize | insect | Yellow peach moth,56,480,64
+Maize,Maize | leaf | Curvularia leaf spot,20,73,7
+Maize,Maize | leaf | Fall armyworm,49,380,48
+Maize,Maize | leaf | Grasshopper damage,71,565,69
+Maize,Maize | leaf | Holcus leaf spot,12,84,12
+Maize,Maize | leaf | Leaf beetle,92,746,95
+Maize,Maize | leaf | Leaf spot,107,832,105
+Maize,Maize | leaf | Maize lethal necrosis,151,577,72
+Maize,Maize | leaf | Maize streak virus,203,1155,144
+Maize,Maize | leaf | Nitrogen deficiency,77,644,79
+Maize,Maize | leaf | Nutrient deficiency,63,521,69
+Maize,Maize | leaf | Phaeosphaeria leaf spot,108,872,107
+Maize,Maize | leaf | Phosphorus deficiency,65,517,63
+Maize,Maize | leaf | Potassium deficiency,56,487,56
+Maize,Maize | leaf | Southern corn leaf blight,20,75,5
+Maize,Maize | leaf | Southern rust,59,472,60
+Maize,Maize | leaf | Zinc deficiency,52,453,102
+Maize,Maize | plant | Common rust,281,1400,167
+Maize,Maize | plant | Gray leaf spot,197,1082,133
+Maize,Maize | plant | Healthy,482,2571,325
+Maize,Maize | plant | Northern leaf blight,365,2119,268
+Maize,Maize | stem | Banded leaf and sheath blight,22,69,9
+Mango,Mango | fruit | Alternaria black spot,11,93,15
+Mango,Mango | fruit | Black mould rot,15,108,12
+Mango,Mango | fruit | Fruit rot (post-harvest),54,462,53
+Mango,Mango | fruit | Stem-end rot,13,99,11
+Mango,Mango | insect | Chilli thrips,58,489,53
+Mango,Mango | insect | Flatid planthopper,62,455,61
+Mango,Mango | insect | Green broad-winged planthopper,55,382,50
+Mango,Mango | insect | Leafhoppers,59,483,58
+Mango,Mango | insect | Mango hopper,9,76,8
+Mango,Mango | insect | Mango pulp weevil,44,353,61
+Mango,Mango | insect | Mango shoot borer,30,243,32
+Mango,Mango | insect | Mango stem borer,54,448,53
+Mango,Mango | leaf | Bacterial canker,93,359,48
+Mango,Mango | leaf | Dieback,99,348,46
+Mango,Mango | leaf | Powdery mildew,91,364,45
+Mango,Mango | leaf | Sooty mould,96,362,42
+Mango,Mango | plant | Anthracnose,103,424,54
+Mango,Mango | plant | Cutting weevil,118,529,63
+Mango,Mango | plant | Gall midge,146,764,95
+Mango,Mango | plant | Healthy,158,924,112
+Maple,Maple | plant | Healthy,32,252,32
+Maple,Maple | plant | Tar spot,15,111,12
+Melon,Melon | leaf | Calcium deficiency,0,4,1
+Melon,Melon | leaf | Healthy,3,24,2
+Melon,Melon | leaf | Nitrogen deficiency,0,6,0
+Melon,Melon | leaf | Potassium deficiency,1,4,2
+Millet,Millet | leaf | Blast,77,603,101
+Millet,Millet | leaf | Healthy,78,643,79
+Millet,Millet | leaf | Rust,78,635,87
+Money plant,Money plant | leaf | Bacterial wilt,2,24,3
+Money plant,Money plant | leaf | Healthy,18,140,14
+Money plant,Money plant | leaf | Manganese toxicity,5,64,8
+Night jasmine,Night jasmine | leaf | Healthy,2,11,1
+Night jasmine,Night jasmine | leaf | Rust,2,15,3
+Not a plant,Not a plant,434,1654,210
+Okra,Okra | fruit | Fruit rot (post-harvest),12,121,13
+Okra,Okra | leaf | Alternaria leaf spot,10,46,7
+Okra,Okra | leaf | Leaf curl virus,6,20,2
+Okra,Okra | leaf | Phyllosticta leaf spot,7,34,4
+Okra,Okra | plant | Healthy,379,247,32
+Onion,Onion | leaf | Downy mildew,76,643,81
+Onion,Onion | leaf | Fusarium basal rot,82,639,79
+Onion,Onion | leaf | Healthy,129,672,82
+Onion,Onion | leaf | Iris yellow spot virus,53,200,26
+Onion,Onion | leaf | Purple blotch,81,654,83
+Onion,Onion | leaf | Stemphylium / anthracnose leaf blight,17,66,7
+Orange,Orange | fruit | Fruit rot (post-harvest),126,1037,136
+Orange,Orange | leaf | Dieback,122,459,61
+Orange,Orange | leaf | Huanglongbing (citrus greening),204,1011,125
+Orange,Orange | leaf | Mealybug,110,436,57
+Orange,Orange | leaf | Powdery mildew,116,425,57
+Orange,Orange | leaf | Shot hole,100,408,52
+Orange,Orange | leaf | Spiny whitefly,65,225,31
+Orange,Orange | plant | Healthy,189,1290,156
+Papaya,Papaya | fruit | Fruit rot (post-harvest),34,225,31
+Papaya,Papaya | leaf | Healthy,35,122,11
+Papaya,Papaya | leaf | Leaf curl virus,27,101,16
+Papaya,Papaya | leaf | Mealybug,25,98,13
+Papaya,Papaya | leaf | Mites,10,45,5
+Papaya,Papaya | leaf | Mosaic virus,42,156,16
+Papaya,Papaya | leaf | Ringspot virus,20,75,9
+Peach,Peach | fruit | Brown rot,16,138,16
+Peach,Peach | fruit | Scab,6,62,7
+Peach,Peach | leaf | Bacterial spot,221,1133,146
+Peach,Peach | plant | Healthy,102,463,61
+Peach,Peach | plant | Peach leaf curl,24,189,22
+Pear,Pear | leaf | Black spot,19,186,21
+Pear,Pear | leaf | Fire blight,13,73,9
+Pear,Pear | leaf | Healthy,18,153,20
+Persimmon,Persimmon | leaf | Brown spot,15,135,16
+Pigeon pea,Pigeon pea | leaf | Healthy,22,155,18
+Pigeon pea,Pigeon pea | leaf | Leaf spot,33,263,33
+Pigeon pea,Pigeon pea | leaf | Leaf webber,15,113,16
+Pigeon pea,Pigeon pea | leaf | Sterility mosaic,22,190,24
+Plum,Plum | fruit | Brown rot,7,62,7
+Plum,Plum | fruit | Plum pocket,7,60,8
+Plum,Plum | plant | Bacterial spot,1,13,2
+Plum,Plum | plant | Healthy,82,456,59
+Plum,Plum | plant | Plum pox virus,4,25,3
+Plum,Plum | plant | Rust,3,29,2
+Pomegranate,Pomegranate | fruit | Anthracnose,265,978,128
+Pomegranate,Pomegranate | fruit | Bacterial blight,89,333,41
+Pomegranate,Pomegranate | fruit | Carob moth,105,401,49
+Pomegranate,Pomegranate | fruit | Fruit rot (post-harvest),23,159,18
+Pomegranate,Pomegranate | fruit | Healthy,234,966,124
+Pomegranate,Pomegranate | fruit | Sunburn,73,288,30
+Potato,Potato | leaf | Insect damage,59,479,60
+Potato,Potato | leaf | Mosaic virus,52,416,58
+Potato,Potato | leaf | Nematode damage,7,55,6
+Potato,Potato | plant | Early blight,214,983,125
+Potato,Potato | plant | Healthy,303,2018,210
+Potato,Potato | plant | Late blight,240,1244,146
+Potato,Potato | tuber | Black scurf,11,34,4
+Potato,Potato | tuber | Blackleg,10,44,6
+Potato,Potato | tuber | Blackspot bruising,148,553,69
+Potato,Potato | tuber | Brown rot,22,74,9
+Potato,Potato | tuber | Common scab,8,34,5
+Potato,Potato | tuber | Dry rot,146,583,71
+Potato,Potato | tuber | Pink rot,10,42,5
+Potato,Potato | tuber | Soft rot,193,1527,150
+Pumpkin,Pumpkin | leaf | Bacterial spot,38,323,39
+Pumpkin,Pumpkin | leaf | Downy mildew,40,317,43
+Pumpkin,Pumpkin | leaf | Healthy,40,321,39
+Pumpkin,Pumpkin | leaf | Mosaic virus,39,321,40
+Pumpkin,Pumpkin | leaf | Powdery mildew,42,317,40
+Radish,Radish | leaf | Black leaf spot,96,380,50
+Radish,Radish | leaf | Downy mildew,107,440,44
+Radish,Radish | leaf | Flea beetles,94,333,40
+Radish,Radish | leaf | Healthy,118,437,52
+Radish,Radish | leaf | Mosaic virus,105,382,61
+Raspberry,Raspberry | fruit | Gray mold,4,28,6
+Raspberry,Raspberry | plant | Fire blight,4,24,3
+Raspberry,Raspberry | plant | Healthy,114,490,63
+Raspberry,Raspberry | plant | Leaf spot,2,16,1
+Raspberry,Raspberry | plant | Rust,3,28,5
+Rice,Rice | insect | Asiatic rice borer,62,481,57
+Rice,Rice | insect | Brown planthopper,61,475,64
+Rice,Rice | insect | Paddy stem maggot,21,212,28
+Rice,Rice | insect | Rice gall midge,52,404,50
+Rice,Rice | insect | Rice green leafhopper,48,316,40
+Rice,Rice | insect | Rice leaf caterpillar,45,393,49
+Rice,Rice | insect | Rice shell pest,45,328,36
+Rice,Rice | insect | Rice stem fly,32,302,35
+Rice,Rice | insect | Rice thrips,20,135,18
+Rice,Rice | insect | Rice water weevil,65,473,62
+Rice,Rice | insect | Small brown planthopper,56,443,54
+Rice,Rice | insect | White-backed planthopper,61,476,63
+Rice,Rice | insect | Yellow stem borer,48,401,55
+Rice,Rice | leaf | Bacterial leaf blight,392,1956,256
+Rice,Rice | leaf | Bacterial leaf streak,74,269,37
+Rice,Rice | leaf | Brown spot,498,2329,292
+Rice,Rice | leaf | Downy mildew,111,449,58
+Rice,Rice | leaf | Leaf scald,204,1038,129
+Rice,Rice | leaf | Leaf smut,5,31,4
+Rice,Rice | leaf | Narrow brown spot,17,84,12
+Rice,Rice | leaf | Nitrogen deficiency,43,353,44
+Rice,Rice | leaf | Phosphorus deficiency,31,269,33
+Rice,Rice | leaf | Potassium deficiency,40,303,40
+Rice,Rice | leaf | Rice hispa,142,576,82
+Rice,Rice | leaf | Stripe virus,56,182,27
+Rice,Rice | leaf | Tungro,374,1460,195
+Rice,Rice | panicle | Bacterial panicle blight,64,236,36
+Rice,Rice | plant | Healthy,370,1810,215
+Rice,Rice | plant | Rice blast,628,2926,364
+Rice,Rice | plant | Rice leaffolder,104,667,74
+Rice,Rice | stem | Sheath blight,140,900,108
+Rice,Rice | stem | Stem borer (dead heart),150,567,80
+Rose,Rose | leaf | Black spot,78,442,51
+Rose,Rose | leaf | Downy mildew,20,159,21
+Rose,Rose | leaf | Healthy,165,677,80
+Rose,Rose | leaf | Insect holes,49,185,25
+Rubber,Rubber | leaf | Algal leaf spot,9,73,10
+Rubber,Rubber | leaf | Healthy,9,95,12
+Rubber,Rubber | leaf | Leaf spot,20,161,24
+Rubber,Rubber | leaf | Powdery mildew,4,33,5
+Soybean,Soybean | leaf | Leaf beetle,83,641,76
+Soybean,Soybean | leaf | Leaf-eating caterpillars,81,637,82
+Soybean,Soybean | leaf | Semilooper caterpillar,43,152,19
+Soybean,Soybean | leaf | Vein necrosis virus,25,109,4
+Soybean,Soybean | plant | Bacterial blight,83,679,84
+Soybean,Soybean | plant | Downy mildew,14,109,18
+Soybean,Soybean | plant | Frogeye leaf spot,67,530,65
+Soybean,Soybean | plant | Healthy,433,2694,352
+Soybean,Soybean | plant | Mosaic virus,54,260,31
+Soybean,Soybean | plant | Rust,44,361,45
+Soybean,Soybean | plant | Septoria brown spot,34,257,53
+Spinach,Spinach | leaf | Anthracnose,19,72,11
+Spinach,Spinach | leaf | Bacterial spot,138,555,59
+Spinach,Spinach | leaf | Downy mildew,47,167,26
+Spinach,Spinach | leaf | Healthy,156,573,71
+Spinach,Spinach | leaf | Insect damage,100,371,42
+Sponge gourd,Sponge gourd | leaf | Alternaria leaf spot,53,197,20
+Sponge gourd,Sponge gourd | leaf | Angular leaf spot,45,174,19
+Sponge gourd,Sponge gourd | leaf | Healthy,52,179,25
+Sponge gourd,Sponge gourd | leaf | Insect holes,37,161,24
+Sponge gourd,Sponge gourd | leaf | Mosaic virus,40,182,19
+Squash,Squash | plant | Bacterial wilt,8,64,8
+Squash,Squash | plant | Downy mildew,8,32,4
+Squash,Squash | plant | Healthy,38,328,41
+Squash,Squash | plant | Mosaic virus,16,143,17
+Squash,Squash | plant | Powdery mildew,296,1596,205
+Strawberry,Strawberry | fruit | Anthracnose,10,78,9
+Strawberry,Strawberry | fruit | Fruit rot (post-harvest),55,444,58
+Strawberry,Strawberry | plant | Healthy,173,993,122
+Strawberry,Strawberry | plant | Leaf scorch,191,887,105
+Sugar beet,Sugar beet | insect | Beet armyworm,64,475,61
+Sugar beet,Sugar beet | insect | Beet fly,9,84,11
+Sugar beet,Sugar beet | insect | Beet leaf-mining fly,27,238,34
+Sugar beet,Sugar beet | insect | Beet webworm (meadow moth),25,222,23
+Sugar beet,Sugar beet | insect | Beet weevil,31,243,34
+Sugar beet,Sugar beet | insect | Cabbage armyworm,58,478,64
+Sugar beet,Sugar beet | insect | Flea beetles,64,478,58
+Sugar beet,Sugar beet | insect | Oriental chafer,19,150,22
+Sugarcane,Sugarcane | leaf | Banded chlorosis,68,318,32
+Sugarcane,Sugarcane | leaf | Brown rust,83,502,71
+Sugarcane,Sugarcane | leaf | Brown spot,146,517,59
+Sugarcane,Sugarcane | leaf | Healthy,96,714,89
+Sugarcane,Sugarcane | leaf | Pokkah boeng,47,222,28
+Sugarcane,Sugarcane | leaf | Viral disease (mosaic),143,705,83
+Sugarcane,Sugarcane | leaf | Yellow leaf disease,172,866,119
+Sugarcane,Sugarcane | stem | Red rot,53,402,54
+Sugarcane,Sugarcane | stem | Sett rot,133,469,50
+Sugarcane,Sugarcane | stem | Smut,45,138,23
+Sugarcane,Sugarcane | whole plant | Grassy shoot,71,246,29
+Sunflower,Sunflower | leaf | Downy mildew,110,410,50
+Sunflower,Sunflower | leaf | Gray mold,90,338,37
+Sunflower,Sunflower | leaf | Healthy,127,461,59
+Taro,Taro | leaf | Healthy,197,936,116
+Taro,Taro | leaf | Mosaic virus,77,642,81
+Taro,Taro | leaf | Taro leaf blight,546,2359,282
+Taro,Taro | root | Root rot,99,606,75
+Tea,Tea | leaf | Algal leaf spot,336,1675,200
+Tea,Tea | leaf | Blister blight,11,80,9
+Tea,Tea | leaf | Brown blight,318,1356,173
+Tea,Tea | leaf | Green mirid bug,184,815,90
+Tea,Tea | leaf | Grey blight,339,1470,184
+Tea,Tea | leaf | Healthy,428,2276,277
+Tea,Tea | leaf | Leaf blight,6,42,5
+Tea,Tea | leaf | Red leaf spot,174,632,76
+Tea,Tea | leaf | Red spider mite,154,685,85
+Tea,Tea | leaf | Tea mosquito bug (Helopeltis),383,1657,187
+Tobacco,Tobacco | leaf | Potato virus Y,14,91,15
+Tobacco,Tobacco | leaf | Target spot,11,98,11
+Tobacco,Tobacco | leaf | Weather fleck,11,95,14
+Tobacco,Tobacco | plant | Blue mold,6,48,4
+Tobacco,Tobacco | plant | Brown spot,32,284,35
+Tobacco,Tobacco | plant | Frogeye leaf spot,27,204,27
+Tobacco,Tobacco | plant | Healthy,16,154,18
+Tobacco,Tobacco | plant | Mosaic virus,23,166,21
+Tomato,Tomato | fruit | Fruit rot (post-harvest),130,1217,119
+Tomato,Tomato | leaf | Fusarium wilt,10,69,10
+Tomato,Tomato | leaf | Leaf blight,123,1035,128
+Tomato,Tomato | leaf | Leaf miner,117,964,119
+Tomato,Tomato | leaf | Magnesium deficiency,72,650,78
+Tomato,Tomato | leaf | Nitrogen deficiency,40,282,38
+Tomato,Tomato | leaf | Potassium deficiency,5,58,9
+Tomato,Tomato | leaf | Spotted wilt virus,51,416,50
+Tomato,Tomato | leaf | Target spot,210,1054,140
+Tomato,Tomato | leaf | Two-spotted spider mite,238,1240,151
+Tomato,Tomato | leaf | Verticillium wilt,90,695,86
+Tomato,Tomato | plant | Bacterial spot,316,1738,215
+Tomato,Tomato | plant | Early blight,303,1770,219
+Tomato,Tomato | plant | Healthy,464,3175,366
+Tomato,Tomato | plant | Late blight,392,2260,311
+Tomato,Tomato | plant | Leaf mold,252,1254,157
+Tomato,Tomato | plant | Mosaic virus,101,449,56
+Tomato,Tomato | plant | Septoria leaf spot,435,2753,351
+Tomato,Tomato | plant | Yellow leaf curl virus,343,2056,253
+Turmeric,Turmeric | leaf | Aphids,25,87,11
+Turmeric,Turmeric | leaf | Leaf blotch,65,327,45
+Turmeric,Turmeric | plant | Healthy,47,391,41
+Turmeric,Turmeric | rhizome | Rhizome rot,17,146,18
+Walnut,Walnut | leaf | Anthracnose,15,130,17
+Walnut,Walnut | leaf | Healthy,17,141,17
+Walnut,Walnut | leaf | Leaf blotch,34,269,36
+Walnut,Walnut | leaf | Leaf gall mite,10,78,10
+Walnut,Walnut | leaf | Shot hole,22,186,23
+Watermelon,Watermelon | leaf | Anthracnose,32,108,15
+Watermelon,Watermelon | leaf | Downy mildew,70,276,34
+Watermelon,Watermelon | leaf | Healthy,42,148,15
+Watermelon,Watermelon | leaf | Mosaic virus,76,297,42
+Wheat,Wheat | head | Fusarium head blight (scab),26,223,30
+Wheat,Wheat | head | Loose smut,19,155,17
+Wheat,Wheat | head | Wheat blast,19,165,19
+Wheat,Wheat | insect | Bird cherry-oat aphid,66,475,59
+Wheat,Wheat | insect | Brown wheat mite,26,195,24
+Wheat,Wheat | insect | English grain aphid,59,478,63
+Wheat,Wheat | insect | Greenbug,30,258,37
+Wheat,Wheat | insect | Wheat blossom midge,48,390,47
+Wheat,Wheat | insect | Wheat leaf miner,18,104,15
+Wheat,Wheat | insect | Wheat sawfly,35,267,37
+Wheat,Wheat | insect | Wheat thrips,30,234,28
+Wheat,Wheat | insect | Winter grain mite,23,186,24
+Wheat,Wheat | leaf | Aphids,80,620,80
+Wheat,Wheat | leaf | Healthy,153,1287,149
+Wheat,Wheat | leaf | Leaf blight,68,573,73
+Wheat,Wheat | leaf | Mites,73,620,78
+Wheat,Wheat | leaf | Tan spot,73,574,69
+Wheat,Wheat | plant | Bacterial leaf streak,13,90,13
+Wheat,Wheat | plant | Brown rust,134,1032,127
+Wheat,Wheat | plant | Powdery mildew,94,865,103
+Wheat,Wheat | plant | Septoria leaf blotch,67,510,64
+Wheat,Wheat | plant | Stripe rust,270,2115,261
+Wheat,Wheat | stem | Stem rust,14,113,13

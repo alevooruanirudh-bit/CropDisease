@@ -1,0 +1,38 @@
+2026-11-01 01:04:24,269 | INFO    | plant-borb.src.models.factory | Built efficientnet_b3 (efficientnet_b3.ra2_in1k), 10.72M params, pretrained=True
+2026-11-01 01:04:24,378 | INFO    | plant-borb.src.training.trainer | Phase frozen: 3 epochs, lr=1.00e-03, trainable=0.02M
+2026-11-01 01:07:43,921 | INFO    | plant-borb.src.training.trainer | ep   1 [frozen] train 2.0189/0.4753  val 44.1944/0.5855  *(200s)
+2026-11-01 01:11:19,141 | INFO    | plant-borb.src.training.trainer | ep   2 [frozen] train 1.4542/0.6704  val 50.7656/0.6240  *(215s)
+2026-11-01 01:14:54,959 | INFO    | plant-borb.src.training.trainer | ep   3 [frozen] train 1.3622/0.7029  val 24.2113/0.6553  *(216s)
+2026-11-01 01:14:54,965 | INFO    | plant-borb.src.training.trainer | Phase finetune: 27 epochs, lr=1.00e-04, trainable=10.72M
+2026-11-01 01:25:12,275 | INFO    | plant-borb.src.training.trainer | ep   4 [finetune] train 1.1505/0.7920  val 17.8538/0.8647  *(617s)
+2026-11-01 01:35:40,840 | INFO    | plant-borb.src.training.trainer | ep   5 [finetune] train 0.7854/0.9356  val 0.2795/0.9472  *(629s)
+2026-11-01 01:46:38,188 | INFO    | plant-borb.src.training.trainer | ep   6 [finetune] train 0.6935/0.9659  val 0.2541/0.9561  *(657s)
+2026-11-01 01:57:46,830 | INFO    | plant-borb.src.training.trainer | ep   7 [finetune] train 0.6539/0.9789  val 0.1666/0.9823  *(669s)
+2026-11-01 02:10:56,732 | INFO    | plant-borb.src.training.trainer | ep   8 [finetune] train 0.6304/0.9831  val 0.1539/0.9833  *(790s)
+2026-11-01 02:23:23,141 | INFO    | plant-borb.src.training.trainer | ep   9 [finetune] train 0.6132/0.9872  val 0.1423/0.9910  *(746s)
+2026-11-01 02:34:13,484 | INFO    | plant-borb.src.training.trainer | ep  10 [finetune] train 0.6032/0.9891  val 0.1384/0.9884   (650s)
+2026-11-01 02:45:04,984 | INFO    | plant-borb.src.training.trainer | ep  11 [finetune] train 0.5938/0.9913  val 0.1374/0.9935  *(651s)
+2026-11-01 02:55:53,213 | INFO    | plant-borb.src.training.trainer | ep  12 [finetune] train 0.5870/0.9918  val 0.1299/0.9954  *(648s)
+2026-11-01 03:06:38,597 | INFO    | plant-borb.src.training.trainer | ep  13 [finetune] train 0.5822/0.9935  val 0.1334/0.9898   (645s)
+2026-11-01 03:17:28,231 | INFO    | plant-borb.src.training.trainer | ep  14 [finetune] train 0.5806/0.9932  val 0.1271/0.9937   (650s)
+2026-11-01 03:28:11,260 | INFO    | plant-borb.src.training.trainer | ep  15 [finetune] train 0.5764/0.9952  val 0.1262/0.9944   (643s)
+2026-11-01 03:38:58,272 | INFO    | plant-borb.src.training.trainer | ep  16 [finetune] train 0.5726/0.9964  val 0.1243/0.9939   (647s)
+2026-11-01 03:49:44,673 | INFO    | plant-borb.src.training.trainer | ep  17 [finetune] train 0.5723/0.9960  val 0.1232/0.9954  *(646s)
+2026-11-01 04:00:32,609 | INFO    | plant-borb.src.training.trainer | ep  18 [finetune] train 0.5698/0.9965  val 0.1252/0.9944   (648s)
+2026-11-01 04:11:10,216 | INFO    | plant-borb.src.training.trainer | ep  19 [finetune] train 0.5666/0.9977  val 0.1208/0.9959  *(638s)
+2026-11-01 04:22:35,533 | INFO    | plant-borb.src.training.trainer | ep  20 [finetune] train 0.5678/0.9972  val 0.1174/0.9959  *(685s)
+2026-11-01 09:26:44,139 | INFO    | plant-borb.src.training.trainer | ep  21 [finetune] train 0.5662/0.9979  val 0.1136/0.9966  *(18249s)
+2026-11-01 09:37:50,686 | INFO    | plant-borb.src.training.trainer | ep  22 [finetune] train 0.5630/0.9989  val 0.1120/0.9981  *(667s)
+2026-11-01 09:51:41,652 | INFO    | plant-borb.src.training.trainer | ep  23 [finetune] train 0.5630/0.9986  val 0.1133/0.9988  *(831s)
+2026-11-01 10:14:58,229 | INFO    | plant-borb.src.training.trainer | ep  24 [finetune] train 0.5628/0.9988  val 0.1125/0.9968   (1397s)
+2026-11-01 10:36:15,891 | INFO    | plant-borb.src.training.trainer | ep  25 [finetune] train 0.5615/0.9993  val 0.1094/0.9976   (1278s)
+2026-11-01 10:58:23,119 | INFO    | plant-borb.src.training.trainer | ep  26 [finetune] train 0.5614/0.9994  val 0.1143/0.9985   (1327s)
+2026-11-01 11:20:38,393 | INFO    | plant-borb.src.training.trainer | ep  27 [finetune] train 0.5624/0.9990  val 0.1114/0.9985   (1335s)
+2026-11-01 11:43:41,380 | INFO    | plant-borb.src.training.trainer | ep  28 [finetune] train 0.5623/0.9989  val 0.1122/0.9985   (1383s)
+2026-11-01 12:08:39,245 | INFO    | plant-borb.src.training.trainer | ep  29 [finetune] train 0.5607/0.9994  val 0.1099/0.9983   (1498s)
+2026-11-01 12:38:42,418 | INFO    | plant-borb.src.training.trainer | ep  30 [finetune] train 0.5612/0.9992  val 0.1133/0.9981   (1803s)
+2026-11-01 12:54:26,027 | INFO    | plant-borb.src.training.pipeline | [exp1_borb/efficientnet_b3/seed0] val acc 0.9988 | test acc 0.9976 CI95 [0.9961230918342622, 0.9990307729585656]
+2026-11-01 12:55:57,155 | INFO    | plant-borb.src.eval.summary | Wrote results/summary.csv, summary.md, ablation.md
+2026-11-01 12:55:57,158 | INFO    | plant-borb | === exp1_borb done in 711.6 min ===
+2026-11-01 12:55:57,194 | INFO    | plant-borb | === exp2_noborb (train) ===
+2026-11-01 12:55:57,603 | INFO    | plant-borb | Splits splits/plantvillage15: {'train': 12373, 'val': 4125, 'test': 4127} (no overlap in path/md5/group)

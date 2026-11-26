@@ -1,0 +1,11 @@
+.venv/
+data/
+cache/
+cache_smoke/
+results_smoke/
+splits_smoke/
+__pycache__/
+*.pt
+*.npy
+.pytest_cache/
+.DS_Store

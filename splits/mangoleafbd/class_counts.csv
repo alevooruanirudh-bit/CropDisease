@@ -1,0 +1,9 @@
+class_name,train,val,test
+Anthracnose,295,94,97
+Bacterial Canker,299,100,101
+Cutting Weevil,302,98,100
+Die Back,295,98,100
+Gall Midge,301,99,100
+Healthy,299,99,102
+Powdery Mildew,302,100,98
+Sooty Mould,301,100,99

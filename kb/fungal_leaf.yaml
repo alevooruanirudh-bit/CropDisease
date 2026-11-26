@@ -1,0 +1,691 @@
+# Fungal leaf spots, blights and blotches.
+# Fields: type, pathogen, pathogen_by_crop, symptoms, spread, cultural, organic, chemical, prevention.
+# Chemical advice is given at active-ingredient level only. Always follow the product label and
+# local agricultural extension guidance; registrations differ by country.
+
+Alternaria leaf spot:
+  type: Fungal disease
+  pathogen: Alternaria spp.
+  pathogen_by_crop: {Apple: Alternaria mali, Cotton: Alternaria macrospora, Okra: Alternaria spp., Sponge gourd: Alternaria cucumerina}
+  symptoms: Brown to black spots, often with concentric rings and a yellow halo; spots merge and leaves dry and drop.
+  spread: Spores carried by wind and rain splash; survives on crop debris. Favoured by warm, humid weather and stressed plants.
+  cultural:
+    - Remove and destroy badly spotted leaves and fallen debris.
+    - Avoid overhead irrigation; water at the base early in the day.
+    - Keep plants well fed (especially potassium) — weak plants are hit harder.
+  organic:
+    - Spray Bacillus subtilis or Trichoderma-based biofungicides at first symptoms.
+    - Copper-based sprays (copper oxychloride or copper hydroxide) slow spread.
+  chemical:
+    - Protectant fungicides such as mancozeb or chlorothalonil at 7–14 day intervals.
+    - Systemic options include difenoconazole, azoxystrobin or tebuconazole; rotate groups to avoid resistance.
+  prevention:
+    - Rotate with non-host crops for 2–3 seasons.
+    - Use certified, disease-free seed or planting material.
+    - Plough under or remove crop residue after harvest.
+
+Alternaria fruit rot:
+  type: Fungal disease
+  pathogen: Alternaria alternata
+  symptoms: Fruit look healthy outside but the inside (arils) turns brown to black and rots; outer rind may show slight discoloration.
+  spread: Spores enter through the flower or crown during bloom, especially after rain at flowering.
+  cultural:
+    - Remove and destroy infected fruit; do not leave them in the orchard.
+    - Prune to open the canopy and improve air flow.
+    - Avoid irrigation that wets flowers during bloom.
+  organic:
+    - Copper sprays at flowering reduce infection.
+  chemical:
+    - Fungicide sprays at flowering and fruit set (e.g. azoxystrobin, difenoconazole, propiconazole) as locally recommended.
+  prevention:
+    - Orchard sanitation and timely spraying during flowering.
+    - Harvest at proper maturity and store fruit cool and dry.
+
+Angular leaf spot:
+  type: Fungal / bacterial disease (depends on crop)
+  pathogen: Bean — Pseudocercospora griseola (fungus); cucurbits — Pseudomonas syringae pv. lachrymans (bacterium)
+  pathogen_by_crop: {Bean: Pseudocercospora griseola, Sponge gourd: Pseudomonas syringae pv. lachrymans}
+  symptoms: Small angular spots bounded by leaf veins, grey-brown on beans or water-soaked turning tan on cucurbits; centres may fall out.
+  spread: Infected seed, crop debris, rain splash and handling wet plants.
+  cultural:
+    - Do not work among plants while foliage is wet.
+    - Remove infected plants and debris after harvest.
+    - Use drip irrigation instead of sprinklers.
+  organic:
+    - Copper-based sprays protect new growth (effective against both forms).
+  chemical:
+    - "Beans: protectant fungicides such as mancozeb or chlorothalonil; triazoles where registered."
+    - "Cucurbits (bacterial form): copper + mancozeb mixtures; antibiotics only where legally allowed."
+  prevention:
+    - Plant clean, certified seed.
+    - Rotate with cereals or other non-hosts for at least 2 years.
+    - Grow resistant varieties where available.
+
+Ascochyta blight:
+  type: Fungal disease
+  pathogen: Ascochyta lentis
+  symptoms: Tan to grey lesions with dark borders on leaves, stems and pods; small black dots (pycnidia) inside lesions; stems may break.
+  spread: Infected seed and stubble; rain splash spreads spores within the crop.
+  cultural:
+    - Bury or remove infected stubble.
+    - Avoid dense sowing so the canopy dries quickly.
+  organic:
+    - Seed treatment with Trichoderma-based products.
+  chemical:
+    - Seed-treatment fungicides (e.g. thiram + carbendazim where registered).
+    - Foliar chlorothalonil, mancozeb or strobilurins at early symptoms.
+  prevention:
+    - Use tested, disease-free seed and resistant varieties.
+    - Rotate pulses with cereals; do not sow next to last year's lentil stubble.
+
+Black leaf spot:
+  type: Fungal disease
+  pathogen: Alternaria brassicae / A. raphani
+  symptoms: Dark brown to black round spots with concentric rings on leaves; leaves yellow around spots.
+  spread: Seed-borne; spores spread by wind and rain; survives on brassica debris and weeds.
+  cultural:
+    - Remove infected leaves and brassica weeds.
+    - Widen spacing and avoid overhead watering.
+  organic:
+    - Hot-water seed treatment (50 °C for 20–25 min) reduces seed-borne infection.
+    - Copper or Bacillus-based sprays.
+  chemical:
+    - Mancozeb, chlorothalonil or azoxystrobin as protectant sprays.
+  prevention:
+    - Rotate away from radish, cabbage, mustard and other brassicas for 3 years.
+
+Brown blight:
+  type: Fungal disease
+  pathogen: Colletotrichum camelliae / Glomerella spp.
+  pathogen_by_crop: {Tea: Colletotrichum camelliae, Java plum: Colletotrichum spp.}
+  symptoms: Brown, irregular lesions starting at leaf margins or tips, often with concentric rings and yellow edges.
+  spread: Rain splash and humid conditions; enters through wounds and plucking damage.
+  cultural:
+    - Prune and remove affected shoots; improve drainage and shade management.
+    - Balanced nutrition; avoid excess nitrogen.
+  organic:
+    - Copper oxychloride sprays.
+  chemical:
+    - Copper fungicides or registered triazoles (e.g. hexaconazole) during wet periods.
+  prevention:
+    - Keep bushes vigorous, reduce wounding, maintain good air flow.
+
+Brown spot:
+  type: Fungal disease
+  pathogen: Rice — Bipolaris oryzae; Sugarcane — Cercospora longipes
+  pathogen_by_crop: {Rice: Bipolaris oryzae (Cochliobolus miyabeanus), Sugarcane: Cercospora longipes}
+  symptoms: Oval brown spots with grey or tan centres on leaves; on rice, spots also on grains causing discoloured, light grain.
+  spread: Seed-borne and air-borne; strongly linked to poor soil fertility (especially potassium, silicon) and drought stress.
+  cultural:
+    - Correct soil fertility; apply balanced N-P-K and silicon where deficient.
+    - Avoid water stress.
+    - Remove infected stubble and weeds.
+  organic:
+    - Seed treatment with Trichoderma or Pseudomonas fluorescens.
+    - Hot-water seed treatment (52–54 °C for 10 min) for rice.
+  chemical:
+    - Seed treatment with a registered fungicide (e.g. carbendazim, thiram).
+    - Foliar sprays of propiconazole, mancozeb or edifenphos where recommended.
+  prevention:
+    - Use healthy seed and tolerant varieties; keep soil fertility balanced.
+
+Cercospora leaf spot:
+  type: Fungal disease
+  pathogen: Cercospora spp.
+  pathogen_by_crop: {Coffee: Cercospora coffeicola, Chili pepper: Cercospora capsici, Eggplant: Cercospora melongenae, Okra: Pseudocercospora abelmoschi}
+  symptoms: Small round spots with pale grey or white centres and dark brown to purple borders ("frog-eye"); heavy infection causes leaf drop.
+  spread: Wind and rain-splashed spores; survives on debris; worse under nutrient stress and high humidity.
+  cultural:
+    - Remove fallen leaves and badly affected foliage.
+    - Balanced fertilisation; avoid both nitrogen deficiency and excess.
+    - Improve spacing, shade (coffee) and air movement.
+  organic:
+    - Copper-based fungicides.
+  chemical:
+    - Chlorothalonil, mancozeb, or triazoles (difenoconazole, propiconazole) on rotation.
+  prevention:
+    - Crop rotation and clean planting material; resistant varieties where available.
+
+Cercospora fruit spot:
+  type: Fungal disease
+  pathogen: Pseudocercospora punicae
+  symptoms: Small, irregular black spots on the fruit rind that enlarge and darken; fruit quality drops.
+  spread: Rain splash and humid weather; survives on infected twigs and fallen fruit.
+  cultural:
+    - Remove infected fruit and twigs; prune to improve air flow.
+  organic:
+    - Copper oxychloride sprays.
+  chemical:
+    - Mancozeb or registered triazoles at fruit development.
+  prevention:
+    - Orchard sanitation and timely protective sprays in rainy periods.
+
+Cordana leaf spot:
+  type: Fungal disease
+  pathogen: Neocordana musae
+  symptoms: Large oval pale-brown lesions with concentric zones and a bright yellow halo, often near leaf margins.
+  spread: Air-borne spores; favoured by high rainfall and humidity.
+  cultural:
+    - Remove and destroy infected leaves (deleafing).
+    - Improve drainage and plant spacing.
+  organic:
+    - Copper sprays.
+  chemical:
+    - Mancozeb or triazole fungicides as used for Sigatoka control.
+  prevention:
+    - Regular sanitation pruning; balanced fertiliser.
+
+Curvularia leaf spot:
+  type: Fungal disease
+  pathogen: Curvularia lunata
+  symptoms: Small round to oval tan spots with reddish-brown borders and yellow halos on maize leaves.
+  spread: Wind-borne spores; warm, humid weather.
+  cultural:
+    - Bury crop residue; rotate crops.
+  organic:
+    - Trichoderma-based seed treatment.
+  chemical:
+    - Mancozeb or strobilurin/triazole fungicides if severe early in the season.
+  prevention:
+    - Tolerant hybrids, rotation, residue management.
+
+Dot disease:
+  type: Fungal disease
+  pathogen: Phomopsis / Pestalotiopsis spp. (reported)
+  symptoms: Small dark sunken dots on guava fruit that may enlarge and crack the skin.
+  spread: Rain splash, infected fruit and twigs.
+  cultural:
+    - Collect and destroy infected fruit; prune dead twigs.
+    - Bag fruit where practical.
+  organic:
+    - Copper oxychloride sprays.
+  chemical:
+    - Mancozeb or carbendazim sprays as locally recommended.
+  prevention:
+    - Orchard sanitation; protective sprays during fruit development.
+
+Early blight:
+  type: Fungal disease
+  pathogen: Alternaria solani (also A. linariae on tomato)
+  symptoms: Dark brown spots with concentric "target" rings and yellow halos, first on older lower leaves; stems and fruit may get dark sunken lesions.
+  spread: Survives in soil and crop debris; spores spread by wind and rain; favoured by warm days, dew and weakened plants.
+  cultural:
+    - Remove lower infected leaves; mulch to stop soil splash.
+    - Stake or cage plants and water at the base.
+    - Keep plants well fertilised.
+  organic:
+    - Copper fungicides or Bacillus subtilis / Bacillus amyloliquefaciens products.
+  chemical:
+    - "Protectants: chlorothalonil or mancozeb every 7–10 days in favourable weather."
+    - "Systemics: azoxystrobin, difenoconazole, boscalid; rotate groups."
+  prevention:
+    - Rotate away from tomato, potato and eggplant for 2–3 years.
+    - Use resistant/tolerant varieties and clean seed; destroy volunteers.
+
+Early leaf spot:
+  type: Fungal disease
+  pathogen: Passalora arachidicola (Cercospora arachidicola)
+  symptoms: Brown circular spots with a yellow halo on the upper leaf surface, appearing 3–5 weeks after sowing.
+  spread: Survives on groundnut debris; spores spread by wind and rain.
+  cultural:
+    - Remove volunteer groundnut plants and bury residue.
+    - Rotate with cereals.
+  organic:
+    - Neem or Trichoderma-based sprays offer partial control.
+  chemical:
+    - Chlorothalonil, mancozeb, tebuconazole or carbendazim sprays from about 30 days after sowing.
+  prevention:
+    - Rotation, resistant varieties and timely sowing.
+
+Frogeye leaf spot:
+  type: Fungal disease
+  pathogen_by_crop: {Apple: Botryosphaeria obtusa, Soybean: Cercospora sojina}
+  pathogen: Botryosphaeria obtusa (apple); Cercospora sojina (soybean)
+  symptoms: Round spots with light tan or grey centres and purple-brown margins, resembling a frog's eye.
+  spread: Apple — from cankers and mummified fruit; soybean — seed and residue, spread by rain.
+  cultural:
+    - "Apple: prune out dead wood and cankers; remove mummified fruit."
+    - "Soybean: rotate crops and bury residue."
+  organic:
+    - Copper or sulphur-based sprays (apple, follow label for timing).
+  chemical:
+    - "Apple: captan or strobilurins in the regular spray programme."
+    - "Soybean: strobilurin or triazole fungicides at R3 if disease is present."
+  prevention:
+    - Sanitation, rotation and resistant varieties.
+
+Gray leaf spot:
+  type: Fungal disease
+  pathogen: Cercospora zeae-maydis
+  symptoms: Long, narrow, rectangular grey to tan lesions running parallel between leaf veins.
+  spread: Survives on maize residue; favoured by long periods of high humidity and warm temperatures.
+  cultural:
+    - Rotate away from maize for at least one year.
+    - Bury or remove infected residue.
+  organic:
+    - Limited options; focus on rotation and resistant hybrids.
+  chemical:
+    - Strobilurin and triazole fungicides (e.g. azoxystrobin + propiconazole) around tasselling if disease is moving up the plant.
+  prevention:
+    - Plant resistant hybrids; rotate; avoid continuous maize.
+
+Grey spot:
+  type: Fungal disease
+  pathogen: Phyllosticta / Pestalotiopsis spp. (reported)
+  symptoms: Small grey to greyish-brown spots on apple leaves, sometimes with darker margins.
+  spread: Rain splash; survives on fallen leaves.
+  cultural:
+    - Rake and destroy fallen leaves; prune for air flow.
+  organic:
+    - Copper or sulphur sprays.
+  chemical:
+    - Protectant fungicides (mancozeb, captan) within the normal apple spray programme.
+  prevention:
+    - Orchard hygiene and balanced nutrition.
+
+Grey leaf spot:
+  type: Fungal disease
+  pathogen: Pestalotiopsis palmarum (coconut)
+  symptoms: Yellow spots with grey centres and dark borders on older fronds; spots merge and fronds look scorched.
+  spread: Air-borne spores; worse on nutrient-deficient palms.
+  cultural:
+    - Cut and burn severely affected older fronds.
+    - Apply balanced fertiliser, especially potassium.
+  organic:
+    - Copper oxychloride sprays.
+  chemical:
+    - Mancozeb or Bordeaux mixture (1%) sprays where recommended.
+  prevention:
+    - Good palm nutrition and sanitation.
+
+Grey blight:
+  type: Fungal disease
+  pathogen: Pestalotiopsis theae
+  symptoms: Brown spots turning grey with dark concentric bands on mature tea leaves; black fruiting bodies in grey area.
+  spread: Enters through wounds; spread by rain splash.
+  cultural:
+    - Remove affected leaves during pruning; avoid wounding.
+    - Balanced fertiliser, adequate potassium.
+  organic:
+    - Copper oxychloride sprays.
+  chemical:
+    - Registered systemic fungicides (e.g. hexaconazole, propiconazole).
+  prevention:
+    - Healthy bushes, proper plucking and pruning hygiene.
+
+Isariopsis leaf spot:
+  type: Fungal disease
+  pathogen: Pseudocercospora vitis
+  symptoms: Dark brown, irregular spots on grape leaves, later with velvety dark growth underneath; leaves dry and drop.
+  spread: Rain splash; survives on fallen leaves.
+  cultural:
+    - Remove fallen leaves; prune for air movement.
+  organic:
+    - Copper (Bordeaux mixture) sprays.
+  chemical:
+    - Mancozeb or triazole fungicides as part of the vineyard programme.
+  prevention:
+    - Vineyard sanitation and canopy management.
+
+Late leaf spot:
+  type: Fungal disease
+  pathogen: Nothopassalora personata (Cercosporidium personatum)
+  symptoms: Dark brown to black round spots, mainly on the lower leaf surface, appearing later in the season; heavy defoliation.
+  spread: Crop residue and volunteers; spores spread by wind and rain.
+  cultural:
+    - Rotate crops; destroy volunteers and residue.
+  organic:
+    - Neem-based sprays give partial suppression.
+  chemical:
+    - Chlorothalonil, tebuconazole, hexaconazole or carbendazim + mancozeb sprays.
+  prevention:
+    - Resistant varieties, rotation, timely sowing.
+
+Leaf blight:
+  type: Fungal disease
+  pathogen: Various fungi (e.g. Colletotrichum, Phomopsis, Pestalotiopsis)
+  pathogen_by_crop: {Durian: Phomopsis / Rhizoctonia spp. (reported), Tea: Colletotrichum / Pestalotiopsis spp.}
+  symptoms: Large brown dead areas spreading from leaf tips or margins; affected leaves dry and fall.
+  spread: Rain splash, humid weather, wounds.
+  cultural:
+    - Prune and destroy blighted shoots; improve air flow and drainage.
+  organic:
+    - Copper oxychloride or Bordeaux mixture.
+  chemical:
+    - Registered broad-spectrum fungicides (e.g. mancozeb, azoxystrobin, triazoles).
+  prevention:
+    - Sanitation pruning and balanced nutrition.
+
+Leaf blotch:
+  type: Fungal disease
+  pathogen: Taphrina maculans
+  symptoms: Many small yellow-brown spots on both leaf surfaces that merge into blotches; leaves look reddish-brown and dry.
+  spread: Spores carried by wind from infected leaves; favoured by high humidity in the monsoon.
+  cultural:
+    - Remove and burn affected leaves.
+    - Use healthy rhizomes; rotate the field.
+  organic:
+    - Copper-based sprays.
+  chemical:
+    - Mancozeb or carbendazim sprays as recommended for turmeric.
+  prevention:
+    - Healthy seed rhizomes, rotation, field sanitation.
+
+Leaf scald:
+  type: Fungal disease
+  pathogen: Microdochium oryzae (Monographella albescens)
+  symptoms: Zoned, wavy-edged lesions starting at leaf tips or edges, light brown with darker bands; leaf tips look scalded.
+  spread: Seed-borne and from residue; favoured by heavy nitrogen and wet weather.
+  cultural:
+    - Avoid excessive nitrogen; split applications.
+    - Remove infected stubble.
+  organic:
+    - Seed treatment with Trichoderma or Pseudomonas.
+  chemical:
+    - Seed-treatment fungicide; foliar propiconazole or carbendazim if severe.
+  prevention:
+    - Clean seed, balanced fertiliser, wide spacing.
+
+Leaf spot:
+  type: Fungal disease (general)
+  pathogen: Various fungi (Cercospora, Colletotrichum, Phyllosticta, Alternaria spp.)
+  symptoms: Round or irregular brown, black or grey spots on leaves, often with a yellow halo; heavy infection causes leaf drop.
+  spread: Rain splash, wind, infected debris.
+  cultural:
+    - Remove spotted leaves and fallen debris.
+    - Water at the base; improve spacing.
+  organic:
+    - Copper or Bacillus-based sprays.
+  chemical:
+    - Broad-spectrum protectants (mancozeb, chlorothalonil) or registered triazoles.
+  prevention:
+    - Rotation, clean planting material, balanced nutrition.
+
+Marssonina blotch (brown spot):
+  type: Fungal disease
+  pathogen: Diplocarpon mali (Marssonina coronaria)
+  symptoms: Dark green then brown circular blotches on apple leaves, tiny black dots on the spots, early yellowing and heavy leaf drop.
+  spread: Overwinters on fallen leaves; rain splash spreads spores in summer.
+  cultural:
+    - Collect and destroy fallen leaves in autumn; prune for air flow.
+  organic:
+    - Copper sprays (watch for fruit russet).
+  chemical:
+    - Mancozeb, captan, difenoconazole or strobilurins in summer sprays.
+  prevention:
+    - Orchard sanitation and a regular summer spray programme in rainy regions.
+
+Narrow brown spot:
+  type: Fungal disease
+  pathogen: Sphaerulina oryzina (Cercospora janseana)
+  symptoms: Short, narrow, linear reddish-brown lesions parallel to leaf veins.
+  spread: Air-borne; worse in potassium-deficient fields.
+  cultural:
+    - Apply adequate potassium; avoid late heavy nitrogen.
+  organic:
+    - Seed treatment with Trichoderma.
+  chemical:
+    - Propiconazole or other triazoles if severe before heading.
+  prevention:
+    - Resistant varieties and balanced fertilisation.
+
+Northern leaf blight:
+  type: Fungal disease
+  pathogen: Exserohilum turcicum
+  symptoms: Long cigar-shaped grey-green to tan lesions (2.5–15 cm) on maize leaves.
+  spread: Survives on residue; spores spread by wind; moderate temperatures and long dew periods.
+  cultural:
+    - Rotate and bury residue.
+  organic:
+    - Limited; rely on resistance and rotation.
+  chemical:
+    - Strobilurin and triazole fungicides at tasselling if lesions reach the upper leaves.
+  prevention:
+    - Resistant hybrids, rotation, residue management.
+
+Phoma leaf spot:
+  type: Fungal disease
+  pathogen: Phoma costaricensis / Phoma spp.
+  symptoms: Dark brown to black lesions on young coffee leaves and shoot tips, often at leaf margins; shoots die back in cold, windy weather.
+  spread: Cool, wet, windy conditions at higher altitudes; wounds from wind.
+  cultural:
+    - Plant windbreaks; prune infected shoots.
+  organic:
+    - Copper sprays.
+  chemical:
+    - Registered triazoles or strobilurins during cool wet periods.
+  prevention:
+    - Windbreaks, balanced nutrition, shade management.
+
+Phomopsis leaf spot:
+  type: Fungal disease
+  pathogen: Phomopsis (Diaporthe) spp.
+  symptoms: Brown irregular spots with darker edges, sometimes with tiny black dots; leaves dry from margins.
+  spread: Rain splash and infected twigs.
+  cultural:
+    - Prune infected twigs; collect fallen leaves.
+  organic:
+    - Copper oxychloride.
+  chemical:
+    - Mancozeb, carbendazim or triazoles as locally recommended.
+  prevention:
+    - Sanitation and canopy management.
+
+Phyllosticta leaf spot:
+  type: Fungal disease
+  pathogen: Phyllosticta hibiscina
+  symptoms: Round light-brown spots with dark margins; centres may become papery and fall out.
+  spread: Rain splash; survives on debris.
+  cultural:
+    - Remove debris; rotate.
+  organic:
+    - Copper sprays.
+  chemical:
+    - Mancozeb or chlorothalonil.
+  prevention:
+    - Rotation and field sanitation.
+
+Pestalotiopsis leaf spot:
+  type: Fungal disease
+  pathogen: Pestalotiopsis spp.
+  symptoms: Brown to grey irregular spots, often at leaf edges, with tiny black dots.
+  spread: Enters through wounds; rain splash.
+  cultural:
+    - Remove affected leaves; avoid wounding.
+  organic:
+    - Copper sprays.
+  chemical:
+    - Mancozeb or triazole fungicides.
+  prevention:
+    - Good sanitation and plant vigour.
+
+Purple blotch:
+  type: Fungal disease
+  pathogen: Alternaria porri
+  symptoms: Small white sunken spots that enlarge into purple lesions with yellow margins and concentric rings on onion leaves and seed stalks.
+  spread: Spores on debris; warm humid weather; thrips damage increases infection.
+  cultural:
+    - Rotate 2–3 years away from alliums; remove debris.
+    - Control thrips; avoid excess nitrogen; wide spacing.
+  organic:
+    - Copper or Bacillus-based sprays.
+  chemical:
+    - Mancozeb, chlorothalonil, difenoconazole or azoxystrobin sprays at 10–14 day intervals.
+  prevention:
+    - Clean seed, rotation, balanced fertilisation.
+
+Rachis blight:
+  type: Fungal disease
+  pathogen: Diplodia / Fusarium spp. (reported)
+  symptoms: Brown lesions along the frond midrib (rachis); leaflets on one side dry; frond dies from the tip.
+  spread: Infection through wounds and from infected fronds.
+  cultural:
+    - Cut and burn affected fronds; disinfect pruning tools.
+  organic:
+    - Copper paste on cut surfaces.
+  chemical:
+    - Registered fungicides sprayed on the crown after pruning.
+  prevention:
+    - Clean pruning practice and balanced fertilisation.
+
+Rhizoctonia leaf blight:
+  type: Fungal disease
+  pathogen: Rhizoctonia solani
+  symptoms: Water-soaked lesions turning brown, spreading quickly in wet weather; leaves stick together with fungal threads.
+  spread: Soil-borne; rain splash; dense humid canopy.
+  cultural:
+    - Prune for air flow; avoid soil splash with mulch.
+  organic:
+    - Trichoderma soil and foliar applications.
+  chemical:
+    - Validamycin, hexaconazole or azoxystrobin where registered.
+  prevention:
+    - Good drainage and canopy management.
+
+Septoria brown spot:
+  type: Fungal disease
+  pathogen: Septoria glycines
+  symptoms: Small angular dark-brown spots on lower soybean leaves; leaves yellow and drop from the bottom up.
+  spread: Survives on residue; rain splash.
+  cultural:
+    - Rotate crops; bury residue.
+  organic:
+    - Limited; rotation is the main tool.
+  chemical:
+    - Strobilurin or triazole fungicides at R3 if the disease is moving up.
+  prevention:
+    - Rotation and tolerant varieties.
+
+Septoria leaf spot:
+  type: Fungal disease
+  pathogen: Septoria lycopersici (tomato); Septoria spp. (bean)
+  pathogen_by_crop: {Tomato: Septoria lycopersici, Bean: Septoria spp.}
+  symptoms: Many small round spots with grey-white centres and dark borders, often with black specks; starts on lower leaves.
+  spread: Spores splash from infected debris and lower leaves; favoured by wet weather.
+  cultural:
+    - Remove lower infected leaves; mulch; water at the base.
+    - Stake plants to keep foliage off the ground.
+  organic:
+    - Copper or Bacillus subtilis sprays.
+  chemical:
+    - Chlorothalonil or mancozeb every 7–10 days in wet weather; azoxystrobin or difenoconazole as rotation partners.
+  prevention:
+    - Rotate 2–3 years; remove crop debris and solanaceous weeds.
+
+Southern corn leaf blight:
+  type: Fungal disease
+  pathogen: Bipolaris maydis
+  symptoms: Small tan, rectangular to oval lesions with brown margins between leaf veins, in hot humid areas.
+  spread: Residue-borne; wind and rain.
+  cultural:
+    - Rotate and bury residue.
+  organic:
+    - Rely on resistance and rotation.
+  chemical:
+    - Strobilurin or triazole fungicides when lesions reach upper leaves.
+  prevention:
+    - Resistant hybrids and rotation.
+
+Target spot:
+  type: Fungal disease
+  pathogen: Corynespora cassiicola
+  symptoms: Brown spots with light centres and concentric rings on tomato leaves, stems and fruit; leaves yellow and drop.
+  spread: Wind and rain; survives on debris; warm humid conditions.
+  cultural:
+    - Prune lower leaves; improve air flow; remove debris.
+  organic:
+    - Copper-based sprays.
+  chemical:
+    - Chlorothalonil, mancozeb, azoxystrobin or boscalid on rotation.
+  prevention:
+    - Rotation, sanitation, avoid long leaf wetness.
+
+Taro leaf blight:
+  type: Oomycete disease (water mould)
+  pathogen: Phytophthora colocasiae
+  symptoms: Small water-soaked spots that grow into large purple-brown lesions with yellow margins and orange-brown droplets; leaves collapse within days in wet weather.
+  spread: Spores spread by rain, wind and infected planting material; very fast in cool wet nights.
+  cultural:
+    - Remove infected leaves early; widen spacing.
+    - Plant clean suckers; avoid planting near infected fields.
+  organic:
+    - Copper (Bordeaux mixture) sprays.
+  chemical:
+    - Metalaxyl + mancozeb or other oomycete fungicides (e.g. fosetyl-Al) where registered.
+  prevention:
+    - Resistant cultivars, clean planting material, field sanitation.
+
+Leaf rot:
+  type: Fungal disease
+  pathogen: Colletotrichum / Exserohilum / Fusarium spp. (coconut); Phytophthora / Sclerotium spp. (betel)
+  pathogen_by_crop: {Coconut: Colletotrichum gloeosporioides / Exserohilum rostratum, Betel: Phytophthora / Sclerotium spp.}
+  symptoms: Water-soaked lesions that turn dark brown and rot; on coconut the spear and young leaflets rot and break.
+  spread: Wet weather and high humidity; spores spread by rain.
+  cultural:
+    - Remove and burn rotted leaf parts.
+    - Improve drainage; avoid excess shade (betel).
+  organic:
+    - Bordeaux mixture (1%) or copper oxychloride.
+    - Trichoderma soil application.
+  chemical:
+    - Hexaconazole or mancozeb sprays around the spindle (coconut) as recommended.
+  prevention:
+    - Sanitation, drainage and regular prophylactic sprays in the monsoon.
+
+Black scorch:
+  type: Fungal disease
+  pathogen: Thielaviopsis punctulata
+  symptoms: Black, scorched-looking lesions on fronds and the heart; frond tips and the bud may rot ("fool's disease").
+  spread: Wounds and infected offshoots; spores in soil and debris.
+  cultural:
+    - Cut and burn infected fronds; disinfect tools.
+  organic:
+    - Copper paste on wounds.
+  chemical:
+    - Registered systemic fungicides applied to the crown.
+  prevention:
+    - Clean offshoots, careful pruning, good drainage.
+
+Leaf mold:
+  type: Fungal disease
+  pathogen: Passalora fulva (Cladosporium fulvum)
+  symptoms: Pale green to yellow patches on the upper side of tomato leaves with olive-green to brown velvety mould underneath; leaves curl, wither and drop.
+  spread: Spores spread by air, tools and clothing; needs high humidity (above 85%), so it is common in greenhouses and tunnels.
+  cultural:
+    - Lower humidity with ventilation, wider spacing and pruning of lower leaves.
+    - Water at the base in the morning; remove and destroy infected leaves.
+  organic:
+    - Copper-based sprays or Bacillus-based biofungicides.
+  chemical:
+    - Chlorothalonil, mancozeb or difenoconazole where registered; rotate groups.
+  prevention:
+    - Resistant varieties; clean greenhouses between crops; keep humidity low.
+
+Sigatoka leaf spot:
+  type: Fungal disease
+  pathogen: Pseudocercospora fijiensis (black Sigatoka) / Pseudocercospora musae (yellow Sigatoka)
+  symptoms: Small yellow or brown streaks parallel to leaf veins that grow into dark brown to black spots with grey centres and yellow halos; large parts of the leaf die, and bunches ripen early and stay small.
+  spread: Wind-borne and rain-splashed spores; favoured by high rainfall, humidity and dense plantings.
+  cultural:
+    - Cut off and destroy spotted leaves or leaf parts every 2–4 weeks (deleafing).
+    - Improve drainage and spacing; remove excess suckers; control weeds.
+  organic:
+    - Mineral oil sprays (alone or with copper) where used locally.
+  chemical:
+    - Protectants (mancozeb, chlorothalonil) alternated with systemics (propiconazole, difenoconazole, azoxystrobin); limit each group to avoid resistance.
+  prevention:
+    - Tolerant cultivars; regular sanitation; balanced fertiliser.
+
+Stemphylium / anthracnose leaf blight:
+  type: Fungal disease
+  pathogen: Stemphylium vesicarium and Colletotrichum gloeosporioides
+  symptoms: Small yellow-orange spots on onion leaves that become elongated tan to brown lesions; leaf tips die back; Colletotrichum causes twisting of leaves and necks (twister disease).
+  spread: Spores spread by wind and rain; survives on crop debris; warm, wet weather.
+  cultural:
+    - Remove onion debris; rotate 2–3 years away from alliums; avoid dense planting and excess nitrogen.
+  organic:
+    - Copper or Bacillus-based sprays.
+  chemical:
+    - Mancozeb, difenoconazole, azoxystrobin or tebuconazole where registered; rotate groups.
+  prevention:
+    - Clean seed or sets, rotation, good drainage.
